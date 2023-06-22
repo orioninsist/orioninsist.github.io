@@ -32,7 +32,7 @@ Django is an open-source web framework written in the Python programming languag
 ### Conclusion
 Django has become a popular choice among developers due to its fast web application development process and powerful features. While it has some disadvantages such as a learning curve and limited flexibility, Django's advantages and conveniences contribute to the rapid development of web projects. As alternatives, Flask, Ruby on Rails, and ASP.NET offer different options that cater to various needs.
 
-### Thank you for your support! Stay connected with me.
+### Thank you for your support! 
 
 Hello friends! I want to express my gratitude for your support. Your interest and encouragement mean a lot to me. To keep our connection strong and to provide you with more valuable content, I encourage you to stay connected with me on my social media platforms.
 
@@ -46,7 +46,7 @@ Let's continue to "follow the white rabbit" and discover new horizons together!
 Muhammet Murat Kurkoglu\
 Founder of **orioninsist**
 
-### You can connect with me, share your thoughts, and stay updated on the latest updates by following me on:
+### Stay connected with me
 
 🔗 [Instagram](https://www.instagram.com/insistorion/)
 🔗 [Twitter](https://twitter.com/InsistOrion)
