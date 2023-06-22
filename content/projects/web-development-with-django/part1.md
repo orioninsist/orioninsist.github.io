@@ -41,9 +41,10 @@ I am excited to share more content with you through these platforms and I value 
 Your feedback and engagement mean the world to me. Thank you once again for your unwavering support.
 Let's continue to "follow the white rabbit" and discover new horizons together!
 
-Best regards,
-Muhammet Murat Kurkoglu
-Founder of orioninsist
+**Best regards,**
+
+Muhammet Murat Kurkoglu\
+Founder of **orioninsist**
 
 ### You can connect with me, share your thoughts, and stay updated on the latest updates by following me on:
 
