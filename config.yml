@@ -49,10 +49,10 @@ menu:
       name: Tags
       url: /tags
       weight: 100
-    - identifier: resume
-      name: Resume
-      url: /resume
-      weight: 110
+    #- identifier: resume
+    #  name: Resume
+    #  url: /resume
+    #  weight: 110
     #- identifier: media
     #  name: Media
     #  url: /media
