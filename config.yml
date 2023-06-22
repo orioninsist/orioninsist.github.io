@@ -1,7 +1,7 @@
 enableRobotsTXT: true
 baseURL : "https://orioninsist.org/"
 languageCode : en-us
-title : orioninsist
+title : orion
 
 menu:
   main:
