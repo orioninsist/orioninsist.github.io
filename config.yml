@@ -78,6 +78,9 @@ params:
   favicon: "/images/orioninsist-favicon.ico"
   sitemap:
     filename: "sitemap.xml"
+  params:
+  analytics:
+    trackingID: "G-6CE6YFM36C"  
 
 
 
