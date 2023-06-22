@@ -1,3 +1,179 @@
-baseURL : "https://orioninsist.github.io/"
-languageCode: en-us
-title:  orioninsist
+enableRobotsTXT: true
+baseURL : "https://orioninsist.org/"
+languageCode : en-us
+title : orioninsist
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    #- identifier: blogs
+    #  name: Blogs
+    #  url: /blogs
+    #  weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30
+    #- identifier: podcast
+    #  name: Podcast
+    #  url: /podcast
+    #  weight: 40
+    #- identifier: stories
+    #  name: Stories
+    #  url: /stories
+    #  weight: 50
+    #- identifier: artwork
+    #  name: Artwork
+    #  url: /artwork
+    #  weight: 60
+    #- identifier: videos
+    #  name: Videos
+    #  url: /videos
+    #  weight: 70
+    #- identifier: pictures
+    #  name: Pictures
+    #  url: /pictures
+    #  weight: 80
+    #- identifier: presentation
+    #  name: Presentation
+    #  url: /presentation
+    #  weight: 90
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 160
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weight: 100
+    - identifier: resume
+      name: Resume
+      url: /resume
+      weight: 110
+    #- identifier: media
+    #  name: Media
+    #  url: /media
+    #  weight: 120
+    #- identifier: news
+     # name: News
+     # url: /news
+     # weight: 130
+   # - identifier: roadmap
+    #  name: Roadmap
+    #  url: /roadmap
+    #  weight: 140
+   
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+  googleAnalytics: ["partials/google_analytics.html"]
+  favicon: "/images/favicon.ico"
+  sitemap:
+    filename: "sitemap.xml"
+
+
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Muhammet Murat Kurkoglu"
+    subtitle: "Hi 👋, I'm Muhammet Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics. I have a keen interest and expertise in artificial intelligence, machine learning, deep learning, data science, and cybersecurity. I have been actively involved in projects and research related to these fields. I'm passionate about exploring the latest advancements and applying them to real-world scenarios. Feel free to connect with me to discuss any topics related to these areas or to collaborate on exciting projects"
+    imageUrl: "home/muhammet-murat-kurkoglu.png"
+    imageWidth: 220
+    imageHeight: 220
+    # buttons:
+    #   - name: Resume
+    #     url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:muhammetmuratkurkoglu@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/muhammet-murat-kurkoglu/"
+    - name: "github"
+      url: "https://github.com/orioninsist"
+    - name: "youtube"
+      url: "https://www.youtube.com/@orioninsist-official/"
+    - name: "cv"
+      url: "https://www.youtube.com/@orioninsist-official/"
+    - name: "buymeacoffee"
+      url: "https://www.buymeacoffee.com/orioninsist/"
+    - name: "facebook"
+      url: "https://www.facebook.com/insistorion"
+    - name: "gitlab"
+      url: "https://gitlab.com/orioninsist"
+    - name: "instagram"
+      url: "https://www.instagram.com/insistorion/"
+    - name: "kaggle"
+      url: "https://www.kaggle.com/orioninsist"
+    - name: "kofi"
+      url: "https://ko-fi.com/orioninsist"
+    - name: "librapay"
+      url: "https://en.liberapay.com/orioninsist/"
+    - name: "medium"
+      url: "https://orioninsist.dev/"
+    - name: "reddit"
+      url: "https://www.reddit.com/user/insistorion"
+    - name: "stackoverflow"
+      url: "https://stackoverflow.com/users/14691175/orioninsist"
+    - name: "twitch"
+      url: "https://www.twitch.tv/orioninsist"
+    - name: "twitter"
+      url: "https://twitter.com/InsistOrion"
+    - name: "rss"
+      url: "https://orioninsist.org/index.xml"   
+
+
+
+
+
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+outputFormats:
+  RSS:
+    name: RSS
+    mediaType: application/rss+xml
+    baseName: index
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+
+
