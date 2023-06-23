@@ -1,5 +1,5 @@
 ---
-title: "Web Development With Django Part1"
+title: "Django: A Powerful Web Framework for Rapid Development"
 date: 2023-06-22T13:56:27+03:00
 draft: false
 description: "Explore the advantages, disadvantages, and alternatives of Django, a powerful web framework for rapid development."
@@ -9,8 +9,6 @@ author: "orioninsist"
 cover: 
      image: "/projects/web-development-with-django/part1-feature-image.png"
 ---
-
-## Django: A Powerful Web Framework for Rapid Development
 
 ### Introduction
 There are numerous tools and frameworks available for developing web applications. One such tool is Django, a popular Python web framework known for its rapid development process and powerful features. In this blog post, we will explore the advantages, disadvantages, and alternatives of Django.
