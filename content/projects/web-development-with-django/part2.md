@@ -2,9 +2,9 @@
 title: "10 Awesome Django Projects to Inspire Your Web Development Journey"
 date: 2023-06-23T11:40:11+03:00
 draft: false
-description: ""
-tags: ["",]
-keywords: [""]
+description: "Discover 10 amazing Django projects that demonstrate its power and versatility, inspiring your web development journey."
+tags: ["programming","django","webdevelopment"]
+keywords: ["programming","django","webdevelopment"]
 author: orioninsist
 cover:
      image: "/projects/web-development-with-django/part2-feature-image.png"
