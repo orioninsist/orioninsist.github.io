@@ -30,7 +30,7 @@ print("Generated password:", password)
 
 ```
 
-Explanation
+### Explanation
 Let's break down the code:
 
 We import the random and string modules. The random module will be used to randomly select characters, and the string module provides a constant string of ASCII letters, digits, and punctuation marks.
