@@ -43,6 +43,23 @@ In this blog post, I introduced five important Python libraries, along with Requ
 
 If you are interested in cybersecurity and wish to develop advanced security applications using Python, exploring these libraries, including buffer overflow concepts, is a great starting point. In future articles, we will delve into these libraries and concepts in more detail and demonstrate how to develop cybersecurity applications. Until then, stay tuned!
 
+### Tools I Will Use
+* Kali Linux,
+* PyCharm,
+* SublimeText,
+* VSCode,
+* Scapy,
+* Requests,
+* Nmap,
+* Socket
+
+### Additional Resources
+* https://docs.python.org/3/library/socket.html
+* https://pypi.org/project/requests/
+* https://www.paramiko.org/
+* https://pypi.org/project/python-nmap
+* https://scapy.net
+
 ### Thank you for your support! 
 
 Hello friends! I want to express my gratitude for your support. Your interest and encouragement mean a lot to me. To keep our connection strong and to provide you with more valuable content, I encourage you to stay connected with me on my social media platforms.
