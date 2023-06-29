@@ -33,7 +33,7 @@ Table of Contents
 
 #projects [[projects]]
 
-# Continuing the Journey: Exploring Cybersecurity with Python
+## Continuing the Journey: Exploring Cybersecurity with Python
 
 Welcome back to the second installment of my blog series on cybersecurity with Python! If you haven’t read the [first blog](https://orioninsist.org/projects/cyber-security-applications-with-python/) . I highly recommend starting there to get an overview of the project and my goals.
 
