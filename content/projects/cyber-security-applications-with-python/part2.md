@@ -9,8 +9,6 @@ author: "orioninsist"
 cover:
      image: "/projects/cyber-security-applications-with-python/part2-feature-image.png"
 ---
-
-
 Explore cybersecurity with Python in this blog series, covering advanced topics, practical examples
 
 Table of Contents
