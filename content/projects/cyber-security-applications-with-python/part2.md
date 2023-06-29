@@ -45,7 +45,7 @@ Whether you are a cybersecurity enthusiast, a professional looking to level up y
 
 So, without further ado, let’s dive into the exciting world of cybersecurity with Python and continue our exploration. I’m thrilled to have you on board, and I look forward to sharing this enriching journey with you.
 
-# Setting Up a Laboratory Environment on Arch Linux
+## Setting Up a Laboratory Environment on Arch Linux
 
 In this blog post, we will learn how to set up a laboratory environment on Arch Linux by installing Python and pip. Python is a widely used programming language, and pip is a package manager used for managing Python packages.
 
