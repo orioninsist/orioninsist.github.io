@@ -31,7 +31,6 @@ Table of Contents
 - [Conclusion](https://orioninsist.org/projects/cyber-security-applications-with-python-part-2/#conclusion-1)
 - [Exploring the Topic Further 🔥](https://orioninsist.org/projects/cyber-security-applications-with-python-part-2/#exploring-the-topic-further-)
 
-#projects [[projects]]
 
 ## Continuing the Journey: Exploring Cybersecurity with Python
 
