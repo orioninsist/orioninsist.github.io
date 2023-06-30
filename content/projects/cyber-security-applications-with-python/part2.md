@@ -10,27 +10,6 @@ cover:
      image: "/projects/cyber-security-applications-with-python/part2-feature-image.png"
 ---
 
-Explore cybersecurity with Python in this blog series, covering advanced topics, practical examples
-
-Table of Contents
-
-- [Continuing the Journey: Exploring Cybersecurity with Python](https://orioninsist.org/projects/cyber-security-applications-with-python-part-2/#continuing-the-journey-exploring-cybersecurity-with-python)
-- [Setting Up a Laboratory Environment on Arch Linux](https://orioninsist.org/projects/cyber-security-applications-with-python-part-2/#setting-up-a-laboratory-environment-on-arch-linux)
-- [Step 1: Updating System Packages](https://orioninsist.org/projects/cyber-security-applications-with-python-part-2/#step-1-updating-system-packages)
-- [Step 2: Installing Python and pip](https://orioninsist.org/projects/cyber-security-applications-with-python-part-2/#step-2-installing-python-and-pip)
-- [Step 3: Verifying the Installation](https://orioninsist.org/projects/cyber-security-applications-with-python-part-2/#step-3-verifying-the-installation)
-- [Conclusion](https://orioninsist.org/projects/cyber-security-applications-with-python-part-2/#conclusion)
-- [Install Virtualbox and Virtualbox Extension on Arch Linux](https://orioninsist.org/projects/cyber-security-applications-with-python-part-2/#install-virtualbox-and-virtualbox-extension-on-arch-linux)
-- [How to download the Kali Linux VirtualBox image](https://orioninsist.org/projects/cyber-security-applications-with-python-part-2/#how-to-download-the-kali-linux-virtualbox-image)
-- [Install JetBrains Toolbox and PyCharm Community Edition on Arch Linux](https://orioninsist.org/projects/cyber-security-applications-with-python-part-2/#install-jetbrains-toolbox-and-pycharm-community-edition-on-arch-linux)
-- [Download Metasploitable 2](https://orioninsist.org/projects/cyber-security-applications-with-python-part-2/#download-metasploitable-2)
-- [Kali Linux: Keeping Your System Current](https://orioninsist.org/projects/cyber-security-applications-with-python-part-2/#kali-linux-keeping-your-system-current)
-- [PyCharm Community Download on Kali Linux](https://orioninsist.org/projects/cyber-security-applications-with-python-part-2/#pycharm-community-download-on-kali-linux)
-- [VSCode Download on Kali Linux](https://orioninsist.org/projects/cyber-security-applications-with-python-part-2/#vscode--download-on-kali-linux)
-- [Conclusion](https://orioninsist.org/projects/cyber-security-applications-with-python-part-2/#conclusion-1)
-- [Exploring the Topic Further 🔥](https://orioninsist.org/projects/cyber-security-applications-with-python-part-2/#exploring-the-topic-further-)
-
-
 ## Continuing the Journey: Exploring Cybersecurity with Python
 
 Welcome back to the second installment of my blog series on cybersecurity with Python! If you haven’t read the [first blog](https://orioninsist.org/projects/cyber-security-applications-with-python/) . I highly recommend starting there to get an overview of the project and my goals.
