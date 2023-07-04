@@ -13,7 +13,7 @@ cover:
 ## Introduction
 Python is a powerful programming language that offers a wide range of libraries for various purposes. These libraries provide developers with pre-written functions and classes to accomplish specific tasks efficiently. In this blog post, we'll focus on Python's socket library, a valuable tool for developers dealing with network programming. Python has various libraries for network programming. In this article, we will specifically discuss the socket module, which is a library for socket programming in Python. Socket programming is a fundamental technique that enables data transmission between computers.
 
-## Introduction to Sockets:
+## Introduction to Sockets
 The socket library in Python provides an interface for working with network communication. It enables tasks such as sending and receiving data over networks, creating server and client applications, and supporting different network protocols like TCP/IP or UDP.
 
 ## Understanding Sockets
