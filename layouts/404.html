@@ -8,9 +8,6 @@
 -->
 
 
-{{- define "main" }}
-<div class="not-found">404</div>
-
 {{ $url := printf "%s%s" .Site.BaseURL .Request.URI.Path -}}
 {{ $newURL := index .Site.RegularPages.ByRelPermalink $url | default "" -}}
 
@@ -20,7 +17,6 @@
   </script>
 {{ end }}
 
-{{- end }}{{/* end main */ -}}
 
 
 
