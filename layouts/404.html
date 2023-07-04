@@ -8,6 +8,8 @@
 -->
 
 
+
+{{- define "main" }}
 {{ $url := printf "%s%s" .Site.BaseURL .Request.URI.Path -}}
 {{ $newURL := index .Site.RegularPages.ByRelPermalink $url | default "" -}}
 
@@ -15,7 +17,11 @@
   <script>
     window.location.href = "{{ .Site.BaseURL }}{{ $newURL.RelPermalink }}";
   </script>
-{{ end }}
+{{ end }}{{- end }}{{/* end main */ -}}
+
+
+
+
 
 
 
