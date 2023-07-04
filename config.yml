@@ -77,6 +77,10 @@ params:
   favicon: "/images/favicon.ico"
   sitemap:
     filename: "sitemap.xml"
+
+  redirect:
+  enable: true
+  toHome: true  
   
 
 
@@ -180,6 +184,3 @@ markup:
 
 
 
-redirect:
-  enable: true
-  toHome: true
