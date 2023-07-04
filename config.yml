@@ -74,7 +74,7 @@ params:
   ShowCodeCopyButtons: true
   hideMeta: false
   googleAnalytics: ["partials/google_analytics.html"]
-  favicon: "/images/orioninsist-favicon.ico"
+  favicon: "/images/favicon.ico"
   sitemap:
     filename: "sitemap.xml"
   
