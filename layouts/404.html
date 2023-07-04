@@ -1,9 +1,11 @@
 
-/* {{- define "main" }}
-# <div class="not-found">404</div>
-# {{- end }}{{/* end main */ -}}
+<!--  
 
-*/
+{{- define "main" }}
+<div class="not-found">404</div>
+{{- end }}{{/* end main */ -}}
+
+-->
 {{- $url := printf "%s%s" .Site.BaseURL .Request.URI.Path -}}
 {{- $newURL := index .Site.RegularPages.ByRelPermalink $url | default "" -}}
 
