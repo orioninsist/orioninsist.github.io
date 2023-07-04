@@ -180,3 +180,6 @@ markup:
 
 
 
+redirect:
+  enable: true
+  toHome: true
