@@ -2,7 +2,6 @@
 title: "How to Build a Simple Client-Server Chat Application in Python"
 date: 2023-07-05T12:36:53+03:00
 draft: false
-description: 'Learn how to build a Python client-server chat app! 🚀📲 Discover the essentials of client-server communication and create your own chat application. #Python, #Networking, #Programming'
 tags: ["python","networking","programming"]
 keywords: ["python","networking,"programming"]
 author: ["orioninsist"]
