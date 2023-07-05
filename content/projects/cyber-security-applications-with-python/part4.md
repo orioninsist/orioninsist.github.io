@@ -2,7 +2,7 @@
 title: "How to Build a Simple Client-Server Chat Application in Python"
 date: 2023-07-05T12:36:53+03:00
 draft: false
-description: ""
+description: [""]
 tags: ["python","networking","programming"]
 keywords: ["python","networking,"programming"]
 author: ["orioninsist"]
