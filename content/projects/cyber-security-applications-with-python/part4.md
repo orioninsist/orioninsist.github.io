@@ -1,12 +1,13 @@
 ---
-title: "How to Build a Simple Client-Server Chat Application in Python"
-date: 2023-07-05T12:36:53+03:00
+title: "Python Socket Library: A Network Programming Gem"
+date: 2023-07-04T09:43:41+03:00
 draft: false
-tags: ["python","networking","programming"]
-keywords: ["python","networking,"programming"]
-author: ["orioninsist"]
+description: "Explore the power of Python's socket library for network programming! Learn socket creation, data transmission, and use cases in this blog post. Level up your networking projects with this valuable tool. Happy coding! 🌐💻🐍"
+tags: ["python","networking","socketprogramming","programming","technology","pythonlibraries","networkcommunication"]
+keywords: ["python","networking","socketprogramming","programming","technology","pythonlibraries","networkcommunication"]
+author: "orioninsist"
 cover:
-    image: "/projects/cyber-security-applications-with-python/part4-feature-image.png"
+     image: "/projects/cyber-security-applications-with-python/part3-feature-image.png"
 ---
 
 ## Introduction
