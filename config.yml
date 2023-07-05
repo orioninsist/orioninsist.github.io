@@ -78,9 +78,7 @@ params:
   sitemap:
     filename: "sitemap.xml"
 
-  redirect:
-  enable: true
-  toHome: true  
+
   
 
 
