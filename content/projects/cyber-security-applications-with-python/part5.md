@@ -80,7 +80,7 @@ To learn more about the project and explore its source code, documentation, and 
 
 Don't forget to like, comment, and subscribe for more Python content! 🐍💻 #python networking #clientservercommunication
 
-[YouTube]()
+[YouTube](https://youtu.be/ShmJ-zsF6p8)
   
 I hope this blog post provides you with essential insights into Python's socket library and explains its use cases comprehensively. Happy coding!
 
