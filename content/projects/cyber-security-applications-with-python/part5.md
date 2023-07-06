@@ -69,11 +69,18 @@ The client-side code establishes a connection to the server by creating a socket
 In this tutorial, we've covered the basics of client-server communication in Python. By using the socket module, we can establish a connection between a client and a server, allowing them to exchange data. This simple example serves as a foundation for more complex network applications. Feel free to explore further and build upon this knowledge.
 
 ## GitHub
- 
 
 To learn more about the project and explore its source code, documentation, and additional resources, I highly recommend visiting the GitHub repository at
  
 [GitHub](https://github.com/orioninsist/cyber-security-applications-with-python)
+
+## YouTube
+
+🎥 Check out my latest video on YouTube! In this video, I demonstrate how to build a simple client-server communication using Python. We establish a connection between the client and server, exchange messages, and see the response in action. Watch now to learn more about client-server communication in Python!
+
+Don't forget to like, comment, and subscribe for more Python content! 🐍💻 #python networking #clientservercommunication
+
+[YouTube]()
   
 I hope this blog post provides you with essential insights into Python's socket library and explains its use cases comprehensively. Happy coding!
 
@@ -99,7 +106,7 @@ Let's continue to "follow the white rabbit" and discover new horizons together!
   
 **Best regards,**
   
-Muhammet Murat Kurkoglu\
+Muhammet Murat Kurkoglu
 
 Founder of **orioninsist**
   
