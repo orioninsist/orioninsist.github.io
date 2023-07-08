@@ -72,7 +72,7 @@ params:
     Title: Orion
     Content: Can be Info
 
-     socialIcons: # optional
+    socialIcons: # optional
         - name: "<platform>"
             url: "<link>"
         - name: "<platform 2>"
