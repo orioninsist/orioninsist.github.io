@@ -71,7 +71,7 @@ params:
   homeInfoParams:
     #Title: Hi there wave
     #Content: Can be Info, links, about.
-    title: "Muhammet Murat Kurkoglu"
+    #title: "Muhammet Murat Kurkoglu"
     subtitle: "Hi 👋, I'm Muhammet Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics. I have a keen interest and expertise in artificial intelligence, machine learning, deep learning, data science, and cybersecurity. I have been actively involved in projects and research related to these fields. I'm passionate about exploring the latest advancements and applying them to real-world scenarios. Feel free to connect with me to discuss any topics related to these areas or to collaborate on exciting projects"
     imageUrl: "projects/home/muhammet-murat-kurkoglu.png"
     imageWidth: 220
@@ -98,11 +98,11 @@ params:
   # Home Page
   #profileMode:
    # enabled: true
-    #title: "Muhammet Murat Kurkoglu"
-    #subtitle: "Hi 👋, I'm Muhammet Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics. I have a keen interest and expertise in artificial intelligence, machine learning, deep learning, data science, and cybersecurity. I have been actively involved in projects and research related to these fields. I'm passionate about exploring the latest advancements and applying them to real-world scenarios. Feel free to connect with me to discuss any topics related to these areas or to collaborate on exciting projects"
-    #imageUrl: "projects/home/muhammet-murat-kurkoglu.png"
-    #imageWidth: 220
-    #imageHeight: 220
+    title: "Muhammet Murat Kurkoglu"
+    subtitle: "Hi 👋, I'm Muhammet Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics. I have a keen interest and expertise in artificial intelligence, machine learning, deep learning, data science, and cybersecurity. I have been actively involved in projects and research related to these fields. I'm passionate about exploring the latest advancements and applying them to real-world scenarios. Feel free to connect with me to discuss any topics related to these areas or to collaborate on exciting projects"
+    imageUrl: "projects/home/muhammet-murat-kurkoglu.png"
+    imageWidth: 220
+    imageHeight: 220
 
     # buttons:
     #   - name: Resume
