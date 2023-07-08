@@ -72,9 +72,13 @@ params:
     Title: Orion
     Content: Can be Info
 
-    socialIcons
-    - name: "linkedin"
-    - url: "https://www.linkedin.com/in/muhammet-murat-kurkoglu/"
+     socialIcons: # optional
+        - name: "<platform>"
+            url: "<link>"
+        - name: "<platform 2>"
+            url: "<link2>"
+
+    
 
   showToc: true
   TocOpen: false
