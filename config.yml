@@ -9,9 +9,9 @@ menu:
       name: Home
       url: /
       weight: 10
-    - identifier: blogs
+    - identifier: blog
       name: Blogs
-      url: /blogs
+      url: /blog
       weight: 20
     #- identifier: projects
      # name: Projects
