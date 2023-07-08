@@ -68,6 +68,9 @@ menu:
    
 
 params:
+  homeInfoParams:
+    Title: Hi there wave
+    Content: Can be Info, links, about.
   showToc: true
   TocOpen: false
   ShowBreadCrumbs: true
@@ -79,9 +82,7 @@ params:
     filename: "sitemap.xml"
 
 
-   homeInfoParams:
-    Title: Hi there wave
-    Content: Can be Info, links, about.
+   
 
   
   # for enchanced SEO
