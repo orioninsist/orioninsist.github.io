@@ -9,28 +9,28 @@
     <lastBuildDate>Thu, 06 Jul 2023 07:44:54 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/pythonlibraries/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building a Simple Client-Server Communication in Python</title>
-      <link>https://orioninsist.org/blogs/building-a-simple-client-server-communication-in-python/</link>
+      <link>https://orioninsist.org/blog/building-a-simple-client-server-communication-in-python/</link>
       <pubDate>Thu, 06 Jul 2023 07:44:54 +0300</pubDate>
       
-      <guid>https://orioninsist.org/blogs/building-a-simple-client-server-communication-in-python/</guid>
+      <guid>https://orioninsist.org/blog/building-a-simple-client-server-communication-in-python/</guid>
       <description>Learn how to establish basic client-server communication with Python. Explore the code and see how it works. 🐍💻 #Python #Networking</description>
     </item>
     
     <item>
       <title>How to Build a Simple Client-Server Chat Application in Python</title>
-      <link>https://orioninsist.org/blogs/how-to-build-a-simple-client-server-chat-application-in-python/</link>
+      <link>https://orioninsist.org/blog/how-to-build-a-simple-client-server-chat-application-in-python/</link>
       <pubDate>Tue, 04 Jul 2023 09:43:41 +0300</pubDate>
       
-      <guid>https://orioninsist.org/blogs/how-to-build-a-simple-client-server-chat-application-in-python/</guid>
+      <guid>https://orioninsist.org/blog/how-to-build-a-simple-client-server-chat-application-in-python/</guid>
       <description>Learn how to build a Python client-server chat app! 🚀📲 Discover the essentials of client-server communication and create your own chat application. #python #networking #programming</description>
     </item>
     
     <item>
       <title>Python Socket Library: A Network Programming Gem</title>
-      <link>https://orioninsist.org/blogs/python-socket-library-a-network-programming-gem/</link>
+      <link>https://orioninsist.org/blog/python-socket-library-a-network-programming-gem/</link>
       <pubDate>Tue, 04 Jul 2023 09:43:41 +0300</pubDate>
       
-      <guid>https://orioninsist.org/blogs/python-socket-library-a-network-programming-gem/</guid>
+      <guid>https://orioninsist.org/blog/python-socket-library-a-network-programming-gem/</guid>
       <description>Explore the power of Python&amp;#39;s socket library for network programming! Learn socket creation, data transmission, and use cases in this blog post. Level up your networking projects with this valuable tool. Happy coding! 🌐💻🐍</description>
     </item>
     

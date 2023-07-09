@@ -9,19 +9,19 @@
     <lastBuildDate>Mon, 26 Jun 2023 18:19:46 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/passwordgeneration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating Secure and Random Passwords with Python</title>
-      <link>https://orioninsist.org/blogs/creating-secure-and-random-passwords-with-python/</link>
+      <link>https://orioninsist.org/blog/creating-secure-and-random-passwords-with-python/</link>
       <pubDate>Mon, 26 Jun 2023 18:19:46 +0300</pubDate>
       
-      <guid>https://orioninsist.org/blogs/creating-secure-and-random-passwords-with-python/</guid>
+      <guid>https://orioninsist.org/blog/creating-secure-and-random-passwords-with-python/</guid>
       <description>Learn how to generate secure and random passwords using Python. Read this code blog and enhance your password security!</description>
     </item>
     
     <item>
       <title>Generating Random Passwords in Python</title>
-      <link>https://orioninsist.org/blogs/generating-random-passwords-in-python/</link>
+      <link>https://orioninsist.org/blog/generating-random-passwords-in-python/</link>
       <pubDate>Sun, 25 Jun 2023 10:18:14 +0300</pubDate>
       
-      <guid>https://orioninsist.org/blogs/generating-random-passwords-in-python/</guid>
+      <guid>https://orioninsist.org/blog/generating-random-passwords-in-python/</guid>
       <description>Learn to generate secure passwords in Python. Enhance application security with this code snippet.</description>
     </item>
     
