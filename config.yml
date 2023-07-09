@@ -217,4 +217,4 @@ privacy:
   googleAnalyticsAnonymizeIP: true
 
 
-privacyPolicy: "/privacy-policy.md"
+privacyPolicy: "/public/privacy-policy.html"
