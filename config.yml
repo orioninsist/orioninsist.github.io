@@ -65,10 +65,10 @@ menu:
       name: Search
       url: /search
       weight: 160
-    #- identifier: tags
-    #  name: Tags
-    #  url: /tags
-    #  weight: 100
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weight: 100
     #- identifier: resume
     #  name: Resume
     #  url: /resume
