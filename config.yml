@@ -2,6 +2,13 @@ enableRobotsTXT: true
 baseURL : "https://orioninsist.org/"
 languageCode : en-us
 title : orioninsist
+pageinate: 5
+enableInlineShortcodes: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
 
 menu:
   main:
