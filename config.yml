@@ -216,3 +216,5 @@ privacy:
   future: false
   googleAnalyticsAnonymizeIP: true
 
+
+privacyPolicy: "/privacy-policy.md"
