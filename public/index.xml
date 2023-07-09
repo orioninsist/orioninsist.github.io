@@ -9,100 +9,100 @@
     <lastBuildDate>Thu, 06 Jul 2023 07:44:54 +0300</lastBuildDate><atom:link href="https://orioninsist.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building a Simple Client-Server Communication in Python</title>
-      <link>https://orioninsist.org/blog/building-a-simple-client-server-communication-in-python/</link>
+      <link>https://orioninsist.org/blogs/building-a-simple-client-server-communication-in-python/</link>
       <pubDate>Thu, 06 Jul 2023 07:44:54 +0300</pubDate>
       
-      <guid>https://orioninsist.org/blog/building-a-simple-client-server-communication-in-python/</guid>
+      <guid>https://orioninsist.org/blogs/building-a-simple-client-server-communication-in-python/</guid>
       <description>Learn how to establish basic client-server communication with Python. Explore the code and see how it works. 🐍💻 #Python #Networking</description>
     </item>
     
     <item>
       <title>How to Build a Simple Client-Server Chat Application in Python</title>
-      <link>https://orioninsist.org/blog/how-to-build-a-simple-client-server-chat-application-in-python/</link>
+      <link>https://orioninsist.org/blogs/how-to-build-a-simple-client-server-chat-application-in-python/</link>
       <pubDate>Tue, 04 Jul 2023 09:43:41 +0300</pubDate>
       
-      <guid>https://orioninsist.org/blog/how-to-build-a-simple-client-server-chat-application-in-python/</guid>
+      <guid>https://orioninsist.org/blogs/how-to-build-a-simple-client-server-chat-application-in-python/</guid>
       <description>Learn how to build a Python client-server chat app! 🚀📲 Discover the essentials of client-server communication and create your own chat application. #python #networking #programming</description>
     </item>
     
     <item>
       <title>Python Socket Library: A Network Programming Gem</title>
-      <link>https://orioninsist.org/blog/python-socket-library-a-network-programming-gem/</link>
+      <link>https://orioninsist.org/blogs/python-socket-library-a-network-programming-gem/</link>
       <pubDate>Tue, 04 Jul 2023 09:43:41 +0300</pubDate>
       
-      <guid>https://orioninsist.org/blog/python-socket-library-a-network-programming-gem/</guid>
+      <guid>https://orioninsist.org/blogs/python-socket-library-a-network-programming-gem/</guid>
       <description>Explore the power of Python&amp;#39;s socket library for network programming! Learn socket creation, data transmission, and use cases in this blog post. Level up your networking projects with this valuable tool. Happy coding! 🌐💻🐍</description>
     </item>
     
     <item>
       <title>Exploring Cybersecurity with Python: Advanced Topics and Practical Examples</title>
-      <link>https://orioninsist.org/blog/exploring-cybersecurity-with-python-advanced-topics-and-practical-examples/</link>
+      <link>https://orioninsist.org/blogs/exploring-cybersecurity-with-python-advanced-topics-and-practical-examples/</link>
       <pubDate>Wed, 28 Jun 2023 22:57:24 +0300</pubDate>
       
-      <guid>https://orioninsist.org/blog/exploring-cybersecurity-with-python-advanced-topics-and-practical-examples/</guid>
+      <guid>https://orioninsist.org/blogs/exploring-cybersecurity-with-python-advanced-topics-and-practical-examples/</guid>
       <description>Dive into advanced cybersecurity topics with Python, learn practical examples, and enhance your skills. #cybersecurity #python</description>
     </item>
     
     <item>
       <title>Developing Cybersecurity Applications using Python Libraries: An Introduction</title>
-      <link>https://orioninsist.org/blog/developing-cybersecurity-applications-using-python-libraries-an-introduction/</link>
+      <link>https://orioninsist.org/blogs/developing-cybersecurity-applications-using-python-libraries-an-introduction/</link>
       <pubDate>Wed, 28 Jun 2023 22:57:20 +0300</pubDate>
       
-      <guid>https://orioninsist.org/blog/developing-cybersecurity-applications-using-python-libraries-an-introduction/</guid>
+      <guid>https://orioninsist.org/blogs/developing-cybersecurity-applications-using-python-libraries-an-introduction/</guid>
       <description>Learn about essential Python libraries for cybersecurity applications and explore buffer overflow vulnerabilities. Stay tuned for more.</description>
     </item>
     
     <item>
       <title>Creating Secure and Random Passwords with Python</title>
-      <link>https://orioninsist.org/blog/creating-secure-and-random-passwords-with-python/</link>
+      <link>https://orioninsist.org/blogs/creating-secure-and-random-passwords-with-python/</link>
       <pubDate>Mon, 26 Jun 2023 18:19:46 +0300</pubDate>
       
-      <guid>https://orioninsist.org/blog/creating-secure-and-random-passwords-with-python/</guid>
+      <guid>https://orioninsist.org/blogs/creating-secure-and-random-passwords-with-python/</guid>
       <description>Learn how to generate secure and random passwords using Python. Read this code blog and enhance your password security!</description>
     </item>
     
     <item>
       <title>Python-based Random Password Generator Released</title>
-      <link>https://orioninsist.org/blog/python-based-random-password-generator-released/</link>
+      <link>https://orioninsist.org/blogs/python-based-random-password-generator-released/</link>
       <pubDate>Sun, 25 Jun 2023 16:11:32 +0300</pubDate>
       
-      <guid>https://orioninsist.org/blog/python-based-random-password-generator-released/</guid>
+      <guid>https://orioninsist.org/blogs/python-based-random-password-generator-released/</guid>
       <description>Exciting news! Python-based Random Password Generator released. Enhance your security.</description>
     </item>
     
     <item>
       <title>Random Password Generator</title>
-      <link>https://orioninsist.org/blog/random-password-generator/</link>
+      <link>https://orioninsist.org/blogs/random-password-generator/</link>
       <pubDate>Sun, 25 Jun 2023 13:14:04 +0300</pubDate>
       
-      <guid>https://orioninsist.org/blog/random-password-generator/</guid>
+      <guid>https://orioninsist.org/blogs/random-password-generator/</guid>
       <description>Introducing the Random Password Generator project! Generate secure and unique passwords with Python. Safeguard your accounts and data effortlessly.</description>
     </item>
     
     <item>
       <title>Generating Random Passwords in Python</title>
-      <link>https://orioninsist.org/blog/generating-random-passwords-in-python/</link>
+      <link>https://orioninsist.org/blogs/generating-random-passwords-in-python/</link>
       <pubDate>Sun, 25 Jun 2023 10:18:14 +0300</pubDate>
       
-      <guid>https://orioninsist.org/blog/generating-random-passwords-in-python/</guid>
+      <guid>https://orioninsist.org/blogs/generating-random-passwords-in-python/</guid>
       <description>Learn to generate secure passwords in Python. Enhance application security with this code snippet.</description>
     </item>
     
     <item>
       <title>10 Awesome Django Projects to Inspire Your Web Development Journey</title>
-      <link>https://orioninsist.org/blog/10-awesome-django-projects-to-inspire-your-web-development-journey/</link>
+      <link>https://orioninsist.org/blogs/10-awesome-django-projects-to-inspire-your-web-development-journey/</link>
       <pubDate>Fri, 23 Jun 2023 11:40:11 +0300</pubDate>
       
-      <guid>https://orioninsist.org/blog/10-awesome-django-projects-to-inspire-your-web-development-journey/</guid>
+      <guid>https://orioninsist.org/blogs/10-awesome-django-projects-to-inspire-your-web-development-journey/</guid>
       <description>Discover 10 amazing Django projects that demonstrate its power and versatility, inspiring your web development journey.</description>
     </item>
     
     <item>
       <title>Django: A Powerful Web Framework for Rapid Development</title>
-      <link>https://orioninsist.org/blog/django-a-powerful-web-framework-for-rapid-development/</link>
+      <link>https://orioninsist.org/blogs/django-a-powerful-web-framework-for-rapid-development/</link>
       <pubDate>Thu, 22 Jun 2023 13:56:27 +0300</pubDate>
       
-      <guid>https://orioninsist.org/blog/django-a-powerful-web-framework-for-rapid-development/</guid>
+      <guid>https://orioninsist.org/blogs/django-a-powerful-web-framework-for-rapid-development/</guid>
       <description>Explore the advantages, disadvantages, and alternatives of Django, a powerful web framework for rapid development.</description>
     </item>
     
