@@ -9,6 +9,19 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
+minify:
+    disableXML: true
+    # minifyOutput: true
+googleAnalytics: G-6CE6YFM36C
+
+languages:
+    en:
+      languageName: "English"
+      weight: 1
+      taxonomies:
+        tag: tags
+        blog: blog
+
 
 menu:
   main:
@@ -84,6 +97,8 @@ params:
     #imageWidth: 220
     #imageHeight: 220
   showToc: true
+  description: 
+  author: orioninsist
   TocOpen: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -165,7 +180,7 @@ params:
 
 
 
-
+  
   # text search
   fuseOpts:
     isCaseSensitive: false
@@ -192,7 +207,12 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  highlight:
+        noClasses: false    
 
 
-
+privacy:
+  drafts: false
+  future: false
+  googleAnalyticsAnonymizeIP: true
 
