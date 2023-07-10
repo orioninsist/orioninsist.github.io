@@ -1,10 +1,37 @@
 
 
 
-{{- define "main" }}
-<!-- <div class="not-found">404</div> -->
+<!--- {{- define "main" }}
+<div class="not-found">404</div> 
 <script>
     window.location.href = '/';
+</script>
+{{- end }}{{/* end main */ -}}
+-->
+{{- define "main" }}
+<script>
+    var currentURL = window.location.href;
+    var homepageURL = 'https://orioninsist.org';
+
+    // Liste oluşturulacak eski URL'leri ve yeni URL'leri buraya ekleyin
+    var redirectList = [
+        {
+            oldUrl: '/projects/cyber-security-applications-with-python/part2/',
+            newUrl: '/blogs/cyber-security-applications-with-python/'
+        },
+        // Diğer yönlendirmeleri buraya ekleyin...
+    ];
+
+    for (var i = 0; i < redirectList.length; i++) {
+        if (currentURL.includes(redirectList[i].oldUrl)) {
+            window.location.href = homepageURL + redirectList[i].newUrl;
+            break;
+        }
+    }
+
+    // Eğer hiçbir eşleşme bulunamazsa ana sayfaya yönlendirme yapılır
+    window.location.href = homepageURL;
+
 </script>
 {{- end }}{{/* end main */ -}}
 
