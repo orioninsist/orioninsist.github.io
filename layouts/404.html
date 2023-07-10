@@ -10,13 +10,11 @@
     var currentURL = window.location.href;
     var homepageURL = 'https://orioninsist.org';
 
-    // Liste oluşturulacak eski URL'leri ve yeni URL'leri buraya ekleyin
     var redirectList = [
         {
             oldUrl: '/projects/cyber-security-applications-with-python/part4/',
             newUrl: '/blog/how-to-build-a-simple-client-server-chat-application-in-python/'
         },
-        // Diğer yönlendirmeleri buraya ekleyin...
     ];
 
     for (var i = 0; i < redirectList.length; i++) {
@@ -26,8 +24,8 @@
         }
     }
 
-    // Eğer hiçbir eşleşme bulunamazsa ana sayfaya yönlendirme yapılır
-    window.location.href = homepageURL;
+    if(i === redirectList.length) {
+      window.location.href = homepageURL;
 
 </script>
 {{- end }}{{/* end main */ -}}
