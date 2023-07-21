@@ -7,7 +7,7 @@ tags: ["python","pythonlist","dataorganization","pythonprogramming"]
 keywords: ["python","pythonlist","dataorganization","pythonprogramming"]
 author: "orioninsist"
 cover:
-     image: "/static/blog/mastering-lists-in-python-unleashing-the-power-of-data-organization.png"
+     image: "/blog/mastering-lists-in-python-unleashing-the-power-of-data-organization.png"
 ---
 
 ## Introduction
