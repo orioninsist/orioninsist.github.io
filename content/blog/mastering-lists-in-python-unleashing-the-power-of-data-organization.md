@@ -30,6 +30,9 @@ Slicing Lists: Master the art of slicing lists to extract subsets of data for an
 ## Conclusion
 By mastering the art of lists in Python, you gain a powerful tool for organizing and managing data. Whether you're a beginner or an experienced programmer, understanding lists will enhance your Python skills and empower you to tackle a wide range of data-related challenges.
 
+## GitHub
+https://github.com/orioninsist/tensorflow-python-fundamentals
+
 Thank you for your continued support, and I’m excited to have you on this enriching journey!
 
 Sincerely, Founder of orioninsist
