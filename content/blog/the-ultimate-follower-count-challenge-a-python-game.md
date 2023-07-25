@@ -108,6 +108,12 @@ Feel free to modify the code, add more data, or create additional features to ma
 
 [Github](https://github.com/orioninsist/python-projects-portfolio)
 
+## Medium
+
+[Medium](https://orioninsist.dev/subscribe)
+Subscribe to stay in the loop with our latest articles, tutorials, and projects. Join our community of tech enthusiasts, developers, and learners. Don't miss out on valuable insights, coding tips, and exciting projects. Click the link to subscribe and embark on a journey of knowledge and growth. 📚🚀 #TechCommunity #Subscribe #StayUpdated #TechEnthusiasts
+
+Feel free to use this link description for your "Subscribe" link to entice readers to join your community and stay updated with your valuable content. Best of luck with your platform and building a thriving community! 📝✨
 
 ## Thank you
 
