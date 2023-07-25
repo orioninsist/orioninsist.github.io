@@ -106,9 +106,8 @@ Feel free to modify the code, add more data, or create additional features to ma
 
 ## GitHub
 
-```markdown
 [Github](https://github.com/orioninsist/python-projects-portfolio)
-```
+
 
 ## Thank you
 
