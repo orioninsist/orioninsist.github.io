@@ -90,7 +90,7 @@ menu:
 
 params:
   showToc: true
-  description: "Hi 👋, I’m Muhammet Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics.I have a keen interest and expertise in artificial intelligence, machine learning, deep learning, data science, and cybersecurity. I have been actively involved in projects and research related to these fields. I’m passionate about exploring the latest advancements and applying them to real-world scenarios. Feel free to connect with me to discuss any topics related to these areas or to collaborate on exciting projects"
+  Description: "Hi 👋, I’m Muhammet Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics.I have a keen interest and expertise in artificial intelligence, machine learning, deep learning, data science, and cybersecurity. I have been actively involved in projects and research related to these fields. I’m passionate about exploring the latest advancements and applying them to real-world scenarios. Feel free to connect with me to discuss any topics related to these areas or to collaborate on exciting projects"
   metaDescription: "Hi 👋, I’m Muhammet Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics.I have a keen interest and expertise in artificial intelligence, machine learning, deep learning, data science, and cybersecurity. I have been actively involved in projects and research related to these fields. I’m passionate about exploring the latest advancements and applying them to real-world scenarios. Feel free to connect with me to discuss any topics related to these areas or to collaborate on exciting projects"
   author: orioninsist
   TocOpen: false
