@@ -103,7 +103,7 @@ In conclusion, pandas Series play a crucial role in data analysis with Python, p
 ## GitHub
 
 ⭐ GitHub: https://github.com/orioninsist/tensorflow-python-fundamentals
-  
+⭐ GitHub: https://github.com/orioninsist/tensorflow-python-fundamentals/blob/main/section6/pandasIntro.ipynb  
 
 ## Medium
 
