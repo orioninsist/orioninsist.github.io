@@ -1,12 +1,33 @@
 
 
+<script>
+ var currentURL = window.location.href;
+ var homepageURL = 'https://orioninsist.org';
 
-<!--{{- define "main" }} -->
+ for (var i = 0; i < redirectList.length; i++) {
+        if (currentURL.includes(redirectList[i].oldUrl)) {
+            window.location.href = homepageURL + redirectList[i].newUrl;
+            break;
+        }
+    }
+
+    if(i === redirectList.length) {
+      window.location.href = homepageURL;
+    }
+</script>
+{{- end }}{{/* end main */ -}} 
+
+
+
+
+
+
+<!--{{- define "main" }} 
 <div class="not-found">404</div> 
 <script>
     window.location.href = '/';
 </script> 
-{{- end }}{{/* end main */ -}} 
+-->
 
 
 <!--
