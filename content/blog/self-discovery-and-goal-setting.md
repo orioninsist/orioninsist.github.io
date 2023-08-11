@@ -11,7 +11,6 @@ language: "English"
 type: "blog"
 cover:
     image: "/blog/self-discovery-and-goal-setting.png"
-    src : "/blog/self-discovery-and-goal-setting.png" 
     alt : "Self Discovery and Goal Setting Feature Image"
 ---
 
