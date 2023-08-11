@@ -70,6 +70,14 @@ menu:
       name: Tags
       url: /tags
       weight: 100
+    - identifier: about
+      name: About
+      url: /about
+      weight: 30
+    - identifier: contact
+      name: Contact
+      url: /contact
+      weight: 40    
     #- identifier: resume
     #  name: Resume
     #  url: /resume
@@ -115,7 +123,7 @@ params:
   profileMode:
     enabled: true
     title: "Muhammet Murat Kurkoglu"
-    subtitle: "Hi 👋, I'm Muhammet Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics. I have a keen interest and expertise in artificial intelligence, machine learning, deep learning, data science, and cybersecurity. I have been actively involved in projects and research related to these fields. I'm passionate about exploring the latest advancements and applying them to real-world scenarios. Feel free to connect with me to discuss any topics related to these areas or to collaborate on exciting projects"
+    subtitle: "Hi 👋, I'm Muhammet Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics. I have a keen interest and expertise in artificial intelligence, machine learning, deep learning, data science, and cybersecurity."
     imageUrl: "/home/muhammet-murat-kurkoglu.webp"
     imageWidth: 220
     imageHeight: 220
