@@ -51,6 +51,8 @@ https://odysee.com/@orioninsist:9/Self_Discovery_and_Goal_Setting_sound:e
 
 ## Hashnode
 
+## orioninsist.org
+https://orioninsist.org/blog/self-discovery-and-goal-setting/
 ## Hackernoon
 
 ## Devto
@@ -67,24 +69,40 @@ https://www.buymeacoffee.com/orioninsist/personal-development-series-episode-1-s
 ⭐ GitHub: https://github.com/orioninsist/self-improvement
 
 ## Stay connected for more transformative content! Follow us on
-🚀 Project Code: https://github.com/orioninsist/self-improvement
-🚀 YouTube: https: www.youtube.com/@orioninsist-official/
-🚀 Patreon: https: www.patreon.com/orioninsist
-🚀 Buy me a coffee: https://www.buymeacoffee.com/orioninsist
-🚀 Medium: https://orioninsist.dev/
-🚀 Blog: https://orioninsist.org/
-🚀 LinkedIn Company: https://www.linkedin.com/company/orioninsist/
-🚀 LinkedIn Personal: https://www.linkedin.com/in/muhammet-murat-kurkoglu/
-🚀 GitHub: https://github.com/orioninsist
-🚀 Librerapay: https://en.liberapay.com/orioninsist/
-🚀 Twitter: https://twitter.com/InsistOrion
-🚀 Facebook: https://www.facebook.com/insistorion
-🚀 Instagram : https://www.instagram.com/insistorion/
-🚀 Threads: https://www.threads.net/@insistorion
-🚀 Pinterest: https://www.pinterest.com/orioninsist/
-🚀 Discord: https://discord.gg/tgNVx3H9
-🚀 Telegram: https://t.me/+_ssMyWNytbdhNDI0
 
+🚀 Project Code: https://github.com/orioninsist/self-improvement 
+
+🚀 YouTube: https: www.youtube.com/@orioninsist-official/
+
+🚀 Patreon: https: www.patreon.com/orioninsist
+
+🚀 Buy me a coffee: https://www.buymeacoffee.com/orioninsist
+
+🚀 Medium: https://orioninsist.dev/
+
+🚀 Blog: https://orioninsist.org/
+
+🚀 LinkedIn Company: https://www.linkedin.com/company/orioninsist/
+
+🚀 LinkedIn Personal: https://www.linkedin.com/in/muhammet-murat-kurkoglu/
+
+🚀 GitHub: https://github.com/orioninsist
+
+🚀 Librerapay: https://en.liberapay.com/orioninsist/
+
+🚀 Twitter: https://twitter.com/InsistOrion
+
+🚀 Facebook: https://www.facebook.com/insistorion
+
+🚀 Instagram : https://www.instagram.com/insistorion/
+
+🚀 Threads: https://www.threads.net/@insistorion
+
+🚀 Pinterest: https://www.pinterest.com/orioninsist/
+
+🚀 Discord: https://discord.gg/tgNVx3H9
+
+🚀 Telegram: https://t.me/+_ssMyWNytbdhNDI0
 
 #motivation #motivational #motivationalvideo #motivationalquotes #life #lifestyle #lifecoach #success #successmindset #empowerment #mindfulness  #positivevibes #learning #howto #selfmotivation #selfhelp #personaldevelopment #selfimprovement #goals #podcast #podcasts #podcasting 
 🙏 Thank You for Watching!
@@ -111,7 +129,7 @@ Muhammet Murat Kurkoglu
 
 Founder of orioninsist
 
-[Google Survey Forms]()
+[Google Survey Forms](https://forms.gle/xyziUcLkMdtkiu3E7)
 
 Stay connected with me 🔗 [Patreon](https://www.patreon.com/orioninsist) 🔗 [Buymeacoffee](https://www.buymeacoffee.com/orioninsist) 🔗 [Instagram](https://www.instagram.com/insistorion/) 🔗 [Twitter](https://twitter.com/InsistOrion) 🔗 [Facebook](https://www.facebook.com/insistorion) 🔗 [Pinterest](https://www.pinterest.com/orioninsist/) 🔗 [Website](https://orioninsist.org/) 🔗 [GitHub](https://github.com/orioninsist) 🔗 [YouTube](https://www.youtube.com/@orioninsist-official/) 🔗 [Medium](https://orioninsist.dev/) 🔗 [LinkedIn-Personal](https://www.linkedin.com/in/muhammet-murat-kurkoglu/) 🔗 [LinkedIn-Company](https://www.linkedin.com/company/orioninsist/) 
 
