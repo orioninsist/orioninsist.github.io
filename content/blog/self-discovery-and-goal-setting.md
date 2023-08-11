@@ -2,7 +2,7 @@
 title: "Self Discovery and Goal Setting"
 date: 2023-08-11T17:03:02+03:00
 draft: false
-description: ""Embark on an Exciting Journey of Self-Discovery and Goal Setting! 🚀✨ Uncover your potential, define your aspirations, and set the course for a fulfilling future. Join us in Episode 1 of the Personal Development Series as we delve into the realms of growth and achievement. Let's ignite the spark of progress together! 🔥🌱"
+description: "Embark on an Exciting Journey of Self-Discovery and Goal Setting! 🚀✨ Uncover your potential, define your aspirations, and set the course for a fulfilling future. Join us in Episode 1 of the Personal Development Series as we delve into the realms of growth and achievement. Let's ignite the spark of progress together! 🔥🌱"
 keywords: ["podcast","blog","blogging","content","contentcreators","Contentcreater","contentmarketing", "YouTuber","podcast", "podcasting","podcaster","instagram","motivation","motivationquotes","personaldevelopment","life","howto","podcastshow","spotify", "youtube","odysee","quora","hashnode","devto","patreon","buymeacoffee","linkedin","twitch","hackernoon","youtube-music"]
 tags: ["podcast","blog","blogging","content","contentcreators","Contentcreater","contentmarketing", "YouTuber","podcast", "podcasting","podcaster","instagram","motivation","motivationquotes","personaldevelopment","life","howto","podcastshow","spotify", "youtube","odysee","quora","hashnode","devto","patreon","buymeacoffee","linkedin","twitch","hackernoon","youtube-music"]
 slug: "self-discovery-and-goal-setting"
