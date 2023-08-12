@@ -10,7 +10,7 @@ type: "blog"
 language: "English"
 slug: "about"
 cover:
-    image: ""
+    image: "/about/muhammetmuratkurkoglu.png"
 ---
 ## About
 Hello there, I'm Muhammet Murat Kurkoglu, and I'm the founder of orioninsist. With a background in both computer engineering and economics, I've ventured into the world of technology and business. As a dedicated content creator, I wear the hats of a blogger and content producer, constantly curating fresh and engaging content.
