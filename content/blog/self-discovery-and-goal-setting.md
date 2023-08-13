@@ -49,7 +49,7 @@ https://music.youtube.com/playlist?list=PLbn9tgwkldXOMsv975Bk88lOjmfs_gKKV&featu
 ## Odysee 
 https://odysee.com/@orioninsist:9/Self_Discovery_and_Goal_Setting_sound:e
 ## Quora
-
+https://qr.ae/pyDJ9Y
 ## Hashnode
 https://orioninsist.net/self-discovery-and-goal-setting
 ## orioninsist.org
