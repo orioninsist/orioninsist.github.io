@@ -2,18 +2,71 @@
 title: "Contact"
 date: 2023-08-12T10:37:53+03:00
 draft: false
+description: "orioninsist Contact"
+author: "orioninsist"
+tags: ["contact","orioninsist","me"]
+keywords: ["contact","orioninsist","me"]
+type: "blog"
+language: "English"
+slug: "contact"
+cover:
+    image: "/contact/contact.png"
+    alt : "orioninsist contact image"
+
 ---
 
+## Stay connected for more transformative content! Follow us on
 
-<form action="/contact" method="post">
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name" required><br><br>
-  
-  <label for="email">E-mail:</label><br>
-  <input type="email" id="email" name="email" required><br><br>
-  
-  <label for="message">Enter a message:</label><br>
-  <textarea id="message" name="message" rows="4" required></textarea><br><br>
-  
-  <button type="submit">Send</button>
-</form>
+🚀 Gmail: muhammetmuratkurkoglu@gmail.com
+
+🚀 YouTube: https: www.youtube.com/@orioninsist-official/
+
+🚀 Odysee: https://odysee.com/@orioninsist
+
+🚀 Spotify: https://open.spotify.com/show/2U1u9mOfxjRYf7js8Wlhwj
+
+🚀 Spotify for Podcasters: https://podcasters.spotify.com/pod/show/orioninsist
+
+🚀 YouTube Music: https://music.youtube.com/channel/UCdQFQTaxjWiCSXKAXTb8TKA?feature=share
+
+🚀 Patreon: https: www.patreon.com/orioninsist
+
+🚀 Buy me a coffee: https://www.buymeacoffee.com/orioninsist
+
+🚀 Medium: https://orioninsist.dev/
+
+🚀 Blog: https://orioninsist.org/
+
+🚀 Hashnode: https://orioninsist.net/
+
+🚀 Devto: https://dev.to/orioninsist
+
+🚀 Quora: https://www.quora.com/profile/Orioninsist
+
+🚀 Reddit: https://www.reddit.com/user/insistorion
+
+🚀 Twitch: https://www.twitch.tv/orioninsist
+
+🚀 Hackernoon: https://hackernoon.com/u/orioninsist
+
+🚀 LinkedIn Company: https://www.linkedin.com/company/orioninsist/
+
+🚀 LinkedIn Personal: https://www.linkedin.com/in/muhammet-murat-kurkoglu/
+
+🚀 GitHub: https://github.com/orioninsist
+
+🚀 Librerapay: https://en.liberapay.com/orioninsist/
+
+🚀 Twitter: https://twitter.com/InsistOrion
+
+🚀 Facebook: https://www.facebook.com/insistorion
+
+🚀 Instagram : https://www.instagram.com/insistorion/
+
+🚀 Threads: https://www.threads.net/@insistorion
+
+🚀 Pinterest: https://www.pinterest.com/orioninsist/
+
+🚀 Discord: https://discord.gg/tgNVx3H9
+
+🚀 Telegram: https://t.me/+_ssMyWNytbdhNDI0
