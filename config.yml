@@ -195,6 +195,7 @@ params:
 
 # for search using Fuse.js
 outputs:
+  contact: ["HTML"]
   home:
     - HTML
     - RSS
