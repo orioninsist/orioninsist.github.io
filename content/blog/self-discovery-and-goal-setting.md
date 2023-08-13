@@ -57,7 +57,7 @@ https://orioninsist.org/blog/self-discovery-and-goal-setting/
 ## Hackernoon
 
 ## Devto
-
+https://dev.to/orioninsist/self-discovery-and-goal-setting-2e4k
 ## Patreon
 https://www.patreon.com/posts/personal-series-87492174?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link
 ## Buy me a coffee
