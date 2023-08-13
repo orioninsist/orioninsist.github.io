@@ -63,7 +63,7 @@ https://www.patreon.com/posts/personal-series-87492174?utm_medium=clipboard_copy
 ## Buy me a coffee
 https://www.buymeacoffee.com/orioninsist/personal-development-series-episode-1-self-discovery-goal-setting
 ## LinkedIn Personal
-
+https://www.linkedin.com/pulse/self-discovery-goal-setting-muhammet-murat-kurkoglu
 ## LinkedIn Company
 
 ## GitHub
