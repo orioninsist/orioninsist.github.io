@@ -65,7 +65,7 @@ https://www.buymeacoffee.com/orioninsist/personal-development-series-episode-1-s
 ## LinkedIn Personal
 https://www.linkedin.com/pulse/self-discovery-goal-setting-muhammet-murat-kurkoglu
 ## LinkedIn Company
-
+https://www.linkedin.com/pulse/self-discovery-goal-setting-orioninsist
 ## GitHub
 ⭐ GitHub: https://github.com/orioninsist/self-improvement
 
