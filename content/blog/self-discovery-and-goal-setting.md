@@ -51,7 +51,7 @@ https://odysee.com/@orioninsist:9/Self_Discovery_and_Goal_Setting_sound:e
 ## Quora
 
 ## Hashnode
-
+https://orioninsist.net/self-discovery-and-goal-setting
 ## orioninsist.org
 https://orioninsist.org/blog/self-discovery-and-goal-setting/
 ## Hackernoon
