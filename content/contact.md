@@ -2,7 +2,7 @@
 title: "Contact"
 date: 2023-08-12T10:37:53+03:00
 draft: false
-description: "orioninsist Contact"
+description: "Hello!🚀 Feel free to get in touch with Muhammet Murat Kurkoglu. Whether you have questions about technology, want to discuss collaboration opportunities, or anything else, I'd be happy to hear from you."
 author: "orioninsist"
 tags: ["contact","orioninsist","me"]
 keywords: ["contact","orioninsist","me"]
