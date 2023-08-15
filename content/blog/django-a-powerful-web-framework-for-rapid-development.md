@@ -7,7 +7,7 @@ tags: ["django","flask","rapiddevelopment","python","rubyonrails","ruby","aspnet
 keywords: ["django","flask","rapiddevelopment","python","rubyonrails","ruby","aspnet"]
 author: "orioninsist"
 cover: 
-     image: "/projects/web-development-with-django/part1-feature-image.png"
+     image: "/blog/django-a-powerful-web-framework-for-rapid-development.md.png"
 ---
 
 ### Introduction
