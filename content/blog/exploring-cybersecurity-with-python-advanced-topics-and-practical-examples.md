@@ -7,7 +7,7 @@ tags: ["cybersecurity","python","programming","security","ethicalhacking","netwo
 keywords: ["cybersecurity","python","programming","security","ethicalhacking","networksecurity"]
 author: "orioninsist"
 cover:
-     image: "/projects/cyber-security-applications-with-python/part2-feature-image.png"
+     image: "/blog/exploring-cybersecurity-with-python-advanced-topics-and-practical-examples.md.png"
 ---
 
 ## Continuing the Journey: Exploring Cybersecurity with Python

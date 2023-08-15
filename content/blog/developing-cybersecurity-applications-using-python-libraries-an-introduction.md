@@ -7,7 +7,7 @@ tags: ["cybersecurity","python","programming", "networksecurity","encryption", "
 keywords: ["cybersecurity","python","programming", "networksecurity","encryption", "websecurity"]
 author: "orioninsist"
 cover:
-     image: "/projects/cyber-security-applications-with-python/part1-feature-image.png"
+     image: "/blog/developing-cybersecurity-applications-using-python-libraries-an-introduction.md.png"
 ---
 
 Hello everyone! In this blog post, as someone who is passionate about cybersecurity, I aim to take a step towards developing cybersecurity applications using the Python programming language. Cybersecurity has become increasingly important in today's world, so in this article, I will introduce some powerful Python libraries and explore how we can start working on security-related projects.

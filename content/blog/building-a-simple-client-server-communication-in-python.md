@@ -7,7 +7,7 @@ tags: ["python","networking","socketprogramming","programming","technology","pyt
 keywords: ["python","networking","socketprogramming","programming","technology","pythonlibraries","networkcommunication"]
 author: "orioninsist"
 cover:
-     image: "/projects/cyber-security-applications-with-python/part5-feature-image.png"
+     image: "/blog/building-a-simple-client-server-communication-in-python.md.png"
 ---
 
 ## Introduction
