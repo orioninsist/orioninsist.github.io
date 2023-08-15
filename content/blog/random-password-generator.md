@@ -7,7 +7,7 @@ tags: ["python","passwordgenerator", "project", "coding", "security"]
 keywords: ["python","passwordgenerator", "project", "coding", "security"]
 author: "orioninsist"
 cover:
-    image: "/projects/password-generator/part2-feature-image.png"
+    image: "/blog/random-password-generator.md.png"
 ---
 
 ## Overview

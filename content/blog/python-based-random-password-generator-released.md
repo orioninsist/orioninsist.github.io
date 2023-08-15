@@ -7,7 +7,7 @@ tags: ["python","passwordgenerator","cybersecurity","release","digitalsecurity"]
 keywords: ["python","passwordgenerator","cybersecurity","release","digitalsecurity"]
 author: "orioninsist"
 cover:
-     image: "/projects/password-generator/part3-feature-image.png"
+     image: "/blog/python-based-random-password-generator-released.md.png"
 ---
 
 We are excited to announce the release of a new Python-based "Random Password Generator." This project aims to provide users with a simple and secure way to generate random passwords.

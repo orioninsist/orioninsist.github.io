@@ -7,7 +7,7 @@ tags: ["python","security","passwordgeneration","codeblog"]
 keywords: ["python","security","passwordgeneration","codeblog"]
 author: "orioninsist"
 cover:
-     image: "/projects/password-generator/part4-feature-image.png"
+     image: "/blog/creating-secure-and-random-passwords-with-python.md.png"
 ---
 
 In today's digital world, maintaining strong passwords is crucial to protect our online accounts. In this article, we will explore how to generate secure and random passwords using Python.

@@ -7,7 +7,7 @@ tags: ["python","cybersecurity","passwordgeneration"]
 keywords: ["python","cybersecurity","passwordgeneration"]
 author: "orioninsist"
 cover:
-     image: "/projects/password-generator/part1-feature-image.png"
+     image: "/blog/generating-random-passwords-in-python.md.png"
 ---
 Introduction
 In this blog post, we will explore how to generate random passwords using Python. We will write a simple Python function that generates a password of a given length, using a combination of letters, digits, and punctuation.
