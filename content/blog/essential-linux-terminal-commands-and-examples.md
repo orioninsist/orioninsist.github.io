@@ -278,7 +278,7 @@ Muhammet Murat Kurkoglu
 
 Founder of orioninsist
 
-[Google Survey Forms]()
+[Google Survey Forms](https://forms.gle/2D9r2R1TArWNsupT8)
 
 Stay connected with me 🔗 [Patreon](https://www.patreon.com/orioninsist) 🔗 [Buymeacoffee](https://www.buymeacoffee.com/orioninsist) 🔗 [Instagram](https://www.instagram.com/insistorion/) 🔗 [Twitter](https://twitter.com/InsistOrion) 🔗 [Facebook](https://www.facebook.com/insistorion) 🔗 [Pinterest](https://www.pinterest.com/orioninsist/) 🔗 [Website](https://orioninsist.org/) 🔗 [GitHub](https://github.com/orioninsist) 🔗 [YouTube](https://www.youtube.com/@orioninsist-official/) 🔗 [Medium](https://orioninsist.dev/) 🔗 [LinkedIn-Personal](https://www.linkedin.com/in/muhammet-murat-kurkoglu/) 🔗 [LinkedIn-Company](https://www.linkedin.com/company/orioninsist/)
 
