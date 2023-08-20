@@ -110,7 +110,7 @@ params:
   sitemap:
     changeFreq: "always"
     filename: "sitemap.xml"
-    priority: 0.8
+    priority: 0.9
 
 
    
