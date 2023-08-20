@@ -108,7 +108,9 @@ params:
   googleAnalytics: ["partials/google_analytics.html"]
   favicon: "/orioninsist-16-16.png"
   sitemap:
+    changeFreq: "always"
     filename: "sitemap.xml"
+    priority: 0.8
 
 
    
