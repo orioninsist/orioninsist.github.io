@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>linux on orioninsist</title>
+    <link>https://orioninsist.org/tags/linux/</link>
+    <description>Recent content in linux on orioninsist</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 19 Aug 2023 22:10:39 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Essential Linux Terminal Commands and Examples</title>
+      <link>https://orioninsist.org/blog/essential-linux-terminal-commands-and-examples/</link>
+      <pubDate>Sat, 19 Aug 2023 22:10:39 +0300</pubDate>
+      
+      <guid>https://orioninsist.org/blog/essential-linux-terminal-commands-and-examples/</guid>
+      <description>Master essential Linux terminal commands with explanations and practical examples. Learn how to navigate, copy, delete files, and more. Enhance your command-line skills now!</description>
+    </item>
+    
+  </channel>
+</rss>

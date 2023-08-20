@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>about on orioninsist</title>
+    <link>https://orioninsist.org/tags/about/</link>
+    <description>Recent content in about on orioninsist</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 12 Aug 2023 10:37:48 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://orioninsist.org/about/</link>
+      <pubDate>Sat, 12 Aug 2023 10:37:48 +0300</pubDate>
+      
+      <guid>https://orioninsist.org/about/</guid>
+      <description>Muhammet Murat Kurkoglu 🚀 | Founder of orioninsist | Tech Enthusiast | Creating Daily Content | Exploring Tech Trends</description>
+    </item>
+    
+  </channel>
+</rss>

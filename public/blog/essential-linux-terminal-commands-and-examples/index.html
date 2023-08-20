@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Essential Linux Terminal Commands and Examples | orioninsist</title>
+<meta name="keywords" content="linux, terminal, commands">
+<meta name="description" content="Master essential Linux terminal commands with explanations and practical examples. Learn how to navigate, copy, delete files, and more. Enhance your command-line skills now!">
+<meta name="author" content="orioninsist">
+<link rel="canonical" href="https://orioninsist.org/blog/essential-linux-terminal-commands-and-examples/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.3613efbd0b1772781e8f49935e973cae632a7f61471c05b17be155505ccf87b5.css" integrity="sha256-NhPvvQsXcngej0mTXpc8rmMqf2FHHAWxe&#43;FVUFzPh7U=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://orioninsist.org/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://orioninsist.org/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://orioninsist.org/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://orioninsist.org/apple-touch-icon.png">
+<link rel="mask-icon" href="https://orioninsist.org/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6CE6YFM36C"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-6CE6YFM36C', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="Essential Linux Terminal Commands and Examples" />
+<meta property="og:description" content="Master essential Linux terminal commands with explanations and practical examples. Learn how to navigate, copy, delete files, and more. Enhance your command-line skills now!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://orioninsist.org/blog/essential-linux-terminal-commands-and-examples/" />
+<meta property="og:image" content="https://orioninsist.org/blog/essential-linux-terminal-commands-and-examples.png" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2023-08-19T22:10:39+03:00" />
+<meta property="article:modified_time" content="2023-08-19T22:10:39+03:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://orioninsist.org/blog/essential-linux-terminal-commands-and-examples.png" />
+<meta name="twitter:title" content="Essential Linux Terminal Commands and Examples"/>
+<meta name="twitter:description" content="Master essential Linux terminal commands with explanations and practical examples. Learn how to navigate, copy, delete files, and more. Enhance your command-line skills now!"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blogs",
+      "item": "https://orioninsist.org/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Essential Linux Terminal Commands and Examples",
+      "item": "https://orioninsist.org/blog/essential-linux-terminal-commands-and-examples/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Essential Linux Terminal Commands and Examples",
+  "name": "Essential Linux Terminal Commands and Examples",
+  "description": "Master essential Linux terminal commands with explanations and practical examples. Learn how to navigate, copy, delete files, and more. Enhance your command-line skills now!",
+  "keywords": [
+    "linux", "terminal", "commands"
+  ],
+  "articleBody": "The Linux terminal is a powerful tool that allows users to interact with their system through text-based commands. Whether you’re a beginner or an experienced user, having a grasp of basic terminal commands is crucial. In this guide, we’ll explore some essential Linux terminal commands along with explanations and practical examples.\n1. tar - Archiving and Compression The tar command is used for archiving and compressing files and folders.\nCreate a compressed archive of a file: tar -zcvf archive.tar filename Create an archive of multiple files: tar -zcvf archive2.tar filename1 filename2 filename3 Create an archive of a folder: tar -zcvf folder.tar folder/ 2. rm - Removing Files and Directories The rm command is used to remove files and directories.\nRemove a directory and its contents: rm -r folder/ Remove multiple files: rm filename1 filename2 filename3 3. ls - Listing Files and Directories The ls command lists the contents of a directory.\nList all files and directories in long format: ls -al 4. history - Command History The history command displays previously executed commands.\nDisplay command history: history Clear command history: history -c 5. whoami - Current User The whoami command displays the current user.\nDisplay current user: whoami 6. uname - System Information The uname command provides system information.\nDisplay system and kernel information: uname -a Display kernel release information: uname -r 7. ping - Network Connectivity The ping command checks network connectivity to a host.\nPing a host four times: ping -c4 orioninsist.org 8. date - Current Date and Time The date command displays the current date and time.\nDisplay current date and time: date 9. cp - Copying Files and Directories The cp command is used to copy files and directories.\nCopy a file with a new name: cp filename newfilename Copy a file to a specific directory: cp filename /home/orion/ Copy a directory and its contents recursively: cp -r /home/orion/newfolder /tmp/newfolder 10. mkdir - Creating Directories The mkdir command creates directories.\nCreate a new directory: mkdir newfolder 11. pwd - Present Working Directory The pwd command displays the present working directory.\nDisplay current directory path: pwd 12. cd - Changing Directories The cd command is used to change directories.\nChange to the Desktop directory: cd Desktop Move up one directory level: cd .. 13. file - File Type Information The file command provides information about file types.\nDetermine file type: file filename.txt 14. head and tail - Viewing File Content The head and tail commands display the beginning and end of files.\nDisplay the first lines of a file: head filename.txt Display the last lines of a file: tail filename.txt 15. echo - Printing to the Terminal The echo command prints text to the terminal.\nAppend new content to a file: echo \"new content\" \u003e\u003e filename.txt 16. more and cat - File Content Display The more and cat commands display file content.\nDisplay file content with paging: more filename.txt Concatenate and display multiple files: cat filename.txt filename2.txt 17. mv - Moving and Renaming Files The mv command moves or renames files and directories.\nMove a file to a new directory: mv filename newfolder/ 18. wc - Word Count and Line Count The wc command counts words, lines, and characters in a file.\nCount words in a file: wc -w filename.txt Count lines in a file: wc -l filename.txt 19. sort - Sorting Lines in Files The sort command sorts lines in files.\nSort lines in a file: sort filename.txt Sort lines based on the second field: sort -k 2 filename.txt 20. grep - Searching for Text The grep command searches for text in files.\nSearch for a specific pattern: grep \"orion\" filename.txt Search for a pattern and exclude matches: grep -v \"orion\" filename.txt Conclusion These are just a few of the fundamental Linux terminal commands that can empower you to navigate and interact with your system efficiently. As you continue to explore the Linux terminal, you’ll discover even more commands and functionalities that can help you streamline your workflow and manage your system effectively. So, dive in, experiment, and become a master of the Linux command line!\nGitHub ⭐ GitHub: https://github.com/orioninsist/linux-basic\nMedium Medium subscribe to stay in the loop with our latest articles, tutorials, and projects. Join our community of tech enthusiasts, developers, and learners. Don’t miss out on valuable insights, coding tips, and exciting projects. Click the link to subscribe and embark on a journey of knowledge and growth. 📚🚀 #TechCommunity #Subscribe #StayUpdated #TechEnthusiasts\nFeel free to use this link description for your “Subscribe” link to entice readers to join your community and stay updated with your valuable content. Best of luck with your platform and building a thriving community! 📝✨\nThank you Thank you for your continued support, and I’m excited to have you on this enriching journey!\nSincerely, Founder of orioninsist\nFollow the white rabbit\nThank you for your support! Hello friends! I want to express my gratitude for your support. Your interest and encouragement mean a lot to me. To keep our connection strong and to provide you with more valuable content, I encourage you to stay connected with me on my social media platforms.\nI am excited to share more content with you through these platforms and I value your engagement and feedback. Thank you once again for your support. Let’s stay connected and keep the conversation going!\nYour feedback and engagement mean the world to me. Thank you once again for your unwavering support.\nLet’s continue to “follow the white rabbit” and discover new horizons together!\nBest regards,\nMuhammet Murat Kurkoglu\nFounder of orioninsist\nGoogle Survey Forms\nStay connected with me 🔗 Patreon 🔗 Buymeacoffee 🔗 Instagram 🔗 Twitter 🔗 Facebook 🔗 Pinterest 🔗 Website 🔗 GitHub 🔗 YouTube 🔗 Medium 🔗 LinkedIn-Personal 🔗 LinkedIn-Company\n",
+  "wordCount" : "954",
+  "inLanguage": "en",
+  "image":"https://orioninsist.org/blog/essential-linux-terminal-commands-and-examples.png","datePublished": "2023-08-19T22:10:39+03:00",
+  "dateModified": "2023-08-19T22:10:39+03:00",
+  "author":{
+    "@type": "Person",
+    "name": "orioninsist"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://orioninsist.org/blog/essential-linux-terminal-commands-and-examples/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "orioninsist",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://orioninsist.org/favicon.ico"
+    }
+  }
+}
+</script>
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6CE6YFM36C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6CE6YFM36C');
+</script>
+
+    <link rel="shortcut icon" href="/orioninsist-16-16.png">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2352285531358848"
+     crossorigin="anonymous"></script>
+
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://orioninsist.org/" accesskey="h" title="orioninsist (Alt + H)">orioninsist</a>
+            
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://orioninsist.org/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://orioninsist.org/blog" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://orioninsist.org/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://orioninsist.org/contact" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://orioninsist.org/tags" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://orioninsist.org/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://orioninsist.org/">Home</a>&nbsp;»&nbsp;<a href="https://orioninsist.org/blog/">Blogs</a></div>
+    <h1 class="post-title">
+      Essential Linux Terminal Commands and Examples
+    </h1>
+    <div class="post-description">
+      Master essential Linux terminal commands with explanations and practical examples. Learn how to navigate, copy, delete files, and more. Enhance your command-line skills now!
+    </div>
+    <div class="post-meta"><span title='2023-08-19 22:10:39 +0300 +03'>August 19, 2023</span>&nbsp;·&nbsp;orioninsist
+
+</div>
+  </header> 
+<figure class="entry-cover"><img loading="lazy" src="https://orioninsist.org/blog/essential-linux-terminal-commands-and-examples.png" alt="">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#1-tar---archiving-and-compression" aria-label="1. tar - Archiving and Compression">1. tar - Archiving and Compression</a></li>
+                <li>
+                    <a href="#2-rm---removing-files-and-directories" aria-label="2. rm - Removing Files and Directories">2. rm - Removing Files and Directories</a></li>
+                <li>
+                    <a href="#3-ls---listing-files-and-directories" aria-label="3. ls - Listing Files and Directories">3. ls - Listing Files and Directories</a></li>
+                <li>
+                    <a href="#4-history---command-history" aria-label="4. history - Command History">4. history - Command History</a></li>
+                <li>
+                    <a href="#5-whoami---current-user" aria-label="5. whoami - Current User">5. whoami - Current User</a></li>
+                <li>
+                    <a href="#6-uname---system-information" aria-label="6. uname - System Information">6. uname - System Information</a></li>
+                <li>
+                    <a href="#7-ping---network-connectivity" aria-label="7. ping - Network Connectivity">7. ping - Network Connectivity</a></li>
+                <li>
+                    <a href="#8-date---current-date-and-time" aria-label="8. date - Current Date and Time">8. date - Current Date and Time</a></li>
+                <li>
+                    <a href="#9-cp---copying-files-and-directories" aria-label="9. cp - Copying Files and Directories">9. cp - Copying Files and Directories</a></li>
+                <li>
+                    <a href="#10-mkdir---creating-directories" aria-label="10. mkdir - Creating Directories">10. mkdir - Creating Directories</a></li>
+                <li>
+                    <a href="#11-pwd---present-working-directory" aria-label="11. pwd - Present Working Directory">11. pwd - Present Working Directory</a></li>
+                <li>
+                    <a href="#12-cd---changing-directories" aria-label="12. cd - Changing Directories">12. cd - Changing Directories</a></li>
+                <li>
+                    <a href="#13-file---file-type-information" aria-label="13. file - File Type Information">13. file - File Type Information</a></li>
+                <li>
+                    <a href="#14-head-and-tail---viewing-file-content" aria-label="14. head and tail - Viewing File Content">14. head and tail - Viewing File Content</a></li>
+                <li>
+                    <a href="#15-echo---printing-to-the-terminal" aria-label="15. echo - Printing to the Terminal">15. echo - Printing to the Terminal</a></li>
+                <li>
+                    <a href="#16-more-and-cat---file-content-display" aria-label="16. more and cat - File Content Display">16. more and cat - File Content Display</a></li>
+                <li>
+                    <a href="#17-mv---moving-and-renaming-files" aria-label="17. mv - Moving and Renaming Files">17. mv - Moving and Renaming Files</a></li>
+                <li>
+                    <a href="#18-wc---word-count-and-line-count" aria-label="18. wc - Word Count and Line Count">18. wc - Word Count and Line Count</a></li>
+                <li>
+                    <a href="#19-sort---sorting-lines-in-files" aria-label="19. sort - Sorting Lines in Files">19. sort - Sorting Lines in Files</a></li>
+                <li>
+                    <a href="#20-grep---searching-for-text" aria-label="20. grep - Searching for Text">20. grep - Searching for Text</a></li>
+                <li>
+                    <a href="#conclusion" aria-label="Conclusion">Conclusion</a></li>
+                <li>
+                    <a href="#github" aria-label="GitHub">GitHub</a></li>
+                <li>
+                    <a href="#medium" aria-label="Medium">Medium</a></li>
+                <li>
+                    <a href="#thank-you" aria-label="Thank you">Thank you</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>The Linux terminal is a powerful tool that allows users to interact with their system through text-based commands. Whether you&rsquo;re a beginner or an experienced user, having a grasp of basic terminal commands is crucial. In this guide, we&rsquo;ll explore some essential Linux terminal commands along with explanations and practical examples.</p>
+<h2 id="1-tar---archiving-and-compression">1. tar - Archiving and Compression<a hidden class="anchor" aria-hidden="true" href="#1-tar---archiving-and-compression">#</a></h2>
+<p>The tar command is used for archiving and compressing files and folders.</p>
+<ul>
+<li>Create a compressed archive of a file:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">tar -zcvf archive.tar filename
+</span></span></code></pre></div><ul>
+<li>Create an archive of multiple files:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">tar -zcvf archive2.tar filename1 filename2 filename3
+</span></span></code></pre></div><ul>
+<li>Create an archive of a folder:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">tar -zcvf folder.tar folder/
+</span></span></code></pre></div><h2 id="2-rm---removing-files-and-directories">2. rm - Removing Files and Directories<a hidden class="anchor" aria-hidden="true" href="#2-rm---removing-files-and-directories">#</a></h2>
+<p>The rm command is used to remove files and directories.</p>
+<ul>
+<li>Remove a directory and its contents:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">rm -r folder/
+</span></span></code></pre></div><ul>
+<li>Remove multiple files:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">rm filename1 filename2 filename3
+</span></span></code></pre></div><h2 id="3-ls---listing-files-and-directories">3. ls - Listing Files and Directories<a hidden class="anchor" aria-hidden="true" href="#3-ls---listing-files-and-directories">#</a></h2>
+<p>The ls command lists the contents of a directory.</p>
+<ul>
+<li>List all files and directories in long format:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">ls -al
+</span></span></code></pre></div><h2 id="4-history---command-history">4. history - Command History<a hidden class="anchor" aria-hidden="true" href="#4-history---command-history">#</a></h2>
+<p>The history command displays previously executed commands.</p>
+<ul>
+<li>Display command history:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">history</span>
+</span></span></code></pre></div><ul>
+<li>Clear command history:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">history</span> -c
+</span></span></code></pre></div><h2 id="5-whoami---current-user">5. whoami - Current User<a hidden class="anchor" aria-hidden="true" href="#5-whoami---current-user">#</a></h2>
+<p>The whoami command displays the current user.</p>
+<ul>
+<li>Display current user:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">whoami
+</span></span></code></pre></div><h2 id="6-uname---system-information">6. uname - System Information<a hidden class="anchor" aria-hidden="true" href="#6-uname---system-information">#</a></h2>
+<p>The uname command provides system information.</p>
+<ul>
+<li>Display system and kernel information:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">uname -a
+</span></span></code></pre></div><ul>
+<li>Display kernel release information:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">uname -r
+</span></span></code></pre></div><h2 id="7-ping---network-connectivity">7. ping - Network Connectivity<a hidden class="anchor" aria-hidden="true" href="#7-ping---network-connectivity">#</a></h2>
+<p>The ping command checks network connectivity to a host.</p>
+<ul>
+<li>Ping a host four times:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">ping -c4 orioninsist.org
+</span></span></code></pre></div><h2 id="8-date---current-date-and-time">8. date - Current Date and Time<a hidden class="anchor" aria-hidden="true" href="#8-date---current-date-and-time">#</a></h2>
+<p>The date command displays the current date and time.</p>
+<ul>
+<li>Display current date and time:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">date
+</span></span></code></pre></div><h2 id="9-cp---copying-files-and-directories">9. cp - Copying Files and Directories<a hidden class="anchor" aria-hidden="true" href="#9-cp---copying-files-and-directories">#</a></h2>
+<p>The cp command is used to copy files and directories.</p>
+<ul>
+<li>Copy a file with a new name:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">cp filename newfilename
+</span></span></code></pre></div><ul>
+<li>Copy a file to a specific directory:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">cp filename /home/orion/
+</span></span></code></pre></div><ul>
+<li>Copy a directory and its contents recursively:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">cp -r /home/orion/newfolder /tmp/newfolder
+</span></span></code></pre></div><h2 id="10-mkdir---creating-directories">10. mkdir - Creating Directories<a hidden class="anchor" aria-hidden="true" href="#10-mkdir---creating-directories">#</a></h2>
+<p>The mkdir command creates directories.</p>
+<ul>
+<li>Create a new directory:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">mkdir newfolder
+</span></span></code></pre></div><h2 id="11-pwd---present-working-directory">11. pwd - Present Working Directory<a hidden class="anchor" aria-hidden="true" href="#11-pwd---present-working-directory">#</a></h2>
+<p>The pwd command displays the present working directory.</p>
+<ul>
+<li>Display current directory path:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">pwd</span>
+</span></span></code></pre></div><h2 id="12-cd---changing-directories">12. cd - Changing Directories<a hidden class="anchor" aria-hidden="true" href="#12-cd---changing-directories">#</a></h2>
+<p>The cd command is used to change directories.</p>
+<ul>
+<li>Change to the Desktop directory:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> Desktop
+</span></span></code></pre></div><ul>
+<li>Move up one directory level:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> ..
+</span></span></code></pre></div><h2 id="13-file---file-type-information">13. file - File Type Information<a hidden class="anchor" aria-hidden="true" href="#13-file---file-type-information">#</a></h2>
+<p>The file command provides information about file types.</p>
+<ul>
+<li>Determine file type:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">file filename.txt
+</span></span></code></pre></div><h2 id="14-head-and-tail---viewing-file-content">14. head and tail - Viewing File Content<a hidden class="anchor" aria-hidden="true" href="#14-head-and-tail---viewing-file-content">#</a></h2>
+<p>The head and tail commands display the beginning and end of files.</p>
+<ul>
+<li>Display the first lines of a file:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">head filename.txt
+</span></span></code></pre></div><ul>
+<li>Display the last lines of a file:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">tail filename.txt
+</span></span></code></pre></div><h2 id="15-echo---printing-to-the-terminal">15. echo - Printing to the Terminal<a hidden class="anchor" aria-hidden="true" href="#15-echo---printing-to-the-terminal">#</a></h2>
+<p>The echo command prints text to the terminal.</p>
+<ul>
+<li>Append new content to a file:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;new content&#34;</span> &gt;&gt; filename.txt
+</span></span></code></pre></div><h2 id="16-more-and-cat---file-content-display">16. more and cat - File Content Display<a hidden class="anchor" aria-hidden="true" href="#16-more-and-cat---file-content-display">#</a></h2>
+<p>The more and cat commands display file content.</p>
+<ul>
+<li>Display file content with paging:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">more filename.txt
+</span></span></code></pre></div><ul>
+<li>Concatenate and display multiple files:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">cat filename.txt filename2.txt
+</span></span></code></pre></div><h2 id="17-mv---moving-and-renaming-files">17. mv - Moving and Renaming Files<a hidden class="anchor" aria-hidden="true" href="#17-mv---moving-and-renaming-files">#</a></h2>
+<p>The mv command moves or renames files and directories.</p>
+<ul>
+<li>Move a file to a new directory:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">mv filename newfolder/
+</span></span></code></pre></div><h2 id="18-wc---word-count-and-line-count">18. wc - Word Count and Line Count<a hidden class="anchor" aria-hidden="true" href="#18-wc---word-count-and-line-count">#</a></h2>
+<p>The wc command counts words, lines, and characters in a file.</p>
+<ul>
+<li>Count words in a file:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">wc -w filename.txt
+</span></span></code></pre></div><ul>
+<li>Count lines in a file:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">wc -l filename.txt
+</span></span></code></pre></div><h2 id="19-sort---sorting-lines-in-files">19. sort - Sorting Lines in Files<a hidden class="anchor" aria-hidden="true" href="#19-sort---sorting-lines-in-files">#</a></h2>
+<p>The sort command sorts lines in files.</p>
+<ul>
+<li>Sort lines in a file:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sort filename.txt
+</span></span></code></pre></div><ul>
+<li>Sort lines based on the second field:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sort -k <span class="m">2</span> filename.txt
+</span></span></code></pre></div><h2 id="20-grep---searching-for-text">20. grep - Searching for Text<a hidden class="anchor" aria-hidden="true" href="#20-grep---searching-for-text">#</a></h2>
+<p>The grep command searches for text in files.</p>
+<ul>
+<li>Search for a specific pattern:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">grep <span class="s2">&#34;orion&#34;</span> filename.txt
+</span></span></code></pre></div><ul>
+<li>Search for a pattern and exclude matches:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">grep -v <span class="s2">&#34;orion&#34;</span> filename.txt
+</span></span></code></pre></div><h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>These are just a few of the fundamental Linux terminal commands that can empower you to navigate and interact with your system efficiently. As you continue to explore the Linux terminal, you&rsquo;ll discover even more commands and functionalities that can help you streamline your workflow and manage your system effectively. So, dive in, experiment, and become a master of the Linux command line!</p>
+<h2 id="github">GitHub<a hidden class="anchor" aria-hidden="true" href="#github">#</a></h2>
+<p>⭐ GitHub: <a href="https://github.com/orioninsist/linux-basic">https://github.com/orioninsist/linux-basic</a></p>
+<h2 id="medium">Medium<a hidden class="anchor" aria-hidden="true" href="#medium">#</a></h2>
+<p><a href="https://orioninsist.dev/subscribe">Medium</a> subscribe to stay in the loop with our latest articles, tutorials, and projects. Join our community of tech enthusiasts, developers, and learners. Don&rsquo;t miss out on valuable insights, coding tips, and exciting projects. Click the link to subscribe and embark on a journey of knowledge and growth. 📚🚀 #TechCommunity #Subscribe #StayUpdated #TechEnthusiasts</p>
+<p>Feel free to use this link description for your &ldquo;Subscribe&rdquo; link to entice readers to join your community and stay updated with your valuable content. Best of luck with your platform and building a thriving community! 📝✨</p>
+<h2 id="thank-you">Thank you<a hidden class="anchor" aria-hidden="true" href="#thank-you">#</a></h2>
+<p>Thank you for your continued support, and I’m excited to have you on this enriching journey!</p>
+<p>Sincerely, Founder of orioninsist</p>
+<p>Follow the white rabbit</p>
+<p>Thank you for your support! Hello friends! I want to express my gratitude for your support. Your interest and encouragement mean a lot to me. To keep our connection strong and to provide you with more valuable content, I encourage you to stay connected with me on my social media platforms.</p>
+<p>I am excited to share more content with you through these platforms and I value your engagement and feedback. Thank you once again for your support. Let’s stay connected and keep the conversation going!</p>
+<p>Your feedback and engagement mean the world to me. Thank you once again for your unwavering support.</p>
+<p>Let’s continue to “follow the white rabbit” and discover new horizons together!</p>
+<p>Best regards,</p>
+<p>Muhammet Murat Kurkoglu</p>
+<p>Founder of orioninsist</p>
+<p><a href="https://forms.gle/2D9r2R1TArWNsupT8">Google Survey Forms</a></p>
+<p>Stay connected with me 🔗 <a href="https://www.patreon.com/orioninsist">Patreon</a> 🔗 <a href="https://www.buymeacoffee.com/orioninsist">Buymeacoffee</a> 🔗 <a href="https://www.instagram.com/insistorion/">Instagram</a> 🔗 <a href="https://twitter.com/InsistOrion">Twitter</a> 🔗 <a href="https://www.facebook.com/insistorion">Facebook</a> 🔗 <a href="https://www.pinterest.com/orioninsist/">Pinterest</a> 🔗 <a href="https://orioninsist.org/">Website</a> 🔗 <a href="https://github.com/orioninsist">GitHub</a> 🔗 <a href="https://www.youtube.com/@orioninsist-official/">YouTube</a> 🔗 <a href="https://orioninsist.dev/">Medium</a> 🔗 <a href="https://www.linkedin.com/in/muhammet-murat-kurkoglu/">LinkedIn-Personal</a> 🔗 <a href="https://www.linkedin.com/company/orioninsist/">LinkedIn-Company</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://orioninsist.org/tags/linux/">linux</a></li>
+      <li><a href="https://orioninsist.org/tags/terminal/">terminal</a></li>
+      <li><a href="https://orioninsist.org/tags/commands/">commands</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://orioninsist.org/">orioninsist</a></span>
+    <span>
+        All rights reserved.
+    </span>
+    
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

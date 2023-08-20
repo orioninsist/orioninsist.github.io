@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>contact on orioninsist</title>
+    <link>https://orioninsist.org/tags/contact/</link>
+    <description>Recent content in contact on orioninsist</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 12 Aug 2023 10:37:53 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/contact/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>https://orioninsist.org/contact/</link>
+      <pubDate>Sat, 12 Aug 2023 10:37:53 +0300</pubDate>
+      
+      <guid>https://orioninsist.org/contact/</guid>
+      <description>Hello!🚀 Feel free to get in touch with Muhammet Murat Kurkoglu. Whether you have questions about technology, want to discuss collaboration opportunities, or anything else, I&amp;#39;d be happy to hear from you.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>code on orioninsist</title>
+    <link>https://orioninsist.org/tags/code/</link>
+    <description>Recent content in code on orioninsist</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 02 Aug 2023 13:47:20 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering Data Analysis With Pandas Series Ultimate Guide</title>
+      <link>https://orioninsist.org/blog/mastering-data-analysis-with-pandas-series-ultimate-guide/</link>
+      <pubDate>Wed, 02 Aug 2023 13:47:20 +0300</pubDate>
+      
+      <guid>https://orioninsist.org/blog/mastering-data-analysis-with-pandas-series-ultimate-guide/</guid>
+      <description>Unlock Data Insights with Python Pandas Series 🐼📊 | Comprehensive Guide to Data Analysis #DataScience #Python #DataManipulation</description>
+    </item>
+    
+  </channel>
+</rss>
