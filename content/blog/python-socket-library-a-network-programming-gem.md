@@ -6,8 +6,12 @@ description: "Explore the power of Python's socket library for network programmi
 tags: ["python","networking","socketprogramming","programming","technology","pythonlibraries","networkcommunication"]
 keywords: ["python","networking","socketprogramming","programming","technology","pythonlibraries","networkcommunication"]
 author: "orioninsist"
+type: "blog"
+language: "English"
+slug: "python-socket-library-a-network-programming-gem"
 cover:
      image: "/blog/python-socket-library-a-network-programming-gem.md.png"
+     alt: "python-socket-library-a-network-programming-gem-image"
 ---
 
 ## Introduction

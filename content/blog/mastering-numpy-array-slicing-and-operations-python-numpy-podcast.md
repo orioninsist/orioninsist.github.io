@@ -6,8 +6,12 @@ description: "🔥 Welcome to the ultimate Python NumPy podcast! 🔥 In this vi
 tags: ["python","numpy","programming","datascience","podcast","codinglife","short","shorts","youtube"]
 keywords: ["python","numpy","programming","datascience","podcast","codinglife","short","shorts","youtube"]
 author: "orioninsist"
+type: "blog"
+language: "English"
+slug: "mastering-numpy-array-slicing-and-operations-python-numpy-podcast"
 cover:
      image: "/blog/mastering-numpy-array-slicing-and-operations-python-numpy-podcast.png"
+     alt: "mastering-numpy-array-slicing-and-operations-python-numpy-podcast-image"
 ---
 
 ## YouTube

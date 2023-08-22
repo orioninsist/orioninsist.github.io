@@ -6,8 +6,12 @@ description: "Dive into the world of NumPy and learn how to create, manipulate, 
 tags: ["python","programming","dataanalysis","numpy","datascience","tensorflow"]
 keywords: ["python","programming","dataanalysis","numpy","datascience","tensorflow"]
 author: "orioninsist"
+type: "blog"
+language: "English"
+slug: "mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast"
 cover:
      image: "/blog/mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast.png"
+     alt: "mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast-image"
 ---
 ## YouTube
 

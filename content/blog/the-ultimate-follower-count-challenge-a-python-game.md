@@ -6,8 +6,12 @@ description: "Guess followers & play with Python! Random accounts, test your int
 tags: ["python" ,"gamedev" ,"coding" ,"programming","fun" ,"challenge"]
 keywords: ["python" ,"gamedev" ,"coding" ,"programming","fun" ,"challenge"]
 author: "orioninsist"
+type: "blog"
+language: "English"
+slug: "the-ultimate-follower-count-challenge-a-python-game"
 cover:
     image: "/blog/the-ultimate-follower-count-challenge-a-python-game.webp"
+    alt: "the-ultimate-follower-count-challenge-a-python-game-image"
 ---
 
 ## Introduction

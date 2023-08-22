@@ -6,8 +6,13 @@ description: "Discover 10 amazing Django projects that demonstrate its power and
 tags: ["programming","django","webdevelopment"]
 keywords: ["programming","django","webdevelopment"]
 author: orioninsist
+language: "English"
+type: "blog"
+slug: "10-awesome-django-projects-to-inspire-your-web-development-journey"
 cover:
      image: "/blog/10-awesome-django-projects-to-inspire-your-web-development-journey.md.png"
+      alt : "10-awesome-django-projects-to-inspire-your-web-development-journey-image"
+
 ---
 
 Looking for some inspiration for your web development journey? Look no further! In this article, we'll explore 10 amazing Django projects that showcase the power and versatility of this popular web framework.

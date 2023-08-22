@@ -11,7 +11,7 @@ language: "English"
 type: "blog"
 cover:
     image: "/blog/self-discovery-and-goal-setting.png"
-    alt : "Self Discovery and Goal Setting Feature Image"
+    alt : "self-discovery-and-goal-setting-image"
 ---
 
 Welcome to the "Personal Development Series" brought to you by orioninsist! In this enlightening episode, we dive deep into the world of self-discovery and goal setting, two essential pillars of personal growth. Join us on this journey to unlock your true potential and create a more fulfilling life. Don't forget to hit the like button, subscribe, and ring the notification bell for more empowering content! 🔔✨

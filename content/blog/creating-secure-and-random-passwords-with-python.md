@@ -6,8 +6,12 @@ description: "Learn how to generate secure and random passwords using Python. Re
 tags: ["python","security","passwordgeneration","codeblog"]
 keywords: ["python","security","passwordgeneration","codeblog"]
 author: "orioninsist"
+language: "English"
+type: "blog"
+slug: "creating-secure-and-random-passwords-with-python"
 cover:
      image: "/blog/creating-secure-and-random-passwords-with-python.md.png"
+     alt: "creating-secure-and-random-passwords-with-python-image"
 ---
 
 In today's digital world, maintaining strong passwords is crucial to protect our online accounts. In this article, we will explore how to generate secure and random passwords using Python.

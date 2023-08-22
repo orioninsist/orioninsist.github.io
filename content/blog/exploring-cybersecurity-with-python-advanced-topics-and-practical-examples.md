@@ -6,8 +6,12 @@ description: "Dive into advanced cybersecurity topics with Python, learn practic
 tags: ["cybersecurity","python","programming","security","ethicalhacking","networksecurity"]
 keywords: ["cybersecurity","python","programming","security","ethicalhacking","networksecurity"]
 author: "orioninsist"
+slug: "exploring-cybersecurity-with-python-advanced-topics-and-practical-examples"
+language: "English"
+type: "blog"
 cover:
      image: "/blog/exploring-cybersecurity-with-python-advanced-topics-and-practical-examples.md.png"
+     alt: "exploring-cybersecurity-with-python-advanced-topics-and-practical-examples-image"
 ---
 
 ## Continuing the Journey: Exploring Cybersecurity with Python

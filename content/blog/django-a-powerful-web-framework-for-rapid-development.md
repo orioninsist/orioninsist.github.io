@@ -6,8 +6,12 @@ description: "Explore the advantages, disadvantages, and alternatives of Django,
 tags: ["django","flask","rapiddevelopment","python","rubyonrails","ruby","aspnet"]
 keywords: ["django","flask","rapiddevelopment","python","rubyonrails","ruby","aspnet"]
 author: "orioninsist"
+language: "English"
+type: "blog"
+slug: "django-a-powerful-web-framework-for-rapid-development"
 cover: 
      image: "/blog/django-a-powerful-web-framework-for-rapid-development.md.png"
+     alt: "django-a-powerful-web-framework-for-rapid-development-image"
 ---
 
 ### Introduction

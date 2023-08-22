@@ -6,8 +6,12 @@ description: "Learn how to build a Python client-server chat app! 🚀📲 Disco
 tags: ["python","networking","socketprogramming","programming","technology","pythonlibraries","networkcommunication"]
 keywords: ["python","networking","socketprogramming","programming","technology","pythonlibraries","networkcommunication"]
 author: "orioninsist"
+type: "blog"
+language: "English"
+slug: "how-to-build-a-simple-client-server-chat-application-in-python"
 cover:
      image: "/blog/how-to-build-a-simple-client-server-chat-application-in-python.md.png"
+     alt: "how-to-build-a-simple-client-server-chat-application-in-python-image"
 ---
 
 ## Introduction

@@ -6,8 +6,12 @@ description: "Discover the versatility of Python lists! From indexing to nesting
 tags: ["python","pythonlist","dataorganization","pythonprogramming"]
 keywords: ["python","pythonlist","dataorganization","pythonprogramming"]
 author: "orioninsist"
+type: "blog"
+language: "English"
+slug: "mastering-lists-in-python-unleashing-the-power-of-data-organization"
 cover:
      image: "/blog/mastering-lists-in-python-unleashing-the-power-of-data-organization.png"
+     alt: "mastering-lists-in-python-unleashing-the-power-of-data-organization-image"
 ---
 
 ## Introduction

@@ -6,8 +6,12 @@ description: "Learn how to create and manipulate pandas Series, versatile data s
 tags: ["python", "datascience", "pandas", "numpy", "dataanalysis", "programming", "coding", "data", "datastructure", "analysis"]
 keywords: ["python", "datascience", "pandas", "numpy", "dataanalysis", "programming", "coding", "data", "datastructure", "analysis"]
 author: "orioninsist"
+type: "blog"
+language: "English"
+slug: "understanding-pandas-series-labeled-and-unlabeled-data-structures"
 cover:
     image: "/blog/understanding-pandas-series-labeled-and-unlabeled-data-structure.webp"
+    alt: "understanding-pandas-series-labeled-and-unlabeled-data-structures-image"
 ---
 
 ## Introduction

@@ -6,8 +6,12 @@ description: "Introducing the Random Password Generator project! Generate secure
 tags: ["python","passwordgenerator", "project", "coding", "security"]
 keywords: ["python","passwordgenerator", "project", "coding", "security"]
 author: "orioninsist"
+type: "blog"
+language: "English"
+slug: "random-password-generator"
 cover:
     image: "/blog/random-password-generator.md.png"
+    alt: "random-password-generator-image"
 ---
 
 ## Overview

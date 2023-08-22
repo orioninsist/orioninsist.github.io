@@ -9,8 +9,10 @@ slug: "essential-linux-terminal-commands-and-examples"
 author: "orioninsist"
 language: "English"
 type: "blog"
+slug: "essential-linux-terminal-commands-and-examples"
 cover:
    image: "/blog/essential-linux-terminal-commands-and-examples.png"
+   alt: "essential-linux-terminal-commands-and-examples-image"
 
 ---
 

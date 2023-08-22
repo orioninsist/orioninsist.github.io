@@ -6,8 +6,12 @@ description: "Learn how to establish basic client-server communication with Pyth
 tags: ["python","networking","socketprogramming","programming","technology","pythonlibraries","networkcommunication"]
 keywords: ["python","networking","socketprogramming","programming","technology","pythonlibraries","networkcommunication"]
 author: "orioninsist"
+language: "English"
+type: "blog"
+slug: "building-a-simple-client-server-communication-in-python"
 cover:
      image: "/blog/building-a-simple-client-server-communication-in-python.md.png"
+     alt: "building-a-simple-client-server-communication-in-python-image"
 ---
 
 ## Introduction
