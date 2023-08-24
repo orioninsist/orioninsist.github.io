@@ -286,7 +286,6 @@ Stay connected with me 🔗 [Patreon](https://www.patreon.com/orioninsist) 🔗 
 
 
 
-{{ partials "comments.html" . }}
 
 
 
