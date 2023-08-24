@@ -155,10 +155,8 @@ params:
       url: "https://github.com/orioninsist"
     - name: "youtube"
       url: "https://www.youtube.com/@orioninsist-official/"
-    - name: "youtube"
-      url: "https://www.youtube.com/playlist?list=PLbn9tgwkldXPVcKAiOAn-i5OgWYllLSse"  
-    - name: "cv"
-      url: "https://www.youtube.com/@orioninsist-official/"
+      #- name: "cv"
+    #  url: "https://www.youtube.com/@orioninsist-official/"
     - name: "buymeacoffee"
       url: "https://www.buymeacoffee.com/orioninsist/"
     - name: "facebook"
@@ -185,16 +183,7 @@ params:
       url: "https://twitter.com/InsistOrion"
     - name: "rss"
       url: "https://orioninsist.org/index.xml"
-    - name: "other"     
-      url: "https://orioninsist.org/blog/essential-linux-terminal-commands-and-examples/"
-    - name: "other"
-      url: "https://orioninsist.org/blog/self-discovery-and-goal-setting/"
-    - name: "other"
-      url: "https://orioninsist.org/blog/mastering-data-analysis-with-pandas-series-ultimate-guide/"    
-    - name: "other"
-      url: "https://orioninsist.org/blog/understanding-pandas-series-labeled-and-unlabeled-data-structures/"    
-    - name: "other"
-      url: "https://orioninsist.org/blog/mastering-numpy-array-slicing-and-operations-python-numpy-podcast/"    
+   
       
        
    
