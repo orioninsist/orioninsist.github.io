@@ -125,7 +125,7 @@ params:
   profileMode:
     enabled: true
     title: "Muhammet Murat Kurkoglu"
-    subtitle: "Hi 👋, I'm Muhammet Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics. I have a keen interest and expertise in artificial intelligence, machine learning, deep learning, data science, and cybersecurity."
+    subtitle: "Hi,I'm Muhammet Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics."
     imageUrl: "/home/muhammet-murat-kurkoglu.webp"
     imageWidth: 220
     imageHeight: 220
