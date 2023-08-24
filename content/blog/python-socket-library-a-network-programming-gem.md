@@ -1,8 +1,8 @@
 ---
-title: "Python Socket Library: A Network Programming Gem"
+title: "Python Socket Library A Network Programming Gem"
 date: 2023-07-04T09:43:41+03:00
 draft: false
-description: "Explore the power of Python's socket library for network programming! Learn socket creation, data transmission, and use cases in this blog post. Level up your networking projects with this valuable tool. Happy coding! 🌐💻🐍"
+description: "Explore the power of Python's socket library for network programming! Learn socket creation, data transmission, and use cases in this blog post. Level up your networking projects with this valuable tool. Happy coding!"
 tags: ["python","networking","socketprogramming","programming","technology","pythonlibraries","networkcommunication"]
 keywords: ["python","networking","socketprogramming","programming","technology","pythonlibraries","networkcommunication"]
 author: "orioninsist"
