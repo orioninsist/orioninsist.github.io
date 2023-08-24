@@ -155,6 +155,8 @@ params:
       url: "https://github.com/orioninsist"
     - name: "youtube"
       url: "https://www.youtube.com/@orioninsist-official/"
+    - name: "youtube"
+      url: "https://www.youtube.com/playlist?list=PLbn9tgwkldXPVcKAiOAn-i5OgWYllLSse"  
     - name: "cv"
       url: "https://www.youtube.com/@orioninsist-official/"
     - name: "buymeacoffee"
