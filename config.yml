@@ -134,9 +134,9 @@ params:
     imageWidth: 220
     imageHeight: 220
 
-    # buttons:
-    #   - name: Resume
-    #     url: ""
+    buttons:
+     - name: Blog
+       url: "/blog"
 
   # List View
   hideDescriptionInList: false
