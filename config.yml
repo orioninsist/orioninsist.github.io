@@ -97,6 +97,9 @@ menu:
    
 
 params:
+  ogTitle: "orioninsist"
+  ogDescription: "Hi,I’m Muhammet Murat Kurkoglu, the founder of orioninsist.I’m a computer engineer and hold a degree in economics."
+  ogImage: "/home/muhammet-murat-kurkoglu.webp"
   ShowShareButtons: true
   ShowReadingTime: true
   ShowPostNavLinks: true
