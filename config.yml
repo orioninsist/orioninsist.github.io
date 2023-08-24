@@ -193,8 +193,7 @@ params:
       url: "https://orioninsist.org/blog/understanding-pandas-series-labeled-and-unlabeled-data-structures/"    
     - name: "other"
       url: "https://orioninsist.org/blog/mastering-numpy-array-slicing-and-operations-python-numpy-podcast/"    
-    - name: "other"
-      url: "https://orioninsist.org/blog/mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast/"    
+      
        
    
 
