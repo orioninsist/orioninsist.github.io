@@ -197,14 +197,11 @@ params:
       url: "https://orioninsist.org/blog/mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast/"    
     - name: "other"
       url: "https://orioninsist.org/blog/the-ultimate-follower-count-challenge-a-python-game/"    
-    - name: "other"
-      url: "https://orioninsist.org/blog/mastering-lists-in-python-unleashing-the-power-of-data-organization/"    
-    - name: "other"
-      url: "https://orioninsist.org/blog/building-a-simple-client-server-communication-in-python/"    
+    
 
+ 
 
-
-
+ 
 
   
   # text search
