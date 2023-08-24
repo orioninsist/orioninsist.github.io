@@ -131,7 +131,7 @@ params:
    Home Page
   profileMode:
     enabled: true
-    title: "<h1>Muhammet Murat Kurkoglu</h1>"
+    title: "Muhammet Murat Kurkoglu"
     subtitle: "<h2>Hi,I'm Muhammet Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
     imageUrl: "/home/muhammet-murat-kurkoglu.webp"
     imageWidth: 220
