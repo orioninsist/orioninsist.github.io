@@ -185,6 +185,22 @@ params:
       url: "https://orioninsist.org/index.xml"
     - name: "other"     
       url: "https://orioninsist.org/blog/essential-linux-terminal-commands-and-examples/"
+    - name: "other"
+      url: "https://orioninsist.org/blog/self-discovery-and-goal-setting/"
+    - name: "other"
+      url: "https://orioninsist.org/blog/mastering-data-analysis-with-pandas-series-ultimate-guide/"    
+    - name: "other"
+      url: "https://orioninsist.org/blog/understanding-pandas-series-labeled-and-unlabeled-data-structures/"    
+    - name: "other"
+      url: "https://orioninsist.org/blog/mastering-numpy-array-slicing-and-operations-python-numpy-podcast/"    
+    - name: "other"
+      url: "https://orioninsist.org/blog/mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast/"    
+    - name: "other"
+      url: "https://orioninsist.org/blog/the-ultimate-follower-count-challenge-a-python-game/"    
+    - name: "other"
+      url: "https://orioninsist.org/blog/mastering-lists-in-python-unleashing-the-power-of-data-organization/"    
+    - name: "other"
+      url: "https://orioninsist.org/blog/building-a-simple-client-server-communication-in-python/"    
 
 
 
