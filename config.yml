@@ -97,6 +97,10 @@ menu:
    
 
 params:
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  comments: true
   showToc: true
   Description: "Hi,I’m Muhammet Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
   metaDescription: "Hi,I’m Muhammet Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
@@ -178,7 +182,9 @@ params:
     - name: "twitter"
       url: "https://twitter.com/InsistOrion"
     - name: "rss"
-      url: "https://orioninsist.org/index.xml"   
+      url: "https://orioninsist.org/index.xml"
+    - name: "other"     
+      url: "https://orioninsist.org/blog/essential-linux-terminal-commands-and-examples/"
 
 
 
