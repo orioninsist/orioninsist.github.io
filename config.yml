@@ -98,15 +98,15 @@ menu:
 
 params:
   ogTitle: "orioninsist"
-  ogDescription: "Hi,I’m Muhammet Murat Kurkoglu, the founder of orioninsist.I’m a computer engineer and hold a degree in economics."
-  ogImage: "/home/muhammet-murat-kurkoglu.webp"
+  ogDescription: "Hi,I’m Murat Kurkoglu, the founder of orioninsist.I’m a computer engineer and hold a degree in economics."
+  ogImage: "/home/murat-kurkoglu.webp"
   ShowShareButtons: true
   ShowReadingTime: true
   ShowPostNavLinks: true
   comments: true
   showToc: true
-  Description: "Hi,I’m Muhammet Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
-  metaDescription: "Hi,I’m Muhammet Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
+  Description: "Hi,I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
+  metaDescription: "Hi,I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
   author: orioninsist
   TocOpen: false
   ShowBreadCrumbs: true
@@ -131,9 +131,9 @@ params:
    Home Page
   profileMode:
     enabled: true
-    title: "Muhammet Murat Kurkoglu"
-    subtitle: "<h2>Hi,I'm Muhammet Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
-    imageUrl: "/home/muhammet-murat-kurkoglu.webp"
+    title: "Murat Kurkoglu"
+    subtitle: "<h2>Hi,I'm Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
+    imageUrl: "/home/murat-kurkoglu.webp"
     imageWidth: 220
     imageHeight: 220
 
@@ -153,7 +153,7 @@ params:
     - name: "email"
       url: "mailto:muhammetmuratkurkoglu@gmail.com"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/muhammet-murat-kurkoglu/"
+      url: "https://www.linkedin.com/in/murat-kurkoglu/"
     - name: "github"
       url: "https://github.com/orioninsist"
     - name: "youtube"
