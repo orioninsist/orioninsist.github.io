@@ -63,7 +63,7 @@ https://www.patreon.com/posts/personal-series-87492174?utm_medium=clipboard_copy
 ## Buy me a coffee
 https://www.buymeacoffee.com/orioninsist/personal-development-series-episode-1-self-discovery-goal-setting
 ## LinkedIn Personal
-https://www.linkedin.com/pulse/self-discovery-goal-setting-muhammet-murat-kurkoglu
+https://www.linkedin.com/pulse/self-discovery-goal-setting--murat-kurkoglu
 ## LinkedIn Company
 https://www.linkedin.com/pulse/self-discovery-goal-setting-orioninsist
 ## GitHub
@@ -85,7 +85,7 @@ https://www.linkedin.com/pulse/self-discovery-goal-setting-orioninsist
 
 🚀 LinkedIn Company: https://www.linkedin.com/company/orioninsist/
 
-🚀 LinkedIn Personal: https://www.linkedin.com/in/muhammet-murat-kurkoglu/
+🚀 LinkedIn Personal: https://www.linkedin.com/in/-murat-kurkoglu/
 
 🚀 GitHub: https://github.com/orioninsist
 
@@ -126,13 +126,13 @@ Let’s continue to “follow the white rabbit” and discover new horizons toge
 
 Best regards,
 
-Muhammet Murat Kurkoglu
+ Murat Kurkoglu
 
 Founder of orioninsist
 
 [Google Survey Forms](https://forms.gle/xyziUcLkMdtkiu3E7)
 
-Stay connected with me 🔗 [Patreon](https://www.patreon.com/orioninsist) 🔗 [Buymeacoffee](https://www.buymeacoffee.com/orioninsist) 🔗 [Instagram](https://www.instagram.com/insistorion/) 🔗 [Twitter](https://twitter.com/InsistOrion) 🔗 [Facebook](https://www.facebook.com/insistorion) 🔗 [Pinterest](https://www.pinterest.com/orioninsist/) 🔗 [Website](https://orioninsist.org/) 🔗 [GitHub](https://github.com/orioninsist) 🔗 [YouTube](https://www.youtube.com/@orioninsist-official/) 🔗 [Medium](https://orioninsist.dev/) 🔗 [LinkedIn-Personal](https://www.linkedin.com/in/muhammet-murat-kurkoglu/) 🔗 [LinkedIn-Company](https://www.linkedin.com/company/orioninsist/) 
+Stay connected with me 🔗 [Patreon](https://www.patreon.com/orioninsist) 🔗 [Buymeacoffee](https://www.buymeacoffee.com/orioninsist) 🔗 [Instagram](https://www.instagram.com/insistorion/) 🔗 [Twitter](https://twitter.com/InsistOrion) 🔗 [Facebook](https://www.facebook.com/insistorion) 🔗 [Pinterest](https://www.pinterest.com/orioninsist/) 🔗 [Website](https://orioninsist.org/) 🔗 [GitHub](https://github.com/orioninsist) 🔗 [YouTube](https://www.youtube.com/@orioninsist-official/) 🔗 [Medium](https://orioninsist.dev/) 🔗 [LinkedIn-Personal](https://www.linkedin.com/in/-murat-kurkoglu/) 🔗 [LinkedIn-Company](https://www.linkedin.com/company/orioninsist/) 
 
 
 

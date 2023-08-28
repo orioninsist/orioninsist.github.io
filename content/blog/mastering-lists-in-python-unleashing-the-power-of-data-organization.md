@@ -54,7 +54,7 @@ Let’s continue to “follow the white rabbit” and discover new horizons toge
 
 Best regards,
 
-Muhammet Murat Kurkoglu
+ Murat Kurkoglu
 
 Founder of orioninsist
 

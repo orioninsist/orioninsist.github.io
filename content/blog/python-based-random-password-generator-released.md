@@ -42,7 +42,7 @@ Let's continue to "follow the white rabbit" and discover new horizons together!
 
 **Best regards,**
 
-Muhammet Murat Kurkoglu\
+ Murat Kurkoglu\
 Founder of **orioninsist**
 
 [Google Survey Forms](https://forms.gle/Q4o5PNejotsHTNq27)
@@ -59,5 +59,5 @@ Founder of **orioninsist**
 🔗 [GitHub](https://github.com/orioninsist)
 🔗 [YouTube](https://www.youtube.com/@orioninsist-official/)
 🔗 [Medium](https://orioninsist.dev/)
-🔗 [LinkedIn](https://www.linkedin.com/in/muhammet-murat-kurkoglu/)
+🔗 [LinkedIn](https://www.linkedin.com/in/-murat-kurkoglu/)
 🔗 [LinkedIn](https://www.linkedin.com/company/orioninsist/)

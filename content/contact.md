@@ -2,7 +2,7 @@
 title: "Contact"
 date: 2023-08-12T10:37:53+03:00
 draft: false
-description: "Hello!🚀 Feel free to get in touch with Muhammet Murat Kurkoglu. Whether you have questions about technology, want to discuss collaboration opportunities, or anything else, I'd be happy to hear from you."
+description: "Hello!🚀 Feel free to get in touch with  Murat Kurkoglu. Whether you have questions about technology, want to discuss collaboration opportunities, or anything else, I'd be happy to hear from you."
 author: "orioninsist"
 tags: ["contact","orioninsist","me"]
 keywords: ["contact","orioninsist","me"]
@@ -17,7 +17,7 @@ cover:
 
 ## Stay connected for more transformative content! Follow us on
 
-🚀 Gmail: muhammetmuratkurkoglu@gmail.com
+🚀 Gmail: muratkurkoglu@gmail.com
 
 🚀 YouTube: https: www.youtube.com/@orioninsist-official/
 
@@ -51,7 +51,7 @@ cover:
 
 🚀 LinkedIn Company: https://www.linkedin.com/company/orioninsist/
 
-🚀 LinkedIn Personal: https://www.linkedin.com/in/muhammet-murat-kurkoglu/
+🚀 LinkedIn Personal: https://www.linkedin.com/in/-murat-kurkoglu/
 
 🚀 GitHub: https://github.com/orioninsist
 
