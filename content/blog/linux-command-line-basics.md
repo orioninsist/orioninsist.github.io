@@ -10,7 +10,7 @@ author: "orioninsist"
 language: "English"
 type: "blog"
 cover:
-   image: "/blog/linux-command-line-basics.png"
+   image: "/blog/linux-command-line-basics.png" 
    alt: "linux-command-line-basics-image"
 ---
 
