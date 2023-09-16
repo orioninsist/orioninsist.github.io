@@ -4,7 +4,7 @@ date: 2023-09-16T11:21:46+03:00
 draft: false
 description: "Learn Linux essentials: cp, mv, clear, and more. Boost your productivity with these vital Linux commands."
 keywords: ["linux","productivity","basic-commands","command-line"]
-tags:["linux","productivity","basic-commands","command-line"]
+tags: ["linux","productivity","basic-commands","command-line"]
 slug: "mastering-essential-linux-commands"
 author: "orioninsist"
 language: "English"
