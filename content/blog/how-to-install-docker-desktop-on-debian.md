@@ -5,8 +5,8 @@ draft: false
 author: "orioninsist"
 type: "blog"
 slug: "how-to-install-docker-desktop-on-debian"
-keywords: ["devops","container","docker","linux","debian']
-tags: ["devops","container","docker","linux","debian']
+keywords: ["devops","container","docker","linux","debian"]
+tags: ["devops","container","docker","linux","debian"]
 desciption: "Learn how to install Docker on your Debian-based system quickly for efficient containerization" 
 language: "English"
 cover:
