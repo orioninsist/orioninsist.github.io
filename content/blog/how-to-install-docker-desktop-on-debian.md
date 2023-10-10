@@ -10,8 +10,8 @@ tags: ["devops","container","docker","linux","debian"]
 desciption: "Learn how to install Docker on your Debian-based system quickly for efficient containerization" 
 language: "English"
 cover:
-    image: "/blog/how-to-install-docker-desktop-on-debian"
-    alt: "how-to-install-docker-desktop-on-debian"
+     image: "/blog/how-to-install-docker-desktop-on-debian.png"
+     alt: "how-to-install-docker-desktop-on-debian"
 ---
 
 Docker is a powerful platform that allows you to develop, ship, and run applications inside containers. Installing Docker on Debian is a straightforward process, and in this guide, we'll walk you through the steps to get Docker Desktop up and running on your Debian-based system.
