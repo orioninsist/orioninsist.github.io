@@ -34,7 +34,7 @@ menu:
       name: Blog
       url: /blog
       weight: 20
-       - identifier: news
+    - identifier: news
       name: News
       url: /news
       weight: 25
