@@ -34,6 +34,10 @@ menu:
       name: Blog
       url: /blog
       weight: 20
+    - identifier: project
+      name: Project
+      url: /project
+      weight: 24
     - identifier: news
       name: News
       url: /news
