@@ -16,9 +16,9 @@ cover:
 
 ## Docker a Comprehensive Guide to the Basic Commands
 - [orioninsist.org](https://orioninsist.org/project/devops/2023/2023-11/docker-a-comprehensive-guide-to-the-basic-commands/)
-- [orioninsist.dev]()
+- [orioninsist.dev](https://orioninsist.dev/docker-a-comprehensive-guide-to-the-basic-commands-35a727da430a)
 - [orioninsist.net]()
-- [https://medium.com/@orioninsist]()
+- [https://medium.com/@orioninsist](https://medium.com/@orioninsist/docker-a-comprehensive-guide-to-the-basic-commands-35a727da430a)
 - [Hacker News]()
 - [Hackernoon]()
 - [LinkedIn Personal]()
