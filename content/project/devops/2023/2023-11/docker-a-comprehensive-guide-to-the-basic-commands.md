@@ -34,13 +34,13 @@ Containerization is a way of packaging an application and its dependencies into 
 Docker provides a number of commands that you can use to manage your containers. These commands are used to create, start, stop, and delete containers.
 
 The following is a list of the basic Docker commands:
-
+```markdown
 docker info: Displays information about the Docker daemon
 docker ps: Lists all running containers
 docker run: Creates and starts a container
 docker stop: Stops a container
 docker rm: Deletes a container
-
+```
 ``` bash
 docker info
 ```
