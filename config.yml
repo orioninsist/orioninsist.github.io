@@ -3,7 +3,6 @@ baseURL : "https://orioninsist.org/"
 languageCode : en-us
 title : "orioninsist"
 pageinate: 6
-theme: ["PaperMod"]
 enableInlineShortcodes: true
 buildDrafts: false
 buildFuture: false
@@ -244,6 +243,3 @@ privacy:
 privacyPolicy: "/privacy-policy.html"
 
 
-module:
-  imports:
-  - path: github.com/adityatelange/hugo-PaperMod
