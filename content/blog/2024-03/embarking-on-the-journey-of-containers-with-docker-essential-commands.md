@@ -152,3 +152,132 @@ sudo docker restart <container_id>
 
 This command restarts.
 
+## 15.Running a CentOS Container:
+```shell
+sudo docker container run -it centos:7 bash
+```
+sudo: Grants root privileges for container operations.
+docker container run: Creates a new Docker container.
+-it: Allocates a pseudo-terminal (interactive shell) for interacting with the container.
+centos:7: Specifies the Docker image to use (CentOS version 7).
+bash: Launches a Bash shell within the container.
+
+## 16.System Update:
+```shell
+sudo yum -y update
+```
+sudo: Again, for root privileges (package management often requires them).
+yum: The package manager for RPM-based systems like CentOS.
+-y: Automatically confirms any prompts during the update process (use with caution in production environments).
+update: Updates system packages to their latest versions.
+
+## 17.Listing Directory Contents:
+```shell
+ls -l
+```
+ls: Lists files and directories.
+-l: Provides detailed information in long format (including permissions, owner, group, size, and timestamps).
+
+## 18.Creating a File:
+```shell
+echo "we are here" > example.org
+```
+echo: Prints text to the terminal or a file.
+"we are here": The text to be written.
+>: Redirects the output to a file (creates example.org in this case)
+
+## 19.Verifying File Creation:
+```shell
+ls -l
+```
+Lists the directory contents again, showing the newly created example.org.
+
+## 20.Viewing File Contents:
+```shell
+cat example.org
+```
+cat: Displays the contents of a file.
+example.org: The file to display.
+
+## 21.Exiting the Container:
+```shell
+exit
+```
+Terminates the interactive shell session within the container.
+
+## 22.Listing Running Containers:
+```shell
+sudo docker ps
+```
+sudo: For root privileges.
+docker ps: Lists currently running Docker containers.
+
+## 23.Listing All Containers (Including Stopped Ones):
+```shell
+sudo docker ps -a
+```
+-a: Shows all containers, regardless of their running state.
+
+## 24.Running Another Container:
+```shell
+sudo docker container run -it centos:7 bash
+```
+Re-runs the container creation command from step 1.
+
+## 25.Exiting the Second Container:
+```shell
+exit
+```
+Terminates the shell session within the second container
+
+## 26.Listing All Containers Again:
+```shell
+sudo docker ps -a
+```
+Verifies both containers are listed.
+
+## 27.Starting a Stopped Container:
+```shell
+sudo docker container start [containerid]
+```
+start: Attempts to start a stopped container.
+[containerid]: Replace this with the actual ID of the container you want to start (obtainable from docker ps -a).
+
+## 28.Verifying the Started Container:
+```shell
+sudo docker ps
+```
+Checks if the previously stopped container is now listed as running.
+
+## 29. Inspecting Processes Within a Container:
+```shell
+sudo docker container exec [containerid] ps -ef
+```
+exec: Executes a command within a running container.
+[containerid]: The ID of the container to access.
+ps -ef: Lists all processes running inside the container (similar to ps -aux on Linux).
+
+## 30.Interactive Access to the Container:
+```shell
+sudo docker container exec -it [containerid] bash
+```
+-it: Allocates a pseudo-terminal for interactive interaction.
+Provides access to the Bash shell within the specified container, allowing you to execute further commands.
+
+## 31.Verifying File Creation (Inside the Container):
+```shell
+ls -l
+```
+Lists directory contents, showing example.org
+
+## 32.Viewing File Contents (Inside the Container):
+```shell
+cat example.org
+```
+Displays the contents of example.org created earlier.
+
+## 33.Remember:
+Replace [containerid] with the actual container ID in steps 13, 15, and 16.
+Use docker ps -a to view all containers, including stopped ones.
+
+
