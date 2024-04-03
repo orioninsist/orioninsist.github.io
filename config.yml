@@ -241,3 +241,8 @@ privacy:
 
 
 privacyPolicy: "/privacy-policy.html"
+
+
+module:
+  imports:
+  - path: github.com/adityatelange/hugo-PaperMod
