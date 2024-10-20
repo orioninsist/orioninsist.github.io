@@ -1,7 +1,7 @@
 ---
 title: "Computers Python Basics"
 date: 2024-10-20T08:37:22+03:00
-draft: true
+draft: false
 author: "murat"
 lang: "eng"
 type: "blog"
