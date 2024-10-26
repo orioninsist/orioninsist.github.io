@@ -73,6 +73,54 @@ print(keyword.kwlist)
 ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', ...]
 
 ```
+```python
+### BUILT-IN FUNCTIONS LIST
+# This code displays a list of all built-in functions and exception types 
+# available in Python. These functions, errors, and constants are 
+# stored in Python's `__builtins__` module and can be accessed 
+# directly in any Python program without importing additional modules.
+
+print(dir(__builtins__))  # Lists all items in the __builtins__ module.
+
+
+```
+* Explanation: The code above uses the dir() function to display all built-in functions, constants, and error types available in Python. The __builtins__ module includes all these default functions, which can be used without needing to import external libraries. Calling dir(__builtins__) provides a complete list of functions, such as print() and abs(), as well as exceptions like ValueError and TypeError.
+* Sample Output of Built-in Functions List:
+
+```python
+['ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException', 
+ 'BlockingIOError', 'BrokenPipeError', 'BufferError', 'BytesWarning', 
+ 'ChildProcessError', 'ConnectionAbortedError', 'ConnectionError', 
+ 'ConnectionRefusedError', 'ConnectionResetError', 'DeprecationWarning', 
+ 'EOFError', 'Ellipsis', 'EnvironmentError', 'Exception', 'False', 
+ 'FileExistsError', 'FileNotFoundError', 'FloatingPointError', 
+ 'FutureWarning', 'GeneratorExit', 'IOError', 'ImportError', 
+ 'ImportWarning', 'IndentationError', 'IndexError', 'InterruptedError', 
+ 'IsADirectoryError', 'KeyError', 'KeyboardInterrupt', 'LookupError', 
+ 'MemoryError', 'ModuleNotFoundError', 'NameError', 'None', 'NotADirectoryError', 
+ 'NotImplemented', 'NotImplementedError', 'OSError', 'OverflowError', 
+ 'PendingDeprecationWarning', 'PermissionError', 'ProcessLookupError', 
+ 'RecursionError', 'ReferenceError', 'ResourceWarning', 'RuntimeError', 
+ 'RuntimeWarning', 'StopAsyncIteration', 'StopIteration', 'SyntaxError', 
+ 'SyntaxWarning', 'SystemError', 'SystemExit', 'TabError', 'TimeoutError', 
+ 'True', 'TypeError', 'UnboundLocalError', 'UnicodeDecodeError', 
+ 'UnicodeEncodeError', 'UnicodeError', 'UnicodeTranslateError', 
+ 'UnicodeWarning', 'UserWarning', 'ValueError', 'Warning', 
+ 'ZeroDivisionError', '__build_class__', '__debug__', '__doc__', 
+ '__import__', '__loader__', '__name__', '__package__', '__spec__', 
+ 'abs', 'all', 'any', 'ascii', 'bin', 'bool', 'breakpoint', 'bytearray', 
+ 'bytes', 'callable', 'chr', 'classmethod', 'compile', 'complex', 'copyright', 
+ 'credits', 'delattr', 'dict', 'dir', 'divmod', 'enumerate', 'eval', 
+ 'exec', 'exit', 'filter', 'float', 'format', 'frozenset', 'getattr', 
+ 'globals', 'hasattr', 'hash', 'help', 'hex', 'id', 'input', 'int', 
+ 'isinstance', 'issubclass', 'iter', 'len', 'license', 'list', 'locals', 
+ 'map', 'max', 'memoryview', 'min', 'next', 'object', 'oct', 'open', 
+ 'ord', 'pow', 'print', 'property', 'quit', 'range', 'repr', 'reversed', 
+ 'round', 'set', 'setattr', 'slice', 'sorted', 'staticmethod', 'str', 
+ 'sum', 'super', 'tuple', 'type', 'vars', 'zip']
+
+```
+
 * Rule 4
 Variable names should not contain Turkish characters. However, string values can include characters like "BTK".
 * Rule 5
