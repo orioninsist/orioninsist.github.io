@@ -24,3 +24,8 @@ go.work
 /docs/
 docs/
 docs/*
+
+/.docs/
+/.docs/*
+.docs/
+.docs/*
