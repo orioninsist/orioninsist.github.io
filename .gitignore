@@ -20,12 +20,17 @@
 # Go workspace file
 go.work
 
-/docs/*
-/docs/
-docs/
-docs/*
+#/docs/*
+#/docs/
+#docs/
+#docs/*
 
-/.docs/
-/.docs/*
-.docs/
-.docs/*
+#/.docs/
+#/.docs/*
+#.docs/
+#.docs/*
+
+#.documentation/
+#.documentation/*
+#/.documentation/*
+#/.documentation/
