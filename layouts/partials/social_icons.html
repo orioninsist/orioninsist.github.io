@@ -1,5 +1,5 @@
 <div class="social-icons">
-    {{ with .Site.Params.social }}
+    {{ with $.Site.Params.social }}
       {{ range . }}
         {{ if .url }}
           <a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer" title="{{ (.title | default .name) | title }}">
