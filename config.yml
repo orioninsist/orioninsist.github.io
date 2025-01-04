@@ -152,7 +152,7 @@ params:
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
 
-  socialIcons:
+  social:
     - name: "email"
       url: "mailto:muratkurkoglu@gmail.com"
     - name: "linkedin"
