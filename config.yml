@@ -18,10 +18,10 @@ languages:
   en:
     languageName: "English"
     weight: 1
-    #taxonomies:
-    #tag: tags
-    #blog: blog
-    #search: search
+    taxonomies:
+      tag: tags
+      blog: blog
+      search: search
 
 menu:
   main:
@@ -103,6 +103,8 @@ menu:
     #  weight: 140
 
 params:
+  images:
+    - "/home/murat-kurkoglu.webp"
   social:
     - name: "email"
       url: "mailto:muratkurkoglu@gmail.com"
@@ -143,6 +145,9 @@ params:
   ogImage: "/home/murat-kurkoglu.webp"
   ShowShareButtons: true
   ShowReadingTime: true
+
+  ShowFullTextinRSS: true
+
   ShowPostNavLinks: true
   comments: true
   DateFormat: "January 2, 2006"
