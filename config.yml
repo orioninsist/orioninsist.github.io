@@ -103,6 +103,17 @@ menu:
     #  weight: 140
 
 params:
+  profileMode:
+    enabled: true
+    title: "Murat Kurkoglu"
+    subtitle: "<h2>Hi,I'm Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
+    imageUrl: "/home/murat-kurkoglu.webp"
+    imageWidth: 220
+    imageHeight: 220
+
+    buttons:
+      - name: Blog
+        url: "/blog"
   ogTitle: "orioninsist"
   ogDescription: "Hi,I’m Murat Kurkoglu, the founder of orioninsist.I’m a computer engineer and hold a degree in economics."
   ogImage: "/home/murat-kurkoglu.webp"
@@ -128,21 +139,6 @@ params:
 
   # for enchanced SEO
   env: production
-
-
-
-    Home Page
-  profileMode:
-    enabled: true
-    title: "Murat Kurkoglu"
-    subtitle: "<h2>Hi,I'm Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
-    imageUrl: "/home/murat-kurkoglu.webp"
-    imageWidth: 220
-    imageHeight: 220
-
-    buttons:
-      - name: Blog
-        url: "/blog"
 
   # List View
   hideDescriptionInList: false
