@@ -146,11 +146,6 @@ outputs:
     - HTML
     - RSS
     - JSON
-# outputFormats: Uncomment and update if needed
-#   RSS:
-#     name: "RSS"
-#     mediaType: "application/rss+xml"
-#     baseName: "index"
 
 markup:
   goldmark:
