@@ -2,7 +2,7 @@ enableRobotsTXT: true
 baseURL: "https://orioninsist.org/"
 languageCode: en-us
 title: "orioninsist"
-pageinate: 6
+paginate: 6
 enableInlineShortcodes: true
 buildDrafts: false
 buildFuture: false
@@ -23,7 +23,7 @@ languages:
       blog: blog
       search: search
       home: home
-      social: socials
+      social: social
 
 menu:
   main:
@@ -35,42 +35,6 @@ menu:
       name: Blog
       url: /blog
       weight: 20
-    #- identifier: project
-    #name: Project
-    #url: /project
-    #weight: 24
-    #- identifier: news
-    #name: News
-    #url: /news
-    #weight: 25
-    #- identifier: projects
-    # name: Projects
-    # url: /projects/
-    #  weight: 30
-    #- identifier: podcast
-    #  name: Podcast
-    #  url: /podcast
-    #  weight: 40
-    #- identifier: stories
-    #  name: Stories
-    #  url: /stories
-    #  weight: 50
-    #- identifier: artwork
-    #  name: Artwork
-    #  url: /artwork
-    #  weight: 60
-    #- identifier: videos
-    #  name: Videos
-    #  url: /videos
-    #  weight: 70
-    #- identifier: pictures
-    #  name: Pictures
-    #  url: /pictures
-    #  weight: 80
-    #- identifier: presentation
-    #  name: Presentation
-    #  url: /presentation
-    #  weight: 90
     - identifier: search
       name: Search
       url: /search
@@ -87,22 +51,6 @@ menu:
       name: Contact
       url: /contact
       weight: 40
-    #- identifier: resume
-    #  name: Resume
-    #  url: /resume
-    #  weight: 110
-    #- identifier: media
-    #  name: Media
-    #  url: /media
-    #  weight: 120
-    #- identifier: news
-    # name: News
-    # url: /news
-    # weight: 130
-    # - identifier: roadmap
-    #  name: Roadmap
-    #  url: /roadmap
-    #  weight: 140
 
 params:
   images:
@@ -143,13 +91,11 @@ params:
     - name: "twitter"
       url: "https://twitter.com/InsistOrion"
   ogTitle: "orioninsist"
-  ogDescription: "Hi,I’m Murat Kurkoglu, the founder of orioninsist.I’m a computer engineer and hold a degree in economics."
+  ogDescription: "Hi,I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
   ogImage: "/home/murat-kurkoglu.webp"
   ShowShareButtons: true
   ShowReadingTime: true
-
   ShowFullTextinRSS: true
-
   ShowPostNavLinks: true
   comments: true
   DateFormat: "January 2, 2006"
@@ -167,55 +113,45 @@ params:
     changeFreq: "always"
     filename: "sitemap.xml"
     priority: 0.9
-
-  # for enchanced SEO
   env: production
 
+profileMode:
+  enabled: true
+  title: "Murat Kurkoglu"
+  subtitle: "<h2>Hi, I'm Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
+  imageUrl: "/home/murat-kurkoglu.webp"
+  imageWidth: 220
+  imageHeight: 220
+  buttons:
+    - name: Blog
+      url: "/blog"
 
+hideDescriptionInList: false
 
-    Home Page
-  profileMode:
-    enabled: true
-    title: "Murat Kurkoglu"
-    subtitle: "<h2>Hi,I'm Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
-    imageUrl: "/home/murat-kurkoglu.webp"
-    imageWidth: 220
-    imageHeight: 220
+cover:
+  hiddenInList: false
+  hiddenInSingle: false
 
-    buttons:
-      - name: Blog
-        url: "/blog"
+fuseOpts:
+  isCaseSensitive: false
+  shouldSort: true
+  location: 0
+  distance: 1000
+  threshold: 0.4
+  minMatchCharLength: 0
+  keys: ["title", "permalink", "summary", "content"]
 
-  # List View
-  hideDescriptionInList: false
-
-  # cover image for posts
-  cover:
-    hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single page
-
-  # text search
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
-
-# for search using Fuse.js
 outputs:
   home:
     - HTML
     - RSS
     - JSON
-  <!!--outputFormats:
-    RSS:
-    name: "RSS"
-    mediaType: "application/rss+xml"
-    baseName: "index"
-# allow HTML in MD
+# outputFormats: Uncomment and update if needed
+#   RSS:
+#     name: "RSS"
+#     mediaType: "application/rss+xml"
+#     baseName: "index"
+
 markup:
   goldmark:
     renderer:
