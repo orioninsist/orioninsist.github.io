@@ -3,24 +3,150 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://orioninsist.org/blog/</loc>
-    <lastmod>2023-08-19T22:10:39+03:00</lastmod>
-  </url><url>
-    <loc>https://orioninsist.org/tags/commands/</loc>
-    <lastmod>2023-08-19T22:10:39+03:00</lastmod>
-  </url><url>
-    <loc>https://orioninsist.org/blog/essential-linux-terminal-commands-and-examples/</loc>
-    <lastmod>2023-08-19T22:10:39+03:00</lastmod>
-  </url><url>
-    <loc>https://orioninsist.org/tags/linux/</loc>
-    <lastmod>2023-08-19T22:10:39+03:00</lastmod>
+    <lastmod>2025-01-04T06:22:08+03:00</lastmod>
   </url><url>
     <loc>https://orioninsist.org/</loc>
-    <lastmod>2023-08-19T22:10:39+03:00</lastmod>
+    <lastmod>2025-01-04T06:22:08+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/2024-09/the-importance-of-data-science/</loc>
+    <lastmod>2025-01-04T06:22:08+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/2024-09/understanding-data-science-principles-and-applications/</loc>
+    <lastmod>2024-12-08T17:26:17+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/2024-09/mastering-variables-syntax-in-programming/</loc>
+    <lastmod>2024-10-26T15:32:58+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/2024-09/understanding-compilers-interpreters/</loc>
+    <lastmod>2024-10-26T14:31:19+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/2024-09/computers-python-basics/</loc>
+    <lastmod>2024-10-20T08:37:22+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/2024-09/introduction-to-algorithms/</loc>
+    <lastmod>2024-09-28T23:26:17+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/2024-05/a-guide-to-staying-safe-in-the-dijital-world/</loc>
+    <lastmod>2024-05-25T21:43:36+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/devops/</loc>
+    <lastmod>2024-04-08T00:25:24+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/docker/</loc>
+    <lastmod>2024-04-08T00:25:24+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/2024-04/docker-cli-essential-commands/</loc>
+    <lastmod>2024-04-08T00:25:24+03:00</lastmod>
   </url><url>
     <loc>https://orioninsist.org/tags/</loc>
-    <lastmod>2023-08-19T22:10:39+03:00</lastmod>
+    <lastmod>2024-04-08T00:25:24+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/command/</loc>
+    <lastmod>2024-03-22T20:15:47+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/2024-03/embarking-on-the-journey-of-containers-with-docker-essential-commands/</loc>
+    <lastmod>2024-03-22T20:15:47+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/container/</loc>
+    <lastmod>2023-11-16T02:53:47+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/project/devops/2023/2023-11/exploring-docker-commands-and-container-management/</loc>
+    <lastmod>2023-11-16T02:53:47+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/management/</loc>
+    <lastmod>2023-11-16T02:53:47+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/project/</loc>
+    <lastmod>2023-11-16T02:53:47+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/sysadmin/</loc>
+    <lastmod>2023-11-16T02:53:47+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/insights/</loc>
+    <lastmod>2023-11-04T12:59:21+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/news/</loc>
+    <lastmod>2023-11-04T12:59:21+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/news/</loc>
+    <lastmod>2023-11-04T12:59:21+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/november/</loc>
+    <lastmod>2023-11-04T12:59:21+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/november-2023/</loc>
+    <lastmod>2023-11-04T12:59:21+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/orioninsist/</loc>
+    <lastmod>2023-11-04T12:59:21+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/news/2023/orioninsist-latest-insights-november-2023/</loc>
+    <lastmod>2023-11-04T12:59:21+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/project/devops/2023/2023-11/docker-a-comprehensive-guide-to-the-basic-commands/</loc>
+    <lastmod>2023-11-04T10:03:08+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/october/</loc>
+    <lastmod>2023-10-26T12:21:05+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/october-2023/</loc>
+    <lastmod>2023-10-26T12:21:05+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/news/2023/orioninsist-latest-insights-october-2023/</loc>
+    <lastmod>2023-10-26T12:21:05+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/debian/</loc>
+    <lastmod>2023-10-08T23:20:30+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/how-to-install-docker-desktop-on-debian/</loc>
+    <lastmod>2023-10-08T23:20:30+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/linux/</loc>
+    <lastmod>2023-10-08T23:20:30+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/containerization/</loc>
+    <lastmod>2023-10-08T10:58:06+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/software-development/</loc>
+    <lastmod>2023-10-08T10:58:06+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/understanding-docker-containers/</loc>
+    <lastmod>2023-10-08T10:58:06+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/what-is-docker/</loc>
+    <lastmod>2023-10-06T11:36:05+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/bash-scripting-code-and-automation/</loc>
+    <lastmod>2023-09-16T15:12:01+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/commands/</loc>
+    <lastmod>2023-09-16T15:12:01+03:00</lastmod>
   </url><url>
     <loc>https://orioninsist.org/tags/terminal/</loc>
+    <lastmod>2023-09-16T15:12:01+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/linux-mastery-essential-commands-shortcuts/</loc>
+    <lastmod>2023-09-16T13:08:57+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/linux-essentials-mastering-key-commands/</loc>
+    <lastmod>2023-09-16T12:12:47+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/basic-commands/</loc>
+    <lastmod>2023-09-16T11:21:46+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/command-line/</loc>
+    <lastmod>2023-09-16T11:21:46+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/mastering-essential-linux-commands/</loc>
+    <lastmod>2023-09-16T11:21:46+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/tags/productivity/</loc>
+    <lastmod>2023-09-16T11:21:46+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/linux-command-line-basics/</loc>
+    <lastmod>2023-09-15T23:03:32+03:00</lastmod>
+  </url><url>
+    <loc>https://orioninsist.org/blog/essential-linux-terminal-commands-and-examples/</loc>
     <lastmod>2023-08-19T22:10:39+03:00</lastmod>
   </url><url>
     <loc>https://orioninsist.org/tags/contact/</loc>
@@ -30,9 +156,6 @@
     <lastmod>2023-08-12T10:37:53+03:00</lastmod>
   </url><url>
     <loc>https://orioninsist.org/tags/me/</loc>
-    <lastmod>2023-08-12T10:37:53+03:00</lastmod>
-  </url><url>
-    <loc>https://orioninsist.org/tags/orioninsist/</loc>
     <lastmod>2023-08-12T10:37:53+03:00</lastmod>
   </url><url>
     <loc>https://orioninsist.org/tags/about/</loc>
