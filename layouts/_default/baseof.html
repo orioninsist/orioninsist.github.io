@@ -25,7 +25,7 @@
         {{- block "main" . }}{{ end }}
     </main>
     <footer>
-        {{ with .Site.Params.social }}
+        {{ with .Site.Params.Social }}
           {{ range . }}
             <a href="{{ .url }}">{{ .name | title }}</a>
           {{ end }}
