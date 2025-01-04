@@ -187,8 +187,6 @@ params:
       url: "https://www.twitch.tv/orioninsist"
     - name: "twitter"
       url: "https://twitter.com/InsistOrion"
-    - name: "rss"
-      url: "https://orioninsist.org/index.xml"
 
   # text search
   fuseOpts:
