@@ -23,6 +23,7 @@ languages:
       blog: blog
       search: search
       home: home
+      social: socials
 
 menu:
   main:
