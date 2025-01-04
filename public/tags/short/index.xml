@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
   <channel>
-    <title>short on orioninsist</title>
+    <title>orioninsist - Short</title>
     <link>https://orioninsist.org/tags/short/</link>
-    <description>Recent content in short on orioninsist</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 27 Jul 2023 18:02:34 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/short/index.xml" rel="self" type="application/rss+xml" />
+    <description>Short RSS feed</description>
+    <generator>Hugo</generator>
+    
     <item>
       <title>Mastering Numpy Array Slicing and Operations Python Numpy Podcast</title>
       <link>https://orioninsist.org/blog/mastering-numpy-array-slicing-and-operations-python-numpy-podcast/</link>
-      <pubDate>Thu, 27 Jul 2023 18:02:34 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/mastering-numpy-array-slicing-and-operations-python-numpy-podcast/</guid>
-      <description>🔥 Welcome to the ultimate Python NumPy podcast! 🔥 In this video, we&amp;#39;ll dive deep into mastering NumPy array slicing, indexing, and various array operations for efficient data manipulation. 🚀</description>
+      <pubDate>Thu, 27 Jul 2023 18:02:34 &#43;03</pubDate>
+      <description>YouTube ⭐ What you&rsquo;ll learn in this Python NumPy podcast ⭐
+How to perform array slicing and indexing to access specific elements in arrays. The power of modifying arrays using slicing techniques. Copying arrays to prevent unintended modifications. Working with matrices and performing operations on them. Filtering arrays using boolean operations. Element-wise arithmetic on arrays for numerical computations. 📝 Let&rsquo;s get hands-on with code examples and explore the potential of NumPy to handle complex numerical computations like a pro! 💡
+</description>
     </item>
     
   </channel>

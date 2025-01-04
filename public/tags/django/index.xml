@@ -1,28 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
   <channel>
-    <title>django on orioninsist</title>
+    <title>orioninsist - Django</title>
     <link>https://orioninsist.org/tags/django/</link>
-    <description>Recent content in django on orioninsist</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 23 Jun 2023 11:40:11 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    <description>Django RSS feed</description>
+    <generator>Hugo</generator>
+    
     <item>
       <title>10 Awesome Django Projects to Inspire Your Web Development Journey</title>
       <link>https://orioninsist.org/blog/10-awesome-django-projects-to-inspire-your-web-development-journey/</link>
-      <pubDate>Fri, 23 Jun 2023 11:40:11 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/10-awesome-django-projects-to-inspire-your-web-development-journey/</guid>
-      <description>Discover 10 amazing Django projects that demonstrate its power and versatility, inspiring your web development journey.</description>
+      <pubDate>Fri, 23 Jun 2023 11:40:11 &#43;03</pubDate>
+      <description>Looking for some inspiration for your web development journey? Look no further! In this article, we&rsquo;ll explore 10 amazing Django projects that showcase the power and versatility of this popular web framework.
+Blogging Platform: Build a feature-rich blogging platform where users can create accounts, write posts, and interact with other users through comments.
+E-commerce Website: Create an online store with product listings, shopping carts, and secure payment integration.
+Social Media Platform: Develop a social media platform where users can connect, share posts, and interact with each other through comments and likes.
+</description>
     </item>
     
     <item>
       <title>Django: A Powerful Web Framework for Rapid Development</title>
       <link>https://orioninsist.org/blog/django-a-powerful-web-framework-for-rapid-development/</link>
-      <pubDate>Thu, 22 Jun 2023 13:56:27 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/django-a-powerful-web-framework-for-rapid-development/</guid>
-      <description>Explore the advantages, disadvantages, and alternatives of Django, a powerful web framework for rapid development.</description>
+      <pubDate>Thu, 22 Jun 2023 13:56:27 &#43;03</pubDate>
+      <description>Introduction There are numerous tools and frameworks available for developing web applications. One such tool is Django, a popular Python web framework known for its rapid development process and powerful features. In this blog post, we will explore the advantages, disadvantages, and alternatives of Django.
+What is Django? Django is an open-source web framework written in the Python programming language. It stands out with its high productivity, ease of use, and extensive community support. Django follows the Model-View-Controller (MVC) architecture and aims to facilitate common web development tasks such as preventing code duplication, ensuring security, simplifying database operations, and user authentication.
+</description>
     </item>
     
   </channel>

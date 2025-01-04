@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
   <channel>
-    <title>linkedin on orioninsist</title>
+    <title>orioninsist - Linkedin</title>
     <link>https://orioninsist.org/tags/linkedin/</link>
-    <description>Recent content in linkedin on orioninsist</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 11 Aug 2023 17:03:02 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/linkedin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Linkedin RSS feed</description>
+    <generator>Hugo</generator>
+    
     <item>
       <title>Self Discovery and Goal Setting</title>
       <link>https://orioninsist.org/blog/self-discovery-and-goal-setting/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/self-discovery-and-goal-setting/</guid>
-      <description>Embark on an Exciting Journey of Self-Discovery and Goal Setting! 🚀✨ Uncover your potential, define your aspirations, and set the course for a fulfilling future. Join us in Episode 1 of the Personal Development Series as we delve into the realms of growth and achievement. Let&amp;#39;s ignite the spark of progress together! 🔥🌱</description>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
+      <description>Welcome to the &ldquo;Personal Development Series&rdquo; brought to you by orioninsist! In this enlightening episode, we dive deep into the world of self-discovery and goal setting, two essential pillars of personal growth. Join us on this journey to unlock your true potential and create a more fulfilling life. Don&rsquo;t forget to hit the like button, subscribe, and ring the notification bell for more empowering content! 🔔✨
+🎙️ Episode Highlights 🎙️ The art of understanding yourself and its role in personal development. The significance of aligning your goals with your values and passions. Unveiling the S.M.A.R.T. method: Crafting goals that lead to success. Tips to overcome obstacles and stay motivated on your journey. Insights into turning self-awareness into a catalyst for positive change.
+</description>
     </item>
     
   </channel>

@@ -1,28 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
   <channel>
-    <title>networksecurity on orioninsist</title>
+    <title>orioninsist - Networksecurity</title>
     <link>https://orioninsist.org/tags/networksecurity/</link>
-    <description>Recent content in networksecurity on orioninsist</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 28 Jun 2023 22:57:24 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/networksecurity/index.xml" rel="self" type="application/rss+xml" />
+    <description>Networksecurity RSS feed</description>
+    <generator>Hugo</generator>
+    
     <item>
       <title>Exploring Cybersecurity with Python: Advanced Topics and Practical Examples</title>
       <link>https://orioninsist.org/blog/exploring-cybersecurity-with-python-advanced-topics-and-practical-examples/</link>
-      <pubDate>Wed, 28 Jun 2023 22:57:24 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/exploring-cybersecurity-with-python-advanced-topics-and-practical-examples/</guid>
-      <description>Dive into advanced cybersecurity topics with Python, learn practical examples, and enhance your skills. #cybersecurity #python</description>
+      <pubDate>Wed, 28 Jun 2023 22:57:24 &#43;03</pubDate>
+      <description>Continuing the Journey: Exploring Cybersecurity with Python Welcome back to the second installment of my blog series on cybersecurity with Python! If you haven’t read the first blog . I highly recommend starting there to get an overview of the project and my goals.
+In the previous blog post, we embarked on a journey to develop multiple articles within this project, with a focus on cybersecurity. We explored various aspects such as Python integration, network penetration testing, and web scraping. The response and engagement from the readers were phenomenal, and I’m excited to continue sharing valuable insights and practical examples in this ongoing series.
+</description>
     </item>
     
     <item>
       <title>Developing Cybersecurity Applications using Python Libraries: An Introduction</title>
       <link>https://orioninsist.org/blog/developing-cybersecurity-applications-using-python-libraries-an-introduction/</link>
-      <pubDate>Wed, 28 Jun 2023 22:57:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/developing-cybersecurity-applications-using-python-libraries-an-introduction/</guid>
-      <description>Learn about essential Python libraries for cybersecurity applications and explore buffer overflow vulnerabilities. Stay tuned for more.</description>
+      <pubDate>Wed, 28 Jun 2023 22:57:20 &#43;03</pubDate>
+      <description>Hello everyone! In this blog post, as someone who is passionate about cybersecurity, I aim to take a step towards developing cybersecurity applications using the Python programming language. Cybersecurity has become increasingly important in today&rsquo;s world, so in this article, I will introduce some powerful Python libraries and explore how we can start working on security-related projects.
+Scapy When it comes to controlling network traffic, Scapy is an excellent choice. This library allows you to create, capture, manipulate, and analyze network packets. Scapy can be used for packet analysis, network discovery, intrusion detection, and even developing new network protocols.
+</description>
     </item>
     
   </channel>

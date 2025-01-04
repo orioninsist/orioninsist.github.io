@@ -1,46 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
   <channel>
-    <title>datascience on orioninsist</title>
+    <title>orioninsist - Datascience</title>
     <link>https://orioninsist.org/tags/datascience/</link>
-    <description>Recent content in datascience on orioninsist</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 02 Aug 2023 13:47:20 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/datascience/index.xml" rel="self" type="application/rss+xml" />
+    <description>Datascience RSS feed</description>
+    <generator>Hugo</generator>
+    
     <item>
       <title>Mastering Data Analysis With Pandas Series Ultimate Guide</title>
       <link>https://orioninsist.org/blog/mastering-data-analysis-with-pandas-series-ultimate-guide/</link>
-      <pubDate>Wed, 02 Aug 2023 13:47:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/mastering-data-analysis-with-pandas-series-ultimate-guide/</guid>
-      <description>Unlock Data Insights with Python Pandas Series 🐼📊 | Comprehensive Guide to Data Analysis #DataScience #Python #DataManipulation</description>
+      <pubDate>Wed, 02 Aug 2023 13:47:20 &#43;03</pubDate>
+      <description>Hello, data enthusiasts! 📈 Welcome to our mind-blowing journey into the world of data analysis with Pandas Series! In this ultimate guide, we&rsquo;ll explore the fascinating realm of Pandas, the powerful Python library that empowers data manipulation and insights generation. Let&rsquo;s dive right in! 💻🔍
+🎯 What You&rsquo;ll Learn:
+📌 Introduction to Pandas Series and its significance in data analysis. 📌 How to create Pandas Series from various data sources like dictionaries, lists, and NumPy arrays. 📌 Unraveling the power of operations on Pandas Series - from basic arithmetic to advanced functionalities. 📌 Delving into data exploration and insights generation using Pandas Series. 📌 Leveraging Pandas Series to make data-driven decisions and unlock hidden patterns. 📌 Pro tips, tricks, and best practices for efficient data analysis.
+</description>
     </item>
     
     <item>
       <title>Understanding Pandas Series Labeled and Unlabeled Data Structures</title>
       <link>https://orioninsist.org/blog/understanding-pandas-series-labeled-and-unlabeled-data-structures/</link>
-      <pubDate>Mon, 31 Jul 2023 10:57:27 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/understanding-pandas-series-labeled-and-unlabeled-data-structures/</guid>
-      <description>Learn how to create and manipulate pandas Series, versatile data structures for efficient data handling in Python. Explore labeled and unlabeled formats, perform operations, and level up your data analysis skills! 🐼📊 #Python #Pandas #DataScience</description>
+      <pubDate>Mon, 31 Jul 2023 10:57:27 &#43;03</pubDate>
+      <description>Introduction Welcome, dear readers! In this blog post, we will explore an essential building block of data analysis in Python - the &ldquo;pandas.Series&rdquo; data structure. With &ldquo;pandas.Series,&rdquo; you can efficiently store, manipulate, and analyze data, both with labeled and unlabeled formats. We&rsquo;ll dive into the step-by-step process of creating and using pandas Series, followed by practical examples.
+Step-by-Step Guide to Pandas Series Importing Libraries and Initializing Data import numpy as np import pandas as pd # Let&#39;s start with a dictionary and create a pandas Series from it: myDictionary = {&#34;Orion&#34;: 50, &#34;Insist&#34;: 40, &#34;Thinkpad&#34;: 30} pd.Series(myDictionary) Here, we import the necessary libraries, numpy and pandas. We initialize data as a Python dictionary containing items and their corresponding values. Next, we create a pandas Series using the &ldquo;pd.Series()&rdquo; function.
+</description>
     </item>
     
     <item>
       <title>Mastering Numpy Array Slicing and Operations Python Numpy Podcast</title>
       <link>https://orioninsist.org/blog/mastering-numpy-array-slicing-and-operations-python-numpy-podcast/</link>
-      <pubDate>Thu, 27 Jul 2023 18:02:34 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/mastering-numpy-array-slicing-and-operations-python-numpy-podcast/</guid>
-      <description>🔥 Welcome to the ultimate Python NumPy podcast! 🔥 In this video, we&amp;#39;ll dive deep into mastering NumPy array slicing, indexing, and various array operations for efficient data manipulation. 🚀</description>
+      <pubDate>Thu, 27 Jul 2023 18:02:34 &#43;03</pubDate>
+      <description>YouTube ⭐ What you&rsquo;ll learn in this Python NumPy podcast ⭐
+How to perform array slicing and indexing to access specific elements in arrays. The power of modifying arrays using slicing techniques. Copying arrays to prevent unintended modifications. Working with matrices and performing operations on them. Filtering arrays using boolean operations. Element-wise arithmetic on arrays for numerical computations. 📝 Let&rsquo;s get hands-on with code examples and explore the potential of NumPy to handle complex numerical computations like a pro! 💡
+</description>
     </item>
     
     <item>
       <title>Mastering Numpy Array Creation Manipulation and Analysis for Data Science Python Podcast</title>
       <link>https://orioninsist.org/blog/mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast/</link>
-      <pubDate>Thu, 27 Jul 2023 17:04:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast/</guid>
-      <description>Dive into the world of NumPy and learn how to create, manipulate, and analyze arrays for data science using Python!</description>
+      <pubDate>Thu, 27 Jul 2023 17:04:20 &#43;03</pubDate>
+      <description>YouTube 🚀 In this comprehensive Python tutorial, we&rsquo;ll cover essential NumPy functions and methods, including creating arrays, slicing, reshaping, and performing basic statistical operations.
+📈 NumPy Arrays: Understand the power of NumPy arrays and how they outperform standard Python lists.
+🔍 Array Creation: Explore different techniques for creating arrays, such as np.array, np.arange, np.zeros, np.ones, and more.
+💡 Array Manipulation: Learn how to reshape arrays using reshape, find the maximum and minimum values with max and min, and get their indices with argmax and argmin.
+</description>
     </item>
     
   </channel>

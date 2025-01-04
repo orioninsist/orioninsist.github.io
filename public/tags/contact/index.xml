@@ -1,19 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
   <channel>
-    <title>contact on orioninsist</title>
+    <title>orioninsist - Contact</title>
     <link>https://orioninsist.org/tags/contact/</link>
-    <description>Recent content in contact on orioninsist</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 12 Aug 2023 10:37:53 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/contact/index.xml" rel="self" type="application/rss+xml" />
+    <description>Contact RSS feed</description>
+    <generator>Hugo</generator>
+    
     <item>
       <title>Contact</title>
       <link>https://orioninsist.org/contact/</link>
-      <pubDate>Sat, 12 Aug 2023 10:37:53 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/contact/</guid>
-      <description>Hello!🚀 Feel free to get in touch with  Murat Kurkoglu. Whether you have questions about technology, want to discuss collaboration opportunities, or anything else, I&amp;#39;d be happy to hear from you.</description>
+      <pubDate>Sat, 12 Aug 2023 10:37:53 &#43;03</pubDate>
+      <description>Stay connected for more transformative content! Follow us on 🚀 Gmail: muratkurkoglu@gmail.com
+🚀 YouTube: https: www.youtube.com/@orioninsist-official/
+🚀 Odysee: https://odysee.com/@orioninsist
+🚀 Spotify: https://open.spotify.com/show/2U1u9mOfxjRYf7js8Wlhwj
+🚀 Spotify for Podcasters: https://podcasters.spotify.com/pod/show/orioninsist
+🚀 YouTube Music: https://music.youtube.com/channel/UCdQFQTaxjWiCSXKAXTb8TKA?feature=share
+🚀 Patreon: https: www.patreon.com/orioninsist
+🚀 Buy me a coffee: https://www.buymeacoffee.com/orioninsist
+🚀 Medium: https://orioninsist.dev/
+🚀 Blog: https://orioninsist.org/
+🚀 Hashnode: https://orioninsist.net/
+🚀 Devto: https://dev.to/orioninsist
+🚀 Quora: https://www.quora.com/profile/Orioninsist
+🚀 Reddit: https://www.reddit.com/user/insistorion
+🚀 Twitch: https://www.twitch.tv/orioninsist
+🚀 Hackernoon: https://hackernoon.com/u/orioninsist
+🚀 LinkedIn Company: https://www.linkedin.com/company/orioninsist/
+🚀 LinkedIn Personal: https://www.linkedin.com/in/-murat-kurkoglu/
+🚀 GitHub: https://github.com/orioninsist
+🚀 Librerapay: https://en.liberapay.com/orioninsist/
+🚀 Twitter: https://twitter.com/InsistOrion
+🚀 Facebook: https://www.facebook.com/insistorion
+🚀 Instagram : https://www.instagram.com/insistorion/
+🚀 Threads: https://www.threads.net/@insistorion
+🚀 Pinterest: https://www.pinterest.com/orioninsist/
+</description>
     </item>
     
   </channel>

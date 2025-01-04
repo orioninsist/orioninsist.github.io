@@ -1,783 +1,736 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
   <channel>
-    <title>Tags on orioninsist</title>
+    <title>orioninsist - Tags</title>
     <link>https://orioninsist.org/tags/</link>
-    <description>Recent content in Tags on orioninsist</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 19 Aug 2023 22:10:39 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags RSS feed</description>
+    <generator>Hugo</generator>
+    
     <item>
-      <title>commands</title>
-      <link>https://orioninsist.org/tags/commands/</link>
-      <pubDate>Sat, 19 Aug 2023 22:10:39 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/commands/</guid>
+      <title>Devops</title>
+      <link>https://orioninsist.org/tags/devops/</link>
+      <pubDate>Mon, 08 Apr 2024 00:25:24 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>linux</title>
-      <link>https://orioninsist.org/tags/linux/</link>
-      <pubDate>Sat, 19 Aug 2023 22:10:39 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/linux/</guid>
+      <title>Docker</title>
+      <link>https://orioninsist.org/tags/docker/</link>
+      <pubDate>Mon, 08 Apr 2024 00:25:24 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>terminal</title>
-      <link>https://orioninsist.org/tags/terminal/</link>
-      <pubDate>Sat, 19 Aug 2023 22:10:39 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/terminal/</guid>
+      <title>Command</title>
+      <link>https://orioninsist.org/tags/command/</link>
+      <pubDate>Fri, 22 Mar 2024 20:15:47 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>contact</title>
-      <link>https://orioninsist.org/tags/contact/</link>
-      <pubDate>Sat, 12 Aug 2023 10:37:53 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/contact/</guid>
+      <title>Container</title>
+      <link>https://orioninsist.org/tags/container/</link>
+      <pubDate>Thu, 16 Nov 2023 02:53:47 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>me</title>
-      <link>https://orioninsist.org/tags/me/</link>
-      <pubDate>Sat, 12 Aug 2023 10:37:53 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/me/</guid>
+      <title>Management</title>
+      <link>https://orioninsist.org/tags/management/</link>
+      <pubDate>Thu, 16 Nov 2023 02:53:47 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>orioninsist</title>
+      <title>Sysadmin</title>
+      <link>https://orioninsist.org/tags/sysadmin/</link>
+      <pubDate>Thu, 16 Nov 2023 02:53:47 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Insights</title>
+      <link>https://orioninsist.org/tags/insights/</link>
+      <pubDate>Sat, 04 Nov 2023 12:59:21 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://orioninsist.org/tags/news/</link>
+      <pubDate>Sat, 04 Nov 2023 12:59:21 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>November</title>
+      <link>https://orioninsist.org/tags/november/</link>
+      <pubDate>Sat, 04 Nov 2023 12:59:21 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>November-2023</title>
+      <link>https://orioninsist.org/tags/november-2023/</link>
+      <pubDate>Sat, 04 Nov 2023 12:59:21 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Orioninsist</title>
       <link>https://orioninsist.org/tags/orioninsist/</link>
-      <pubDate>Sat, 12 Aug 2023 10:37:53 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/orioninsist/</guid>
+      <pubDate>Sat, 04 Nov 2023 12:59:21 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>about</title>
+      <title>October</title>
+      <link>https://orioninsist.org/tags/october/</link>
+      <pubDate>Thu, 26 Oct 2023 12:21:05 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>October-2023</title>
+      <link>https://orioninsist.org/tags/october-2023/</link>
+      <pubDate>Thu, 26 Oct 2023 12:21:05 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Debian</title>
+      <link>https://orioninsist.org/tags/debian/</link>
+      <pubDate>Sun, 08 Oct 2023 23:20:30 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://orioninsist.org/tags/linux/</link>
+      <pubDate>Sun, 08 Oct 2023 23:20:30 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Containerization</title>
+      <link>https://orioninsist.org/tags/containerization/</link>
+      <pubDate>Sun, 08 Oct 2023 10:58:06 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software-Development</title>
+      <link>https://orioninsist.org/tags/software-development/</link>
+      <pubDate>Sun, 08 Oct 2023 10:58:06 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Commands</title>
+      <link>https://orioninsist.org/tags/commands/</link>
+      <pubDate>Sat, 16 Sep 2023 15:12:01 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>https://orioninsist.org/tags/terminal/</link>
+      <pubDate>Sat, 16 Sep 2023 15:12:01 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Basic-Commands</title>
+      <link>https://orioninsist.org/tags/basic-commands/</link>
+      <pubDate>Sat, 16 Sep 2023 11:21:46 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Command-Line</title>
+      <link>https://orioninsist.org/tags/command-line/</link>
+      <pubDate>Sat, 16 Sep 2023 11:21:46 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Productivity</title>
+      <link>https://orioninsist.org/tags/productivity/</link>
+      <pubDate>Sat, 16 Sep 2023 11:21:46 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://orioninsist.org/tags/contact/</link>
+      <pubDate>Sat, 12 Aug 2023 10:37:53 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Me</title>
+      <link>https://orioninsist.org/tags/me/</link>
+      <pubDate>Sat, 12 Aug 2023 10:37:53 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
       <link>https://orioninsist.org/tags/about/</link>
-      <pubDate>Sat, 12 Aug 2023 10:37:48 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/about/</guid>
+      <pubDate>Sat, 12 Aug 2023 10:37:48 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>blog</title>
+      <title>Blog</title>
       <link>https://orioninsist.org/tags/blog/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/blog/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>blogging</title>
+      <title>Blogging</title>
       <link>https://orioninsist.org/tags/blogging/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/blogging/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>buymeacoffee</title>
+      <title>Buymeacoffee</title>
       <link>https://orioninsist.org/tags/buymeacoffee/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/buymeacoffee/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>content</title>
+      <title>Content</title>
       <link>https://orioninsist.org/tags/content/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/content/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
       <title>Contentcreater</title>
       <link>https://orioninsist.org/tags/contentcreater/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/contentcreater/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>contentcreators</title>
+      <title>Contentcreators</title>
       <link>https://orioninsist.org/tags/contentcreators/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/contentcreators/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>contentmarketing</title>
+      <title>Contentmarketing</title>
       <link>https://orioninsist.org/tags/contentmarketing/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/contentmarketing/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>devto</title>
+      <title>Devto</title>
       <link>https://orioninsist.org/tags/devto/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/devto/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>hackernoon</title>
+      <title>Hackernoon</title>
       <link>https://orioninsist.org/tags/hackernoon/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/hackernoon/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>hashnode</title>
+      <title>Hashnode</title>
       <link>https://orioninsist.org/tags/hashnode/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/hashnode/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>howto</title>
+      <title>Howto</title>
       <link>https://orioninsist.org/tags/howto/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/howto/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>instagram</title>
+      <title>Instagram</title>
       <link>https://orioninsist.org/tags/instagram/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/instagram/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>life</title>
+      <title>Life</title>
       <link>https://orioninsist.org/tags/life/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/life/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>linkedin</title>
+      <title>Linkedin</title>
       <link>https://orioninsist.org/tags/linkedin/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/linkedin/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>motivation</title>
+      <title>Motivation</title>
       <link>https://orioninsist.org/tags/motivation/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/motivation/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>motivationquotes</title>
+      <title>Motivationquotes</title>
       <link>https://orioninsist.org/tags/motivationquotes/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/motivationquotes/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>odysee</title>
+      <title>Odysee</title>
       <link>https://orioninsist.org/tags/odysee/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/odysee/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>patreon</title>
+      <title>Patreon</title>
       <link>https://orioninsist.org/tags/patreon/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/patreon/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>personaldevelopment</title>
+      <title>Personaldevelopment</title>
       <link>https://orioninsist.org/tags/personaldevelopment/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/personaldevelopment/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>podcast</title>
+      <title>Podcast</title>
       <link>https://orioninsist.org/tags/podcast/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/podcast/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>podcaster</title>
+      <title>Podcaster</title>
       <link>https://orioninsist.org/tags/podcaster/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/podcaster/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>podcasting</title>
+      <title>Podcasting</title>
       <link>https://orioninsist.org/tags/podcasting/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/podcasting/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>podcastshow</title>
+      <title>Podcastshow</title>
       <link>https://orioninsist.org/tags/podcastshow/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/podcastshow/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>quora</title>
+      <title>Quora</title>
       <link>https://orioninsist.org/tags/quora/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/quora/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>spotify</title>
+      <title>Spotify</title>
       <link>https://orioninsist.org/tags/spotify/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/spotify/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>twitch</title>
+      <title>Twitch</title>
       <link>https://orioninsist.org/tags/twitch/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/twitch/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>youtube</title>
+      <title>Youtube</title>
       <link>https://orioninsist.org/tags/youtube/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/youtube/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>youtube-music</title>
+      <title>Youtube-Music</title>
       <link>https://orioninsist.org/tags/youtube-music/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/youtube-music/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
       <title>YouTuber</title>
       <link>https://orioninsist.org/tags/youtuber/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/youtuber/</guid>
+      <pubDate>Fri, 11 Aug 2023 17:03:02 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>blogger</title>
+      <title>Blogger</title>
       <link>https://orioninsist.org/tags/blogger/</link>
-      <pubDate>Wed, 02 Aug 2023 13:47:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/blogger/</guid>
+      <pubDate>Wed, 02 Aug 2023 13:47:20 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>blogs</title>
+      <title>Blogs</title>
       <link>https://orioninsist.org/tags/blogs/</link>
-      <pubDate>Wed, 02 Aug 2023 13:47:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/blogs/</guid>
+      <pubDate>Wed, 02 Aug 2023 13:47:20 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>code</title>
+      <title>Code</title>
       <link>https://orioninsist.org/tags/code/</link>
-      <pubDate>Wed, 02 Aug 2023 13:47:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/code/</guid>
+      <pubDate>Wed, 02 Aug 2023 13:47:20 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>coding</title>
+      <title>Coding</title>
       <link>https://orioninsist.org/tags/coding/</link>
-      <pubDate>Wed, 02 Aug 2023 13:47:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/coding/</guid>
+      <pubDate>Wed, 02 Aug 2023 13:47:20 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>dataanalysis</title>
+      <title>Dataanalysis</title>
       <link>https://orioninsist.org/tags/dataanalysis/</link>
-      <pubDate>Wed, 02 Aug 2023 13:47:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/dataanalysis/</guid>
+      <pubDate>Wed, 02 Aug 2023 13:47:20 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>dataanalytics</title>
+      <title>Dataanalytics</title>
       <link>https://orioninsist.org/tags/dataanalytics/</link>
-      <pubDate>Wed, 02 Aug 2023 13:47:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/dataanalytics/</guid>
+      <pubDate>Wed, 02 Aug 2023 13:47:20 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>datascience</title>
+      <title>Datascience</title>
       <link>https://orioninsist.org/tags/datascience/</link>
-      <pubDate>Wed, 02 Aug 2023 13:47:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/datascience/</guid>
+      <pubDate>Wed, 02 Aug 2023 13:47:20 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>github</title>
+      <title>Github</title>
       <link>https://orioninsist.org/tags/github/</link>
-      <pubDate>Wed, 02 Aug 2023 13:47:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/github/</guid>
+      <pubDate>Wed, 02 Aug 2023 13:47:20 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>lifestyle</title>
+      <title>Lifestyle</title>
       <link>https://orioninsist.org/tags/lifestyle/</link>
-      <pubDate>Wed, 02 Aug 2023 13:47:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/lifestyle/</guid>
+      <pubDate>Wed, 02 Aug 2023 13:47:20 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>programming</title>
+      <title>Programming</title>
       <link>https://orioninsist.org/tags/programming/</link>
-      <pubDate>Wed, 02 Aug 2023 13:47:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/programming/</guid>
+      <pubDate>Wed, 02 Aug 2023 13:47:20 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>https://orioninsist.org/tags/python/</link>
-      <pubDate>Wed, 02 Aug 2023 13:47:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/python/</guid>
+      <pubDate>Wed, 02 Aug 2023 13:47:20 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>analysis</title>
+      <title>Analysis</title>
       <link>https://orioninsist.org/tags/analysis/</link>
-      <pubDate>Mon, 31 Jul 2023 10:57:27 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/analysis/</guid>
+      <pubDate>Mon, 31 Jul 2023 10:57:27 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>data</title>
+      <title>Data</title>
       <link>https://orioninsist.org/tags/data/</link>
-      <pubDate>Mon, 31 Jul 2023 10:57:27 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/data/</guid>
+      <pubDate>Mon, 31 Jul 2023 10:57:27 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>datastructure</title>
+      <title>Datastructure</title>
       <link>https://orioninsist.org/tags/datastructure/</link>
-      <pubDate>Mon, 31 Jul 2023 10:57:27 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/datastructure/</guid>
+      <pubDate>Mon, 31 Jul 2023 10:57:27 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>numpy</title>
+      <title>Numpy</title>
       <link>https://orioninsist.org/tags/numpy/</link>
-      <pubDate>Mon, 31 Jul 2023 10:57:27 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/numpy/</guid>
+      <pubDate>Mon, 31 Jul 2023 10:57:27 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>pandas</title>
+      <title>Pandas</title>
       <link>https://orioninsist.org/tags/pandas/</link>
-      <pubDate>Mon, 31 Jul 2023 10:57:27 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/pandas/</guid>
+      <pubDate>Mon, 31 Jul 2023 10:57:27 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>codinglife</title>
+      <title>Codinglife</title>
       <link>https://orioninsist.org/tags/codinglife/</link>
-      <pubDate>Thu, 27 Jul 2023 18:02:34 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/codinglife/</guid>
+      <pubDate>Thu, 27 Jul 2023 18:02:34 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>short</title>
+      <title>Short</title>
       <link>https://orioninsist.org/tags/short/</link>
-      <pubDate>Thu, 27 Jul 2023 18:02:34 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/short/</guid>
+      <pubDate>Thu, 27 Jul 2023 18:02:34 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>shorts</title>
+      <title>Shorts</title>
       <link>https://orioninsist.org/tags/shorts/</link>
-      <pubDate>Thu, 27 Jul 2023 18:02:34 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/shorts/</guid>
+      <pubDate>Thu, 27 Jul 2023 18:02:34 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>tensorflow</title>
+      <title>Tensorflow</title>
       <link>https://orioninsist.org/tags/tensorflow/</link>
-      <pubDate>Thu, 27 Jul 2023 17:04:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/tensorflow/</guid>
+      <pubDate>Thu, 27 Jul 2023 17:04:20 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>challenge</title>
+      <title>Challenge</title>
       <link>https://orioninsist.org/tags/challenge/</link>
-      <pubDate>Tue, 25 Jul 2023 10:10:06 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/challenge/</guid>
+      <pubDate>Tue, 25 Jul 2023 10:10:06 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>fun</title>
+      <title>Fun</title>
       <link>https://orioninsist.org/tags/fun/</link>
-      <pubDate>Tue, 25 Jul 2023 10:10:06 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/fun/</guid>
+      <pubDate>Tue, 25 Jul 2023 10:10:06 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>gamedev</title>
+      <title>Gamedev</title>
       <link>https://orioninsist.org/tags/gamedev/</link>
-      <pubDate>Tue, 25 Jul 2023 10:10:06 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/gamedev/</guid>
+      <pubDate>Tue, 25 Jul 2023 10:10:06 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>dataorganization</title>
+      <title>Dataorganization</title>
       <link>https://orioninsist.org/tags/dataorganization/</link>
-      <pubDate>Fri, 21 Jul 2023 19:16:08 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/dataorganization/</guid>
+      <pubDate>Fri, 21 Jul 2023 19:16:08 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>pythonlist</title>
+      <title>Pythonlist</title>
       <link>https://orioninsist.org/tags/pythonlist/</link>
-      <pubDate>Fri, 21 Jul 2023 19:16:08 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/pythonlist/</guid>
+      <pubDate>Fri, 21 Jul 2023 19:16:08 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>pythonprogramming</title>
+      <title>Pythonprogramming</title>
       <link>https://orioninsist.org/tags/pythonprogramming/</link>
-      <pubDate>Fri, 21 Jul 2023 19:16:08 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/pythonprogramming/</guid>
+      <pubDate>Fri, 21 Jul 2023 19:16:08 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>networkcommunication</title>
+      <title>Networkcommunication</title>
       <link>https://orioninsist.org/tags/networkcommunication/</link>
-      <pubDate>Thu, 06 Jul 2023 07:44:54 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/networkcommunication/</guid>
+      <pubDate>Thu, 06 Jul 2023 07:44:54 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>networking</title>
+      <title>Networking</title>
       <link>https://orioninsist.org/tags/networking/</link>
-      <pubDate>Thu, 06 Jul 2023 07:44:54 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/networking/</guid>
+      <pubDate>Thu, 06 Jul 2023 07:44:54 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>pythonlibraries</title>
+      <title>Pythonlibraries</title>
       <link>https://orioninsist.org/tags/pythonlibraries/</link>
-      <pubDate>Thu, 06 Jul 2023 07:44:54 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/pythonlibraries/</guid>
+      <pubDate>Thu, 06 Jul 2023 07:44:54 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>socketprogramming</title>
+      <title>Socketprogramming</title>
       <link>https://orioninsist.org/tags/socketprogramming/</link>
-      <pubDate>Thu, 06 Jul 2023 07:44:54 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/socketprogramming/</guid>
+      <pubDate>Thu, 06 Jul 2023 07:44:54 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>technology</title>
+      <title>Technology</title>
       <link>https://orioninsist.org/tags/technology/</link>
-      <pubDate>Thu, 06 Jul 2023 07:44:54 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/technology/</guid>
+      <pubDate>Thu, 06 Jul 2023 07:44:54 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>cybersecurity</title>
+      <title>Cybersecurity</title>
       <link>https://orioninsist.org/tags/cybersecurity/</link>
-      <pubDate>Wed, 28 Jun 2023 22:57:24 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/cybersecurity/</guid>
+      <pubDate>Wed, 28 Jun 2023 22:57:24 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>ethicalhacking</title>
+      <title>Ethicalhacking</title>
       <link>https://orioninsist.org/tags/ethicalhacking/</link>
-      <pubDate>Wed, 28 Jun 2023 22:57:24 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/ethicalhacking/</guid>
+      <pubDate>Wed, 28 Jun 2023 22:57:24 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>networksecurity</title>
+      <title>Networksecurity</title>
       <link>https://orioninsist.org/tags/networksecurity/</link>
-      <pubDate>Wed, 28 Jun 2023 22:57:24 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/networksecurity/</guid>
+      <pubDate>Wed, 28 Jun 2023 22:57:24 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>security</title>
+      <title>Security</title>
       <link>https://orioninsist.org/tags/security/</link>
-      <pubDate>Wed, 28 Jun 2023 22:57:24 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/security/</guid>
+      <pubDate>Wed, 28 Jun 2023 22:57:24 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>encryption</title>
+      <title>Encryption</title>
       <link>https://orioninsist.org/tags/encryption/</link>
-      <pubDate>Wed, 28 Jun 2023 22:57:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/encryption/</guid>
+      <pubDate>Wed, 28 Jun 2023 22:57:20 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>websecurity</title>
+      <title>Websecurity</title>
       <link>https://orioninsist.org/tags/websecurity/</link>
-      <pubDate>Wed, 28 Jun 2023 22:57:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/websecurity/</guid>
+      <pubDate>Wed, 28 Jun 2023 22:57:20 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>codeblog</title>
+      <title>Codeblog</title>
       <link>https://orioninsist.org/tags/codeblog/</link>
-      <pubDate>Mon, 26 Jun 2023 18:19:46 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/codeblog/</guid>
+      <pubDate>Mon, 26 Jun 2023 18:19:46 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>passwordgeneration</title>
+      <title>Passwordgeneration</title>
       <link>https://orioninsist.org/tags/passwordgeneration/</link>
-      <pubDate>Mon, 26 Jun 2023 18:19:46 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/passwordgeneration/</guid>
+      <pubDate>Mon, 26 Jun 2023 18:19:46 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>digitalsecurity</title>
+      <title>Digitalsecurity</title>
       <link>https://orioninsist.org/tags/digitalsecurity/</link>
-      <pubDate>Sun, 25 Jun 2023 16:11:32 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/digitalsecurity/</guid>
+      <pubDate>Sun, 25 Jun 2023 16:11:32 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>passwordgenerator</title>
+      <title>Passwordgenerator</title>
       <link>https://orioninsist.org/tags/passwordgenerator/</link>
-      <pubDate>Sun, 25 Jun 2023 16:11:32 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/passwordgenerator/</guid>
+      <pubDate>Sun, 25 Jun 2023 16:11:32 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>release</title>
+      <title>Release</title>
       <link>https://orioninsist.org/tags/release/</link>
-      <pubDate>Sun, 25 Jun 2023 16:11:32 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/release/</guid>
+      <pubDate>Sun, 25 Jun 2023 16:11:32 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>project</title>
+      <title>Project</title>
       <link>https://orioninsist.org/tags/project/</link>
-      <pubDate>Sun, 25 Jun 2023 13:14:04 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/project/</guid>
+      <pubDate>Sun, 25 Jun 2023 13:14:04 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>django</title>
+      <title>Django</title>
       <link>https://orioninsist.org/tags/django/</link>
-      <pubDate>Fri, 23 Jun 2023 11:40:11 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/django/</guid>
+      <pubDate>Fri, 23 Jun 2023 11:40:11 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>webdevelopment</title>
+      <title>Webdevelopment</title>
       <link>https://orioninsist.org/tags/webdevelopment/</link>
-      <pubDate>Fri, 23 Jun 2023 11:40:11 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/webdevelopment/</guid>
+      <pubDate>Fri, 23 Jun 2023 11:40:11 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>aspnet</title>
+      <title>Aspnet</title>
       <link>https://orioninsist.org/tags/aspnet/</link>
-      <pubDate>Thu, 22 Jun 2023 13:56:27 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/aspnet/</guid>
+      <pubDate>Thu, 22 Jun 2023 13:56:27 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>flask</title>
+      <title>Flask</title>
       <link>https://orioninsist.org/tags/flask/</link>
-      <pubDate>Thu, 22 Jun 2023 13:56:27 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/flask/</guid>
+      <pubDate>Thu, 22 Jun 2023 13:56:27 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>rapiddevelopment</title>
+      <title>Rapiddevelopment</title>
       <link>https://orioninsist.org/tags/rapiddevelopment/</link>
-      <pubDate>Thu, 22 Jun 2023 13:56:27 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/rapiddevelopment/</guid>
+      <pubDate>Thu, 22 Jun 2023 13:56:27 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>ruby</title>
+      <title>Ruby</title>
       <link>https://orioninsist.org/tags/ruby/</link>
-      <pubDate>Thu, 22 Jun 2023 13:56:27 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/ruby/</guid>
+      <pubDate>Thu, 22 Jun 2023 13:56:27 &#43;03</pubDate>
       <description></description>
     </item>
     
     <item>
-      <title>rubyonrails</title>
+      <title>Rubyonrails</title>
       <link>https://orioninsist.org/tags/rubyonrails/</link>
-      <pubDate>Thu, 22 Jun 2023 13:56:27 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/tags/rubyonrails/</guid>
+      <pubDate>Thu, 22 Jun 2023 13:56:27 &#43;03</pubDate>
       <description></description>
     </item>
     

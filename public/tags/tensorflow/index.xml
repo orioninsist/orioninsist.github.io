@@ -1,19 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
   <channel>
-    <title>tensorflow on orioninsist</title>
+    <title>orioninsist - Tensorflow</title>
     <link>https://orioninsist.org/tags/tensorflow/</link>
-    <description>Recent content in tensorflow on orioninsist</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 27 Jul 2023 17:04:20 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tensorflow RSS feed</description>
+    <generator>Hugo</generator>
+    
     <item>
       <title>Mastering Numpy Array Creation Manipulation and Analysis for Data Science Python Podcast</title>
       <link>https://orioninsist.org/blog/mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast/</link>
-      <pubDate>Thu, 27 Jul 2023 17:04:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast/</guid>
-      <description>Dive into the world of NumPy and learn how to create, manipulate, and analyze arrays for data science using Python!</description>
+      <pubDate>Thu, 27 Jul 2023 17:04:20 &#43;03</pubDate>
+      <description>YouTube 🚀 In this comprehensive Python tutorial, we&rsquo;ll cover essential NumPy functions and methods, including creating arrays, slicing, reshaping, and performing basic statistical operations.
+📈 NumPy Arrays: Understand the power of NumPy arrays and how they outperform standard Python lists.
+🔍 Array Creation: Explore different techniques for creating arrays, such as np.array, np.arange, np.zeros, np.ones, and more.
+💡 Array Manipulation: Learn how to reshape arrays using reshape, find the maximum and minimum values with max and min, and get their indices with argmax and argmin.
+</description>
     </item>
     
   </channel>

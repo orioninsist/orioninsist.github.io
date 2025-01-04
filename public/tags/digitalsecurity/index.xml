@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
   <channel>
-    <title>digitalsecurity on orioninsist</title>
+    <title>orioninsist - Digitalsecurity</title>
     <link>https://orioninsist.org/tags/digitalsecurity/</link>
-    <description>Recent content in digitalsecurity on orioninsist</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 25 Jun 2023 16:11:32 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/digitalsecurity/index.xml" rel="self" type="application/rss+xml" />
+    <description>Digitalsecurity RSS feed</description>
+    <generator>Hugo</generator>
+    
     <item>
       <title>Python-based Random Password Generator Released</title>
       <link>https://orioninsist.org/blog/python-based-random-password-generator-released/</link>
-      <pubDate>Sun, 25 Jun 2023 16:11:32 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/python-based-random-password-generator-released/</guid>
-      <description>Exciting news! Python-based Random Password Generator released. Enhance your security.</description>
+      <pubDate>Sun, 25 Jun 2023 16:11:32 &#43;03</pubDate>
+      <description>We are excited to announce the release of a new Python-based &ldquo;Random Password Generator.&rdquo; This project aims to provide users with a simple and secure way to generate random passwords.
+Key Features Random and secure: The password generator utilizes the random and string modules in Python to create passwords that are both random and secure. Customizable length: Users can specify the desired length of the generated password, allowing flexibility based on their requirements. Easy to use: With a straightforward user interface, generating passwords is just a matter of running the script and providing the desired length.
+</description>
     </item>
     
   </channel>

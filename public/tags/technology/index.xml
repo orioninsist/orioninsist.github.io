@@ -1,37 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
   <channel>
-    <title>technology on orioninsist</title>
+    <title>orioninsist - Technology</title>
     <link>https://orioninsist.org/tags/technology/</link>
-    <description>Recent content in technology on orioninsist</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 06 Jul 2023 07:44:54 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Technology RSS feed</description>
+    <generator>Hugo</generator>
+    
     <item>
       <title>Building a Simple Client-Server Communication in Python</title>
       <link>https://orioninsist.org/blog/building-a-simple-client-server-communication-in-python/</link>
-      <pubDate>Thu, 06 Jul 2023 07:44:54 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/building-a-simple-client-server-communication-in-python/</guid>
-      <description>Learn how to establish basic client-server communication with Python. Explore the code and see how it works. 🐍💻 #Python #Networking</description>
+      <pubDate>Thu, 06 Jul 2023 07:44:54 &#43;03</pubDate>
+      <description>Introduction In this video tutorial, we&rsquo;ll explore how to establish a basic client-server communication using Python. We&rsquo;ll be using the socket module to create a TCP/IP socket and exchange messages between a client and a server. The client will send messages to the server, and the server will respond with a confirmation message. Let&rsquo;s dive into the code and see how it works!
+Code Let&rsquo;s take a look at the code snippets for the client and server.
+</description>
     </item>
     
     <item>
       <title>How to Build a Simple Client-Server Chat Application in Python</title>
       <link>https://orioninsist.org/blog/how-to-build-a-simple-client-server-chat-application-in-python/</link>
-      <pubDate>Tue, 04 Jul 2023 09:43:41 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/how-to-build-a-simple-client-server-chat-application-in-python/</guid>
-      <description>Learn how to build a Python client-server chat app! 🚀📲 Discover the essentials of client-server communication and create your own chat application. #python #networking #programming</description>
+      <pubDate>Tue, 04 Jul 2023 09:43:41 &#43;03</pubDate>
+      <description>Introduction The client-server architecture is a commonly used model in many network-based applications. In this model, a client connects to and communicates with a server. The client sends a message to the server, which processes it and then sends a response back to the client. Python&rsquo;s socket module is a powerful tool for creating such client-server applications. In this blog post, we will show you how to build a basic client-server chat application.
+</description>
     </item>
     
     <item>
-      <title>Python Socket Library: A Network Programming Gem</title>
+      <title>Python Socket Library A Network Programming Gem</title>
       <link>https://orioninsist.org/blog/python-socket-library-a-network-programming-gem/</link>
-      <pubDate>Tue, 04 Jul 2023 09:43:41 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/python-socket-library-a-network-programming-gem/</guid>
-      <description>Explore the power of Python&amp;#39;s socket library for network programming! Learn socket creation, data transmission, and use cases in this blog post. Level up your networking projects with this valuable tool. Happy coding! 🌐💻🐍</description>
+      <pubDate>Tue, 04 Jul 2023 09:43:41 &#43;03</pubDate>
+      <description>Introduction Python is a powerful programming language that offers a wide range of libraries for various purposes. These libraries provide developers with pre-written functions and classes to accomplish specific tasks efficiently. In this blog post, we&rsquo;ll focus on Python&rsquo;s socket library, a valuable tool for developers dealing with network programming. Python has various libraries for network programming. In this article, we will specifically discuss the socket module, which is a library for socket programming in Python. Socket programming is a fundamental technique that enables data transmission between computers.
+</description>
     </item>
     
   </channel>

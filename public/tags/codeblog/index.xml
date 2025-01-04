@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
   <channel>
-    <title>codeblog on orioninsist</title>
+    <title>orioninsist - Codeblog</title>
     <link>https://orioninsist.org/tags/codeblog/</link>
-    <description>Recent content in codeblog on orioninsist</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 26 Jun 2023 18:19:46 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/codeblog/index.xml" rel="self" type="application/rss+xml" />
+    <description>Codeblog RSS feed</description>
+    <generator>Hugo</generator>
+    
     <item>
       <title>Creating Secure and Random Passwords with Python</title>
       <link>https://orioninsist.org/blog/creating-secure-and-random-passwords-with-python/</link>
-      <pubDate>Mon, 26 Jun 2023 18:19:46 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/creating-secure-and-random-passwords-with-python/</guid>
-      <description>Learn how to generate secure and random passwords using Python. Read this code blog and enhance your password security!</description>
+      <pubDate>Mon, 26 Jun 2023 18:19:46 &#43;03</pubDate>
+      <description>In today&rsquo;s digital world, maintaining strong passwords is crucial to protect our online accounts. In this article, we will explore how to generate secure and random passwords using Python.
+Code import random import string def generate_password(length): characters = string.ascii_letters + string.digits + string.punctuation password = &#39;&#39;.join(random.choice(characters) for _ in range(length)) return password length = int(input(&#34;Enter the password length: &#34;)) password = generate_password(length) print(&#34;Generated password:&#34;, password) Code Description The code above demonstrates a Python function for generating secure passwords. Here&rsquo;s how it works:
+The generate_password function takes a length parameter that specifies the desired password length. It creates a characters string that contains all the possible characters for the password (uppercase letters, lowercase letters, digits, and punctuation). The function generates the password by randomly selecting characters from the characters string and concatenating them together. Finally, the generated password is printed to the console. Usage To use the code, follow these steps:
+</description>
     </item>
     
   </channel>

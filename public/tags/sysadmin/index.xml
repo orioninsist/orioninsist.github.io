@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>orioninsist - Sysadmin</title>
+    <link>https://orioninsist.org/tags/sysadmin/</link>
+    <description>Sysadmin RSS feed</description>
+    <generator>Hugo</generator>
+    
+    <item>
+      <title>Exploring Docker Commands and Container Management</title>
+      <link>https://orioninsist.org/project/devops/2023/2023-11/exploring-docker-commands-and-container-management/</link>
+      <pubDate>Thu, 16 Nov 2023 02:53:47 &#43;03</pubDate>
+      <description>Introduction Docker has revolutionized the way applications are developed, deployed, and managed. It provides a lightweight and portable environment for running containers, which are self-contained instances of an application and its dependencies. Docker commands offer a powerful means to manage and interact with these containers.
+Updating and Listing Container Images
+The provided Bash commands demonstrate the process of updating and listing Docker container images.
+sudo docker container run -it centos:7 bash sudo yum -y update ls -l This script first creates a new container based on the centos:7 image. Inside the container, it updates the system packages using the yum command. Finally, it lists the contents of the current directory.
+</description>
+    </item>
+    
+  </channel>
+</rss>

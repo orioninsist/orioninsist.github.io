@@ -1,201 +1,72 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
   <channel>
-    <title>orioninsist</title>
+    <title>orioninsist - orioninsist</title>
     <link>https://orioninsist.org/</link>
-    <description>Recent content on orioninsist</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 19 Aug 2023 22:10:39 +0300</lastBuildDate><atom:link href="https://orioninsist.org/index.xml" rel="self" type="application/rss+xml" />
+    <description>orioninsist RSS feed</description>
+    <generator>Hugo</generator>
+    
     <item>
-      <title>Essential Linux Terminal Commands and Examples</title>
-      <link>https://orioninsist.org/blog/essential-linux-terminal-commands-and-examples/</link>
-      <pubDate>Sat, 19 Aug 2023 22:10:39 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/essential-linux-terminal-commands-and-examples/</guid>
-      <description>Master essential Linux terminal commands with explanations and practical examples. Learn how to navigate, copy, delete files, and more. Enhance your command-line skills now!</description>
+      <title>Projects</title>
+      <link>https://orioninsist.org/project/</link>
+      <pubDate>Thu, 16 Nov 2023 02:53:47 &#43;03</pubDate>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://orioninsist.org/news/</link>
+      <pubDate>Sat, 04 Nov 2023 12:59:21 &#43;03</pubDate>
+      <description></description>
     </item>
     
     <item>
       <title>Contact</title>
       <link>https://orioninsist.org/contact/</link>
-      <pubDate>Sat, 12 Aug 2023 10:37:53 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/contact/</guid>
-      <description>Hello!🚀 Feel free to get in touch with  Murat Kurkoglu. Whether you have questions about technology, want to discuss collaboration opportunities, or anything else, I&amp;#39;d be happy to hear from you.</description>
+      <pubDate>Sat, 12 Aug 2023 10:37:53 &#43;03</pubDate>
+      <description>Stay connected for more transformative content! Follow us on 🚀 Gmail: muratkurkoglu@gmail.com
+🚀 YouTube: https: www.youtube.com/@orioninsist-official/
+🚀 Odysee: https://odysee.com/@orioninsist
+🚀 Spotify: https://open.spotify.com/show/2U1u9mOfxjRYf7js8Wlhwj
+🚀 Spotify for Podcasters: https://podcasters.spotify.com/pod/show/orioninsist
+🚀 YouTube Music: https://music.youtube.com/channel/UCdQFQTaxjWiCSXKAXTb8TKA?feature=share
+🚀 Patreon: https: www.patreon.com/orioninsist
+🚀 Buy me a coffee: https://www.buymeacoffee.com/orioninsist
+🚀 Medium: https://orioninsist.dev/
+🚀 Blog: https://orioninsist.org/
+🚀 Hashnode: https://orioninsist.net/
+🚀 Devto: https://dev.to/orioninsist
+🚀 Quora: https://www.quora.com/profile/Orioninsist
+🚀 Reddit: https://www.reddit.com/user/insistorion
+🚀 Twitch: https://www.twitch.tv/orioninsist
+🚀 Hackernoon: https://hackernoon.com/u/orioninsist
+🚀 LinkedIn Company: https://www.linkedin.com/company/orioninsist/
+🚀 LinkedIn Personal: https://www.linkedin.com/in/-murat-kurkoglu/
+🚀 GitHub: https://github.com/orioninsist
+🚀 Librerapay: https://en.liberapay.com/orioninsist/
+🚀 Twitter: https://twitter.com/InsistOrion
+🚀 Facebook: https://www.facebook.com/insistorion
+🚀 Instagram : https://www.instagram.com/insistorion/
+🚀 Threads: https://www.threads.net/@insistorion
+🚀 Pinterest: https://www.pinterest.com/orioninsist/
+</description>
     </item>
     
     <item>
       <title>About</title>
       <link>https://orioninsist.org/about/</link>
-      <pubDate>Sat, 12 Aug 2023 10:37:48 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/about/</guid>
-      <description> Murat Kurkoglu 🚀 | Founder of orioninsist | Tech Enthusiast | Creating Daily Content | Exploring Tech Trends</description>
+      <pubDate>Sat, 12 Aug 2023 10:37:48 &#43;03</pubDate>
+      <description>About Hello there, I&rsquo;m Murat Kurkoglu, and I&rsquo;m the founder of orioninsist. With a background in both computer engineering and economics, I&rsquo;ve ventured into the world of technology and business. As a dedicated content creator, I wear the hats of a blogger and content producer, constantly curating fresh and engaging content.
+My passion for innovation drives me to craft new content daily, ensuring that there&rsquo;s always something new and exciting to share. Beyond my roles as a computer engineer and economist, I find joy in the art of storytelling through words and visuals.
+</description>
     </item>
     
     <item>
-      <title>Self Discovery and Goal Setting</title>
-      <link>https://orioninsist.org/blog/self-discovery-and-goal-setting/</link>
-      <pubDate>Fri, 11 Aug 2023 17:03:02 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/self-discovery-and-goal-setting/</guid>
-      <description>Embark on an Exciting Journey of Self-Discovery and Goal Setting! 🚀✨ Uncover your potential, define your aspirations, and set the course for a fulfilling future. Join us in Episode 1 of the Personal Development Series as we delve into the realms of growth and achievement. Let&amp;#39;s ignite the spark of progress together! 🔥🌱</description>
+      <title>Search</title>
+      <link>https://orioninsist.org/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      <description>search</description>
     </item>
-    
-    <item>
-      <title>Mastering Data Analysis With Pandas Series Ultimate Guide</title>
-      <link>https://orioninsist.org/blog/mastering-data-analysis-with-pandas-series-ultimate-guide/</link>
-      <pubDate>Wed, 02 Aug 2023 13:47:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/mastering-data-analysis-with-pandas-series-ultimate-guide/</guid>
-      <description>Unlock Data Insights with Python Pandas Series 🐼📊 | Comprehensive Guide to Data Analysis #DataScience #Python #DataManipulation</description>
-    </item>
-    
-    <item>
-      <title>Understanding Pandas Series Labeled and Unlabeled Data Structures</title>
-      <link>https://orioninsist.org/blog/understanding-pandas-series-labeled-and-unlabeled-data-structures/</link>
-      <pubDate>Mon, 31 Jul 2023 10:57:27 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/understanding-pandas-series-labeled-and-unlabeled-data-structures/</guid>
-      <description>Learn how to create and manipulate pandas Series, versatile data structures for efficient data handling in Python. Explore labeled and unlabeled formats, perform operations, and level up your data analysis skills! 🐼📊 #Python #Pandas #DataScience</description>
-    </item>
-    
-    <item>
-      <title>Mastering Numpy Array Slicing and Operations Python Numpy Podcast</title>
-      <link>https://orioninsist.org/blog/mastering-numpy-array-slicing-and-operations-python-numpy-podcast/</link>
-      <pubDate>Thu, 27 Jul 2023 18:02:34 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/mastering-numpy-array-slicing-and-operations-python-numpy-podcast/</guid>
-      <description>🔥 Welcome to the ultimate Python NumPy podcast! 🔥 In this video, we&amp;#39;ll dive deep into mastering NumPy array slicing, indexing, and various array operations for efficient data manipulation. 🚀</description>
-    </item>
-    
-    <item>
-      <title>Mastering Numpy Array Creation Manipulation and Analysis for Data Science Python Podcast</title>
-      <link>https://orioninsist.org/blog/mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast/</link>
-      <pubDate>Thu, 27 Jul 2023 17:04:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast/</guid>
-      <description>Dive into the world of NumPy and learn how to create, manipulate, and analyze arrays for data science using Python!</description>
-    </item>
-    
-    <item>
-      <title>The Ultimate Follower Count Challenge a Python Game</title>
-      <link>https://orioninsist.org/blog/the-ultimate-follower-count-challenge-a-python-game/</link>
-      <pubDate>Tue, 25 Jul 2023 10:10:06 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/the-ultimate-follower-count-challenge-a-python-game/</guid>
-      <description>Guess followers &amp;amp; play with Python! Random accounts, test your intuition. Fun &amp;amp; interactive! 🚀🎮 #Python #GameDev</description>
-    </item>
-    
-    <item>
-      <title>Mastering Lists in Python Unleashing the Power of Data Organization</title>
-      <link>https://orioninsist.org/blog/mastering-lists-in-python-unleashing-the-power-of-data-organization/</link>
-      <pubDate>Fri, 21 Jul 2023 19:16:08 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/mastering-lists-in-python-unleashing-the-power-of-data-organization/</guid>
-      <description>Discover the versatility of Python lists! From indexing to nesting, explore the magic of data organization in Python programming.</description>
-    </item>
-    
-    <item>
-      <title>Building a Simple Client-Server Communication in Python</title>
-      <link>https://orioninsist.org/blog/building-a-simple-client-server-communication-in-python/</link>
-      <pubDate>Thu, 06 Jul 2023 07:44:54 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/building-a-simple-client-server-communication-in-python/</guid>
-      <description>Learn how to establish basic client-server communication with Python. Explore the code and see how it works. 🐍💻 #Python #Networking</description>
-    </item>
-    
-    <item>
-      <title>How to Build a Simple Client-Server Chat Application in Python</title>
-      <link>https://orioninsist.org/blog/how-to-build-a-simple-client-server-chat-application-in-python/</link>
-      <pubDate>Tue, 04 Jul 2023 09:43:41 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/how-to-build-a-simple-client-server-chat-application-in-python/</guid>
-      <description>Learn how to build a Python client-server chat app! 🚀📲 Discover the essentials of client-server communication and create your own chat application. #python #networking #programming</description>
-    </item>
-    
-    <item>
-      <title>Python Socket Library: A Network Programming Gem</title>
-      <link>https://orioninsist.org/blog/python-socket-library-a-network-programming-gem/</link>
-      <pubDate>Tue, 04 Jul 2023 09:43:41 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/python-socket-library-a-network-programming-gem/</guid>
-      <description>Explore the power of Python&amp;#39;s socket library for network programming! Learn socket creation, data transmission, and use cases in this blog post. Level up your networking projects with this valuable tool. Happy coding! 🌐💻🐍</description>
-    </item>
-    
-    <item>
-      <title>Exploring Cybersecurity with Python: Advanced Topics and Practical Examples</title>
-      <link>https://orioninsist.org/blog/exploring-cybersecurity-with-python-advanced-topics-and-practical-examples/</link>
-      <pubDate>Wed, 28 Jun 2023 22:57:24 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/exploring-cybersecurity-with-python-advanced-topics-and-practical-examples/</guid>
-      <description>Dive into advanced cybersecurity topics with Python, learn practical examples, and enhance your skills. #cybersecurity #python</description>
-    </item>
-    
-    <item>
-      <title>Developing Cybersecurity Applications using Python Libraries: An Introduction</title>
-      <link>https://orioninsist.org/blog/developing-cybersecurity-applications-using-python-libraries-an-introduction/</link>
-      <pubDate>Wed, 28 Jun 2023 22:57:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/developing-cybersecurity-applications-using-python-libraries-an-introduction/</guid>
-      <description>Learn about essential Python libraries for cybersecurity applications and explore buffer overflow vulnerabilities. Stay tuned for more.</description>
-    </item>
-    
-    <item>
-      <title>Creating Secure and Random Passwords with Python</title>
-      <link>https://orioninsist.org/blog/creating-secure-and-random-passwords-with-python/</link>
-      <pubDate>Mon, 26 Jun 2023 18:19:46 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/creating-secure-and-random-passwords-with-python/</guid>
-      <description>Learn how to generate secure and random passwords using Python. Read this code blog and enhance your password security!</description>
-    </item>
-    
-    <item>
-      <title>Python-based Random Password Generator Released</title>
-      <link>https://orioninsist.org/blog/python-based-random-password-generator-released/</link>
-      <pubDate>Sun, 25 Jun 2023 16:11:32 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/python-based-random-password-generator-released/</guid>
-      <description>Exciting news! Python-based Random Password Generator released. Enhance your security.</description>
-    </item>
-    
-    <item>
-      <title>Random Password Generator</title>
-      <link>https://orioninsist.org/blog/random-password-generator/</link>
-      <pubDate>Sun, 25 Jun 2023 13:14:04 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/random-password-generator/</guid>
-      <description>Introducing the Random Password Generator project! Generate secure and unique passwords with Python. Safeguard your accounts and data effortlessly.</description>
-    </item>
-    
-    <item>
-      <title>Generating Random Passwords in Python</title>
-      <link>https://orioninsist.org/blog/generating-random-passwords-in-python/</link>
-      <pubDate>Sun, 25 Jun 2023 10:18:14 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/generating-random-passwords-in-python/</guid>
-      <description>Learn to generate secure passwords in Python. Enhance application security with this code snippet.</description>
-    </item>
-    
-    <item>
-      <title>10 Awesome Django Projects to Inspire Your Web Development Journey</title>
-      <link>https://orioninsist.org/blog/10-awesome-django-projects-to-inspire-your-web-development-journey/</link>
-      <pubDate>Fri, 23 Jun 2023 11:40:11 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/10-awesome-django-projects-to-inspire-your-web-development-journey/</guid>
-      <description>Discover 10 amazing Django projects that demonstrate its power and versatility, inspiring your web development journey.</description>
-    </item>
-    
-    <item>
-      <title>Django: A Powerful Web Framework for Rapid Development</title>
-      <link>https://orioninsist.org/blog/django-a-powerful-web-framework-for-rapid-development/</link>
-      <pubDate>Thu, 22 Jun 2023 13:56:27 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/django-a-powerful-web-framework-for-rapid-development/</guid>
-      <description>Explore the advantages, disadvantages, and alternatives of Django, a powerful web framework for rapid development.</description>
-    </item>
-    
     
   </channel>
 </rss>

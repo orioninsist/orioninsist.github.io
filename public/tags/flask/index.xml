@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
   <channel>
-    <title>flask on orioninsist</title>
+    <title>orioninsist - Flask</title>
     <link>https://orioninsist.org/tags/flask/</link>
-    <description>Recent content in flask on orioninsist</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 22 Jun 2023 13:56:27 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/flask/index.xml" rel="self" type="application/rss+xml" />
+    <description>Flask RSS feed</description>
+    <generator>Hugo</generator>
+    
     <item>
       <title>Django: A Powerful Web Framework for Rapid Development</title>
       <link>https://orioninsist.org/blog/django-a-powerful-web-framework-for-rapid-development/</link>
-      <pubDate>Thu, 22 Jun 2023 13:56:27 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/django-a-powerful-web-framework-for-rapid-development/</guid>
-      <description>Explore the advantages, disadvantages, and alternatives of Django, a powerful web framework for rapid development.</description>
+      <pubDate>Thu, 22 Jun 2023 13:56:27 &#43;03</pubDate>
+      <description>Introduction There are numerous tools and frameworks available for developing web applications. One such tool is Django, a popular Python web framework known for its rapid development process and powerful features. In this blog post, we will explore the advantages, disadvantages, and alternatives of Django.
+What is Django? Django is an open-source web framework written in the Python programming language. It stands out with its high productivity, ease of use, and extensive community support. Django follows the Model-View-Controller (MVC) architecture and aims to facilitate common web development tasks such as preventing code duplication, ensuring security, simplifying database operations, and user authentication.
+</description>
     </item>
     
   </channel>

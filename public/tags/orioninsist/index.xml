@@ -1,28 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
   <channel>
-    <title>orioninsist</title>
+    <title>orioninsist - Orioninsist</title>
     <link>https://orioninsist.org/tags/orioninsist/</link>
-    <description>Recent content on orioninsist</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 12 Aug 2023 10:37:53 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/orioninsist/index.xml" rel="self" type="application/rss+xml" />
+    <description>Orioninsist RSS feed</description>
+    <generator>Hugo</generator>
+    
+    <item>
+      <title>Orioninsist Latest Insights November 2023</title>
+      <link>https://orioninsist.org/news/2023/orioninsist-latest-insights-november-2023/</link>
+      <pubDate>Sat, 04 Nov 2023 12:59:21 &#43;03</pubDate>
+      <description>Exploring Docker Commands and Container Management orioninsist.org orioninsist.dev orioninsist.net https://medium.com/@orioninsist Hackernews Hackernoon LinkedIn Personal LinkedIn Company Patreon Buy me a coffee Liberapay Ko-fi GitHub GitLab Devto Quora Reddit Discord WhatsApp Telegram Twitter Facebook Docker a Comprehensive Guide to the Basic Commands orioninsist.org orioninsist.dev orioninsist.net https://medium.com/@orioninsist Hacker News Hackernoon LinkedIn Personal LinkedIn Company Patreon Buy me a coffee Liberapay Ko-fi GitHub GitLab Devto Instagram Facebook (https://x.com/InsistOrion/status/1723990362102931943?s=20) Pinterest YouTube Odysee Twitch Stackoverflow Stackexchange Quora Reddit Discord Telegram WhatsApp Spotify YouTube Music Google Forms Google Sheets Google Docs Google Slides Google Calendar Google Drive </description>
+    </item>
+    
+    <item>
+      <title>Orioninsist Latest Insights October 2023</title>
+      <link>https://orioninsist.org/news/2023/orioninsist-latest-insights-october-2023/</link>
+      <pubDate>Thu, 26 Oct 2023 12:21:05 &#43;03</pubDate>
+      <description>1- What Is Docker orioninsist.org buymeacoffee patreon LinkedIn Company LinkedIn Personal Medium Hashnode GitHub GitLab Devto Instagram Facebook Pinterest Twitter X YouTube Odysee Twitch Quora Reddit Discord Telegram WhatsApp Spotify YouTube Music Google Forms Google Sheets Google Docs Google Slides Google Calendar Google Drive 2- Understanding Docker Containers orioninsist.org orioninsist.dev orioninsist.net https://medium.com/@orioninsist Hacker News Hackernoon LinkedIn Personal LinkedIn Company Patreon Buy me a coffee Liberapay Ko-fi GitHub GitLab Devto Instagram Facebook Twitter X Pinterest YouTube Odysee Twitch Stackoverflow Stackexchange Quora Reddit Discord Telegram WhatsApp Spotify YouTube Music Google Forms Google Sheets Google Docs Google Slides Google Calendar Google Drive 3- How to Install Docker Desktop on Debian orioninsist.org orioninsist.dev orioninsist.net https://medium.com/@orioninsist Hacker News Hackernoon LinkedIn Personal LinkedIn Company Patreon Buy me a coffee Liberapay Ko-fi GitHub GitLab Devto Instagram Facebook () Pinterest YouTube Odysee Twitch Stackoverflow Stackexchange Quora Reddit Discord Telegram WhatsApp Spotify YouTube Music Google Forms Google Sheets Google Docs Google Slides Google Calendar Google Drive orioninsist.org orioninsist.dev orioninsist.net https://medium.com/@orioninsist Hacker News Hackernoon LinkedIn Personal LinkedIn Company Patreon Buy me a coffee Liberapay Ko-fi GitHub GitLab Devto Instagram Facebook () Pinterest YouTube Odysee Twitch Stackoverflow Stackexchange Quora Reddit Discord Telegram WhatsApp Spotify YouTube Music Google Forms Google Sheets Google Docs Google Slides Google Calendar Google Drive orioninsist.org orioninsist.dev orioninsist.net https://medium.com/@orioninsist Hacker News Hackernoon LinkedIn Personal LinkedIn Company Patreon Buy me a coffee Liberapay Ko-fi GitHub GitLab Devto Instagram Facebook () Pinterest YouTube Odysee Twitch Stackoverflow Stackexchange Quora Reddit Discord Telegram WhatsApp Spotify YouTube Music Google Forms Google Sheets Google Docs Google Slides Google Calendar Google Drive orioninsist.org orioninsist.dev orioninsist.net https://medium.com/@orioninsist Hacker News Hackernoon LinkedIn Personal LinkedIn Company Patreon Buy me a coffee Liberapay Ko-fi GitHub GitLab Devto Instagram Facebook () Pinterest YouTube Odysee Twitch Stackoverflow Stackexchange Quora Reddit Discord Telegram WhatsApp Spotify YouTube Music Google Forms Google Sheets Google Docs Google Slides Google Calendar Google Drive orioninsist.org orioninsist.dev orioninsist.net https://medium.com/@orioninsist Hacker News Hackernoon LinkedIn Personal LinkedIn Company Patreon Buy me a coffee Liberapay Ko-fi GitHub GitLab Devto Instagram Facebook () Pinterest YouTube Odysee Twitch Stackoverflow Stackexchange Quora Reddit Discord Telegram WhatsApp Spotify YouTube Music Google Forms Google Sheets Google Docs Google Slides Google Calendar Google Drive orioninsist.org orioninsist.dev orioninsist.net https://medium.com/@orioninsist Hacker News Hackernoon LinkedIn Personal LinkedIn Company Patreon Buy me a coffee Liberapay Ko-fi GitHub GitLab Devto Instagram Facebook () Pinterest YouTube Odysee Twitch Stackoverflow Stackexchange Quora Reddit Discord Telegram WhatsApp Spotify YouTube Music Google Forms Google Sheets Google Docs Google Slides Google Calendar Google Drive </description>
+    </item>
+    
     <item>
       <title>Contact</title>
       <link>https://orioninsist.org/contact/</link>
-      <pubDate>Sat, 12 Aug 2023 10:37:53 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/contact/</guid>
-      <description>Hello!🚀 Feel free to get in touch with  Murat Kurkoglu. Whether you have questions about technology, want to discuss collaboration opportunities, or anything else, I&amp;#39;d be happy to hear from you.</description>
+      <pubDate>Sat, 12 Aug 2023 10:37:53 &#43;03</pubDate>
+      <description>Stay connected for more transformative content! Follow us on 🚀 Gmail: muratkurkoglu@gmail.com
+🚀 YouTube: https: www.youtube.com/@orioninsist-official/
+🚀 Odysee: https://odysee.com/@orioninsist
+🚀 Spotify: https://open.spotify.com/show/2U1u9mOfxjRYf7js8Wlhwj
+🚀 Spotify for Podcasters: https://podcasters.spotify.com/pod/show/orioninsist
+🚀 YouTube Music: https://music.youtube.com/channel/UCdQFQTaxjWiCSXKAXTb8TKA?feature=share
+🚀 Patreon: https: www.patreon.com/orioninsist
+🚀 Buy me a coffee: https://www.buymeacoffee.com/orioninsist
+🚀 Medium: https://orioninsist.dev/
+🚀 Blog: https://orioninsist.org/
+🚀 Hashnode: https://orioninsist.net/
+🚀 Devto: https://dev.to/orioninsist
+🚀 Quora: https://www.quora.com/profile/Orioninsist
+🚀 Reddit: https://www.reddit.com/user/insistorion
+🚀 Twitch: https://www.twitch.tv/orioninsist
+🚀 Hackernoon: https://hackernoon.com/u/orioninsist
+🚀 LinkedIn Company: https://www.linkedin.com/company/orioninsist/
+🚀 LinkedIn Personal: https://www.linkedin.com/in/-murat-kurkoglu/
+🚀 GitHub: https://github.com/orioninsist
+🚀 Librerapay: https://en.liberapay.com/orioninsist/
+🚀 Twitter: https://twitter.com/InsistOrion
+🚀 Facebook: https://www.facebook.com/insistorion
+🚀 Instagram : https://www.instagram.com/insistorion/
+🚀 Threads: https://www.threads.net/@insistorion
+🚀 Pinterest: https://www.pinterest.com/orioninsist/
+</description>
     </item>
     
     <item>
       <title>About</title>
       <link>https://orioninsist.org/about/</link>
-      <pubDate>Sat, 12 Aug 2023 10:37:48 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/about/</guid>
-      <description> Murat Kurkoglu 🚀 | Founder of orioninsist | Tech Enthusiast | Creating Daily Content | Exploring Tech Trends</description>
+      <pubDate>Sat, 12 Aug 2023 10:37:48 &#43;03</pubDate>
+      <description>About Hello there, I&rsquo;m Murat Kurkoglu, and I&rsquo;m the founder of orioninsist. With a background in both computer engineering and economics, I&rsquo;ve ventured into the world of technology and business. As a dedicated content creator, I wear the hats of a blogger and content producer, constantly curating fresh and engaging content.
+My passion for innovation drives me to craft new content daily, ensuring that there&rsquo;s always something new and exciting to share. Beyond my roles as a computer engineer and economist, I find joy in the art of storytelling through words and visuals.
+</description>
     </item>
     
   </channel>

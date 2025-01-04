@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
   <channel>
-    <title>encryption on orioninsist</title>
+    <title>orioninsist - Encryption</title>
     <link>https://orioninsist.org/tags/encryption/</link>
-    <description>Recent content in encryption on orioninsist</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 28 Jun 2023 22:57:20 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
+    <description>Encryption RSS feed</description>
+    <generator>Hugo</generator>
+    
     <item>
       <title>Developing Cybersecurity Applications using Python Libraries: An Introduction</title>
       <link>https://orioninsist.org/blog/developing-cybersecurity-applications-using-python-libraries-an-introduction/</link>
-      <pubDate>Wed, 28 Jun 2023 22:57:20 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/developing-cybersecurity-applications-using-python-libraries-an-introduction/</guid>
-      <description>Learn about essential Python libraries for cybersecurity applications and explore buffer overflow vulnerabilities. Stay tuned for more.</description>
+      <pubDate>Wed, 28 Jun 2023 22:57:20 &#43;03</pubDate>
+      <description>Hello everyone! In this blog post, as someone who is passionate about cybersecurity, I aim to take a step towards developing cybersecurity applications using the Python programming language. Cybersecurity has become increasingly important in today&rsquo;s world, so in this article, I will introduce some powerful Python libraries and explore how we can start working on security-related projects.
+Scapy When it comes to controlling network traffic, Scapy is an excellent choice. This library allows you to create, capture, manipulate, and analyze network packets. Scapy can be used for packet analysis, network discovery, intrusion detection, and even developing new network protocols.
+</description>
     </item>
     
   </channel>

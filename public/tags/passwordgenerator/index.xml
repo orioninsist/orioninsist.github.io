@@ -1,28 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
   <channel>
-    <title>passwordgenerator on orioninsist</title>
+    <title>orioninsist - Passwordgenerator</title>
     <link>https://orioninsist.org/tags/passwordgenerator/</link>
-    <description>Recent content in passwordgenerator on orioninsist</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 25 Jun 2023 16:11:32 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/passwordgenerator/index.xml" rel="self" type="application/rss+xml" />
+    <description>Passwordgenerator RSS feed</description>
+    <generator>Hugo</generator>
+    
     <item>
       <title>Python-based Random Password Generator Released</title>
       <link>https://orioninsist.org/blog/python-based-random-password-generator-released/</link>
-      <pubDate>Sun, 25 Jun 2023 16:11:32 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/python-based-random-password-generator-released/</guid>
-      <description>Exciting news! Python-based Random Password Generator released. Enhance your security.</description>
+      <pubDate>Sun, 25 Jun 2023 16:11:32 &#43;03</pubDate>
+      <description>We are excited to announce the release of a new Python-based &ldquo;Random Password Generator.&rdquo; This project aims to provide users with a simple and secure way to generate random passwords.
+Key Features Random and secure: The password generator utilizes the random and string modules in Python to create passwords that are both random and secure. Customizable length: Users can specify the desired length of the generated password, allowing flexibility based on their requirements. Easy to use: With a straightforward user interface, generating passwords is just a matter of running the script and providing the desired length.
+</description>
     </item>
     
     <item>
       <title>Random Password Generator</title>
       <link>https://orioninsist.org/blog/random-password-generator/</link>
-      <pubDate>Sun, 25 Jun 2023 13:14:04 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/random-password-generator/</guid>
-      <description>Introducing the Random Password Generator project! Generate secure and unique passwords with Python. Safeguard your accounts and data effortlessly.</description>
+      <pubDate>Sun, 25 Jun 2023 13:14:04 &#43;03</pubDate>
+      <description>Overview The &ldquo;Random Password Generator&rdquo; is a Python project that allows users to generate random and secure passwords. It utilizes the random and string modules to create a password with a combination of letters, digits, and punctuation marks.
+Features User input: The project prompts the user to enter the desired length of the password. Random password generation: The project generates a random password of the specified length using a combination of letters, digits, and punctuation marks. Secure passwords: The generated passwords are designed to be secure and difficult to guess. Usage Run the Python script. Enter the desired length of the password when prompted. The program will generate a random password and display it on the screen. Code The code for the &ldquo;Random Password Generator&rdquo; project can be found here.GitHub
+</description>
     </item>
     
   </channel>

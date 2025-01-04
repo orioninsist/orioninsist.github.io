@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>orioninsist - Basic-Commands</title>
+    <link>https://orioninsist.org/tags/basic-commands/</link>
+    <description>Basic-Commands RSS feed</description>
+    <generator>Hugo</generator>
+    
+    <item>
+      <title>Mastering Essential Linux Commands</title>
+      <link>https://orioninsist.org/blog/mastering-essential-linux-commands/</link>
+      <pubDate>Sat, 16 Sep 2023 11:21:46 &#43;03</pubDate>
+      <description>Introduction Linux commands are the key to speeding up tasks and increasing productivity for Linux users. In this article, we will delve into important commands on the Linux command line, explaining each one and providing examples for clarity.
+The cp (Copy) Command The cp command is used to copy files or directories to another location. Here&rsquo;s the basic usage:
+cp source_file destination_directory/ For example:
+cp file.txt /home/user/backups/ The mv (Move) Command The mv command is used for moving or renaming files and directories. Here&rsquo;s the basic usage:
+</description>
+    </item>
+    
+  </channel>
+</rss>

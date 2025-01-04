@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
   <channel>
-    <title>challenge on orioninsist</title>
+    <title>orioninsist - Challenge</title>
     <link>https://orioninsist.org/tags/challenge/</link>
-    <description>Recent content in challenge on orioninsist</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 25 Jul 2023 10:10:06 +0300</lastBuildDate><atom:link href="https://orioninsist.org/tags/challenge/index.xml" rel="self" type="application/rss+xml" />
+    <description>Challenge RSS feed</description>
+    <generator>Hugo</generator>
+    
     <item>
       <title>The Ultimate Follower Count Challenge a Python Game</title>
       <link>https://orioninsist.org/blog/the-ultimate-follower-count-challenge-a-python-game/</link>
-      <pubDate>Tue, 25 Jul 2023 10:10:06 +0300</pubDate>
-      
-      <guid>https://orioninsist.org/blog/the-ultimate-follower-count-challenge-a-python-game/</guid>
-      <description>Guess followers &amp;amp; play with Python! Random accounts, test your intuition. Fun &amp;amp; interactive! 🚀🎮 #Python #GameDev</description>
+      <pubDate>Tue, 25 Jul 2023 10:10:06 &#43;03</pubDate>
+      <description>Introduction In this blog post, we will explore a fun and interactive Python game that challenges you to guess which social media account has more followers. The game makes use of random data from various popular accounts, and you will have to rely on your knowledge or intuition to make the right guess. Let&rsquo;s dive into the code and see how it works!
+Setting Up the Game To get started, make sure you have Python installed and create a new Python file called &ldquo;main.py.&rdquo; Additionally, we need to install the &ldquo;replit&rdquo; library and the &ldquo;art&rdquo; library. You can install them by running the following commands in your terminal or command prompt:
+</description>
     </item>
     
   </channel>
