@@ -1,7 +1,7 @@
 enableRobotsTXT: true
-baseURL : "https://orioninsist.org/"
-languageCode : en-us
-title : "orioninsist"
+baseURL: "https://orioninsist.org/"
+languageCode: en-us
+title: "orioninsist"
 pageinate: 6
 enableInlineShortcodes: true
 buildDrafts: false
@@ -10,19 +10,18 @@ buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
 minify:
-    disableXML: true
-    # minifyOutput: true
+  disableXML: true
+  # minifyOutput: true
 googleAnalytics: G-6CE6YFM36C
 
 languages:
-    en:
-      languageName: "English"
-      weight: 1
-      #taxonomies:
-        #tag: tags
-        #blog: blog
-        #search: search
-
+  en:
+    languageName: "English"
+    weight: 1
+    #taxonomies:
+    #tag: tags
+    #blog: blog
+    #search: search
 
 menu:
   main:
@@ -35,16 +34,16 @@ menu:
       url: /blog
       weight: 20
     #- identifier: project
-      #name: Project
-      #url: /project
-      #weight: 24
+    #name: Project
+    #url: /project
+    #weight: 24
     #- identifier: news
-      #name: News
-      #url: /news
-      #weight: 25
+    #name: News
+    #url: /news
+    #weight: 25
     #- identifier: projects
-     # name: Projects
-     # url: /projects/
+    # name: Projects
+    # url: /projects/
     #  weight: 30
     #- identifier: podcast
     #  name: Podcast
@@ -85,7 +84,7 @@ menu:
     - identifier: contact
       name: Contact
       url: /contact
-      weight: 40    
+      weight: 40
     #- identifier: resume
     #  name: Resume
     #  url: /resume
@@ -95,14 +94,13 @@ menu:
     #  url: /media
     #  weight: 120
     #- identifier: news
-     # name: News
-     # url: /news
-     # weight: 130
-   # - identifier: roadmap
+    # name: News
+    # url: /news
+    # weight: 130
+    # - identifier: roadmap
     #  name: Roadmap
     #  url: /roadmap
     #  weight: 140
-   
 
 params:
   ogTitle: "orioninsist"
@@ -128,16 +126,12 @@ params:
     filename: "sitemap.xml"
     priority: 0.9
 
-
-   
-
-  
   # for enchanced SEO
   env: production
 
 
 
-   Home Page
+    Home Page
   profileMode:
     enabled: true
     title: "Murat Kurkoglu"
@@ -147,8 +141,8 @@ params:
     imageHeight: 220
 
     buttons:
-     - name: Blog
-       url: "/blog"
+      - name: Blog
+        url: "/blog"
 
   # List View
   hideDescriptionInList: false
@@ -195,16 +189,7 @@ params:
       url: "https://twitter.com/InsistOrion"
     - name: "rss"
       url: "https://orioninsist.org/index.xml"
-   
-      
-       
-   
 
- 
-
- 
-
-  
   # text search
   fuseOpts:
     isCaseSensitive: false
@@ -232,15 +217,11 @@ markup:
     renderer:
       unsafe: true
   highlight:
-        noClasses: false    
-
+    noClasses: false
 
 privacy:
   drafts: false
   future: false
   googleAnalyticsAnonymizeIP: true
 
-
 privacyPolicy: "/privacy-policy.html"
-
-
