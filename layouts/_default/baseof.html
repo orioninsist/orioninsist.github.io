@@ -24,6 +24,13 @@
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>
+    <footer>
+        {{ with .Site.Params.social }}
+          {{ range . }}
+            <a href="{{ .url }}">{{ .name | title }}</a>
+          {{ end }}
+        {{ end }}
+    </footer>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
 </body>
 
