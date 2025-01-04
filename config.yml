@@ -18,12 +18,12 @@ languages:
   en:
     languageName: "English"
     weight: 1
-    taxonomies:
-      #tag: tags
-      #blog: blog
-      #search: search
-      #home: home
-      #social: social
+    #taxonomies:
+    #tag: tags
+    #blog: blog
+    #search: search
+    #home: home
+    #social: social
 
 menu:
   main:
