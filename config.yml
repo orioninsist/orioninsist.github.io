@@ -2,7 +2,7 @@ enableRobotsTXT: true
 baseURL: "https://orioninsist.org/"
 languageCode: en-us
 title: "orioninsist"
-paginate: 6
+pageinate: 6
 enableInlineShortcodes: true
 buildDrafts: false
 buildFuture: false
@@ -22,8 +22,6 @@ languages:
     #tag: tags
     #blog: blog
     #search: search
-    #home: home
-    #social: social
 
 menu:
   main:
@@ -35,6 +33,42 @@ menu:
       name: Blog
       url: /blog
       weight: 20
+    #- identifier: project
+    #name: Project
+    #url: /project
+    #weight: 24
+    #- identifier: news
+    #name: News
+    #url: /news
+    #weight: 25
+    #- identifier: projects
+    # name: Projects
+    # url: /projects/
+    #  weight: 30
+    #- identifier: podcast
+    #  name: Podcast
+    #  url: /podcast
+    #  weight: 40
+    #- identifier: stories
+    #  name: Stories
+    #  url: /stories
+    #  weight: 50
+    #- identifier: artwork
+    #  name: Artwork
+    #  url: /artwork
+    #  weight: 60
+    #- identifier: videos
+    #  name: Videos
+    #  url: /videos
+    #  weight: 70
+    #- identifier: pictures
+    #  name: Pictures
+    #  url: /pictures
+    #  weight: 80
+    #- identifier: presentation
+    #  name: Presentation
+    #  url: /presentation
+    #  weight: 90
     - identifier: search
       name: Search
       url: /search
@@ -51,11 +85,74 @@ menu:
       name: Contact
       url: /contact
       weight: 40
+    #- identifier: resume
+    #  name: Resume
+    #  url: /resume
+    #  weight: 110
+    #- identifier: media
+    #  name: Media
+    #  url: /media
+    #  weight: 120
+    #- identifier: news
+    # name: News
+    # url: /news
+    # weight: 130
+    # - identifier: roadmap
+    #  name: Roadmap
+    #  url: /roadmap
+    #  weight: 140
 
 params:
-  images:
-    - "/home/murat-kurkoglu.webp"
-  social:
+  ogTitle: "orioninsist"
+  ogDescription: "Hi,I’m Murat Kurkoglu, the founder of orioninsist.I’m a computer engineer and hold a degree in economics."
+  ogImage: "/home/murat-kurkoglu.webp"
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  comments: true
+  DateFormat: "January 2, 2006"
+  showToc: true
+  Description: "Hi,I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
+  metaDescription: "Hi,I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
+  author: orioninsist
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+  googleAnalytics: ["partials/google_analytics.html"]
+  favicon: "/orioninsist-16-16.png"
+  sitemap:
+    changeFreq: "always"
+    filename: "sitemap.xml"
+    priority: 0.9
+
+  # for enchanced SEO
+  env: production
+
+
+
+    Home Page
+  profileMode:
+    enabled: true
+    title: "Murat Kurkoglu"
+    subtitle: "<h2>Hi,I'm Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
+    imageUrl: "/home/murat-kurkoglu.webp"
+    imageWidth: 220
+    imageHeight: 220
+
+    buttons:
+      - name: Blog
+        url: "/blog"
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
     - name: "email"
       url: "mailto:muratkurkoglu@gmail.com"
     - name: "linkedin"
@@ -90,63 +187,31 @@ params:
       url: "https://www.twitch.tv/orioninsist"
     - name: "twitter"
       url: "https://twitter.com/InsistOrion"
-  ogTitle: "orioninsist"
-  ogDescription: "Hi,I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
-  ogImage: "/home/murat-kurkoglu.webp"
-  ShowShareButtons: true
-  ShowReadingTime: true
-  ShowFullTextinRSS: true
-  ShowPostNavLinks: true
-  comments: true
-  DateFormat: "January 2, 2006"
-  showToc: true
-  Description: "Hi,I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
-  metaDescription: "Hi,I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
-  author: orioninsist
-  TocOpen: false
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  hideMeta: false
-  googleAnalytics: ["partials/google_analytics.html"]
-  favicon: "/orioninsist-16-16.png"
-  sitemap:
-    changeFreq: "always"
-    filename: "sitemap.xml"
-    priority: 0.9
-  env: production
+    - name: "rss"
+      url: "https://orioninsist.org/index.xml"
 
-profileMode:
-  enabled: true
-  title: "Murat Kurkoglu"
-  subtitle: "<h2>Hi, I'm Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
-  imageUrl: "/home/murat-kurkoglu.webp"
-  imageWidth: 220
-  imageHeight: 220
-  buttons:
-    - name: Blog
-      url: "/blog"
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
 
-hideDescriptionInList: false
-
-cover:
-  hiddenInList: false
-  hiddenInSingle: false
-
-fuseOpts:
-  isCaseSensitive: false
-  shouldSort: true
-  location: 0
-  distance: 1000
-  threshold: 0.4
-  minMatchCharLength: 0
-  keys: ["title", "permalink", "summary", "content"]
-
+# for search using Fuse.js
 outputs:
   home:
     - HTML
     - RSS
     - JSON
-
+outputFormats:
+  RSS:
+    name: RSS
+    mediaType: application/rss+xml
+    baseName: index
+# allow HTML in MD
 markup:
   goldmark:
     renderer:
