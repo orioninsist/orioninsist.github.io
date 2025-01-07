@@ -5,34 +5,80 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
 
-<head>
-    {{- partial "head.html" . }}
-    <!-- Google AdSense kodunu buraya ekleyin -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2352285531358848"
-     crossorigin="anonymous"></script>
+    <head>
+        {{- partial "head.html" . }}
+        <!-- Google AdSense kodunu buraya ekleyin -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2352285531358848" crossorigin="anonymous"></script>
 
-    <script>
+        <!-- Google Consent Mode Script -->
+        <script>
           function initializeConsent() {
             const consent = localStorage.getItem('consent') || 'false';
 
             if (consent === 'true') {
-              // Enable analytics or other services
+              // Consent granted, enable Google Analytics and AdSense
               gtag('consent', 'update', {
                 'ad_storage': 'granted',
                 'analytics_storage': 'granted'
               });
+
+              // Load Google Analytics script
+              loadGoogleAnalytics();
             } else {
-              // Disable analytics or other services
+              // Consent denied, disable analytics and ads
               gtag('consent', 'update', {
                 'ad_storage': 'denied',
                 'analytics_storage': 'denied'
               });
             }
           }
+
+          function loadGoogleAnalytics() {
+            // Load Google Analytics script dynamically
+            var script = document.createElement('script');
+            script.src = "https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-X"; // Replace with your actual tracking ID
+            script.async = true;
+            document.head.appendChild(script);
+
+            script.onload = function() {
+              gtag('js', new Date());
+              gtag('config', 'UA-XXXXXX-X', {
+                'anonymize_ip': true
+              });
+            };
+          }
+
+          document.addEventListener('DOMContentLoaded', function() {
+            initializeConsent(); // Initialize consent once the page is loaded
+          });
         </script>
-        <!-- Google AdSense -->
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2352285531358848" crossorigin="anonymous"></script>
-</head>
+
+        <!-- Cookie Consent Script -->
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.0.0/build/cookieconsent.min.js"></script>
+        <script>
+          window.addEventListener('load', function() {
+            window.cookieconsent.initialise({
+              "palette": {
+                "popup": {
+                  "background": "#000"
+                },
+                "button": {
+                  "background": "#f1d600"
+                }
+              },
+              "theme": "classic",
+              "content": {
+                "message": "This website uses cookies to ensure you get the best experience on our website.",
+                "dismiss": "Got it!",
+                "link": "Learn more",
+                "href": "/privacy-policy"
+              }
+            });
+          });
+        </script>
+
+    </head>
+
 
 <body class="
 {{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
@@ -42,11 +88,65 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
+
+    <!-- Initialize Google Consent Mode -->
+    <script>
+      function initializeConsent() {
+        const consent = localStorage.getItem('consent') || 'false';
+
+        if (consent === 'true') {
+          // Enable analytics or other services
+          gtag('consent', 'update', {
+            'ad_storage': 'granted',
+            'analytics_storage': 'granted'
+          });
+        } else {
+          // Disable analytics or other services
+          gtag('consent', 'update', {
+            'ad_storage': 'denied',
+            'analytics_storage': 'denied'
+          });
+        }
+      }
+
+      document.addEventListener('DOMContentLoaded', function() {
+        initializeConsent(); // Call the function to check and set consent
+      });
+    </script>
+
+    <!-- Cookie Consent Script -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.0.0/build/cookieconsent.min.js"></script>
+    <script>
+      window.addEventListener('load', function() {
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": {
+              "background": "#000"
+            },
+            "button": {
+              "background": "#f1d600"
+            }
+          },
+          "theme": "classic",
+          "content": {
+            "message": "This website uses cookies to ensure you get the best experience on our website.",
+            "dismiss": "Got it!",
+            "link": "Learn more",
+            "href": "/privacy-policy"
+          }
+        });
+      });
+    </script>
+
     {{- partialCached "header.html" . .Page -}}
+
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>
+
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+
 </body>
+
 
 </html>
