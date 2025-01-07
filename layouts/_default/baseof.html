@@ -10,6 +10,28 @@
     <!-- Google AdSense kodunu buraya ekleyin -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2352285531358848"
      crossorigin="anonymous"></script>
+
+    <script>
+          function initializeConsent() {
+            const consent = localStorage.getItem('consent') || 'false';
+
+            if (consent === 'true') {
+              // Enable analytics or other services
+              gtag('consent', 'update', {
+                'ad_storage': 'granted',
+                'analytics_storage': 'granted'
+              });
+            } else {
+              // Disable analytics or other services
+              gtag('consent', 'update', {
+                'ad_storage': 'denied',
+                'analytics_storage': 'denied'
+              });
+            }
+          }
+        </script>
+        <!-- Google AdSense -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2352285531358848" crossorigin="anonymous"></script>
 </head>
 
 <body class="
