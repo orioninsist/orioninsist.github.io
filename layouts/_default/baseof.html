@@ -54,28 +54,38 @@
         </script>
 
         <!-- Cookie Consent Script -->
-        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.0.0/build/cookieconsent.min.js"></script>
-        <script>
-          window.addEventListener('load', function() {
-            window.cookieconsent.initialise({
-              "palette": {
-                "popup": {
-                  "background": "#000"
+          <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.0.0/build/cookieconsent.min.js"></script>
+          <script>
+            window.addEventListener('load', function() {
+              window.cookieconsent.initialise({
+                "palette": {
+                  "popup": {
+                    "background": "#000"
+                  },
+                  "button": {
+                    "background": "#f1d600"
+                  }
                 },
-                "button": {
-                  "background": "#f1d600"
+                "theme": "classic",
+                "content": {
+                  "message": "This website uses cookies to ensure you get the best experience on our website. Do you consent to the use of cookies for analytics?",
+                  "dismiss": "Got it!",
+                  "link": "Learn more",
+                  "href": "/privacy-policy"
+                },
+                "onStatusChange": function(status) {
+                  if (this.hasConsented()) {
+                    localStorage.setItem('consent', 'true');
+                    initializeAnalytics();  // Proceed to Google Analytics if consent is given
+                  } else {
+                    localStorage.setItem('consent', 'false');
+                    disableAnalytics();  // Disable Google Analytics if consent is denied
+                  }
                 }
-              },
-              "theme": "classic",
-              "content": {
-                "message": "This website uses cookies to ensure you get the best experience on our website.",
-                "dismiss": "Got it!",
-                "link": "Learn more",
-                "href": "/privacy-policy"
-              }
+              });
             });
-          });
-        </script>
+          </script>
+
 
     </head>
 
