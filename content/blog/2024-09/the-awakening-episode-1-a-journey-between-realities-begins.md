@@ -63,6 +63,6 @@ The bot’s movements slowed, but it wasn’t enough. Murat had to think faster.
 “You have potential,” Elias said with a faint smile. “But this is just the beginning.”
 
 
-![Murat battling the malicious bot using floating Linux commands.](/static/blog/2024-09/the-awakening-episode-1-a-journey-between-realities-begins-1-4.webp)
+![Murat battling the malicious bot using floating Linux commands.](/blog/2024-09/the-awakening-episode-1-a-journey-between-realities-begins-1-4.webp)
 ### Ending Teaser:
 As Murat adjusted to this new reality, he realized one thing: nothing in his life would ever be the same again. The journey between two worlds had just begun.
