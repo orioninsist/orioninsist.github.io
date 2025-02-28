@@ -23,7 +23,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.145.0
+      HUGO_VERSION: 0.140.2
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -52,10 +52,13 @@ jobs:
         run: |
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+      - name: Debug: Check Hugo Output
+        run: ls -lah ./public
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: github-pages  # ✅ Artifact adı "github-pages" olmalı
+          name: github-pages
           path: ./public
 
   deploy:
@@ -68,8 +71,11 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: github-pages  # ✅ Artifact adını aynı yaptık!
+          name: github-pages
           path: ./public
+
+      - name: Debug: Check Downloaded Files
+        run: ls -lah ./public
 
       - name: Deploy to GitHub Pages
         id: deployment
