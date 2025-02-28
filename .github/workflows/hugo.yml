@@ -23,7 +23,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.145.0
+      HUGO_VERSION: 0.140.2
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -55,12 +55,12 @@ jobs:
         run: |
           hugo --minify --baseURL="${{ steps.pages.outputs.base_url }}/"
 
-      - name: Debug - Check Hugo Output  # ✅ Hata veren satır düzeltildi
+      - name: Debug - Check Hugo Output  # ✅ Hugo çıktı üretiyor mu?
         run: |
-          echo "Checking if Hugo generated files exist..."
+          echo "Checking if Hugo output exists..."
           ls -lah ./public || echo "⚠️ WARNING: ./public directory is empty!"
 
-      - name: Upload artifact
+      - name: Upload artifact  # ✅ Artifact ismi netleşti
         uses: actions/upload-artifact@v4
         with:
           name: github-pages
@@ -73,13 +73,18 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: List available artifacts  # ✅ Artifact ismi yanlış mı?
+        run: |
+          echo "Listing available artifacts..."
+          ls -lah /home/runner/work/_temp/
+
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
           name: github-pages
           path: ./public
 
-      - name: Debug - Check Downloaded Files
+      - name: Debug - Check Downloaded Files  # ✅ Artifact gerçekten indirildi mi?
         run: |
           echo "Checking if downloaded files exist..."
           ls -lah ./public || echo "⚠️ WARNING: ./public directory is empty after download!"
