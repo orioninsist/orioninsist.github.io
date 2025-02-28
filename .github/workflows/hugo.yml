@@ -59,11 +59,12 @@ jobs:
         run: |
           echo "Checking if Hugo output exists..."
           ls -lah ./public || echo "⚠️ WARNING: ./public directory is empty!"
+          du -sh ./public || echo "⚠️ WARNING: ./public directory is not being generated!"
 
-      - name: Upload artifact  # ✅ Artifact ismi netleşti
+      - name: Upload artifact  # ✅ Artifact ismi değiştirildi
         uses: actions/upload-artifact@v4
         with:
-          name: github-pages
+          name: hugo-site
           path: ./public
 
   deploy:
@@ -76,12 +77,12 @@ jobs:
       - name: List available artifacts  # ✅ Artifact ismi yanlış mı?
         run: |
           echo "Listing available artifacts..."
-          ls -lah /home/runner/work/_temp/
+          ls -lah /home/runner/work/_temp/ || echo "⚠️ No artifacts found in temp directory!"
 
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: github-pages
+          name: hugo-site  # ✅ Artifact ismi burada eşleşmeli!
           path: ./public
 
       - name: Debug - Check Downloaded Files  # ✅ Artifact gerçekten indirildi mi?
