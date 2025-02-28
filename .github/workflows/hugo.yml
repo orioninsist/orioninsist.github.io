@@ -10,9 +10,19 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.125.7
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -21,28 +31,51 @@ jobs:
 
       - name: Install Hugo
         run: |
-          HUGO_VERSION=0.140.2
           wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
           sudo dpkg -i hugo.deb
 
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+
       - name: Build with Hugo
-        run: hugo --minify --baseURL="${{ github.repository_owner }}.github.io"
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo --minify --baseURL="https://${{ github.repository_owner }}.github.io/"
+
+      - name: Debug - Check Hugo Output
+        run: |
+          echo "Checking Hugo output..."
+          ls -lah ./public || echo "⚠️ WARNING: ./public directory is empty!"
+          du -sh ./public || echo "⚠️ WARNING: ./public directory does not contain files!"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: site-artifact
+          name: public
           path: ./public
+          retention-days: 1
 
   deploy:
     runs-on: ubuntu-latest
     needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: site-artifact
+          name: public
           path: ./public
 
+      - name: Debug - Check Downloaded Files
+        run: |
+          echo "Checking if downloaded files exist..."
+          ls -lah ./public || echo "⚠️ WARNING: ./public directory is empty after download!"
+
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v2
