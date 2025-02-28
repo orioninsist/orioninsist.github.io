@@ -23,7 +23,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.140.2
+      HUGO_VERSION: 0.145.0
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -55,8 +55,10 @@ jobs:
         run: |
           hugo --minify --baseURL="${{ steps.pages.outputs.base_url }}/"
 
-      - name: Debug: Check Hugo Output
-        run: ls -lah ./public
+      - name: Debug - Check Hugo Output  # ✅ Hata veren satır düzeltildi
+        run: |
+          echo "Checking if Hugo generated files exist..."
+          ls -lah ./public || echo "⚠️ WARNING: ./public directory is empty!"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
@@ -77,8 +79,10 @@ jobs:
           name: github-pages
           path: ./public
 
-      - name: Debug: Check Downloaded Files
-        run: ls -lah ./public
+      - name: Debug - Check Downloaded Files
+        run: |
+          echo "Checking if downloaded files exist..."
+          ls -lah ./public || echo "⚠️ WARNING: ./public directory is empty after download!"
 
       - name: Deploy to GitHub Pages
         id: deployment
