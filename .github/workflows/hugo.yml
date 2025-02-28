@@ -1,4 +1,3 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
 on:
@@ -11,19 +10,9 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
-defaults:
-  run:
-    shell: bash
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.140.2
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -32,64 +21,28 @@ jobs:
 
       - name: Install Hugo
         run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
-          sudo dpkg -i ${{ runner.temp }}/hugo.deb
-
-      - name: Install Dart Sass Embedded
-        run: sudo snap install dart-sass-embedded
-
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
-
-      - name: Install Node.js dependencies
-        run: |
-          if [[ -f package-lock.json || -f npm-shrinkwrap.json ]]; then
-            npm ci
-          fi
+          HUGO_VERSION=0.140.2
+          wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          sudo dpkg -i hugo.deb
 
       - name: Build with Hugo
-        env:
-          HUGO_ENVIRONMENT: production
-          HUGO_ENV: production
-        run: |
-          hugo --minify --baseURL="${{ steps.pages.outputs.base_url }}/"
+        run: hugo --minify --baseURL="${{ github.repository_owner }}.github.io"
 
-      - name: Debug - Check Hugo Output  # ✅ Hugo çıktı üretiyor mu?
-        run: |
-          echo "Checking if Hugo output exists..."
-          ls -lah ./public || echo "⚠️ WARNING: ./public directory is empty!"
-          du -sh ./public || echo "⚠️ WARNING: ./public directory is not being generated!"
-
-      - name: Upload artifact  # ✅ Artifact ismi değiştirildi
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: hugo-site
+          name: site-artifact
           path: ./public
 
   deploy:
     runs-on: ubuntu-latest
     needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: List available artifacts  # ✅ Artifact ismi yanlış mı?
-        run: |
-          echo "Listing available artifacts..."
-          ls -lah /home/runner/work/_temp/ || echo "⚠️ No artifacts found in temp directory!"
-
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: hugo-site  # ✅ Artifact ismi burada eşleşmeli!
+          name: site-artifact
           path: ./public
 
-      - name: Debug - Check Downloaded Files  # ✅ Artifact gerçekten indirildi mi?
-        run: |
-          echo "Checking if downloaded files exist..."
-          ls -lah ./public || echo "⚠️ WARNING: ./public directory is empty after download!"
-
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v2
