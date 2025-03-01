@@ -3,36 +3,15 @@ title: "The Power of Data Science in Healthcare, Retail, Finance, Transportation
 date: 2025-03-01T04:30:20+03:00
 draft: false
 summary: "Data science is transforming industries, optimizing decision-making in healthcare, finance, retail, sports, and transportation."
-slug: "the-power-of-data-science-in-healthcare-retail-finance-transportation-and-sports"
-categories:
-  - Data Science
-  - Technology
-  - AI
-tags:
-  - data science
-  - AI
-  - machine learning
-  - big data
-  - analytics
-  - healthcare
-  - finance
-  - retail
-  - transportation
-  - sports
-keywords:
-  - data science applications
-  - AI in healthcare
-  - machine learning in finance
-  - big data analytics
-  - sports analytics
-  - predictive modeling
-  - e-commerce data analysis
-  - risk assessment with AI
+slug: "the-power-of-data-science-in-healthcare-retail-finance-transportation-and-sports"  
 description: "Data science is revolutionizing healthcare, retail, finance, transportation, and sports with predictive analytics and AI-driven insights."
-cover: "/blog/2024-09/the-power-of-data-science-in-healthcare-retail-finance-transportation-and-sports.webp"
-authors:
-  - orioninsist
-featured: true
+cover:
+  image: "/blog/2024-09/the-power-of-data-science-in-healthcare-retail-finance-transportation-and-sports.webp"
+  alt: "the-power-of-data-science-in-healthcare-retail-finance-transportation-and-sports.webp"
+author: "murat"
+keywords: ["data science"]
+lang: "eng"
+type: "blog"
 ---
 
 
