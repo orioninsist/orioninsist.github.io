@@ -3,7 +3,7 @@ title: "Computers Python Basics"
 date: 2024-10-20T08:37:22+03:00
 draft: false
 author: "murat"
-lang: "eng"
+language: "English"
 type: "blog"
 description: "Learn the basics of computers and Python, covering components, programs, programming languages, and how machine language uses binary code (0s and 1s) to process information."
 slug: "computers-python-basics"

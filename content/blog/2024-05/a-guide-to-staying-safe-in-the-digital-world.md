@@ -3,7 +3,7 @@ title: "A Guide to Staying Safe in the Digital World"
 date: 2024-05-25T21:43:36+03:00
 draft: false
 author: "orioninsist"
-lang: "en"
+language: "English"
 type: "blog"
 description: "Navigate the ever-changing landscape of cybersecurity and information security with this comprehensive guide. Learn essential strategies to protect your data and safeguard your digital assets from evolving cyber threats."
 slug: "a-guide-to-staying-safe-in-the-dijital-world"
