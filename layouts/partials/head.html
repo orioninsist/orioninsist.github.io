@@ -165,11 +165,8 @@
 {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
 
 
-{{/* template "_internal/google_analytics.html" . */}}
 
-{{- if hugo.IsProduction -}}
-{{ hugo.GoogleAnalytics }}
-{{- end -}}
+
 
 {{- template "partials/templates/opengraph.html" . }}
 {{- template "partials/templates/twitter_cards.html" . }}
