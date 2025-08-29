@@ -14,6 +14,14 @@ minify:
   # minifyOutput: true
 googleAnalytics: G-6CE6YFM36C
 
+
+
+
+services:
+  googleAnalytics:
+    id: G-6CE6YFM36C
+
+
 languages:
   en:
     languageName: "English"
