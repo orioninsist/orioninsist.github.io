@@ -1,6 +1,6 @@
 enableRobotsTXT: true
 baseURL: "https://orioninsist.org/"
-languageCode: en-us
+defaultContentLanguage: en
 title: "orioninsist"
 pageinate: 6
 enableInlineShortcodes: true
