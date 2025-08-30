@@ -72,7 +72,7 @@ weight     = 40
 [params.profileMode]
 enabled      = true
 title        = "Murat Kurkoglu"
-subtitle     = '<h2>Hi, I\'m Murat Kurkoglu, the founder of orioninsist. I\'m a computer engineer and hold a degree in economics.</h2>'
+subtitle = "<h2>Hi, I'm Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
 imageUrl     = "/home/murat-kurkoglu2.webp"
 imageWidth   = 220
 imageHeight  = 220
