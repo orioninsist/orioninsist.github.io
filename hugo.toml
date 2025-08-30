@@ -5,13 +5,16 @@ enableRobotsTXT = true
 baseURL         = "https://orioninsist.org/"
 defaultContentLanguage = "en"
 title           = "orioninsist"
-paginate        = 6
 enableInlineShortcodes = true
 buildDrafts     = false
 buildFuture     = false
 buildExpired    = false
 enableEmoji     = true
 pygmentsUseClasses = true
+
+
+[pagination]
+  pagerSize = 6
 
 [minify]
 disableXML = true
