@@ -1,0 +1,207 @@
+###############################################################################
+###############################################################################
+
+enableRobotsTXT = true
+baseURL         = "https://orioninsist.org/"
+defaultContentLanguage = "en"
+title           = "orioninsist"
+paginate        = 6
+enableInlineShortcodes = true
+buildDrafts     = false
+buildFuture     = false
+buildExpired    = false
+enableEmoji     = true
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+# minifyOutput = true
+
+[services.googleAnalytics]
+id = "G-6CE6YFM36C"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight       = 1
+# taxonomies.tag   = "tags"
+# taxonomies.blog  = "blog"
+# taxonomies.search = "search"
+
+# Menü (ana menü – dil-bazlı değil)
+[[menu.main]]
+identifier = "home"
+name       = "Home"
+url        = "/"
+weight     = 10
+
+[[menu.main]]
+identifier = "blog"
+name       = "Blog"
+url        = "/blog"
+weight     = 20
+
+[[menu.main]]
+identifier = "search"
+name       = "Search"
+url        = "/search"
+weight     = 160
+
+[[menu.main]]
+identifier = "tags"
+name       = "Tags"
+url        = "/tags"
+weight     = 100
+
+[[menu.main]]
+identifier = "about"
+name       = "About"
+url        = "/about"
+weight     = 30
+
+[[menu.main]]
+identifier = "contact"
+name       = "Contact"
+url        = "/contact"
+weight     = 40
+
+###############################################################################
+# params
+###############################################################################
+[params]
+[params.profileMode]
+enabled      = true
+title        = "Murat Kurkoglu"
+subtitle     = '<h2>Hi, I\'m Murat Kurkoglu, the founder of orioninsist. I\'m a computer engineer and hold a degree in economics.</h2>'
+imageUrl     = "/home/murat-kurkoglu2.webp"
+imageWidth   = 220
+imageHeight  = 220
+[[params.profileMode.buttons]]
+name = "Blog"
+url  = "/blog"
+
+ogTitle       = "orioninsist"
+ogDescription = "Hi, I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
+ogImage       = "/home/murat-kurkoglu2.webp"
+ShowShareButtons      = true
+ShowReadingTime       = true
+ShowPostNavLinks      = true
+comments              = true
+DateFormat            = "January 2, 2006"
+showToc               = true
+Description           = "Hi, I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
+metaDescription       = "Hi, I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
+author                = "orioninsist"
+TocOpen               = false
+ShowBreadCrumbs       = true
+ShowCodeCopyButtons   = true
+hideMeta              = false
+favicon               = "/orioninsist-16-16.png"
+
+[params.sitemap]
+changeFreq = "always"
+filename   = "sitemap.xml"
+priority   = 0.9
+
+env = "production"
+
+hideDescriptionInList = false
+
+[params.cover]
+hiddenInList  = false
+hiddenInSingle = false
+
+[[params.socialIcons]]
+name = "email"
+url  = "mailto:muratkurkoglu@gmail.com"
+[[params.socialIcons]]
+name = "linkedin"
+url  = "https://www.linkedin.com/in/murat-kurkoglu/"
+[[params.socialIcons]]
+name = "github"
+url  = "https://github.com/orioninsist"
+[[params.socialIcons]]
+name = "youtube"
+url  = "https://www.youtube.com/@orioninsist-official/"
+[[params.socialIcons]]
+name = "cv"
+url  = "https://www.youtube.com/@orioninsist-official/"
+[[params.socialIcons]]
+name = "buymeacoffee"
+url  = "https://www.buymeacoffee.com/orioninsist/"
+[[params.socialIcons]]
+name = "facebook"
+url  = "https://www.facebook.com/insistorion"
+[[params.socialIcons]]
+name = "gitlab"
+url  = "https://gitlab.com/orioninsist"
+[[params.socialIcons]]
+name = "instagram"
+url  = "https://www.instagram.com/insistorion/"
+[[params.socialIcons]]
+name = "kaggle"
+url  = "https://www.kaggle.com/orioninsist"
+[[params.socialIcons]]
+name = "kofi"
+url  = "https://ko-fi.com/orioninsist"
+[[params.socialIcons]]
+name = "librapay"
+url  = "https://en.liberapay.com/orioninsist/"
+[[params.socialIcons]]
+name = "medium"
+url  = "https://orioninsist.dev/"
+[[params.socialIcons]]
+name = "reddit"
+url  = "https://www.reddit.com/user/insistorion"
+[[params.socialIcons]]
+name = "stackoverflow"
+url  = "https://stackoverflow.com/users/14691175/orioninsist"
+[[params.socialIcons]]
+name = "twitch"
+url  = "https://www.twitch.tv/orioninsist"
+[[params.socialIcons]]
+name = "twitter"
+url  = "https://twitter.com/InsistOrion"
+[[params.socialIcons]]
+name = "rss"
+url  = "https://orioninsist.org/index.xml"
+
+[params.fuseOpts]
+isCaseSensitive  = false
+shouldSort       = true
+location         = 0
+distance         = 1000
+threshold        = 0.4
+minMatchCharLength = 0
+keys             = ["title", "permalink", "summary", "content"]
+
+###############################################################################
+# outputs / outputFormats
+###############################################################################
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[outputFormats.RSS]
+name        = "RSS"
+mediaType   = "application/rss+xml"
+baseName    = "index"
+
+###############################################################################
+# markup
+###############################################################################
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+noClasses = false
+
+###############################################################################
+# privacy
+###############################################################################
+[privacy]
+drafts = false
+future = false
+googleAnalyticsAnonymizeIP = true
+
+privacyPolicy = "/privacy-policy.html"
