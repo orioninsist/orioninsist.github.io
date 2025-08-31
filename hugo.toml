@@ -71,13 +71,14 @@ url        = "/contact"
 weight     = 40
 
 
-description           = "Hi, I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
 
 
 ###############################################################################
 # params
 ###############################################################################
 [params]
+description           = "Hi, I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
+
 [params.profileMode]
 enabled      = true
 title        = "Murat Kurkoglu"
