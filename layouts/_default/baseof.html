@@ -6,39 +6,39 @@
 <html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
 
 <head>
-    {{- partial "head.html" . }}
-    {{ partial "google_analytics.html" . }}
+    {{- partial "head.html" . -}}
 
+    {{- /* AdSense ve İzin Yönetimi script'leri, head.html içindeki Analytics ile aynı mantıkta,
+        sadece site canlıya alındığında (production) çalışması için bu koşulun içine alındı.
+        Ayrıca gereksiz olan Google Analytics çağrısı buradan kaldırıldı.
+    */ -}}
+    {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2352285531358848"
+        crossorigin="anonymous"></script>
 
-
-
-  <!-- Google AdSense kodunu buraya ekleyin -->
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2352285531358848" crossorigin="anonymous"></script>
-
-        <!-- Google Consent Mode Script -->
-        <script>
-          function initializeConsent() {
+    <script>
+        function initializeConsent() {
             const consent = localStorage.getItem('consent') || 'false';
 
             if (consent === 'true') {
-              // Consent granted, enable Google Analytics and AdSense
-              gtag('consent', 'update', {
-                'ad_storage': 'granted',
-                'analytics_storage': 'granted'
-              });
+                // İzin verildi, Google Analytics ve AdSense'i etkinleştir
+                gtag('consent', 'update', {
+                    'ad_storage': 'granted',
+                    'analytics_storage': 'granted'
+                });
 
-              // Load Google Analytics script
-              loadGoogleAnalytics();
+                // Google Analytics script'ini yükle
+                loadGoogleAnalytics();
             } else {
-              // Consent denied, disable analytics and ads
-              gtag('consent', 'update', {
-                'ad_storage': 'denied',
-                'analytics_storage': 'denied'
-              });
+                // İzin reddedildi, analytics ve reklamları devre dışı bırak
+                gtag('consent', 'update', {
+                    'ad_storage': 'denied',
+                    'analytics_storage': 'denied'
+                });
             }
-          }
-
-
+        }
+    </script>
+    {{- end }}
 </head>
 
 <body class="
