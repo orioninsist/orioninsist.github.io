@@ -9,6 +9,36 @@
     {{- partial "head.html" . }}
     {{ partial "google_analytics.html" . }}
 
+
+
+
+  <!-- Google AdSense kodunu buraya ekleyin -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2352285531358848" crossorigin="anonymous"></script>
+
+        <!-- Google Consent Mode Script -->
+        <script>
+          function initializeConsent() {
+            const consent = localStorage.getItem('consent') || 'false';
+
+            if (consent === 'true') {
+              // Consent granted, enable Google Analytics and AdSense
+              gtag('consent', 'update', {
+                'ad_storage': 'granted',
+                'analytics_storage': 'granted'
+              });
+
+              // Load Google Analytics script
+              loadGoogleAnalytics();
+            } else {
+              // Consent denied, disable analytics and ads
+              gtag('consent', 'update', {
+                'ad_storage': 'denied',
+                'analytics_storage': 'denied'
+              });
+            }
+          }
+
+
 </head>
 
 <body class="
