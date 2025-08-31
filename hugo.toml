@@ -20,8 +20,10 @@ pygmentsUseClasses = true
 disableXML = true
 # minifyOutput = true
 
-[services.googleAnalytics]
-id = "G-6CE6YFM36C"
+[services]
+  [services.googleAnalytics]
+    id = "G-6CE6YFM36C"
+
 
 [languages]
 [languages.en]
