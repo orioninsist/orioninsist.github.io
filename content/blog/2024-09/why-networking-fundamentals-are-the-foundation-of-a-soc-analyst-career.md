@@ -10,7 +10,7 @@ type = "blog"
 readingTime = true
 featured = false
 [cover]
-    image = "static/blog/2024-09/why-networking-fundamentals-are-the-foundation-of-a-soc-analyst-career.webp"
+    image = "/blog/2024-09/why-networking-fundamentals-are-the-foundation-of-a-soc-analyst-career.webp"
     alt = "why-networking-fundamentals-are-the-foundation-of-a-soc-analyst-career.webp"
 +++
 ### Introduction
