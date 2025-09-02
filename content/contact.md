@@ -10,8 +10,8 @@ type: "blog"
 language: "English"
 slug: "contact"
 cover:
-    image: "/contact/contact.png"
-    alt : "orioninsist contact image"
+    image: "/contact/murat-kurkoglu-contact.webp"
+    alt : "murat kurkoglu contact image"
 
 ---
 
