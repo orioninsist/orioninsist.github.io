@@ -214,3 +214,6 @@ future = false
 googleAnalyticsAnonymizeIP = true
 
 privacyPolicy = "/privacy-policy.html"
+
+
+newContentCreateKind = "toml"
