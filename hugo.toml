@@ -92,7 +92,7 @@ TocOpen               = false
 ShowBreadCrumbs       = true
 ShowCodeCopyButtons   = true
 hideMeta              = false
-favicon               = "/orioninsist-16-16.png"
+favicon               = "/orioninsist.ico"
 
 [params.profileMode]
 enabled      = true
