@@ -213,7 +213,7 @@ drafts = false
 future = false
 googleAnalyticsAnonymizeIP = true
 
-privacyPolicy = "/privacy-policy.html"
+privacyPolicy = "/privacy-policy.md"
 
 
 newContentCreateKind = "toml"
