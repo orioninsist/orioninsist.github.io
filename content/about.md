@@ -2,7 +2,7 @@
 title: "About"
 date: 2023-08-12T10:37:48+03:00
 draft: false
-description: "Murat Kurkoglu 🚀 Founder of orioninsist Tech Enthusiast Creating Daily Content Exploring Tech trends"
+description: ""
 author: "orioninsist"
 tags: ["about","orioninsist","me"]
 keywords: ["about","orioninsist","me"]
