@@ -15,7 +15,7 @@ cover:
 
 ---
 ## About
-Hello there, I'm  Murat Kurkoglu, and I'm the founder of orioninsist. With a background in both computer engineering and economics, I've ventured into the world of technology and business. As a dedicated content creator, I wear the hats of a blogger and content producer, constantly curating fresh and engaging content.
+Hello there, I'm Murat Kurkoglu, and I'm the founder of orioninsist. With a background in both computer engineering and economics, I've ventured into the world of technology and business. As a dedicated content creator, I wear the hats of a blogger and content producer, constantly curating fresh and engaging content.
 
 My passion for innovation drives me to craft new content daily, ensuring that there's always something new and exciting to share. Beyond my roles as a computer engineer and economist, I find joy in the art of storytelling through words and visuals.
 
