@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Project on orioninsist</title>
+    <link>https://orioninsist.org/tags/project/</link>
+    <description>Recent content in Project on orioninsist</description>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <managingEditor>muratkurkoglu@gmail.com (Murat Kurkoglu)</managingEditor>
+    <webMaster>muratkurkoglu@gmail.com (Murat Kurkoglu)</webMaster>
+    <lastBuildDate>Sun, 25 Jun 2023 13:14:04 +0300</lastBuildDate>
+    <atom:link href="https://orioninsist.org/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Random Password Generator</title>
+      <link>https://orioninsist.org/blog/random-password-generator/</link>
+      <pubDate>Sun, 25 Jun 2023 13:14:04 +0300</pubDate><author>muratkurkoglu@gmail.com (Murat Kurkoglu)</author>
+      <guid>https://orioninsist.org/blog/random-password-generator/</guid>
+      <description>Introducing the Random Password Generator project! Generate secure and unique passwords with Python. Safeguard your accounts and data effortlessly.</description>
+    </item>
+  </channel>
+</rss>

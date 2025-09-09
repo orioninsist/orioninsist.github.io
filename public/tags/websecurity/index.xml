@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Websecurity on orioninsist</title>
+    <link>https://orioninsist.org/tags/websecurity/</link>
+    <description>Recent content in Websecurity on orioninsist</description>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <managingEditor>muratkurkoglu@gmail.com (Murat Kurkoglu)</managingEditor>
+    <webMaster>muratkurkoglu@gmail.com (Murat Kurkoglu)</webMaster>
+    <lastBuildDate>Wed, 28 Jun 2023 22:57:20 +0300</lastBuildDate>
+    <atom:link href="https://orioninsist.org/tags/websecurity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developing Cybersecurity Applications using Python Libraries: An Introduction</title>
+      <link>https://orioninsist.org/blog/developing-cybersecurity-applications-using-python-libraries-an-introduction/</link>
+      <pubDate>Wed, 28 Jun 2023 22:57:20 +0300</pubDate><author>muratkurkoglu@gmail.com (Murat Kurkoglu)</author>
+      <guid>https://orioninsist.org/blog/developing-cybersecurity-applications-using-python-libraries-an-introduction/</guid>
+      <description>Learn about essential Python libraries for cybersecurity applications and explore buffer overflow vulnerabilities. Stay tuned for more.</description>
+    </item>
+  </channel>
+</rss>

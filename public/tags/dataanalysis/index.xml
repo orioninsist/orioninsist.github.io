@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Dataanalysis on orioninsist</title>
+    <link>https://orioninsist.org/tags/dataanalysis/</link>
+    <description>Recent content in Dataanalysis on orioninsist</description>
+    <generator>Hugo -- 0.149.1</generator>
+    <language>en</language>
+    <managingEditor>muratkurkoglu@gmail.com (Murat Kurkoglu)</managingEditor>
+    <webMaster>muratkurkoglu@gmail.com (Murat Kurkoglu)</webMaster>
+    <lastBuildDate>Wed, 02 Aug 2023 13:47:20 +0300</lastBuildDate>
+    <atom:link href="https://orioninsist.org/tags/dataanalysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering Data Analysis With Pandas Series Ultimate Guide</title>
+      <link>https://orioninsist.org/blog/mastering-data-analysis-with-pandas-series-ultimate-guide/</link>
+      <pubDate>Wed, 02 Aug 2023 13:47:20 +0300</pubDate><author>muratkurkoglu@gmail.com (Murat Kurkoglu)</author>
+      <guid>https://orioninsist.org/blog/mastering-data-analysis-with-pandas-series-ultimate-guide/</guid>
+      <description>Unlock Data Insights with Python Pandas Series 🐼📊 | Comprehensive Guide to Data Analysis #DataScience #Python #DataManipulation</description>
+    </item>
+    <item>
+      <title>Understanding Pandas Series Labeled and Unlabeled Data Structures</title>
+      <link>https://orioninsist.org/blog/understanding-pandas-series-labeled-and-unlabeled-data-structures/</link>
+      <pubDate>Mon, 31 Jul 2023 10:57:27 +0300</pubDate><author>muratkurkoglu@gmail.com (Murat Kurkoglu)</author>
+      <guid>https://orioninsist.org/blog/understanding-pandas-series-labeled-and-unlabeled-data-structures/</guid>
+      <description>Learn how to create and manipulate pandas Series, versatile data structures for efficient data handling in Python. Explore labeled and unlabeled formats, perform operations, and level up your data analysis skills! 🐼📊 #Python #Pandas #DataScience</description>
+    </item>
+    <item>
+      <title>Mastering Numpy Array Creation Manipulation and Analysis for Data Science Python Podcast</title>
+      <link>https://orioninsist.org/blog/mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast/</link>
+      <pubDate>Thu, 27 Jul 2023 17:04:20 +0300</pubDate><author>muratkurkoglu@gmail.com (Murat Kurkoglu)</author>
+      <guid>https://orioninsist.org/blog/mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast/</guid>
+      <description>Dive into the world of NumPy and learn how to create, manipulate, and analyze arrays for data science using Python!</description>
+    </item>
+  </channel>
+</rss>
