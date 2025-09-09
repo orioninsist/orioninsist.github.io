@@ -193,7 +193,7 @@ keys             = ["title", "permalink", "summary", "content"]
 # outputs / outputFormats
 ###############################################################################
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS"]
 section = ["HTML", "RSS"]
 taxonomy = ["HTML", "RSS"]
 term = ["HTML", "RSS"]
