@@ -1,7 +1,3 @@
 User-agent: *
-Allow: /
-
-Disallow: /tags/
-Disallow: /blog/
-
+Disallow:
 Sitemap: https://orioninsist.org/sitemap.xml

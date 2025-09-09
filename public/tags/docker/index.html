@@ -1,23 +1,373 @@
-<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Docker | orioninsist</title>
-<meta name=keywords content><meta name=description content="Hi,I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."><meta name=author content="orioninsist"><link rel=canonical href=https://orioninsist.org/tags/docker/><link crossorigin=anonymous href=/assets/css/stylesheet.3613efbd0b1772781e8f49935e973cae632a7f61471c05b17be155505ccf87b5.css integrity="sha256-NhPvvQsXcngej0mTXpc8rmMqf2FHHAWxe+FVUFzPh7U=" rel="preload stylesheet" as=style><link rel=icon href=https://orioninsist.org/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://orioninsist.org/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://orioninsist.org/favicon-32x32.png><link rel=apple-touch-icon href=https://orioninsist.org/apple-touch-icon.png><link rel=mask-icon href=https://orioninsist.org/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://orioninsist.org/tags/docker/index.xml><link rel=alternate hreflang=en href=https://orioninsist.org/tags/docker/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script async src="https://www.googletagmanager.com/gtag/js?id=G-6CE6YFM36C"></script><script>var dnt,doNotTrack=!1;if(!1&&(dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes"),!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-6CE6YFM36C")}</script><meta property="og:url" content="https://orioninsist.org/tags/docker/"><meta property="og:site_name" content="orioninsist"><meta property="og:title" content="Docker"><meta property="og:description" content="Hi,I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."><meta property="og:locale" content="en"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Docker"><meta name=twitter:description content="Hi,I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."></head><body class=list id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://orioninsist.org/ accesskey=h title="orioninsist (Alt + H)">orioninsist</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button><ul class=lang-switch><li>|</li></ul></div></div><ul id=menu><li><a href=https://orioninsist.org/ title=Home><span>Home</span></a></li><li><a href=https://orioninsist.org/blog title=Blog><span>Blog</span></a></li><li><a href=https://orioninsist.org/about title=About><span>About</span></a></li><li><a href=https://orioninsist.org/contact title=Contact><span>Contact</span></a></li><li><a href=https://orioninsist.org/tags title=Tags><span>Tags</span></a></li><li><a href=https://orioninsist.org/search title="Search (Alt + /)" accesskey=/><span>Search</span></a></li></ul></nav></header><main class=main><header class=page-header><div class=breadcrumbs><a href=https://orioninsist.org/>Home</a>&nbsp;»&nbsp;<a href=https://orioninsist.org/tags/>Tags</a></div><h1>Docker</h1></header><article class="post-entry tag-entry"><figure class=entry-cover><img loading=lazy src=https://orioninsist.org/blog/2024-04/docker-cli-essential-commands.png alt=docker-cli-essential-commands.png></figure><header class=entry-header><h2>Docker Cli Essential Commands</h2></header><div class=entry-content><p>Docker has become a cornerstone of modern application development. By containerizing applications, Docker streamlines deployment, simplifies collaboration, and promotes portability. This blog post delves into some fundamental Docker commands you’ll encounter frequently.
-Listing Docker Containers sudo docker container ls -a --no-trunc List all containers (including exited ones) without truncating names sudo docker container ls -a --no-trunc sudo docker container ls -a List all containers (running and stopped) sudo docker container ls -a sudo docker container ls -a -q List only container IDs sudo docker container ls -a -q sudo docker container ls -l List containers with detailed information sudo docker container ls -l sudo docker container ls -a --filter "" List containers based on filters (example: –filter status=running) sudo docker container ls -a --filter "" Running a Container sudo docker container run centos:7 ping 127.0.0.1 -c 10 Run a single instance of centos:7 image and execute ping command sudo docker container run centos:7 ping 127.0.0.1 -c 10 Viewing Container Information sudo docker ps List all running containers sudo docker ps sudo docker ps -a List all containers (running and stopped) with ps sudo docker ps -a Starting and Stopping Containers sudo docker container run -d centos:7 ping 127.0.0.1 Run a container in detached mode (background) sudo docker container run -d centos:7 ping 127.0.0.1 sudo docker ps Verify the container is running (after running in detached mode) sudo docker ps Inspecting Container Logs sudo docker container logs [containerid] View logs of a specific container (replace [containerid] with actual ID) sudo docker container logs [containerid] sudo docker container logs --tail [containerid] View only the most recent logs of a container (replace [containerid] with actual ID) sudo docker container logs --tail [containerid] sudo docker container logs --tail 10 [containerid] sudo docker container logs -f [containerid] Follow container logs in real-time (replace [containerid] with actual ID) sudo docker container logs -f [containerid] Additional Commands sudo docker container start [containerid]: Starts a stopped container. sudo docker container stop [containerid]: Stops a running container. sudo docker container rm [containerid]: Removes a container. Conclusion This blog post provides a brief overview of essential Docker commands. By mastering these commands, you’ll be well on your way to effectively managing containers and building robust applications with Docker. Note: Replace [containerid] with the actual ID of the container whenever applicable in the commands.
-...</p></div><footer class=entry-footer><span title='2024-04-08 00:25:24 +0300 +03'>April 8, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;murat</footer><a class=entry-link aria-label="post link to Docker Cli Essential Commands" href=https://orioninsist.org/blog/2024-04/docker-cli-essential-commands/></a></article><article class="post-entry tag-entry"><figure class=entry-cover><img loading=lazy src=https://orioninsist.org/blog/2024-03/embarking-on-the-journey-of-containers-with-docker-essential-commands.png alt=embarking-on-the-journey-of-containers-with-docker-essential-commands></figure><header class=entry-header><h2>Embarking on the Journey of Containers With Docker Essential Commands</h2></header><div class=entry-content><p>Docker has become a cornerstone in the modern software development landscape. It empowers developers to package and run applications in a consistent and portable manner, irrespective of the underlying infrastructure. This guide serves as a gentle introduction to Docker, delving into the essential commands that will kickstart your journey into the world of containers.
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Docker | orioninsist</title>
+<meta name="keywords" content="">
+<meta name="description" content="Hi, I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics.">
+<meta name="author" content="orioninsist">
+<link rel="canonical" href="https://orioninsist.org/tags/docker/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://orioninsist.org/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://orioninsist.org/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://orioninsist.org/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://orioninsist.org/apple-touch-icon.png">
+<link rel="mask-icon" href="https://orioninsist.org/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://orioninsist.org/tags/docker/index.xml">
+<link rel="alternate" hreflang="en" href="https://orioninsist.org/tags/docker/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-6CE6YFM36C"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-6CE6YFM36C');
+        }
+      </script><meta property="og:url" content="https://orioninsist.org/tags/docker/">
+  <meta property="og:site_name" content="orioninsist">
+  <meta property="og:title" content="Docker">
+  <meta property="og:description" content="Hi, I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Docker">
+<meta name="twitter:description" content="Hi, I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics.">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2352285531358848"
+        crossorigin="anonymous"></script>
+
+    <script>
+        function initializeConsent() {
+            const consent = localStorage.getItem('consent') || 'false';
+
+            if (consent === 'true') {
+                
+                gtag('consent', 'update', {
+                    'ad_storage': 'granted',
+                    'analytics_storage': 'granted'
+                });
+
+                
+                loadGoogleAnalytics();
+            } else {
+                
+                gtag('consent', 'update', {
+                    'ad_storage': 'denied',
+                    'analytics_storage': 'denied'
+                });
+            }
+        }
+    </script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://orioninsist.org/" accesskey="h" title="orioninsist (Alt + H)">orioninsist</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://orioninsist.org/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://orioninsist.org/blog" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://orioninsist.org/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://orioninsist.org/contact" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://orioninsist.org/tags" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://orioninsist.org/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://orioninsist.org/">Home</a>&nbsp;»&nbsp;<a href="https://orioninsist.org/tags/">Tags</a></div>
+  <h1>
+    Docker
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://orioninsist.org/blog/2024-04/docker-cli-essential-commands.png" alt="docker-cli-essential-commands.png">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Docker Cli Essential Commands
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Docker has become a cornerstone of modern application development. By containerizing applications, Docker streamlines deployment, simplifies collaboration, and promotes portability. This blog post delves into some fundamental Docker commands you’ll encounter frequently.
+Listing Docker Containers sudo docker container ls -a --no-trunc List all containers (including exited ones) without truncating names sudo docker container ls -a --no-trunc sudo docker container ls -a List all containers (running and stopped) sudo docker container ls -a sudo docker container ls -a -q List only container IDs sudo docker container ls -a -q sudo docker container ls -l List containers with detailed information sudo docker container ls -l sudo docker container ls -a --filter &#34;&#34; List containers based on filters (example: –filter status=running) sudo docker container ls -a --filter &#34;&#34; Running a Container sudo docker container run centos:7 ping 127.0.0.1 -c 10 Run a single instance of centos:7 image and execute ping command sudo docker container run centos:7 ping 127.0.0.1 -c 10 Viewing Container Information sudo docker ps List all running containers sudo docker ps sudo docker ps -a List all containers (running and stopped) with ps sudo docker ps -a Starting and Stopping Containers sudo docker container run -d centos:7 ping 127.0.0.1 Run a container in detached mode (background) sudo docker container run -d centos:7 ping 127.0.0.1 sudo docker ps Verify the container is running (after running in detached mode) sudo docker ps Inspecting Container Logs sudo docker container logs [containerid] View logs of a specific container (replace [containerid] with actual ID) sudo docker container logs [containerid] sudo docker container logs --tail [containerid] View only the most recent logs of a container (replace [containerid] with actual ID) sudo docker container logs --tail [containerid] sudo docker container logs --tail 10 [containerid] sudo docker container logs -f [containerid] Follow container logs in real-time (replace [containerid] with actual ID) sudo docker container logs -f [containerid] Additional Commands sudo docker container start [containerid]: Starts a stopped container. sudo docker container stop [containerid]: Stops a running container. sudo docker container rm [containerid]: Removes a container. Conclusion This blog post provides a brief overview of essential Docker commands. By mastering these commands, you’ll be well on your way to effectively managing containers and building robust applications with Docker. Note: Replace [containerid] with the actual ID of the container whenever applicable in the commands.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-04-08 00:25:24 +0300 +03'>April 8, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;murat</footer>
+  <a class="entry-link" aria-label="post link to Docker Cli Essential Commands" href="https://orioninsist.org/blog/2024-04/docker-cli-essential-commands/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://orioninsist.org/blog/2024-03/embarking-on-the-journey-of-containers-with-docker-essential-commands.png" alt="embarking-on-the-journey-of-containers-with-docker-essential-commands">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Embarking on the Journey of Containers With Docker Essential Commands
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Docker has become a cornerstone in the modern software development landscape. It empowers developers to package and run applications in a consistent and portable manner, irrespective of the underlying infrastructure. This guide serves as a gentle introduction to Docker, delving into the essential commands that will kickstart your journey into the world of containers.
 1. Verifying Docker Installation: The first step is to verify that Docker is installed on your system. Run the following command:
-...</p></div><footer class=entry-footer><span title='2024-03-22 20:15:47 +0300 +03'>March 22, 2024</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;orioninsist</footer><a class=entry-link aria-label="post link to Embarking on the Journey of Containers With Docker Essential Commands" href=https://orioninsist.org/blog/2024-03/embarking-on-the-journey-of-containers-with-docker-essential-commands/></a></article><article class="post-entry tag-entry"><figure class=entry-cover><img loading=lazy src=https://orioninsist.org/project/devops/2023/2023-11/exploring-docker-commands-and-container-management.png alt=exploring-docker-commands-and-container-management></figure><header class=entry-header><h2>Exploring Docker Commands and Container Management</h2></header><div class=entry-content><p>Introduction Docker has revolutionized the way applications are developed, deployed, and managed. It provides a lightweight and portable environment for running containers, which are self-contained instances of an application and its dependencies. Docker commands offer a powerful means to manage and interact with these containers.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-03-22 20:15:47 +0300 +03'>March 22, 2024</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;orioninsist</footer>
+  <a class="entry-link" aria-label="post link to Embarking on the Journey of Containers With Docker Essential Commands" href="https://orioninsist.org/blog/2024-03/embarking-on-the-journey-of-containers-with-docker-essential-commands/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://orioninsist.org/project/devops/2023/2023-11/exploring-docker-commands-and-container-management.png" alt="exploring-docker-commands-and-container-management">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Exploring Docker Commands and Container Management
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Introduction Docker has revolutionized the way applications are developed, deployed, and managed. It provides a lightweight and portable environment for running containers, which are self-contained instances of an application and its dependencies. Docker commands offer a powerful means to manage and interact with these containers.
 Updating and Listing Container Images
 The provided Bash commands demonstrate the process of updating and listing Docker container images.
 sudo docker container run -it centos:7 bash sudo yum -y update ls -l This script first creates a new container based on the centos:7 image. Inside the container, it updates the system packages using the yum command. Finally, it lists the contents of the current directory.
-...</p></div><footer class=entry-footer><span title='2023-11-16 02:53:47 +0300 +03'>November 16, 2023</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;orioninsist</footer><a class=entry-link aria-label="post link to Exploring Docker Commands and Container Management" href=https://orioninsist.org/project/devops/2023/2023-11/exploring-docker-commands-and-container-management/></a></article><article class="post-entry tag-entry"><figure class=entry-cover><img loading=lazy src=https://orioninsist.org/project/devops/2023/2023-11/docker-a-comprehensive-guide-to-the-basic-commands.png alt=docker-a-comprehensive-guide-to-the-basic-commands></figure><header class=entry-header><h2>Docker a Comprehensive Guide to the Basic Commands</h2></header><div class=entry-content><p>Docker is a powerful tool for containerizing applications. It allows developers to package their applications and all their dependencies into a single image, which can then be run on any machine that has Docker installed.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-11-16 02:53:47 +0300 +03'>November 16, 2023</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;orioninsist</footer>
+  <a class="entry-link" aria-label="post link to Exploring Docker Commands and Container Management" href="https://orioninsist.org/project/devops/2023/2023-11/exploring-docker-commands-and-container-management/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://orioninsist.org/project/devops/2023/2023-11/docker-a-comprehensive-guide-to-the-basic-commands.png" alt="docker-a-comprehensive-guide-to-the-basic-commands">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Docker a Comprehensive Guide to the Basic Commands
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Docker is a powerful tool for containerizing applications. It allows developers to package their applications and all their dependencies into a single image, which can then be run on any machine that has Docker installed.
 This guide will teach you the basic Docker commands you need to get started with containerization. We will cover the following topics:
 What is Docker? Docker commands Understanding the output of Docker commands Troubleshooting Docker problems What is Docker? Docker is a containerization platform that allows you to package your application and all its dependencies into a single image. This image can then be run on any machine that has Docker installed.
-...</p></div><footer class=entry-footer><span title='2023-11-04 10:03:08 +0300 +03'>November 4, 2023</span>&nbsp;·&nbsp;10 min&nbsp;·&nbsp;orioninsist</footer><a class=entry-link aria-label="post link to Docker a Comprehensive Guide to the Basic Commands" href=https://orioninsist.org/project/devops/2023/2023-11/docker-a-comprehensive-guide-to-the-basic-commands/></a></article><article class="post-entry tag-entry"><figure class=entry-cover><img loading=lazy src=https://orioninsist.org/blog/how-to-install-docker-desktop-on-debian.png alt=how-to-install-docker-desktop-on-debian></figure><header class=entry-header><h2>How to Install Docker Desktop on Debian</h2></header><div class=entry-content><p>Docker is a powerful platform that allows you to develop, ship, and run applications inside containers. Installing Docker on Debian is a straightforward process, and in this guide, we’ll walk you through the steps to get Docker Desktop up and running on your Debian-based system.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-11-04 10:03:08 +0300 +03'>November 4, 2023</span>&nbsp;·&nbsp;10 min&nbsp;·&nbsp;orioninsist</footer>
+  <a class="entry-link" aria-label="post link to Docker a Comprehensive Guide to the Basic Commands" href="https://orioninsist.org/project/devops/2023/2023-11/docker-a-comprehensive-guide-to-the-basic-commands/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://orioninsist.org/blog/how-to-install-docker-desktop-on-debian.png" alt="how-to-install-docker-desktop-on-debian">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">How to Install Docker Desktop on Debian
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Docker is a powerful platform that allows you to develop, ship, and run applications inside containers. Installing Docker on Debian is a straightforward process, and in this guide, we’ll walk you through the steps to get Docker Desktop up and running on your Debian-based system.
 Prerequisites Before we begin, make sure you have the following prerequisites in place: A Debian-based system (such as Debian itself or Ubuntu) Administrative (sudo) privileges
-...</p></div><footer class=entry-footer><span title='2023-10-08 23:20:30 +0300 +03'>October 8, 2023</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;orioninsist</footer><a class=entry-link aria-label="post link to How to Install Docker Desktop on Debian" href=https://orioninsist.org/blog/how-to-install-docker-desktop-on-debian/></a></article><article class="post-entry tag-entry"><figure class=entry-cover><img loading=lazy src=https://orioninsist.org/blog/understanding-docker-containers.png alt=understanding-docker-containers.png></figure><header class=entry-header><h2>Understanding Docker Containers</h2></header><div class=entry-content><p>Introduction Docker containers have revolutionized software development and deployment by offering a flexible, efficient, and consistent way to package and run applications. In this article, we will explore Docker containers in detail, covering their core concepts, benefits, and practical use cases.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-10-08 23:20:30 +0300 +03'>October 8, 2023</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;orioninsist</footer>
+  <a class="entry-link" aria-label="post link to How to Install Docker Desktop on Debian" href="https://orioninsist.org/blog/how-to-install-docker-desktop-on-debian/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://orioninsist.org/blog/understanding-docker-containers.png" alt="understanding-docker-containers.png">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Understanding Docker Containers
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Introduction Docker containers have revolutionized software development and deployment by offering a flexible, efficient, and consistent way to package and run applications. In this article, we will explore Docker containers in detail, covering their core concepts, benefits, and practical use cases.
 The Power of Docker Containers Docker containers are self-contained, lightweight units that package an application and its dependencies. These containers operate consistently across different environments, providing developers and operators with an invaluable tool for building, shipping, and running applications.
-...</p></div><footer class=entry-footer><span title='2023-10-08 10:58:06 +0300 +03'>October 8, 2023</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;orioninsist</footer><a class=entry-link aria-label="post link to Understanding Docker Containers" href=https://orioninsist.org/blog/understanding-docker-containers/></a></article><article class="post-entry tag-entry"><figure class=entry-cover><img loading=lazy src=https://orioninsist.org/blog/what-is-docker.png alt=what-is-docker></figure><header class=entry-header><h2>What Is Docker</h2></header><div class=entry-content><p>Introduction Docker is a containerization platform that simplifies software development and deployment. It allows you to package applications and their dependencies into lightweight, portable containers. These containers ensure consistent performance across different environments.
-Key Concepts Containers: Docker uses containers to encapsulate applications and dependencies, ensuring they run consistently.
-Images: Docker containers are built from images, which are read-only templates containing everything needed to run an application.
-Dockerfile: A Dockerfile is a script used to create Docker images, specifying the application and its environment.
-...</p></div><footer class=entry-footer><span title='2023-10-06 11:36:05 +0300 +03'>October 6, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;orioninsist</footer><a class=entry-link aria-label="post link to What Is Docker" href=https://orioninsist.org/blog/what-is-docker/></a></article></main><footer class=footer><span>&copy; 2025 <a href=https://orioninsist.org/>orioninsist</a></span>
-<span>All rights reserved.</span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
-</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-10-08 10:58:06 +0300 +03'>October 8, 2023</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;orioninsist</footer>
+  <a class="entry-link" aria-label="post link to Understanding Docker Containers" href="https://orioninsist.org/blog/understanding-docker-containers/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://orioninsist.org/tags/docker/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://orioninsist.org/">orioninsist</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://medium.com/@orioninsist" rel="noopener" target="_blank">Medium</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
