@@ -107,6 +107,12 @@ url  = "/blog"
 
 
 
+
+[params.author]
+  name = "Murat Kurkoglu"
+  email = "muratkurkoglu@gmail.com"
+
+
 [params.sitemap]
 changeFreq = "always"
 filename   = "sitemap.xml"
