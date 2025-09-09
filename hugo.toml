@@ -198,10 +198,7 @@ section = ["HTML", "RSS"]
 taxonomy = ["HTML", "RSS"]
 term = ["HTML", "RSS"]
 
-[outputFormats.RSS]
-name        = "RSS"
-mediaType   = "application/rss+xml"
-baseName    = "index"
+
 
 ###############################################################################
 # markup
