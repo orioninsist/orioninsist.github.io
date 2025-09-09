@@ -87,7 +87,6 @@ ShowPostNavLinks      = true
 comments              = true
 DateFormat            = "January 2, 2006"
 showToc               = true
-author                = "orioninsist"
 TocOpen               = false
 ShowBreadCrumbs       = true
 ShowCodeCopyButtons   = true
