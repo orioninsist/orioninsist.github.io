@@ -29,9 +29,9 @@ disableXML = false
 [languages.en]
 languageName = "English"
 weight       = 1
-# taxonomies.tag   = "tags"
-# taxonomies.blog  = "blog"
-# taxonomies.search = "search"
+taxonomies.tag   = "tags"
+taxonomies.blog  = "blog"
+taxonomies.search = "search"
 
 # Menü (ana menü – dil-bazlı değil)
 [[menu.main]]
