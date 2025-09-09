@@ -77,9 +77,9 @@ weight     = 40
 # params
 ###############################################################################
 [params]
-description           = "Hi, I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
+description           = "Hi, I am Murat Kurkoglu, the founder of orioninsist. I am  a computer engineer and hold a degree in economics."
 ogTitle       = "orioninsist"
-ogDescription = "Hi, I’m Murat Kurkoglu, the founder of orioninsist. I’m a computer engineer and hold a degree in economics."
+ogDescription = "Hi, I am Murat Kurkoglu, the founder of orioninsist. I am a computer engineer and hold a degree in economics."
 ogImage       = "/home/murat-kurkoglu2.webp"
 ShowShareButtons      = true
 ShowReadingTime       = true
@@ -97,7 +97,7 @@ favicon               = "/orioninsist.ico"
 [params.profileMode]
 enabled      = true
 title        = "Murat Kurkoglu"
-subtitle = "<h2>Hi, I'm Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
+subtitle = "<h2>Hi, I am Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
 imageUrl     = "/home/murat-kurkoglu2.webp"
 imageWidth   = 220
 imageHeight  = 220
