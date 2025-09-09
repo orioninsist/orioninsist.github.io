@@ -17,7 +17,7 @@ pygmentsUseClasses = true
   pagerSize = 6
 
 [minify]
-disableXML = true
+disableXML = false
 # minifyOutput = true
 
 [services]
