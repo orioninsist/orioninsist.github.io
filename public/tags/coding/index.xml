@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Coding on orioninsist</title>
-    <link>https://orioninsist.org/tags/coding/</link>
+    <link>http://localhost:1313/tags/coding/</link>
     <description>Recent content in Coding on orioninsist</description>
     <generator>Hugo -- 0.149.1</generator>
     <language>en</language>
     <managingEditor>muratkurkoglu@gmail.com (Murat Kurkoglu)</managingEditor>
     <webMaster>muratkurkoglu@gmail.com (Murat Kurkoglu)</webMaster>
     <lastBuildDate>Wed, 02 Aug 2023 13:47:20 +0300</lastBuildDate>
-    <atom:link href="https://orioninsist.org/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mastering Data Analysis With Pandas Series Ultimate Guide</title>
-      <link>https://orioninsist.org/blog/mastering-data-analysis-with-pandas-series-ultimate-guide/</link>
+      <link>http://localhost:1313/blog/mastering-data-analysis-with-pandas-series-ultimate-guide/</link>
       <pubDate>Wed, 02 Aug 2023 13:47:20 +0300</pubDate><author>muratkurkoglu@gmail.com (Murat Kurkoglu)</author>
-      <guid>https://orioninsist.org/blog/mastering-data-analysis-with-pandas-series-ultimate-guide/</guid>
+      <guid>http://localhost:1313/blog/mastering-data-analysis-with-pandas-series-ultimate-guide/</guid>
       <description>Unlock Data Insights with Python Pandas Series 🐼📊 | Comprehensive Guide to Data Analysis #DataScience #Python #DataManipulation</description>
     </item>
     <item>
       <title>Understanding Pandas Series Labeled and Unlabeled Data Structures</title>
-      <link>https://orioninsist.org/blog/understanding-pandas-series-labeled-and-unlabeled-data-structures/</link>
+      <link>http://localhost:1313/blog/understanding-pandas-series-labeled-and-unlabeled-data-structures/</link>
       <pubDate>Mon, 31 Jul 2023 10:57:27 +0300</pubDate><author>muratkurkoglu@gmail.com (Murat Kurkoglu)</author>
-      <guid>https://orioninsist.org/blog/understanding-pandas-series-labeled-and-unlabeled-data-structures/</guid>
+      <guid>http://localhost:1313/blog/understanding-pandas-series-labeled-and-unlabeled-data-structures/</guid>
       <description>Learn how to create and manipulate pandas Series, versatile data structures for efficient data handling in Python. Explore labeled and unlabeled formats, perform operations, and level up your data analysis skills! 🐼📊 #Python #Pandas #DataScience</description>
     </item>
     <item>
       <title>The Ultimate Follower Count Challenge a Python Game</title>
-      <link>https://orioninsist.org/blog/the-ultimate-follower-count-challenge-a-python-game/</link>
+      <link>http://localhost:1313/blog/the-ultimate-follower-count-challenge-a-python-game/</link>
       <pubDate>Tue, 25 Jul 2023 10:10:06 +0300</pubDate><author>muratkurkoglu@gmail.com (Murat Kurkoglu)</author>
-      <guid>https://orioninsist.org/blog/the-ultimate-follower-count-challenge-a-python-game/</guid>
+      <guid>http://localhost:1313/blog/the-ultimate-follower-count-challenge-a-python-game/</guid>
       <description>Guess followers &amp;amp; play with Python! Random accounts, test your intuition. Fun &amp;amp; interactive! 🚀🎮 #Python #GameDev</description>
     </item>
     <item>
       <title>Random Password Generator</title>
-      <link>https://orioninsist.org/blog/random-password-generator/</link>
+      <link>http://localhost:1313/blog/random-password-generator/</link>
       <pubDate>Sun, 25 Jun 2023 13:14:04 +0300</pubDate><author>muratkurkoglu@gmail.com (Murat Kurkoglu)</author>
-      <guid>https://orioninsist.org/blog/random-password-generator/</guid>
+      <guid>http://localhost:1313/blog/random-password-generator/</guid>
       <description>Introducing the Random Password Generator project! Generate secure and unique passwords with Python. Safeguard your accounts and data effortlessly.</description>
     </item>
   </channel>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Containerization on orioninsist</title>
-    <link>https://orioninsist.org/tags/containerization/</link>
+    <link>http://localhost:1313/tags/containerization/</link>
     <description>Recent content in Containerization on orioninsist</description>
     <generator>Hugo -- 0.149.1</generator>
     <language>en</language>
     <managingEditor>muratkurkoglu@gmail.com (Murat Kurkoglu)</managingEditor>
     <webMaster>muratkurkoglu@gmail.com (Murat Kurkoglu)</webMaster>
     <lastBuildDate>Sun, 08 Oct 2023 10:58:06 +0300</lastBuildDate>
-    <atom:link href="https://orioninsist.org/tags/containerization/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/containerization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding Docker Containers</title>
-      <link>https://orioninsist.org/blog/understanding-docker-containers/</link>
+      <link>http://localhost:1313/blog/understanding-docker-containers/</link>
       <pubDate>Sun, 08 Oct 2023 10:58:06 +0300</pubDate><author>muratkurkoglu@gmail.com (Murat Kurkoglu)</author>
-      <guid>https://orioninsist.org/blog/understanding-docker-containers/</guid>
+      <guid>http://localhost:1313/blog/understanding-docker-containers/</guid>
       <description>Docker containers: Learn core concepts, benefits, and use cases in this detailed exploration. Streamline your software development and deployment with Docker.</description>
     </item>
   </channel>
