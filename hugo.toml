@@ -105,7 +105,8 @@ name = "Blog"
 url  = "/blog"
 
 
-
+[params.assets]
+  favicon = "/orioninsist.ico"
 
 [params.author]
   name = "Murat Kurkoglu"
