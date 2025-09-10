@@ -48,7 +48,7 @@ weight     = 20
 
 
 [[menu.main]]
-  identifier = "archive"
+  identifier = "archives"
   name       = "Archive"
   url        = "/archives/"  
   weight     = 30
