@@ -46,11 +46,12 @@ name       = "Blog"
 url        = "/blog"
 weight     = 20
 
+
 [[menu.main]]
-identifier = "archive"
-name       = "Archive"
-url        = "/archive"
-weight     = 30
+  identifier = "archive"
+  name       = "Archive"
+  url        = "/archives/"  
+  weight     = 30
 
 [[menu.main]]
 identifier = "tags"
