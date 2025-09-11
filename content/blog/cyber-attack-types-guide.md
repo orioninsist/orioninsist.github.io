@@ -7,7 +7,6 @@ author = "Orioninsist"
 tags = ["cybersecurity", "cyber attacks", "phishing", "malware", "ddos", "information security", "beginners"]
 categories = ["Cybersecurity"]
 type = "blog"
-aliases = ["/common-cyber-attack-types", "/what-are-the-most-common-cyber-attack-types"]
 featured = false
 ShowReadingTime = true
 ShowToc = true
