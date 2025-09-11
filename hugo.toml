@@ -111,6 +111,7 @@ name = "Blog"
 url  = "/blog"
 
 
+
 [params.assets]
   favicon = "/orioninsist.ico"
 

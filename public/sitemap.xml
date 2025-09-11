@@ -41,6 +41,9 @@
     <loc>http://localhost:1313/tags/data-protection/</loc>
     <lastmod>2025-09-07T16:01:42+03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/information/</loc>
+    <lastmod>2025-09-07T16:01:42+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/policy/</loc>
     <lastmod>2025-09-07T16:01:42+03:00</lastmod>
   </url><url>
@@ -103,9 +106,6 @@
   </url><url>
     <loc>http://localhost:1313/blog/2024-09/understanding-data-science-principles-and-applications/</loc>
     <lastmod>2024-12-08T17:26:17+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/2024-09/mastering-variables-syntax-in-programming/</loc>
-    <lastmod>2024-10-26T15:32:58+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/2024-09/mastering-variables-syntax-in-programming/</loc>
     <lastmod>2024-10-26T15:32:58+03:00</lastmod>
