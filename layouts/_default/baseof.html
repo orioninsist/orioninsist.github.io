@@ -7,6 +7,7 @@
 
 <head>
     {{- partial "head.html" . -}}
+    <link rel="manifest" href="/manifest.webmanifest">
 
     {{- /* AdSense ve İzin Yönetimi script'leri, head.html içindeki Analytics ile aynı mantıkta,
         sadece site canlıya alındığında (production) çalışması için bu koşulun içine alındı.
@@ -54,6 +55,20 @@
         {{- block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').then(registration => {
+            console.log('Service Worker registered successfully.');
+          }).catch(err => {
+            console.log('Service Worker registration failed: ', err);
+          });
+        });
+      }
+    </script>
+
 </body>
 
 </html>
