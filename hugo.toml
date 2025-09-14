@@ -238,3 +238,8 @@ privacyPolicy = "/privacy-policy.md"
 
 
 newContentCreateKind = "toml"
+
+
+[security]
+  [security.policies]
+    contentSecurityPolicy = "script-src 'self' 'unsafe-inline' www.googletagmanager.com www.google-analytics.com; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self';"
