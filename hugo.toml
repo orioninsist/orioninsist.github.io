@@ -17,8 +17,16 @@ pygmentsUseClasses = true
   pagerSize = 6
 
 [minify]
+#disableXML = false
+#minifyOutput = true
+disableCSS = false
+disableJS = false
 disableXML = false
-# minifyOutput = true
+minifyOutput = true
+[minify.tdewolff.html]
+ keepComments = false
+ keepWhitespace = false
+
 
 [services]
   [services.googleAnalytics]
@@ -50,7 +58,7 @@ weight     = 20
 [[menu.main]]
   identifier = "archives"
   name       = "Archive"
-  url        = "/archives/"  
+  url        = "/archives/"
   weight     = 30
 
 [[menu.main]]
