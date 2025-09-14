@@ -240,16 +240,3 @@ privacyPolicy = "/privacy-policy.md"
 newContentCreateKind = "toml"
 
 
-[security]
-  [security.policies]
-    # Google'ın tüm servislerine izin veren genel politika
-    contentSecurityPolicy = """
-      script-src 'self' 'unsafe-inline' *.google.com *.gstatic.com *.googletagmanager.com *.google-analytics.com;
-      style-src 'self' 'unsafe-inline' *.googleapis.com *.gstatic.com;
-      connect-src 'self' *.google.com *.google-analytics.com;
-      font-src 'self' *.gstatic.com;
-      img-src 'self' data: *.google.com *.gstatic.com *.google-analytics.com;
-      frame-src 'self' *.google.com;
-      object-src 'none';
-      base-uri 'self';
-    """
