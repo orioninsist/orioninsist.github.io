@@ -11,7 +11,8 @@ buildFuture     = false
 buildExpired    = false
 enableEmoji     = true
 pygmentsUseClasses = true
-
+[server]
+  trailingSlash = "always"
 
 [pagination]
   pagerSize = 6
