@@ -11,6 +11,10 @@ buildFuture     = false
 buildExpired    = false
 enableEmoji     = true
 pygmentsUseClasses = true
+
+
+canonifyURLs = true
+uglyURLs = false
 [server]
   trailingSlash = "always"
 
