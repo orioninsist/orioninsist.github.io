@@ -19,7 +19,7 @@ cover:
 
 🚀 Gmail: muratkurkoglu@gmail.com
 
-🚀 YouTube: https: www.youtube.com/@orioninsist-official/
+🚀 YouTube: https://www.youtube.com/@orioninsist-official/
 
 🚀 Odysee: https://odysee.com/@orioninsist
 
@@ -29,7 +29,7 @@ cover:
 
 🚀 YouTube Music: https://music.youtube.com/channel/UCdQFQTaxjWiCSXKAXTb8TKA?feature=share
 
-🚀 Patreon: https: www.patreon.com/orioninsist
+🚀 Patreon: https://www.patreon.com/orioninsist
 
 🚀 Buy me a coffee: https://www.buymeacoffee.com/orioninsist
 
