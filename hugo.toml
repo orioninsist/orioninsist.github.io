@@ -12,6 +12,8 @@ buildExpired    = false
 enableEmoji     = true
 pygmentsUseClasses = true
 
+[permalinks]
+  posts = "/blog/:slug/" 
 
 canonifyURLs = true
 uglyURLs = false
@@ -106,7 +108,7 @@ ShowPostNavLinks      = true
 comments              = true
 DateFormat            = "January 2, 2006"
 showToc               = true
-TocOpen               = false
+TocOpen               = true
 ShowBreadCrumbs       = true
 ShowCodeCopyButtons   = true
 hideMeta              = false
