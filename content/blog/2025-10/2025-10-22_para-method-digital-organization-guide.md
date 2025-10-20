@@ -114,6 +114,6 @@ This system, adapted for a minimalist Linux environment, is the engine that powe
 **Enjoyed this guide? Here's how you can support my work and continue your journey:**
 
 * **☕ Support My Work:** If you found this article helpful, consider [buying me a coffee](https://buymeacoffee.com/orioninsist). Your support allows me to create more in-depth content like this.
-* **📚 Read More:** If you liked this post, you'll love my article on `"Why I Built a Minimalist Arch + Sway System: A Philosophy"`.
+* **📚 Read More:** If you liked this post, you'll love my article on [`"Why I Built a Minimalist Arch + Sway System: A Philosophy"`](https://orioninsist.org/blog/2025-10/arch-sway-minimalist-philosophy/).
 * **👕 Get the Merch:** Show your support with our custom-designed, minimalist tech T-shirts on my [Etsy shop](https://www.etsy.com/shop/orioninsist).
 * **✍️ Follow on Medium:** I also re-publish my articles on [Medium](https://medium.com/@orioninsist).
