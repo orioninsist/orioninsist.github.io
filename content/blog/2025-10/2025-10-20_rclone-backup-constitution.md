@@ -4,7 +4,6 @@ date = 2025-10-20T19:38:26+03:00
 lastmod = 2025-10-20T19:38:26+03:00
 draft = false
 author = "Murat Kurkoglu"
-
 # --- SEO Settings (Crucial Section) ---
 description = "My definitive guide to preventing data loss. This 'Backup Constitution' uses rclone to establish a robust, encrypted, and automated backup system on Linux."
 slug = "rclone-backup-constitution" # SEO-friendly, permanent URL that should NEVER change.
@@ -17,7 +16,7 @@ keywords = ["rclone guide", "data backup", "linux backup"]
   
 # --- Cover Image ---
 [cover]
-    image = "/blog/2025-10/2025-10-20_rclone-backup-constitution-watermarked.webp " # Path to the cover image (same name as slug).
+    image = "blog/2025-10/2025-10-20_rclone-backup-constitution-watermarked.webp" # Path to the cover image (same name as slug).
     alt = "An abstract digital art image of a glowing, secure data vault connected to various cloud nodes through encrypted data streams on a dark background."
     relative = true
 +++
