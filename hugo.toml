@@ -12,11 +12,14 @@ buildExpired    = false
 enableEmoji     = true
 pygmentsUseClasses = true
 
-[permalinks]
-  posts = "/blog/:slug/" 
 
 canonifyURLs = true
 uglyURLs = false
+
+[permalinks]
+  posts = "/blog/:slug/" 
+
+
 [server]
   trailingSlash = "always"
 
