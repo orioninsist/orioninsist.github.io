@@ -16,7 +16,7 @@ keywords = ["rclone guide", "data backup", "linux backup"]
   
 # --- Cover Image ---
 [cover]
-    image = "blog/2025-10/2025-10-20_rclone-backup-constitution-watermarked.webp" # Path to the cover image (same name as slug).
+    image = "blog/2025-10/2025-10-20_rclone-backup-constitution-watermarked.webp" #
     alt = "An abstract digital art image of a glowing, secure data vault connected to various cloud nodes through encrypted data streams on a dark background."
     relative = true
 +++
