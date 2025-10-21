@@ -9,7 +9,7 @@ slug = "proxmox-kvm-vs-lxc"
 tags = ["proxmox", "kvm", "lxc", "virtualization", "homelab"]
 keywords = ["proxmox kvm vs lxc", "linux containers", "hypervisor"]
 [cover]
-    image = "assets/images/blog/2025/10/2025-10-21_proxmox-kvm-vs-lxc-watermarked.avif" 
+    image = "images/blog/2025/10/2025-10-21_proxmox-kvm-vs-lxc-watermarked.avif" 
     alt = "A split-screen digital art piece showing a secure, isolated fortress on one side (KVM) and a fast, efficient workshop on the other (LXC)."
     relative = true
 +++
