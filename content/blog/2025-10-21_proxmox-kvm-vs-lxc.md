@@ -48,7 +48,7 @@ This shared-kernel model is the magic behind containers. Because you are not boo
 ### The Inherent Trade-offs of LXC
 The workshop's efficiency comes with a critical caveat: **shared dependencies**. Since all containers share the same host kernel, they are all restricted to being Linux-based. You cannot run a Windows, BSD, or macOS operating system in an LXC on a Proxmox host. Furthermore, a severe kernel-level exploit on the host could theoretically be used to compromise or "break out" of the containers running on it. While modern kernels have robust security features, the isolation is fundamentally not as absolute as a KVM.
 
-> **My Recommendation:** For those who choose the high-performance path of LXC, truly understanding the security model is paramount. If you plan to run a significant portion of your services in containers, I strongly recommend **"Container Security" by Liz Rice**. This book provides the foundational knowledge needed to securely configure, monitor, and manage containerized environments, turning you from a user into a confident administrator. You can find it on Amazon [affiliate link here].
+> **My Recommendation:** For those who choose the high-performance path of LXC, truly understanding the security model is paramount. If you plan to run a significant portion of your services in containers, I strongly recommend **"Container Security" by Liz Rice**. This book provides the foundational knowledge needed to securely configure, monitor, and manage containerized environments, turning you from a user into a confident administrator. You can find it on [Amazon](https://www.amazon.com/Container-Security-Fundamental-Containerized-Applications/dp/1492056707).
 
 ## The Head-to-Head Battle: KVM vs. LXC
 
