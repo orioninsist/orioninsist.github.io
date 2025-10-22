@@ -1,6 +1,4 @@
 User-agent: *
 Disallow: /search/
-Disallow: /tags/
-Disallow: /categories/
 Allow: /
 Sitemap: https://orioninsist.org/sitemap.xml
