@@ -242,23 +242,22 @@ unsafe = true
 [markup.highlight]
 noClasses = false
 
-###############################################################################
-# privacy
-###############################################################################
+# ---- Hugo Privacy (GA içindir; AdSense’i etkilemez) ----
 [privacy]
-  privacy.googleAnalytics]
+  [privacy.googleAnalytics]
     anonymizeIP = true
     disable = false
     respectDoNotTrack = true
     useSessionStorage = false
 
+# ---- Diğer genel ayarlar ----
 drafts = false
 future = false
-googleAnalyticsAnonymizeIP = true
+
+# PaperMod/tema özel eski bir anahtar kullanmıyorsan bunu kaldır:
+# googleAnalyticsAnonymizeIP = true
 
 privacyPolicy = "/privacy-policy.md"
-
-
 newContentCreateKind = "toml"
 
 
