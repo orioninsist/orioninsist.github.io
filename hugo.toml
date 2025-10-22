@@ -135,6 +135,8 @@ url  = "/blog"
 
 
 [params.assets]
+schema = true
+
   favicon = "/orioninsist.ico"
 
 [params.author]
