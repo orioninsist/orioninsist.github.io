@@ -3,7 +3,7 @@
 /resources/
 /static/assets/js/min/
 hugo_stats.json
-
+.hugo_build.lock
 # Generated social media cards
 /static/images/social_cards/
 
