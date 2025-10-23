@@ -8,7 +8,7 @@ ShowToc = true
 TocOpen = true
 
 
-draft = true 
+draft = false 
 
 
 title = "My Hybrid AI Workflow: The Workshop and The Library"
