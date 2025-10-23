@@ -39,3 +39,14 @@ assets/images/blog/**/*.jpg
 assets/images/blog/**/*.jpeg
 assets/images/blog/**/*.webp
 assets/images/blog/**/*.gif
+
+
+assets/images/raw/**/*.png
+assets/images/raw/**/*.jpg
+assets/images/raw/**/*.jpeg
+assets/images/raw/**/*.webp
+assets/images/raw/**/*.gif
+assets/images/raw/**/*.svg
+assets/images/raw/**/*.ai
+assets/images/raw/**/*.eps
+assets/images/raw/**/thumbnails/
