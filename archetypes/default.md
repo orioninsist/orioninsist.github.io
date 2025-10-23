@@ -19,7 +19,7 @@ draft = true
 
 ShowReadingTime = true
 ShowToc = true
-TocOpen = false
+TocOpen = true
 [cover]
     image = "" 
     alt = "" 
