@@ -27,7 +27,7 @@ keywords = ["Google Colab", "Machine Learning", "Data Management", "MLOps", "Pyt
 tags = ["Google Colab", "Machine Learning", "Python"]
 
 [cover]
-    image = "images/blog/2025/10/2025-10-23-google-colab-assets-watermarked.avif"
+    image = "images/blog/2025/10/2025-10-23-google-colab-assets-management-watermarked.avif"
     alt = "A clear workflow diagram showing data moving from Google Drive to a fast local Colab runtime for efficient AI model training."
 +++
 
