@@ -16,7 +16,6 @@ title = '{{ replace .Name "-" " " | title }}'
 author = "Murat Kurkoglu"
 description = "" 
 summary = ""
-images = [] 
 slug = "" 
 keywords = []
 tags = []
