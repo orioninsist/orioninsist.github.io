@@ -13,14 +13,21 @@ draft = false
 
 
 title = "My Google Colab Data Kept Vanishing. Here's How I Fixed It."
+
 author = "Murat Kurkoglu"
+
 description = "Stop losing hours of work in Google Colab. Learn a robust workflow to manage large datasets and assets efficiently, overcoming slow speeds and session timeouts."
+
 summary = "Stop losing hours of work in Google Colab. Learn a robust workflow to manage large datasets and assets efficiently, overcoming slow speeds and session timeouts."
+
 slug = "google-colab-asset-management-workflow"
+
 keywords = ["Google Colab", "Machine Learning", "Data Management", "MLOps", "Python"]
+
 tags = ["Google Colab", "Machine Learning", "Python"]
+
 [cover]
-    image = "assets/images/blog/2025/10/2025-10-23-google-colab-assets-management.avif"
+    image = "images/blog/2025/10/2025-10-23-google-colab-assets-watermarked.avif"
     alt = "A clear workflow diagram showing data moving from Google Drive to a fast local Colab runtime for efficient AI model training."
 +++
 
@@ -154,8 +161,7 @@ As I delved deeper into solving this data management problem, I realized it was 
 ### Thanks for Following ☕
 I hope sharing my frustrating experience and eventual solution helps you save some time and sanity in your own projects. Building robust workflows is just as important as building clever models.
 
-☕ If you found this guide helpful, you can
-[Buy Me a Coffee](https://buymeacoffee.com/orioninsist)!
+☕ If you found this guide helpful, you can [Buy Me a Coffee](https://buymeacoffee.com/orioninsist)!
 [Medium](https://orioninsist.medium.com/subscribe)
 [Etsy](https://www.etsy.com/shop/orioninsist)
 [LinkedIn](https://www.linkedin.com/company/orioninsist/)
