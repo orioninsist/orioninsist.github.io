@@ -33,14 +33,9 @@ Thumbs.db
 *.lock
 
 
-
-assets/images/blog/*.png
-assets/images/blog/*.webp
-assets/images/blog/*.jpg
-assets/images/blog/*.jpeg
-assets/images/blog/*.gif
-
-
-
-assets/images/**/*.{png,webp,jpg,jpeg,gif}
-assets/images/blog/**/*.{png,webp,jpg,jpeg,gif}
+# assets/images/blog altında tüm alt klasörlerdeki görselleri hariç tut
+assets/images/blog/**/*.png
+assets/images/blog/**/*.jpg
+assets/images/blog/**/*.jpeg
+assets/images/blog/**/*.webp
+assets/images/blog/**/*.gif
