@@ -13,12 +13,17 @@ enableEmoji     = true
 pygmentsUseClasses = true
 
 
-canonifyURLs = true
+canonifyURLs = false
 uglyURLs = false
 
 [permalinks]
   posts = "/blog/:slug/" 
 
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
 
 [server]
   trailingSlash = "always"
