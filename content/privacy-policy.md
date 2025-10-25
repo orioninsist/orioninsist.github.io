@@ -15,7 +15,7 @@ ShowToc = false
 TocOpen = false
 
 [cover]
-    image = "/privacy-image.webo"
+    image = "privacy-image.webp"
     alt = "An illustration representing data privacy and security."
     caption = "Protecting your information is our priority."
     relative = false
