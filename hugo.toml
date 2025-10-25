@@ -124,7 +124,7 @@ favicon               = "/orioninsist.ico"
 enabled      = true
 title        = "Murat Kurkoglu"
 subtitle = "<h2>Hi, I am Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
-imageUrl     = "/home/murat-kurkoglu-220x220.avif"
+imageUrl     = "/home/murat-kurkoglu-330x330.avif"
 imageWidth   = 220
 imageHeight  = 220
 [[params.profileMode.buttons]]
