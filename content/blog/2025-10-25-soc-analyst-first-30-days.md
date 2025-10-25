@@ -130,6 +130,6 @@ This book is gold for SOC beginners. It’s concise, tactical, and full of check
 [Medium](https://orioninsist.medium.com/subscribe)  
 [Etsy](https://www.etsy.com/shop/orioninsist)  
 [LinkedIn](https://www.linkedin.com/company/orioninsist/)  
-[Read More]()
+[Read More](https://orioninsist.org/blog/google-colab-asset-management-workflow/)
 
 > Have you started a blue team role recently? What was your biggest early lesson?
