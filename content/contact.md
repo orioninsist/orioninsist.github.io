@@ -1,72 +1,102 @@
----
-title: "Contact"
-date: 2023-08-12T10:37:53+03:00
-draft: false
-description: "Hello!🚀 Feel free to get in touch with  Murat Kurkoglu. Whether you have questions about technology, want to discuss collaboration opportunities, or anything else, I'd be happy to hear from you."
-author: "orioninsist"
-tags: ["contact","orioninsist","me"]
-keywords: ["contact","orioninsist","me"]
-type: "blog"
-language: "English"
-slug: "contact"
-cover:
-    image: "/contact/murat-kurkoglu-contact.webp"
-    alt : "murat kurkoglu contact image"
++++
+title= "Contact"
+date= 2023-08-12T10:37:53+03:00
+publishDate = {{ .Date }}
+lastmod = {{ .Date }}
+ShowReadingTime = true
+ShowToc = true
+TocOpen = true
+draft = false 
+title = "Contact Orioninsist"
+author = "Murat Kurkoglu"
+description = "Find all official links to connect with Orioninsist and Murat Kurkoglu. Reach out via social media, content platforms, support channels, and more."
+summary = "A comprehensive list of all our official platforms. Connect with Orioninsist on your favorite network."
+slug = "contact"
+keywords = ["contact", "connect", "social media", "community", "Orioninsist", "Murat Kurkoglu"]
+tags = ["contact", "connect", "social media", "community", "Orioninsist", "Murat Kurkoglu"]
+
+[cover]
+    image = "images/contact/orioninsist-contact-mountain-view.avif"
+    alt = "Majestic snow-capped mountain peaks towering over a lush green forest, symbolizing the vast reach and comprehensive network of Orioninsist."
+    relative = false
++++
++++
+
+## Connect with Orioninsist 🚀
+
+We're building a community and would love for you to be a part of it! Whether you have a question, a project idea, or just want to connect, feel free to reach out. You can find us on various platforms across the web. Let's create something amazing together! ✨
 
 ---
 
-## Stay connected for more transformative content! Follow us on
+## 🌐 Orioninsist Network
 
-🚀 Gmail: muratkurkoglu@gmail.com
+* [orioninsist.com](https://orioninsist.com/)
+* [orioninsist.dev](https://orioninsist.dev/)
+* [orioninsist.org](https://orioninsist.org/)
+* [orioninsist.net](https://orioninsist.net/)
+* [orioninsistrecommends.com](https://orioninsistrecommends.com/)
+* [orioninsistinvest.com](https://orioninsistinvest.com/)
+* [orioninsistcyber.com](https://orioninsistcyber.com/)
+* [ioorioninsist.com](https://ioorioninsist.com/)
+* [ioorioninsist.org](https://ioorioninsist.org/)
 
-🚀 YouTube: https://www.youtube.com/@orioninsist-official/
 
-🚀 Odysee: https://odysee.com/@orioninsist
+## 🤝 Social & Community
 
-🚀 Spotify: https://open.spotify.com/show/2U1u9mOfxjRYf7js8Wlhwj
+* **X (Twitter):** [Company](https://x.com/InsistOrion) | [Personal](https://x.com/orioninsist)
+* **Instagram:** [Company](https://www.instagram.com/insistorion/) | [Personal](https://www.instagram.com/muratkurkoglu/)
+* **LinkedIn:** [Company](https://www.linkedin.com/company/orioninsist/) | [Personal](https://www.linkedin.com/in/murat-kurkoglu/)
+* **Facebook:** [facebook.com/insistorion](https://www.facebook.com/insistorion/)
+* **Bluesky:** [bsky.app/profile/orioninsist.bsky.social](https://bsky.app/profile/orioninsist.bsky.social)
+* **TikTok:** [tiktok.com/@orioninsist](https://www.tiktok.com/@orioninsist)
+* **Pinterest:** [pinterest.com/orioninsist](https://www.pinterest.com/orioninsist/)
+* **Quora:** [quora.com/profile/Orioninsist](https://www.quora.com/profile/Orioninsist)
+* **Reddit:** [reddit.com/user/insistorion](https://www.reddit.com/user/insistorion/)
 
-🚀 Spotify for Podcasters: https://podcasters.spotify.com/pod/show/orioninsist
 
-🚀 YouTube Music: https://music.youtube.com/channel/UCdQFQTaxjWiCSXKAXTb8TKA?feature=share
+## ✍️ Content & Articles
 
-🚀 Patreon: https://www.patreon.com/orioninsist
+* **YouTube:** [youtube.com/@orioninsist-official](https://www.youtube.com/@orioninsist-official)
+* **dev.to:** [dev.to/orioninsist](https://dev.to/orioninsist)
+* **Hashnode:** [orioninsist.hashnode.dev](https://orioninsist.hashnode.dev/)
+* **Medium:** [medium.com/@orioninsist](https://medium.com/@orioninsist)
+* **HackerNoon:** [hackernoon.com/u/orioninsist](https://hackernoon.com/u/orioninsist)
+* **Substack:** [substack.com/@orioninsist](https://substack.com/@orioninsist)
+* **Daily.dev:** [app.daily.dev/orioninsist](https://app.daily.dev/orioninsist)
 
-🚀 Buy me a coffee: https://www.buymeacoffee.com/orioninsist
 
-🚀 Medium: https://orioninsist.dev/
+## 💻 Code & Tech
 
-🚀 Blog: https://orioninsist.org/
+* **GitHub:** [github.com/orioninsist](https://github.com/orioninsist)
+* **Stack Overflow:** [meta.stackoverflow.com/users/14691175/orioninsist](https://meta.stackoverflow.com/users/14691175/orioninsist)
+* **Stack Exchange:** [stackexchange.com/users/16641776/orioninsist](https://stackexchange.com/users/16641776/orioninsist)
+* **Hacker News:** [news.ycombinator.com/user?id=orioninsist](https://news.ycombinator.com/user?id=orioninsist)
 
-🚀 Hashnode: https://orioninsist.net/
 
-🚀 Devto: https://dev.to/orioninsist
+## 💬 Chat & Channels
 
-🚀 Quora: https://www.quora.com/profile/Orioninsist
+* **Telegram:** [t.me/orioninsist](https://t.me/orioninsist)
+* **WhatsApp:** [whatsapp.com/channel/0029VbBt2SoBA1f72q7yav3q](https://whatsapp.com/channel/0029VbBt2SoBA1f72q7yav3q)
+* **Discord:** [Link to your Discord server]
+ 
 
-🚀 Reddit: https://www.reddit.com/user/insistorion
+## 💖 Support Us
 
-🚀 Twitch: https://www.twitch.tv/orioninsist
+* **Buy Me a Coffee:** [buymeacoffee.com/orioninsist](https://buymeacoffee.com/orioninsist)
+* **Patreon:** [patreon.com/cw/orioninsist](https://www.patreon.com/cw/orioninsist)
+* **Liberapay:** [tr.liberapay.com/orioninsist](https://tr.liberapay.com/orioninsist/)
 
-🚀 Hackernoon: https://hackernoon.com/u/orioninsist
 
-🚀 LinkedIn Company: https://www.linkedin.com/company/orioninsist/
+## 🎬 Streaming & More
 
-🚀 LinkedIn Personal: https://www.linkedin.com/in/-murat-kurkoglu/
+* **Twitch:** [twitch.tv/orioninsist](https://www.twitch.tv/orioninsist)
+* **Kick:** [kick.com/orioninsist](https://kick.com/orioninsist)
+* **Odysee:** [odysee.com/@orioninsist:9](https://odysee.com/@orioninsist:9)
+* **Spotify:** [Link to your Spotify profile/playlist]
+ 
 
-🚀 GitHub: https://github.com/orioninsist
+## 🛒 Shop & Books
 
-🚀 Librerapay: https://en.liberapay.com/orioninsist/
-
-🚀 Twitter: https://twitter.com/InsistOrion
-
-🚀 Facebook: https://www.facebook.com/insistorion
-
-🚀 Instagram : https://www.instagram.com/insistorion/
-
-🚀 Threads: https://www.threads.net/@insistorion
-
-🚀 Pinterest: https://www.pinterest.com/orioninsist/
-
-🚀 Discord: https://discord.gg/tgNVx3H9
-
-🚀 Telegram: https://t.me/+_ssMyWNytbdhNDI0
+* **Etsy:** [etsy.com/shop/orioninsist](https://www.etsy.com/shop/orioninsist)
+* **Amazon Kindle:** [Link to your Amazon Author Page]
+ 
