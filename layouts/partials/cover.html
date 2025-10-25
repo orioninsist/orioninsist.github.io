@@ -12,14 +12,7 @@
     {{- $cover := (or $pageBundleCover $globalResourcesCover)}}
 
 
-{{/* Fallback: assets/ altından doğrudan çek (yolu normalize ederek) */}}
-{{- if not $cover -}}
-  {{- $path := .Params.cover.image -}}
-  {{- if (hasPrefix $path "/assets/") }}{{ $path = (strings.TrimPrefix "/assets/" $path) }}{{ end -}}
-  {{- if (hasPrefix $path "assets/") }}{{ $path = (strings.TrimPrefix "assets/" $path) }}{{ end -}}
-  {{- if (hasPrefix $path "/") }}{{ $path = (strings.TrimPrefix "/" $path) }}{{ end -}}
-  {{- with resources.Get $path }}{{ $cover = . }}{{ end -}}
-{{- end -}}
+ 
 
 
 
@@ -27,7 +20,7 @@
     {{- /* If we have the image in pageBundle or globalResources we can process the image */}}
 
     {{- $sizes := (slice "360" "480" "720" "1080" "1500") }}
-    {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif" "avif") -}}
+    {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
     {{- if hugo.IsExtended -}}
         {{- $processableFormats = $processableFormats | append "webp" -}}
     {{- end -}}
