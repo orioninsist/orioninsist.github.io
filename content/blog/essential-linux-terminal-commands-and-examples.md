@@ -5,7 +5,6 @@ draft: false
 description: "Master essential Linux terminal commands with explanations and practical examples. Learn how to navigate, copy, delete files, and more. Enhance your command-line skills now!"
 keywords: ["linux","terminal","commands"]
 tags: ["linux","terminal","commands"]
-slug: "essential-linux-terminal-commands-and-examples"
 author: "orioninsist"
 language: "English"
 type: "blog"
