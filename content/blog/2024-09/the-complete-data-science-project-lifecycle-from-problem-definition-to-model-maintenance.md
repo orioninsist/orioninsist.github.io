@@ -10,7 +10,6 @@ cover:
   alt: "the-complete-data-science-project-lifecycle-from-problem-definition-to-model-maintenance.webp"
 author: "murat"
 keywords: ["data science"]
-lang: "eng"
 type: "blog"
 readingTime: true
 featured: true

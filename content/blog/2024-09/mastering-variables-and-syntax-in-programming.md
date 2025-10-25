@@ -4,7 +4,6 @@ date: 2024-10-26T15:32:58+03:00
 draft: false
 author: "murat"
 keywords: ["programming"]
-lang: "eng"
 type: "blog"
 description: ""
 slug: "mastering-variables-syntax-in-programming"

@@ -10,7 +10,6 @@ cover:
   alt: "the-power-of-data-science-in-healthcare-retail-finance-transportation-and-sports.webp"
 author: "murat"
 keywords: ["data science"]
-lang: "eng"
 type: "blog"
 readingTime: true
 featured: true

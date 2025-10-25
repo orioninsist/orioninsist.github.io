@@ -3,7 +3,6 @@ title: "Understanding Data Science Principles and Applications"
 date: 2024-12-08T17:26:17+03:00
 draft: false
 author: "murat"
-lang: "eng"
 type: "blog"
 slug: "understanding-data-science-principles-and-applications"
 description: "Explore the fundamentals of data science, including processes, objectives, and its value in driving business innovation."

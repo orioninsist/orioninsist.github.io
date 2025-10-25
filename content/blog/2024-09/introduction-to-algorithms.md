@@ -3,7 +3,6 @@ title: "Introduction to Algorithms"
 date: 2024-09-28T23:26:17+03:00
 draft: false
 author: "murat"
-lang: "eng"
 type: "blog"
 description: "Python is one of the most beginner-friendly programming languages, known for its simplicity and versatility"
 slug: "introduction-to-algorithms"

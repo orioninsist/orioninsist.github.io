@@ -3,7 +3,6 @@ title: "Understanding Compilers Interpreters"
 date: 2024-10-26T14:31:19+03:00
 draft: false
 author: "murat"
-lang: "eng"
 type: "blog"
 description: ""
 slug: "understanding-compilers-interpreters"

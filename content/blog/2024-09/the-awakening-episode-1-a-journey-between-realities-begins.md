@@ -4,7 +4,6 @@ date: 2025-01-09T23:39:49+03:00
 draft: false
 author: "murat"
 keywords: ["storytelling", "cybersecurity", "technology", "life", "blog"]
-lang: "eng"
 type: "blog"
 description: "The Awakening Episode 1: A Journey Between Realities Begins"
 slug: "the-awakening-episode-1-a-journey-between-realities-begins"

@@ -4,7 +4,6 @@ date: 2025-01-04T06:22:08+03:00
 draft: false
 author: "murat"
 keywords: ["data science"]
-lang: "eng"
 type: "blog"
 description: "Explore the growing importance of data science, AI, and generative tools in today's technology-driven world."
 slug: "the-importance-of-data-science"
