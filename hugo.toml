@@ -158,10 +158,7 @@ schema = true
   email = "muratkurkoglu@gmail.com"
 
 
-[params.sitemap]
-changeFreq = "always"
-filename   = "sitemap.xml"
-priority   = 0.9
+ 
 
 env = "production"
 
@@ -275,3 +272,7 @@ privacyPolicy = "/privacy-policy.md"
 newContentCreateKind = "toml"
 
 
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.8
