@@ -18,6 +18,8 @@ description = ""
 summary = ""
 slug = "" 
 keywords = []
+series = []
+categories = []
 tags = []
 [cover]
     image = "" 
