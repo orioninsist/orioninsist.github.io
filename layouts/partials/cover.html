@@ -10,6 +10,19 @@
     {{- $pageBundleCover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
     {{- $globalResourcesCover := (resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
     {{- $cover := (or $pageBundleCover $globalResourcesCover)}}
+
+
+{{/* Fallback: assets/ altından doğrudan çek (yolu normalize ederek) */}}
+{{- if not $cover -}}
+  {{- $path := .Params.cover.image -}}
+  {{- if (hasPrefix $path "/assets/") }}{{ $path = (strings.TrimPrefix "/assets/" $path) }}{{ end -}}
+  {{- if (hasPrefix $path "assets/") }}{{ $path = (strings.TrimPrefix "assets/" $path) }}{{ end -}}
+  {{- if (hasPrefix $path "/") }}{{ $path = (strings.TrimPrefix "/" $path) }}{{ end -}}
+  {{- with resources.Get $path }}{{ $cover = . }}{{ end -}}
+{{- end -}}
+
+
+
     {{- /* We are not using the .Param.cover.relative to decide the location of image */}}
     {{- /* If we have the image in pageBundle or globalResources we can process the image */}}
 
