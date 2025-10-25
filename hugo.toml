@@ -269,19 +269,28 @@ unsafe = true
 [markup.highlight]
 noClasses = false
 
-# ---- Hugo Privacy (GA içindir; AdSense’i etkilemez) ----
 [privacy]
+   [privacy.disqus]
+    disable = true
   [privacy.googleAnalytics]
     anonymizeIP = true
     disable = false
     respectDoNotTrack = true
     useSessionStorage = false
+    [privacy.instagram]
+      disable = true
+    [privacy.twitter]
+       disable = false  
+       enableDNT = true
+    [privacy.vimeo]
+        disable = true
+    [privacy.youTube]
+       disable = false
+       privacyEnhanced = true       
 
-# ---- Diğer genel ayarlar ----
-drafts = false
+
 future = false
 
-# PaperMod/tema özel eski bir anahtar kullanmıyorsan bunu kaldır:
 # googleAnalyticsAnonymizeIP = true
 
 privacyPolicy = "/privacy-policy.md"
