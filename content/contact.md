@@ -1,13 +1,14 @@
 +++
-title= "Contact"
-date= 2023-08-12T10:37:53+03:00
-publishDate = {{ .Date }}
-lastmod = {{ .Date }}
+title = "Contact Orioninsist"
+date = 2023-08-12T10:37:53+03:00
+publishDate = 2023-08-12T10:37:53+03:00
+lastmod = 2023-08-12T10:37:53+03:00
+
 ShowReadingTime = true
 ShowToc = true
 TocOpen = true
-draft = false 
-title = "Contact Orioninsist"
+draft = false
+
 author = "Murat Kurkoglu"
 description = "Find all official links to connect with Orioninsist and Murat Kurkoglu. Reach out via social media, content platforms, support channels, and more."
 summary = "A comprehensive list of all our official platforms. Connect with Orioninsist on your favorite network."
@@ -16,10 +17,11 @@ keywords = ["contact", "connect", "social media", "community", "Orioninsist", "M
 tags = ["contact", "connect", "social media", "community", "Orioninsist", "Murat Kurkoglu"]
 
 [cover]
-    image = "images/contact/orioninsist-contact-mountain-view.avif"
-    alt = "Majestic snow-capped mountain peaks towering over a lush green forest, symbolizing the vast reach and comprehensive network of Orioninsist."
-    relative = false
+image = "images/contact/orioninsist-contact-mountain-view.avif"
+alt = "Majestic snow-capped mountain peaks towering over a lush green forest, symbolizing the vast reach and comprehensive network of Orioninsist."
+relative = false
 +++
+
 
 
 ## Connect with Orioninsist 🚀
