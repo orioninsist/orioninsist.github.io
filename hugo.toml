@@ -29,12 +29,10 @@ uglyURLs = false
 
 
 [minify]
-#disableXML = false
-#minifyOutput = true
-disableCSS = false
-disableJS = false
 disableXML = false
 minifyOutput = true
+disableCSS = false
+disableJS = false
 
 [minify.tdewolff]
   [minify.tdewolff.html]
