@@ -141,6 +141,6 @@ Throughout my journey, one book was an invaluable guide: **"Practical Vim: Edit 
 [Medium](https://orioninsist.medium.com/subscribe)
 [Etsy](https://www.etsy.com/shop/orioninsist)
 [LinkedIn](https://www.linkedin.com/company/orioninsist/)
-[Read More]()
+[Read More](https://orioninsist.org/blog/soc-analyst-first-30-days/)
 
 > What was your "breakthrough moment" when learning a difficult but powerful new tool? Share your story in the comments!
