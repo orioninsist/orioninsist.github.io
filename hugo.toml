@@ -13,6 +13,17 @@ enableEmoji     = true
 pygmentsUseClasses = true
 
 
+[build]
+  writeStats = true
+  [build.cachebusters]
+    source = "assets/js/main.js"
+    target = "js/main.js"
+
+    [[build.cachebusters.options]]
+      integrity = "sha256"
+
+
+
 canonifyURLs = false
 uglyURLs = false
 
