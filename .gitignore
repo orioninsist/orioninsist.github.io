@@ -50,3 +50,6 @@ assets/images/raw/**/*.svg
 assets/images/raw/**/*.ai
 assets/images/raw/**/*.eps
 assets/images/raw/**/thumbnails/
+assets/images/raw/**/*.avif
+
+
