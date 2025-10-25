@@ -7,8 +7,8 @@ ShowReadingTime = true
 ShowToc = true
 TocOpen = true
 
-categories = []
-series = []
+categories = ["Developer Tools"]
+series = ["Mastering Your Workflow"]
 
 
 draft = false 
