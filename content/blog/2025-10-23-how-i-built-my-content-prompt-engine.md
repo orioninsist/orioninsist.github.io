@@ -23,6 +23,8 @@ tags = ["Prompt Engineering", "AI", "Automation"]
 [cover]
     image = "images/blog/2025/10/2025-10-23-how-i-built-my-content-prompt-engine-watermarked.avif"
     alt = "A diagram showing the architecture of a prompt-driven content generation engine."
+    relative = false
+
 +++
 
 **This is the story of how I turned a repetitive, time-consuming task into a streamlined, automated workflow with a single, powerful prompt.** 

@@ -11,7 +11,7 @@ keywords = ["proxmox kvm vs lxc", "linux containers", "hypervisor"]
 [cover]
     image = "images/blog/2025/10/2025-10-21_proxmox-kvm-vs-lxc-watermarked.avif" 
     alt = "A split-screen digital art piece showing a secure, isolated fortress on one side (KVM) and a fast, efficient workshop on the other (LXC)."
-    relative = true
+    relative = false
 +++
 
 You've successfully installed Proxmox. The web interface is gleaming, the server is humming, and a world of self-hosted possibilities stretches out before you. You click "Create VM," and then you see it—the other button, "Create CT." This is the first great strategic crossroad every Proxmox administrator faces, a decision that will fundamentally shape the architecture of your home lab: KVM Virtual Machine or LXC Container? This isn't just a technical choice; it's a philosophical one that impacts performance, security, and resource management. Choosing correctly means building an efficient, stable, and secure system. Choosing poorly can lead to wasted resources and frustrating limitations. In this guide, we won't just compare two technologies; we will teach you how to think like a resource architect, ensuring you select the right tool for the right job, every single time.
