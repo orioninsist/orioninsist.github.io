@@ -1,152 +1,169 @@
-import * as params from '@params';
+// Kodun başka script'lerle çakışmasını önlemek için her şeyi bir fonksiyon kapsamına alıyoruz.
+// Ayrıca, sayfanın tüm resimlerinin yüklenmesini beklemeden, HTML hazır olur olmaz çalışması için 'DOMContentLoaded' kullanıyoruz.
+document.addEventListener('DOMContentLoaded', () => {
+    'use strict';
 
-let fuse; // holds our search engine
-let resList = document.getElementById('searchResults');
-let sInput = document.getElementById('searchInput');
-let first, last, current_elem = null
-let resultsAvailable = false;
+    // DOM elemanlarını en başta seçip değişkenlere atayarak tekrar tekrar sorgu yapmayı önlüyoruz.
+    const searchInput = document.getElementById('searchInput');
+    const searchResults = document.getElementById('searchResults');
+    const searchbox = document.getElementById('searchbox');
 
-// load our search index
-window.onload = function () {
-    let xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === 4) {
-            if (xhr.status === 200) {
-                let data = JSON.parse(xhr.responseText);
-                if (data) {
-                    // fuse.js options; check fuse.js website for details
-                    let options = {
-                        distance: 100,
-                        threshold: 0.4,
-                        ignoreLocation: true,
-                        keys: [
-                            'title',
-                            'permalink',
-                            'summary',
-                            'content'
-                        ]
-                    };
-                    if (params.fuseOpts) {
-                        options = {
-                            isCaseSensitive: params.fuseOpts.iscasesensitive ?? false,
-                            includeScore: params.fuseOpts.includescore ?? false,
-                            includeMatches: params.fuseOpts.includematches ?? false,
-                            minMatchCharLength: params.fuseOpts.minmatchcharlength ?? 1,
-                            shouldSort: params.fuseOpts.shouldsort ?? true,
-                            findAllMatches: params.fuseOpts.findallmatches ?? false,
-                            keys: params.fuseOpts.keys ?? ['title', 'permalink', 'summary', 'content'],
-                            location: params.fuseOpts.location ?? 0,
-                            threshold: params.fuseOpts.threshold ?? 0.4,
-                            distance: params.fuseOpts.distance ?? 100,
-                            ignoreLocation: params.fuseOpts.ignorelocation ?? true
-                        }
-                    }
-                    fuse = new Fuse(data, options); // build the index from the json file
-                }
-            } else {
-                console.log(xhr.responseText);
+    // Eğer gerekli HTML elemanları sayfada yoksa, hatayı önlemek için script'i durdur.
+    if (!searchInput || !searchResults || !searchbox) {
+        console.error('Arama için gerekli HTML elemanları bulunamadı. (searchInput, searchResults, searchbox)');
+        return;
+    }
+
+    let fuse;
+    let first, last, current_elem = null;
+    let resultsAvailable = false;
+
+    // Fuse.js için varsayılan ve kullanıcı tanımlı ayarları birleştiren fonksiyon
+    const getFuseOptions = (params) => {
+        const defaultOptions = {
+            isCaseSensitive: false,
+            includeScore: false,
+            includeMatches: false,
+            minMatchCharLength: 1,
+            shouldSort: true,
+            findAllMatches: false,
+            keys: ['title', 'permalink', 'summary', 'content'],
+            location: 0,
+            threshold: 0.4,
+            distance: 100,
+            ignoreLocation: true,
+        };
+
+        if (params && params.fuseOpts) {
+            // Kullanıcının Hugo config'deki ayarlarını varsayılanların üzerine yaz
+            return { ...defaultOptions, ...params.fuseOpts };
+        }
+        return defaultOptions;
+    };
+
+    // Arama indeksini modern fetch API ile asenkron olarak yükle
+    const loadSearchIndex = async () => {
+        try {
+            const response = await fetch('/index.json'); // Hugo public klasöründeki index.json
+            if (!response.ok) {
+                throw new Error(`Arama indeksi yüklenemedi: ${response.statusText}`);
+            }
+            const data = await response.json();
+            const options = getFuseOptions(window.params); // Hugo'dan gelen @params
+            fuse = new Fuse(data, options);
+        } catch (error) {
+            console.error(error);
+            searchInput.placeholder = "Arama şu an kullanılamıyor.";
+            searchInput.disabled = true;
+        }
+    };
+
+    // Her tuş vuruşunda arama yapmak yerine, kullanıcı yazmayı bıraktıktan sonra
+    // belirli bir süre (örn: 300ms) bekleyip tek bir arama yapan "debounce" fonksiyonu.
+    // Bu, performansı ciddi şekilde artırır.
+    const debounce = (func, delay) => {
+        let timeoutId;
+        return (...args) => {
+            clearTimeout(timeoutId);
+            timeoutId = setTimeout(() => {
+                func.apply(this, args);
+            }, delay);
+        };
+    };
+
+    const executeSearch = (term) => {
+        if (!fuse || !term) {
+            resultsAvailable = false;
+            searchResults.innerHTML = '';
+            return;
+        }
+
+        const results = fuse.search(term, { limit: window.params?.fuseOpts?.limit || 20 });
+
+        if (results.length > 0) {
+            const resultSet = results.map(result => `
+                <li class="post-entry">
+                    <header class="entry-header">${result.item.title}&nbsp;»</header>
+                    <a href="${result.item.permalink}" aria-label="${result.item.title}"></a>
+                </li>`
+            ).join('');
+
+            searchResults.innerHTML = resultSet;
+            resultsAvailable = true;
+            first = searchResults.firstElementChild;
+            last = searchResults.lastElementChild;
+        } else {
+            resultsAvailable = false;
+            searchResults.innerHTML = '';
+        }
+    };
+
+    const debouncedSearch = debounce(executeSearch, 300);
+
+    const resetSearch = () => {
+        resultsAvailable = false;
+        searchResults.innerHTML = searchInput.value = '';
+        searchInput.focus();
+    };
+    
+    const setActiveElement = (el) => {
+        document.querySelectorAll('.focus').forEach(element => element.classList.remove('focus'));
+        if (el) {
+            el.focus();
+            current_elem = el;
+            if (el.parentElement.tagName === 'LI') {
+                 el.parentElement.classList.add('focus');
             }
         }
     };
-    xhr.open('GET', "../index.json");
-    xhr.send();
-}
 
-function activeToggle(ae) {
-    document.querySelectorAll('.focus').forEach(function (element) {
-        // rm focus class
-        element.classList.remove("focus")
+    // Olay Dinleyicileri (Event Listeners)
+    searchInput.addEventListener('keyup', (e) => {
+        debouncedSearch(e.target.value.trim());
     });
-    if (ae) {
-        ae.focus()
-        document.activeElement = current_elem = ae;
-        ae.parentElement.classList.add("focus")
-    } else {
-        document.activeElement.parentElement.classList.add("focus")
-    }
-}
+    
+    searchInput.addEventListener('search', (e) => {
+        if (!e.target.value) resetSearch();
+    });
 
-function reset() {
-    resultsAvailable = false;
-    resList.innerHTML = sInput.value = ''; // clear inputbox and searchResults
-    sInput.focus(); // shift focus to input box
-}
+    document.addEventListener('keydown', (e) => {
+        const key = e.key;
+        const activeEl = document.activeElement;
 
-// execute search as each character is typed
-sInput.onkeyup = function (e) {
-    // run a search query (for "term") every time a letter is typed
-    // in the search box
-    if (fuse) {
-        let results;
-        if (params.fuseOpts) {
-            results = fuse.search(this.value.trim(), {limit: params.fuseOpts.limit}); // the actual query being run using fuse.js along with options
-        } else {
-            results = fuse.search(this.value.trim()); // the actual query being run using fuse.js
+        if (key === 'Escape') {
+            resetSearch();
+            return;
         }
-        if (results.length !== 0) {
-            // build our html if result exists
-            let resultSet = ''; // our results bucket
+        
+        // Sadece arama kutusu veya sonuçlar aktifken klavye navigasyonunu çalıştır
+        if (!resultsAvailable || !searchbox.contains(activeEl)) return;
 
-            for (let item in results) {
-                resultSet += `<li class="post-entry"><header class="entry-header">${results[item].item.title}&nbsp;»</header>` +
-                    `<a href="${results[item].item.permalink}" aria-label="${results[item].item.title}"></a></li>`
-            }
-
-            resList.innerHTML = resultSet;
-            resultsAvailable = true;
-            first = resList.firstChild;
-            last = resList.lastChild;
-        } else {
-            resultsAvailable = false;
-            resList.innerHTML = '';
+        switch(key) {
+            case 'ArrowDown':
+                e.preventDefault();
+                if (activeEl === searchInput) {
+                    setActiveElement(first?.lastElementChild);
+                } else if (activeEl.parentElement !== last) {
+                    setActiveElement(activeEl.parentElement.nextElementSibling?.lastElementChild);
+                }
+                break;
+            case 'ArrowUp':
+                e.preventDefault();
+                 if (activeEl.parentElement === first) {
+                    setActiveElement(searchInput);
+                } else if (activeEl !== searchInput) {
+                    setActiveElement(activeEl.parentElement.previousElementSibling?.lastElementChild);
+                }
+                break;
+            case 'ArrowRight':
+            case 'Enter': // Enter tuşunu da eklemek kullanışlı olur
+                if(activeEl !== searchInput) {
+                    activeEl.click();
+                }
+                break;
         }
-    }
-}
+    });
 
-sInput.addEventListener('search', function (e) {
-    // clicked on x
-    if (!this.value) reset()
-})
-
-// kb bindings
-document.onkeydown = function (e) {
-    let key = e.key;
-    let ae = document.activeElement;
-
-    let inbox = document.getElementById("searchbox").contains(ae)
-
-    if (ae === sInput) {
-        let elements = document.getElementsByClassName('focus');
-        while (elements.length > 0) {
-            elements[0].classList.remove('focus');
-        }
-    } else if (current_elem) ae = current_elem;
-
-    if (key === "Escape") {
-        reset()
-    } else if (!resultsAvailable || !inbox) {
-        return
-    } else if (key === "ArrowDown") {
-        e.preventDefault();
-        if (ae == sInput) {
-            // if the currently focused element is the search input, focus the <a> of first <li>
-            activeToggle(resList.firstChild.lastChild);
-        } else if (ae.parentElement != last) {
-            // if the currently focused element's parent is last, do nothing
-            // otherwise select the next search result
-            activeToggle(ae.parentElement.nextSibling.lastChild);
-        }
-    } else if (key === "ArrowUp") {
-        e.preventDefault();
-        if (ae.parentElement == first) {
-            // if the currently focused element is first item, go to input box
-            activeToggle(sInput);
-        } else if (ae != sInput) {
-            // if the currently focused element is input box, do nothing
-            // otherwise select the previous search result
-            activeToggle(ae.parentElement.previousSibling.lastChild);
-        }
-    } else if (key === "ArrowRight") {
-        ae.click(); // click on active link
-    }
-}
+    // Script başladığında arama indeksini yükle
+    loadSearchIndex();
+});
