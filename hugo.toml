@@ -26,6 +26,8 @@ uglyURLs = false
 [pagination]
   pagerSize = 6
 
+
+
 [minify]
 #disableXML = false
 #minifyOutput = true
@@ -33,9 +35,24 @@ disableCSS = false
 disableJS = false
 disableXML = false
 minifyOutput = true
-[minify.tdewolff.html]
- keepComments = false
- keepWhitespace = false
+
+[minify.tdewolff]
+  [minify.tdewolff.html]
+    keepComments = false
+    keepWhitespace = false
+  [minify.tdewolff.json]
+    keepWhitespace = false
+
+  [minify.tdewolff.svg]
+    precision = 1  
+
+[fingerprint]
+  enabled = true
+  extensions = ['css', 'js', 'json', 'svg', 'png', 'jpg', 'jpeg', 'gif','webp','avif']
+
+[imaging]
+  quality = 75
+  resampleFilter = "Lanczos"
 
 
 [services]
