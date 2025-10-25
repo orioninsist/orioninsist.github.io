@@ -79,7 +79,7 @@ We're building a community and would love for you to be a part of it! Whether yo
 
 * **Telegram:** [t.me/orioninsist](https://t.me/orioninsist)
 * **WhatsApp:** [whatsapp.com/channel/0029VbBt2SoBA1f72q7yav3q](https://whatsapp.com/channel/0029VbBt2SoBA1f72q7yav3q)
-* **Discord:** [Link to your Discord server]
+* **Discord:** []
  
 
 ## 💖 Support Us
@@ -94,11 +94,11 @@ We're building a community and would love for you to be a part of it! Whether yo
 * **Twitch:** [twitch.tv/orioninsist](https://www.twitch.tv/orioninsist)
 * **Kick:** [kick.com/orioninsist](https://kick.com/orioninsist)
 * **Odysee:** [odysee.com/@orioninsist:9](https://odysee.com/@orioninsist:9)
-* **Spotify:** [Link to your Spotify profile/playlist]
+* **Spotify:** []
  
 
 ## 🛒 Shop & Books
 
 * **Etsy:** [etsy.com/shop/orioninsist](https://www.etsy.com/shop/orioninsist)
-* **Amazon Kindle:** [Link to your Amazon Author Page]
+* **Amazon Kindle:** []
  
