@@ -147,7 +147,7 @@ ShowBreadCrumbs       = true
 ShowCodeCopyButtons   = true
 hideMeta              = false
 favicon               = "/orioninsist.ico"
-
+defaultTheme = "dark"
  
 
 
