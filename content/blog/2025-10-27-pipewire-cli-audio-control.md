@@ -19,8 +19,8 @@ summary = "I detail my full transition from Pavucontrol to CLI-only audio manage
 slug = "ditch-the-gui-mastering-pipewire-audio-in-arch-cli"
 keywords = ["PipeWire", "Arch Linux", "Sway", "Wayland", "CLI", "Audio Management"]
 tags = ["PipeWire", "Arch Linux", "Sway"]
-categories = []
-series = []
+categories = ["Linux", "Wayland", "Audio"]
+series = ["Minimalist Workflow", "PipeWire Mastery"]
 [cover]
     image = "images/blog/2025/10/2025-10-27-pipewire-cli-audio-control-watermarked.avif"
     alt = "A terminal window open on a minimal Linux desktop showing successful PipeWire configuration commands."
