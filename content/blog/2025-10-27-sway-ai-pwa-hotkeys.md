@@ -57,12 +57,12 @@ I placed this script in my dotfiles `bin` directory for easy management:
 ~~~bash
 #!/bin/bash
 
-# Web uygulamasını (PWA) Google Chrome Stable ile açar.
-# $1: URL (Örn: https://chat.openai.com/app)
-# $2...: Diğer argümanlar
+# Launches the web application (PWA) using Google Chrome Stable.
+# $1: URL (e.g., https://chat.openai.com/app)
+# $2...: Other arguments
 
-# setsid: Uygulamanın kabuktan ayrılmasını sağlar (Wayland ortamında kritik).
-# google-chrome-stable --app="$1": Tarayıcıyı minimal uygulama modunda açar.
+# setsid: Detaches the application from the shell (critical in Wayland environments).
+# google-chrome-stable --app="$1": Launches the browser in minimal application mode.
 exec setsid google-chrome-stable --app="$1" "${@:2}"
 ~~~
 
@@ -77,8 +77,8 @@ I chose **Super (Mod4) + C** for ChatGPT and **Super (Mod4) + G** for Gemini.
 
 ~~~bash
 # -----------------------------------------------------------------
-# YAPAY ZEKA WEB UYGULAMASI KISAYOLLARI (launch-web-app script'i ile)
-# Kısayol: Mod4 (Super/Windows) + Tuş
+# AI WEB APPLICATION SHORTCUTS (using the launch-web-app script)
+# Shortcut: Mod4 (Super/Windows) + Key
 # -----------------------------------------------------------------
 
 # Super (Windows/Meta) + c -> ChatGPT (Chrome App)
