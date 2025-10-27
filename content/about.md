@@ -10,8 +10,8 @@ type: "blog"
 language: "English"
 slug: "about"
 cover:
-    image: "/about/muratkurkoglu-2.webp"
-    alt : "orioninsist about image"
+    image: "images/about/muratkurkoglu.avif"
+    alt : "murat kurkoglu about image"
 
 ---
 ## About
