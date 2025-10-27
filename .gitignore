@@ -53,3 +53,13 @@ assets/images/raw/**/thumbnails/
 assets/images/raw/**/*.avif
 
 
+assets/images/raw/archieve/**/*.avif
+assets/images/raw/archieve/**/*.png
+assets/images/raw/archieve/**/*.jpg
+assets/images/raw/archieve/**/*.jpeg
+assets/images/raw/archieve/**/*.webp
+assets/images/raw/archieve/**/*.gif
+assets/images/raw/archieve/**/*.svg
+assets/images/raw/archieve/**/*.ai
+assets/images/raw/archieve/**/*.eps
+assets/images/raw/archieve/**/thumbnails/   
