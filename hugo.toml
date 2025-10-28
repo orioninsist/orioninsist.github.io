@@ -15,12 +15,12 @@ pygmentsUseClasses = true
 
 [build]
   writeStats = true
-  [build.cachebusters]
-    source = "assets/js/main.js"
-    target = "js/main.js"
+      [build.cachebusters]
+         source = "assets/js/main.js"
+         target = "js/main.js"
 
-    [[build.cachebusters.options]]
-      integrity = "sha256"
+      [[build.cachebusters.options]]
+         integrity = "sha256"
 
 
 
@@ -28,8 +28,7 @@ canonifyURLs = false
 uglyURLs = false
 
 [permalinks]
-  posts = "/blog/:slug/" 
-
+  blog = "/blog/:slug/"
 
 [taxonomies]
   category = "categories"
