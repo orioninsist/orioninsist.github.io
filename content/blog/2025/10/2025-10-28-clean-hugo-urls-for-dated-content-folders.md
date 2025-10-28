@@ -1,15 +1,11 @@
 +++
-
 date = 2025-10-28T23:37:53+03:00
 publishDate = 2025-10-28T23:37:53+03:00
 lastmod = 2025-10-28T23:37:53+03:00
 ShowReadingTime = true
 ShowToc = true
 TocOpen = true
-
-
 draft = false 
-
 
 title = "My Fix for Clean Hugo URLs with Dated Folders"
 author = "Murat Kurkoglu"
@@ -21,8 +17,7 @@ tags = ["Hugo", "Web Development", "Blogging"]
 categories = ["Web Development"]
 series = ["Hugo Tips"]
 [cover]
-    image = "images/blog/2025/10/2025-10-28-clean-hugo-urls-for-dated-content-folders-watermarked.avif
-"
+    image = "images/blog/2025/10/2025-10-28-clean-hugo-urls-for-dated-content-folders-watermarked.avif"
     alt = "A diagram illustrating how organized, date-based content folders in Hugo can produce clean, user-friendly website URLs with a simple configuration fix."
 +++
 
@@ -32,6 +27,7 @@ series = ["Hugo Tips"]
 ---
 
 👋 Hey everyone,
+
 
 It’s been a week of deep focus on my blog, [orioninsist.org](https://orioninsist.org). As I continue to migrate more of my writing and build out my content strategy, I've become obsessed with long-term sustainability. For me, that means organization. I’m not just talking about tags and categories; I mean the actual file structure on my machine. A clean, logical directory is like a well-organized workshop—it makes finding things, making changes, and scaling up so much easier.
 
