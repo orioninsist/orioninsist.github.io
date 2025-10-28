@@ -158,7 +158,7 @@ subtitle = "<h2>Hi, I am Murat Kurkoglu, the founder of orioninsist. I'm a compu
 imageUrl     = "/home/murat-kurkoglu-330x330.avif"
 imageWidth   = 220
 imageHeight  = 220
-[[params.profileMode.buttons]]
+#[[params.profileMode.buttons]]
 #name = "Blog"
 #url  = "/blog"
 
