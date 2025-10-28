@@ -159,8 +159,8 @@ imageUrl     = "/home/murat-kurkoglu-330x330.avif"
 imageWidth   = 220
 imageHeight  = 220
 [[params.profileMode.buttons]]
-name = "Blog"
-url  = "/blog"
+#name = "Blog"
+#url  = "/blog"
 
 
 
