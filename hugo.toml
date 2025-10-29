@@ -10,15 +10,12 @@ buildDrafts     = false
 buildFuture     = false
 buildExpired    = false
 enableEmoji     = true
-env = "production"
-
+environment = "production"
 
  
 
 
 
-canonifyURLs = false
-uglyURLs = false
 
 [permalinks]
   blog = "/blog/:slug/"
@@ -129,8 +126,6 @@ weight     = 60
 ###############################################################################
 [params]
 description = "The personal blog of Murat Kurkoglu, a computer engineer, on cyber security, Linux, and technology. Notes and guides on software development and system administration."
-ogTitle       = "orioninsist"
-ogDescription = "Hi, I am Murat Kurkoglu, the founder of orioninsist. I am a computer engineer and hold a degree in economics."
 ogImage       = "/about/murat-kurkoglu2.webp"
 ShowShareButtons      = true
 ShowReadingTime       = true
@@ -284,7 +279,6 @@ noClasses = false
 
 
 
-# googleAnalyticsAnonymizeIP = true
 
 
 
