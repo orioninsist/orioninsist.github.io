@@ -268,7 +268,7 @@ noClasses = false
     useSessionStorage = false
     [privacy.instagram]
       disable = true
-    [privacy.twitter]
+    [privacy.x]
        disable = false  
        enableDNT = true
     [privacy.vimeo]
