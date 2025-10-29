@@ -13,14 +13,12 @@ enableEmoji     = true
 pygmentsUseClasses = true
 
 
-[build]
-  writeStats = true
-      [build.cachebusters]
-         source = "assets/js/main.js"
-         target = "js/main.js"
-
-      [[build.cachebusters.options]]
-         integrity = "sha256"
+[[build.cachebusters]]
+  source = "assets/js/main.js"
+  target = "js/main.js"
+  integrity = "sha256"
+  canonifyURLs = false
+  uglyURLs = false
 
 
 
@@ -149,12 +147,11 @@ favicon               = "/orioninsist.ico"
 defaultTheme = "dark"
  
 
-
 [params.profileMode]
 enabled      = true
 title        = "Murat Kurkoglu"
 subtitle = "<h2>Hi, I am Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
-imageUrl     = "/home/murat-kurkoglu-330x330.avif"
+imageUrl     = "images/home/murat-kurkoglu-330x330.avif"
 imageWidth   = 220
 imageHeight  = 220
 #[[params.profileMode.buttons]]
