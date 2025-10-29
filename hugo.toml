@@ -128,7 +128,7 @@ weight     = 60
 # params
 ###############################################################################
 [params]
-description           = "Hi, I am Murat Kurkoglu, the founder of orioninsist. I am  a computer engineer and hold a degree in economics."
+description = "The personal blog of Murat Kurkoglu, a computer engineer, on cyber security, Linux, and technology. Notes and guides on software development and system administration."
 ogTitle       = "orioninsist"
 ogDescription = "Hi, I am Murat Kurkoglu, the founder of orioninsist. I am a computer engineer and hold a degree in economics."
 ogImage       = "/about/murat-kurkoglu2.webp"
@@ -144,7 +144,7 @@ ShowCodeCopyButtons   = true
 hideMeta              = false
 favicon               = "/orioninsist.ico"
 defaultTheme = "dark"
- 
+privacyPolicy = "/privacy-policy.md"
 
 [params.profileMode]
 enabled      = true
@@ -192,7 +192,7 @@ name = "youtube"
 url  = "https://www.youtube.com/@orioninsist-official/"
 [[params.socialIcons]]
 name = "cv"
-url  = "https://www.youtube.com/@orioninsist-official/"
+url  = "https://www.linkedin.com/in/murat-kurkoglu/"
 [[params.socialIcons]]
 name = "buymeacoffee"
 url  = "https://www.buymeacoffee.com/orioninsist/"
