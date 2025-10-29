@@ -10,7 +10,7 @@ buildDrafts     = false
 buildFuture     = false
 buildExpired    = false
 enableEmoji     = true
-pygmentsUseClasses = true
+env = "production"
 
 
  
@@ -52,9 +52,13 @@ disableJS = false
   [minify.tdewolff.svg]
     precision = 1  
 
-[fingerprint]
-  enabled = true
-  extensions = ['css', 'js', 'json', 'svg', 'png', 'jpg', 'jpeg', 'gif','webp','avif']
+[[build.cachebusters]]
+  source = "assets/js/.*"
+  target = "js"
+
+[[build.cachebusters]]
+  source = "assets/css/.*"
+  target = "css"
 
 [imaging]
   quality = 75
@@ -167,7 +171,6 @@ schema = true
 
  
 
-env = "production"
 
 hideDescriptionInList = false
 
@@ -280,12 +283,9 @@ noClasses = false
        privacyEnhanced = true       
 
 
-future = false
 
 # googleAnalyticsAnonymizeIP = true
 
-privacyPolicy = "/privacy-policy.md"
-newContentCreateKind = "toml"
 
 
 [sitemap]
