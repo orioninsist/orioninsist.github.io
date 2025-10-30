@@ -4,7 +4,7 @@
 enableRobotsTXT = true
 baseURL         = "https://orioninsist.org/"
 defaultContentLanguage = "en"
-title           = "orioninsist"
+title           = "orioninsist | Murat Kurkoglu's Blog"
 enableInlineShortcodes = true
 buildDrafts     = false
 buildFuture     = false
@@ -130,6 +130,7 @@ ogImage       = "/about/murat-kurkoglu2.webp"
 ShowShareButtons      = true
 ShowReadingTime       = true
 ShowPostNavLinks      = true
+hideDescriptionInList = false
 comments              = true
 DateFormat            = "January 2, 2006"
 showToc               = true
@@ -137,7 +138,6 @@ TocOpen               = true
 ShowBreadCrumbs       = true
 ShowCodeCopyButtons   = true
 hideMeta              = false
-favicon               = "/orioninsist.ico"
 defaultTheme = "dark"
 privacyPolicy = "/privacy-policy.md"
 
@@ -166,8 +166,6 @@ schema = true
 
  
 
-
-hideDescriptionInList = false
 
 [params.cover]
 hiddenInList  = false
