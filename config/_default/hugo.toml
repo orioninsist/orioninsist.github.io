@@ -111,6 +111,11 @@ hideMeta              = false
 defaultTheme = "dark"
 privacyPolicy = "/privacy-policy.md"
 
+
+[params.search]
+  enable = true
+
+
 [params.profileMode]
 enabled      = true
 title        = "Murat Kurkoglu"
