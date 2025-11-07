@@ -21,7 +21,8 @@ keywords = ["Markdown", "Technical Writing", "CommonMark", "Static Site Generato
 tags = ["Markdown", "Technical Writing", "CommonMark"]
 categories = ["Development"]
 series = ["Tech Explained"]
-[cover]    image = "images/blog/2025/11/2025-11-07-markdown-fences-backticks-vs-tildes-watermarked.avif"
+[cover]
+    image = "images/blog/2025/11/2025-11-07-markdown-fences-backticks-vs-tildes-watermarked.avif"
     alt = "A split-screen image showing broken Markdown rendering on one side and perfectly nested, clean code blocks on the other."
 +++
 
