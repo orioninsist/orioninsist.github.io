@@ -251,7 +251,7 @@ If this post was the "what," this book is the "why." I'm not exaggerating when I
 
 ---
 
-### Thanks for Following ☕
+### Thanks for Following  ☕
 ☕ If you found this guide helpful, you can [Buy Me a Coffee](https://buymeacoe.com/orioninsist)!
 [Medium](https://orioninsist.medium.com/subscribe)
 [Etsy](https://www.etsy.com/shop/orioninsist)
