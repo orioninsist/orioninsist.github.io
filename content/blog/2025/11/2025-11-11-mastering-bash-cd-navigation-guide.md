@@ -14,8 +14,8 @@ draft = false
 
 title = "Bash 'cd' Command: Master Terminal Navigation Now"
 author = "Murat Kurkoglu"
-description = "Stop feeling lost in the Linux terminal. Master the 'cd' command, relative vs. absolute paths, and the "back button" trick 'cd -' to navigate like a pro."
-summary = "Stop feeling lost in the Linux terminal. Master the 'cd' command, relative vs. absolute paths, and the "back button" trick 'cd -' to navigate like a pro."
+description = "Stop feeling lost in the Linux terminal. Master the 'cd' command, relative vs. absolute paths, and the back button trick 'cd -' to navigate like a pro."
+summary = "Stop feeling lost in the Linux terminal. Master the 'cd' command, relative vs. absolute paths, and the back button trick 'cd -' to navigate like a pro."
 slug = "mastering-bash-cd-navigation-guide"
 keywords = ["Bash", "cd", "Linux", "CLI", "File System"]
 tags = ["Bash", "cd", "Linux"]
