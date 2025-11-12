@@ -21,9 +21,6 @@ keywords = []
 series = []
 categories = []
 tags = []
-images= ""
-categories = []
-series = []
 [cover]
     image = "" 
     alt = "" 
