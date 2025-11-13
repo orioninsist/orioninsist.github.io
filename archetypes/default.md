@@ -6,8 +6,6 @@ lastmod = {{ .Date }}
 ShowReadingTime = true
 ShowToc = true
 TocOpen = true
-[params]
-ShowReadingTime = true # PaperMod setting to show reading time [36]
 ShowBreadCrumbs = true # PaperMod setting for navigation [36]
 ShowPostNavLinks = true # PaperMod setting for post navigation [36]
 ShowShareButtons = true # PaperMod setting to show share buttons [36]
