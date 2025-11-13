@@ -17,7 +17,6 @@ ShowWordCount = true # PaperMod setting to show word count [36]
 
 draft = false 
 
-
 title = "Minimalism: Achieve Financial Freedom and Hyper-Focus by Decluttering Your Life"
 description = "A comprehensive guide on applying minimalist principles to finances, time, and physical space for maximum personal growth and sustainable happiness."
 slug = "minimalism-financial-freedom-focus"
