@@ -25,7 +25,6 @@ slug = "extract-multi-part-zip-linux-correct-way"
 tags = ["Linux", "Zip", "Sysadmin", "Troubleshooting", "Arch Linux"]
 categories = ["Linux"]
 keywords = ["multi-part zip linux", "zip -FF", "filename not matched unzip error", "repair zip linux", "extract split zip"]
-draft = false
 [cover]
     image = "assets/images/blog/2025/11/2025-11-16-extract-multi-part-zip-linux-correct-way-watermarked.avif"
     alt = "Linux terminal showing multi-part ZIP extraction commands using zip -FF"
