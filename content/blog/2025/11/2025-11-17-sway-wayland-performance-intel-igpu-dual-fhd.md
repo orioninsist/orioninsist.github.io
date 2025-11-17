@@ -351,7 +351,7 @@ One excellent option is the **Logitech MX Keys Mini**, known for:
 It's perfect if you're aiming for a **clean, distraction-free Sway environment**.
 
 **If you’d like to check the product, here is the link:**  
-[Amazon — Insert your link here]()
+[Amazon — Insert your link here](https://www.amazon.com/Logitech-Minimalist-Illuminated-Bluetooth-Compatible/dp/B098JPSVKY)
 
 ---
 
