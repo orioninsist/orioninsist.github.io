@@ -20,7 +20,6 @@ author = "Murat Kurkoglu"
 title = "Essential Wayland Tools for a Fast and Stable Sway Setup (2025 Developer Edition)"
 seo_title = "Best Wayland Tools for Sway (2025 Guide)"
 description = "A complete guide to the essential Wayland-native tools that make Sway fast, stable, and productivity-ready for developers. Includes tool list, configurations, and workflow optimization tips."
-date = 2025-11-17
 slug = "essential-wayland-tools-sway-2025"
 summary = "The definitive list of essential Wayland-native tools for building a fast, stable, and developer-focused Sway setup in 2025."
 series = ["Sway Wayland Performance Series"]
