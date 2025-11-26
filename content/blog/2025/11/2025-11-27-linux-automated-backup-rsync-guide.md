@@ -131,7 +131,7 @@ Honestly, configuring this script took me less than 15 minutes. But the return o
 
 
 {{< figure
-    src="images/blog/2025/11/2025-11-27-linux-automated-backup-rsync-guide.avif"
+    src="/images/blog/2025/11/2025-11-27-linux-automated-backup-rsync-guide.avif"
     alt=""
     caption="Efficiency visualized: When search tools operate at the speed of thought, engineering bottlenecks disappear."
 >}}
