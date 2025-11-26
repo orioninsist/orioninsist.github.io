@@ -128,3 +128,10 @@ They should be nearly identical.
 
 ## The Verdict
 Honestly, configuring this script took me less than 15 minutes. But the return on investment (ROI) has been massive for my mental peace. I no longer waste energy trying to remember if I backed up that specific project folder last night. The automation handles the logic silently in the background, which lets me focus entirely on my code. It’s a small engineering win that makes my daily workflow much less stressful.
+
+
+{{< figure
+    src="images/blog/2025/11/2025-11-27-linux-automated-backup-rsync-guide.avif"
+    alt=""
+    caption="Efficiency visualized: When search tools operate at the speed of thought, engineering bottlenecks disappear."
+>}}
