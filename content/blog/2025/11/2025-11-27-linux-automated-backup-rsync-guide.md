@@ -6,17 +6,14 @@ lastmod = 2025-11-26T03:31:43+03:00
 ShowReadingTime = true
 ShowToc = true
 TocOpen = true
-ShowBreadCrumbs = true # PaperMod setting for navigation [36]
-ShowPostNavLinks = true # PaperMod setting for post navigation [36]
-ShowShareButtons = true # PaperMod setting to show share buttons [36]
-ShowCodeCopyButtons = true # PaperMod setting for code copy buttons [36]
-ShowWordCount = true # PaperMod setting to show word count [36]
+ShowBreadCrumbs = true 
+ShowPostNavLinks = true 
+ShowShareButtons = true 
+ShowCodeCopyButtons = true  
+ShowWordCount = true  
 author = "Murat Kurkoglu"
 
-[cover]
-    image = "images/blog/2025/11/2025-11-27-linux-automated-backup-rsync-guide.avif" 
-    alt = "" 
-    relative = true
+
 
 
 draft = true 
@@ -30,6 +27,10 @@ keywords = ["rsync", "linux backup", "incremental backup", "cron automation", "d
 series = ["Linux Tool Mastery"]
 categories = ["DevOps", "Linux"]
 tags = ["rsync", "Backup", "Bash", "Automation"]
+[cover]
+    image = "images/blog/2025/11/2025-11-27-linux-automated-backup-rsync-guide.avif" 
+    alt = "" 
+    relative = true
 +++
 
 ## The Context
