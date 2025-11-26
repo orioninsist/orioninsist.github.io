@@ -11,13 +11,18 @@ ShowPostNavLinks = true # PaperMod setting for post navigation [36]
 ShowShareButtons = true # PaperMod setting to show share buttons [36]
 ShowCodeCopyButtons = true # PaperMod setting for code copy buttons [36]
 ShowWordCount = true # PaperMod setting to show word count [36]
+author = "Murat Kurkoglu"
+
+[cover]
+    image = "" 
+    alt = "" 
+    relative = true
 
 
 draft = true 
 
 
 title = '{{ replace .Name "-" " " | title }}'
-author = "Murat Kurkoglu"
 description = "" 
 summary = ""
 slug = "" 
@@ -25,8 +30,5 @@ keywords = []
 series = []
 categories = []
 tags = []
-[cover]
-    image = "" 
-    alt = "" 
-    relative = true
+
 +++
