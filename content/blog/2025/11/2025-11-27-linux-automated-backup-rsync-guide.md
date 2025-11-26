@@ -16,7 +16,7 @@ author = "Murat Kurkoglu"
 
 
 
-draft = true 
+draft = false 
 
 
 title = "Automating Linux Backups with rsync: A Set-and-Forget Strategy"
