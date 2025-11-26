@@ -1,0 +1,251 @@
+baseURL         = "https://orioninsist.org/"
+title           = "orioninsist | Murat Kurkoglu's Blog"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+enableInlineShortcodes = true
+enableEmoji     = true
+buildDrafts     = false
+buildFuture     = false
+buildExpired    = false
+
+[permalinks]
+  blog = "/blog/:slug/"
+
+[taxonomies]
+  category = "categories"
+  tag      = "tags"
+  series   = "series"
+
+[server]
+  trailingSlash = "always"
+
+[pagination]
+  pagerSize = 6
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight       = 1
+
+# --- Menü Ayarları ---
+[[menu.main]]
+  identifier = "home"
+  name       = "Home"
+  url        = "/"
+  weight     = 10
+
+[[menu.main]]
+  identifier = "blog"
+  name       = "Blog"
+  url        = "/blog"
+  weight     = 20
+
+[[menu.main]]
+  identifier = "archives"
+  name       = "Archive"
+  url        = "/archives/"
+  weight     = 30
+
+[[menu.main]]
+  identifier = "about"
+  name       = "About"
+  url        = "/about"
+  weight     = 40
+
+[[menu.main]]
+  identifier = "contact"
+  name       = "Contact"
+  url        = "/contact"
+  weight     = 50
+
+[[menu.main]]
+  identifier = "search"
+  name       = "Search"
+  url        = "/search"
+  weight     = 60
+
+[[menu.main]]
+  identifier = "tags"
+  name       = "Tags"
+  url        = "/tags"
+  weight     = 70
+
+# --- Parametreler ---
+[params]
+  description      = "The personal blog of Murat Kurkoglu, a computer engineer, on cyber security, Linux, and technology. Notes and guides on software development and system administration."
+  ogImage          = "/about/murat-kurkoglu2.webp"
+  defaultTheme     = "dark"
+  DateFormat       = "January 2, 2006"
+  ShowShareButtons = true
+  ShowReadingTime  = true
+  ShowPostNavLinks = true
+  showToc          = true
+  TocOpen          = true
+  ShowBreadCrumbs  = true
+  ShowCodeCopyButtons = true
+  comments         = true
+  hideMeta         = false
+  hideDescriptionInList = false
+  privacyPolicy    = "/privacy-policy.md"
+
+  [params.search]
+    enable = true
+
+  [params.profileMode]
+    enabled     = true
+    title       = "Murat Kurkoglu"
+    subtitle    = "<h2>Hi, I am Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
+    imageUrl    = "images/home/murat-kurkoglu-330x330.avif"
+    imageWidth  = 220
+    imageHeight = 220
+
+  [params.assets]
+    favicon = "/orioninsist.ico"
+    schema  = true
+
+  [params.author]
+    name  = "Murat Kurkoglu"
+    email = "muratkurkoglu@gmail.com"
+
+  [params.cover]
+    hiddenInList   = false
+    hiddenInSingle = false
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort      = true
+    location        = 0
+    distance        = 1000
+    threshold       = 0.4
+    minMatchCharLength = 0
+    keys            = ["title", "permalink", "summary", "content"]
+
+  # --- Sosyal İkonlar ---
+  [[params.socialIcons]]
+    name = "email"
+    url  = "mailto:muratkurkoglu@gmail.com"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/murat-kurkoglu/"
+  [[params.socialIcons]]
+    name = "github"
+    url  = "https://github.com/orioninsist"
+  [[params.socialIcons]]
+    name = "youtube"
+    url  = "https://www.youtube.com/@orioninsist-official/"
+  [[params.socialIcons]]
+    name = "cv"
+    url  = "https://www.linkedin.com/in/murat-kurkoglu/"
+  [[params.socialIcons]]
+    name = "buymeacoffee"
+    url  = "https://www.buymeacoffee.com/orioninsist/"
+  [[params.socialIcons]]
+    name = "facebook"
+    url  = "https://www.facebook.com/insistorion"
+  [[params.socialIcons]]
+    name = "gitlab"
+    url  = "https://gitlab.com/orioninsist"
+  [[params.socialIcons]]
+    name = "instagram"
+    url  = "https://www.instagram.com/insistorion/"
+  [[params.socialIcons]]
+    name = "kaggle"
+    url  = "https://www.kaggle.com/orioninsist"
+  [[params.socialIcons]]
+    name = "kofi"
+    url  = "https://ko-fi.com/orioninsist"
+  [[params.socialIcons]]
+    name = "librapay"
+    url  = "https://en.liberapay.com/orioninsist/"
+  [[params.socialIcons]]
+    name = "medium"
+    url  = "https://orioninsist.dev/"
+  [[params.socialIcons]]
+    name = "reddit"
+    url  = "https://www.reddit.com/user/insistorion"
+  [[params.socialIcons]]
+    name = "stackoverflow"
+    url  = "https://stackoverflow.com/users/14691175/orioninsist"
+  [[params.socialIcons]]
+    name = "twitch"
+    url  = "https://www.twitch.tv/orioninsist"
+  [[params.socialIcons]]
+    name = "twitter"
+    url  = "https://twitter.com/InsistOrion"
+  [[params.socialIcons]]
+    name = "rss"
+    url  = "https://orioninsist.org/index.xml"
+
+# --- Çıktı Formatları ---
+[outputs]
+  home     = ["HTML", "RSS", "JSON"]
+  section  = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term     = ["HTML", "RSS"]
+
+# --- Markup ve Renderer ---
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+# --- Gizlilik ---
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter] 
+    disable = false  
+    enableDNT = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youTube]
+    disable = false
+    privacyEnhanced = true       
+
+# --- Sitemap ---
+[sitemap]
+  changefreq = "weekly"
+  filename   = "sitemap.xml"
+  priority   = 0.8
+
+# --- Minify (Sıkıştırma) ---
+[minify]
+  disableXML = false
+  minifyOutput = true
+  disableCSS = false
+  disableJS = false
+
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepComments = false
+      keepWhitespace = false
+    [minify.tdewolff.json]
+      keepWhitespace = false
+    [minify.tdewolff.svg]
+      precision = 1  
+
+[[build.cachebusters]]
+  source = "assets/js/.*"
+  target = "js"
+
+[[build.cachebusters]]
+  source = "assets/css/.*"
+  target = "css"
+
+[imaging]
+  quality = 75
+  resampleFilter = "Lanczos"
+
+# --- Servisler ---
+[services]
+  [services.googleAnalytics]
+    id = "G-6CE6YFM36C"
