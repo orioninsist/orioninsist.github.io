@@ -16,7 +16,7 @@ author = "Murat Kurkoglu"
 
 
 
-draft = true 
+draft = false 
 
 
 title = "Building a Cyber Security Home Lab: Why Local Hardware Beats the Cloud"
