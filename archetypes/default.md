@@ -13,10 +13,7 @@ ShowCodeCopyButtons = true # PaperMod setting for code copy buttons [36]
 ShowWordCount = true # PaperMod setting to show word count [36]
 author = "Murat Kurkoglu"
 
-[cover]
-    image = "" 
-    alt = "" 
-    relative = true
+
 
 
 draft = true 
@@ -30,5 +27,8 @@ keywords = []
 series = []
 categories = []
 tags = []
-
+[cover]
+    image = "" 
+    alt = "" 
+    relative = true
 +++
