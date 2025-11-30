@@ -1,5 +1,5 @@
 baseURL         = "https://orioninsist.org/"
-title           = "orioninsist | Murat Kurkoglu's Blog"
+title           = "Cyber Security & Linux | Murat Kurkoglu - orioninsist"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 enableInlineShortcodes = true
@@ -213,9 +213,9 @@ buildExpired    = false
 
 # --- Sitemap ---
 [sitemap]
-  changefreq = "weekly"
+  changefreq = "daily"
   filename   = "sitemap.xml"
-  priority   = 0.8
+  priority   = 1.0
 
 # --- Minify (Sıkıştırma) ---
 [minify]
