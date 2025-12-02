@@ -1,5 +1,4 @@
 +++
-
 date = {{ .Date }}
 publishDate = {{ .Date }}
 lastmod = {{ .Date }}
@@ -12,8 +11,6 @@ ShowShareButtons = true # PaperMod setting to show share buttons [36]
 ShowCodeCopyButtons = true # PaperMod setting for code copy buttons [36]
 ShowWordCount = true # PaperMod setting to show word count [36]
 author = "Murat Kurkoglu"
-
-
 
 
 draft = true 
