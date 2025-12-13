@@ -25,9 +25,10 @@ series = ["The Terminal Survival Guide"]
 categories = ["Linux", "Productivity"]
 tags = ["bash", "cli", "beginners"]
 [cover]
-    image = "assets\images\blog\2025\12\2025-12-14-black-screen-formatted-everything-lost.avif"
-    alt = "An old CRT monitor and terminal screen glowing with green light in a dark room"
-    relative = true
+  image = "images/blog/2025/12/2025-12-14-black-screen-formatted-everything-lost.avif"
+  alt = "An old CRT monitor and terminal screen glowing with green light in a dark room"
+  relative = true
+
 +++
 
 I made a mistake. A massive one.
