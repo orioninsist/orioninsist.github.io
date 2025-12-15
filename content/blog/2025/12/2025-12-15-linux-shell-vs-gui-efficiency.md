@@ -131,6 +131,6 @@ Once you realize the CLI isn't "harder," but simply "higher bandwidth," you'll n
 ---
 ### 📩 Don't Miss The Next Crash
 > Stop letting your OS treat you like a guest. Become the admin.
-> `https://orioninsist.medium.com/subscribe`
+> [`https://orioninsist.medium.com/subscribe`](https://orioninsist.medium.com/subscribe)
 
 > *If you enjoyed this, check out my other articles on **Linux Productivity** in my profile.*
