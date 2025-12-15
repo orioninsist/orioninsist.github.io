@@ -133,6 +133,6 @@ You aren't just typing less. You are thinking faster.
 
 ### 📩 Don't Miss The Next Crash
 > The terminal is only fast if *you* are fast.
-> `https://orioninsist.medium.com/subscribe`
+> [`https://orioninsist.medium.com/subscribe`](https://orioninsist.medium.com/subscribe)
 
 > *If you enjoyed this, check out my other articles on **Linux Productivity** in my profile.*
