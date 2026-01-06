@@ -91,7 +91,7 @@ buildExpired    = false
   [params.search]
     enable = true
 
-  [params.profileMode]
+  [params.homeInfoParams]
     enabled     = true
     title       = "Murat Kurkoglu"
     subtitle    = "<h2>Hi, I am Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
