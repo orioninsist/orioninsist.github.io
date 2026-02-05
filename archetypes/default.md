@@ -1,6 +1,7 @@
 +++
 
-date = '{{ .Date }}'
+date = '{{ time.Now.Format "2006-01-02" }}'
+publishDate = 2023-10-19T00:40:04-07:00
 
 
 
@@ -17,8 +18,7 @@ author = "Murat Kurkoglu"
 
 draft = true 
 
-
-title = '{{ replace .Name "-" " " | title }}'
+title = '{{ replace .File.ContentBaseName `-` ` ` | title }}'
 description = "" 
 summary = ""
 slug = "" 
