@@ -1,5 +1,7 @@
 +++
-
+date = 2026-02-05T01:18:58+03:00
+publishDate = 2026-02-05T01:18:58+03:00
+lastmod = 2026-02-05T01:18:58+03:00
 ShowReadingTime = true
 ShowToc = true
 TocOpen = true
