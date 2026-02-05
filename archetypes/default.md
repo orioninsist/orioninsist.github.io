@@ -1,7 +1,9 @@
 +++
-date = {{ .Date }}
-publishDate = {{ .Date }}
-lastmod = {{ .Date }}
+
+date = '{{ .Date }}'
+
+
+
 ShowReadingTime = true
 ShowToc = true
 TocOpen = true

@@ -1,7 +1,5 @@
 +++
-date = {{ .Date }}
-publishDate = {{ .Date }}
-lastmod = {{ .Date }}
+
 ShowReadingTime = true
 ShowToc = true
 TocOpen = true
@@ -12,11 +10,10 @@ ShowCodeCopyButtons = true # PaperMod setting for code copy buttons [36]
 ShowWordCount = true # PaperMod setting to show word count [36]
 author = "Murat Kurkoglu"
 
-
 draft = false 
 
 
-title = 'My Cybersecurity Career: The Journey to SOC Tier 1 Begins'
+title = "My Cybersecurity Career: The Journey to SOC Tier 1 Begins"
 description = "I am documenting my step-by-step process, technical notes, and lessons learned while training to become a Junior Security Analyst on TryHackMe."
 
 summary = "A personal roadmap and introduction to a series on becoming a SOC Tier 1 Analyst. This article outlines the 'why' behind the career choice and the methodology for future technical posts."
