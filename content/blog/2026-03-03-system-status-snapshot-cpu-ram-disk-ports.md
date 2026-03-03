@@ -16,9 +16,9 @@ ShowWordCount = true # PaperMod setting to show word count [36]
 author = "Murat Kurkoglu"
 
 
-draft = false 
+draft = false
 
-title = '2026 03 03 System Status Snapshot Cpu Ram Disk Ports'
+title = 'System Status Snapshot Cpu Ram Disk Ports'
 description = "One-command system status snapshot: load/CPU, RAM, disk usage, listening ports, and top processes—run in a minimal Docker lab for repeatable results."
 summary = "Build a minimal Docker-based lab and run secquick.sh to capture a fast system snapshot (CPU/RAM/disk/ports/processes) without clutter."
 slug = "system-status-snapshot-cpu-ram-disk-ports"
