@@ -18,14 +18,14 @@ author = "Murat Kurkoglu"
 
 draft = false
 
-title = 'Detecting Stale NFS Mounts That Freeze CLI Operations'
-description = "Learn how to detect stale or unresponsive NFS mounts that cause ls, df, and shell commands to hang. This guide provides a safe Bash script and reproducible Docker test." 
-summary = "Unresponsive NFS mounts can silently freeze CLI tools. This post shows how to detect them using a timeout-based scan approach with a minimal Bash script."
-slug = "detect-stale-nfs-mounts-bash" 
-keywords = ["nfs", "mounts", "debugging", "bash", "filesystem", "cli", "sysadmin"]
+title = "Detecting Stale NFS Mounts That Freeze CLI Operations"
+description = "Learn how to detect stale NFS mounts that make ls, df, and shell commands hang using a minimal Bash timeout scan and reproducible test."
+summary = "This guide shows how to identify unresponsive NFS mounts safely with a minimal Bash script that checks mounts without freezing normal CLI workflows."
+slug = "detect-stale-nfs-mounts-bash"
+keywords = ["stale NFS mounts"]
 series = ["linux-cli-problem-solving"]
-categories = ["linux"]
-tags = ["nfs", "mounts", "debugging", "bash", "filesystem", "cli", "sysadmin"]
+categories = ["Linux"]
+tags = ["NFS mount detection"]
 [cover]
     image = "" 
     alt = "" 
