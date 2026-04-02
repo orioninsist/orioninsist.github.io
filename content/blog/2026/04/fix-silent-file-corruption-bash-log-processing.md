@@ -7,7 +7,7 @@ ShowPostNavLinks = true # PaperMod setting for post navigation [36]
 ShowShareButtons = true # PaperMod setting to show share buttons [36]
 ShowCodeCopyButtons = true # PaperMod setting for code copy buttons [36]
 ShowWordCount = true # PaperMod setting to show word count [36]
-draft = true 
+draft = false 
 
 date = '2026-04-02'
 publishDate = 2023-10-19T00:40:04-07:00
