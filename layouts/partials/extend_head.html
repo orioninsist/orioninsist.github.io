@@ -61,3 +61,13 @@ window.__h82AlnkH6D91__("WyJwdWItMjM1MjI4NTUzMTM1ODg0OCIsW251bGwsbnVsbCxudWxsLCJ
 {{ if .Params.noindex }}
 <meta name="robots" content="noindex, follow">
 {{ end }}
+
+{{ if or (eq .Section "tags") (eq .Section "archive") }}
+  <meta name="robots" content="noindex, follow">
+{{ else if eq .Section "search" }}
+  <meta name="robots" content="noindex, nofollow">
+{{ else if .Params.robots }}
+  <meta name="robots" content="{{ .Params.robots }}">
+{{ else }}
+  <meta name="robots" content="index, follow">
+{{ end }}
