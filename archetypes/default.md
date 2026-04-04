@@ -14,14 +14,25 @@ publishDate = 2023-10-19T00:40:04-07:00
 author = "Murat Kurkoglu"
 title = '{{ replace .File.ContentBaseName `-` ` ` | title }}'
 description = "" 
-summary = ""
 slug = "" 
-keywords = []
-series = []
-categories = []
-tags = []
 [cover]
     image = "" 
     alt = "" 
     relative = true
 +++
+
+# date = '{{ time.Now.Format "2006-01-02" }}'
+# publishDate = 2023-10-19T00:40:04-07:00
+# author = "Murat Kurkoglu"
+# title = '{{ replace .File.ContentBaseName `-` ` ` | title }}'
+# description = "" 
+# summary = ""
+# slug = "" 
+# keywords = []
+# series = []
+# categories = []
+# tags = []
+## cover
+#    image = "" 
+#    alt = "" 
+#    relative = true
