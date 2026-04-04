@@ -40,11 +40,11 @@ buildExpired    = false
   url        = "/blog"
   weight     = 20
 
-#[[menu.main]]
-#  identifier = "archives"
-#  name       = "Archive"
-#  url        = "/archives/"
-#  weight     = 30
+[[menu.main]]
+  identifier = "archives"
+  name       = "Archive"
+  url        = "/archives/"
+  weight     = 30
 
 [[menu.main]]
   identifier = "about"
