@@ -1,0 +1,20 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {{ range .Data.Pages }}
+    {{- $isNoIndex := false -}}
+    {{- if or (eq .Section "tags") (eq .Section "archive") (eq .Section "search") -}}
+      {{- $isNoIndex = true -}}
+    {{- else if .Params.robots -}}
+      {{- if strings.Contains (lower .Params.robots) "noindex" -}}
+        {{- $isNoIndex = true -}}
+      {{- end -}}
+    {{- end -}}
+    
+    {{- if not $isNoIndex -}}
+      <url>
+        <loc>{{ .Permalink }}</loc>
+        {{ if not .Lastmod.IsZero }}<lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ end }}
+      </url>
+    {{- end -}}
+  {{ end }}
+</urlset>
