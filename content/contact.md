@@ -11,10 +11,8 @@ draft = false
 
 author = "Murat Kurkoglu"
 description = "Find all official links to connect with Orioninsist and Murat Kurkoglu. Reach out via social media, content platforms, support channels, and more."
-summary = "A comprehensive list of all our official platforms. Connect with Orioninsist on your favorite network."
 slug = "contact"
-keywords = ["contact", "connect", "social media", "community", "Orioninsist", "Murat Kurkoglu"]
-tags = ["contact", "connect", "social media", "community", "Orioninsist", "Murat Kurkoglu"]
+
 
 [cover]
 image = "images/contact/orioninsist-contact-mountain-view.avif"
