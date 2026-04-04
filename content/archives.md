@@ -6,4 +6,5 @@ draft = false
 description = "A chronological list of all posts published on the site. Easily find and discover past articles by topic and date."
 layout = "archives"
 url = "/archives/"
+noindex: true
 +++
