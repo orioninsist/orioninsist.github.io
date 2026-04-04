@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {{ range .Data.Pages }}
     {{- $isNoIndex := false -}}
-    {{- if or (eq .Section "tags") (eq .Section "archive") (eq .Section "search") -}}
+    {{- if or (eq .Section "tags") (eq .Section "archive") (eq .Section "search") (eq .Section "categories") -}}
       {{- $isNoIndex = true -}}
     {{- else if .Params.robots -}}
       {{- if strings.Contains (lower .Params.robots) "noindex" -}}
