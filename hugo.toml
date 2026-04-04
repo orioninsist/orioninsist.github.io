@@ -11,10 +11,10 @@ buildExpired    = false
 [permalinks]
   blog = "/blog/:slug/"
 
-[taxonomies]
-  category = "categories"
-  tag      = "tags"
-  series   = "series"
+#[taxonomies]
+#  category = "categories"
+#  tag      = "tags"
+#  series   = "series"
 
 [server]
   trailingSlash = "always"
@@ -64,11 +64,11 @@ buildExpired    = false
   url        = "/search"
   weight     = 60
 
-[[menu.main]]
-  identifier = "tags"
-  name       = "Tags"
-  url        = "/tags"
-  weight     = 70
+#[[menu.main]]
+#  identifier = "tags"
+#  name       = "Tags"
+#  url        = "/tags"
+#  weight     = 70
 
 # --- Parametreler ---
 [params]
