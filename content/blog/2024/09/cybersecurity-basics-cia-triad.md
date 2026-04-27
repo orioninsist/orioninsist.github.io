@@ -15,7 +15,7 @@ ShowToc = true
 TocOpen = true
 
 [cover]
-    image = "/blog/cia-triad.webp"
+    image = "/blog/cia-triad.avif"
     alt = "An image representing the CIA Triad (Confidentiality, Integrity, Availability)"
     caption = "The CIA Triad is the foundation of information security."
     relative = true

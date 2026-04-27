@@ -26,7 +26,7 @@ His fingers hovered over the keyboard. “Who are you?” he typed back.
 Murat hesitated. His logical mind argued against engaging with such nonsense, but his curiosity got the better of him. He typed: “Yes.”
 
 ![Murat’s ThinkPad screen flickering with the mysterious green message.
-](/blog/2024-09/the-awakening-episode-1-a-journey-between-realities-begins-1-1.webp)
+](/blog/2024-09/the-awakening-episode-1-a-journey-between-realities-begins-1-1.avif)
 > *Murat’s ThinkPad screen flickering with the mysterious green message.*
 ## Scene 2: The Gateway
 The screen flashed bright, and suddenly, lines of binary code started cascading down the screen. 0s and 1s, forming patterns, algorithms, and systems Murat recognized as deeply embedded in Linux’s core architecture. A voice echoed in his room, deep and mechanical:
@@ -36,7 +36,7 @@ The screen flashed bright, and suddenly, lines of binary code started cascading 
 The laptop emitted a blinding green light, and Murat felt himself pulled into the screen, as if reality itself was unraveling. He landed in a space that looked like a terminal interface but expanded infinitely. Commands floated in the air, waiting to be executed.
 
 
-![The cascading binary codes forming the Linux-based Code Matrix.](/blog/2024-09/the-awakening-episode-1-a-journey-between-realities-begins-1-2.webp)
+![The cascading binary codes forming the Linux-based Code Matrix.](/blog/2024-09/the-awakening-episode-1-a-journey-between-realities-begins-1-2.avif)
 > *The cascading binary codes forming the Linux-based Code Matrix.*
 ## Scene 3: Meeting the Mentor
 “You’re here,” a voice interrupted his thoughts. A tall figure in a black cloak stepped forward, his face partially hidden by a hood. “I am Elias,” he said, extending a hand.
@@ -50,7 +50,7 @@ Murat looked around, still overwhelmed. “Why me?”
 “Because you understand the code,” Elias replied. “And because you can make choices no one else dares to make.”
 
 
-![Elias in his black cloak standing in the infinite terminal-like space.](/blog/2024-09/the-awakening-episode-1-a-journey-between-realities-begins-1-3.webp)
+![Elias in his black cloak standing in the infinite terminal-like space.](/blog/2024-09/the-awakening-episode-1-a-journey-between-realities-begins-1-3.avif)
 > *Elias in his black cloak standing in the infinite terminal-like space.*
 ## Scene 4: The First Challenge
 Suddenly, the peaceful code streams turned red, and an alarm echoed. A malicious bot appeared, its binary claws slashing through the floating commands.
@@ -66,7 +66,7 @@ The bot’s movements slowed, but it wasn’t enough. Murat had to think faster.
 “You have potential,” Elias said with a faint smile. “But this is just the beginning.”
 
 
-![Murat battling the malicious bot using floating Linux commands.](/blog/2024-09/the-awakening-episode-1-a-journey-between-realities-begins-1-4.webp)
+![Murat battling the malicious bot using floating Linux commands.](/blog/2024-09/the-awakening-episode-1-a-journey-between-realities-begins-1-4.avif)
 > *Murat battling the malicious bot using floating Linux commands.*
 ### Ending Teaser:
 > *As Murat adjusted to this new reality, he realized one thing: nothing in his life would ever be the same again. The journey between two worlds had just begun.*

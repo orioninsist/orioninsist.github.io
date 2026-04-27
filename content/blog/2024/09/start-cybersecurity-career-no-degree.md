@@ -15,7 +15,7 @@ ShowReadingTime = true
 ShowToc = true
 TocOpen = false
 [cover]
-image = "images/cybersecurity-no-degree-roadmap.webp"
+image = "images/cybersecurity-no-degree-roadmap.avif"
 alt = "An aspiring cybersecurity professional exploring career paths without a college degree"
 caption = "An aspiring cybersecurity professional exploring career paths without a college degree"
 relative = true
