@@ -108,12 +108,12 @@ enableGitInfo   = true
 
 
   [[params.profileMode.buttons]]
-    name = "Blog"
+    name = "Read the Blog"
     url  = "/blog/"
 
   [[params.profileMode.buttons]]
-    name = "Contact"
-    url  = "https://orioninsist.org/contact/"
+    name = "Buy Me a Coffee"
+    url  = "https://buymeacoffee.com/orioninsist"
 
   [params.assets]
     favicon = "/orioninsist.ico"
