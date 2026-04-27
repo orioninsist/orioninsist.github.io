@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     let fuse;
-    let first, last, current_elem = null;
+    let first, last;
     let resultsAvailable = false;
 
     // Fuse.js için varsayılan ve kullanıcı tanımlı ayarları birleştiren fonksiyon
@@ -110,7 +110,6 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('.focus').forEach(element => element.classList.remove('focus'));
         if (el) {
             el.focus();
-            current_elem = el;
             if (el.parentElement.tagName === 'LI') {
                  el.parentElement.classList.add('focus');
             }
