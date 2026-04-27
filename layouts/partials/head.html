@@ -42,34 +42,58 @@
 
 {{- /* Styles */}}
 
-{{- /* includes */}}
-{{- $includes := slice }}
-{{- $includes = $includes | append (" " | resources.FromString "assets/css/includes-blank.css")}}
-
+{{- /* Base styles (loaded on every page) */}}
+{{- $base := slice }}
+{{- $base = $base | append (resources.Get "css/core/theme-vars.css") }}
+{{- $base = $base | append (resources.Get "css/core/reset.css") }}
+{{- $base = $base | append (resources.Get "css/common/main.css") }}
+{{- $base = $base | append (resources.Get "css/common/header.css") }}
+{{- $base = $base | append (resources.Get "css/common/footer.css") }}
+{{- $base = $base | append (resources.Get "css/common/profile-mode.css") }}
 {{- if not (eq site.Params.assets.disableScrollBarStyle true) }}
-    {{- $ScrollStyle := (resources.Get "css/includes/scroll-bar.css") }}
-    {{- $includes = (append $ScrollStyle $includes) }}
+{{- $base = $base | append (resources.Get "css/includes/scroll-bar.css") }}
+{{- end }}
+{{- $base = $base | append (resources.Get "css/core/zmedia.css") }}
+
+{{- /* Context styles (loaded only where needed) */}}
+{{- $context := slice }}
+{{- if and (eq .Kind "page") (ne .Layout "search") (ne .Layout "archives") }}
+{{- $context = $context | append (resources.Get "css/common/post-single.css") }}
+{{- $context = $context | append (resources.Get "css/includes/chroma-styles.css") }}
+{{- $context = $context | append (resources.Get "css/includes/chroma-mod.css") }}
+{{- end }}
+{{- if or .IsHome (eq .Kind "section") (eq .Kind "taxonomy") (eq .Kind "term") }}
+{{- $context = $context | append (resources.Get "css/common/post-entry.css") }}
+{{- end }}
+{{- if eq .Layout "search" }}
+{{- $context = $context | append (resources.Get "css/common/search.css") }}
+{{- end }}
+{{- if eq .Layout "archives" }}
+{{- $context = $context | append (resources.Get "css/common/archive.css") }}
+{{- end }}
+{{- if or (eq .Kind "taxonomy") (eq .Kind "term") }}
+{{- $context = $context | append (resources.Get "css/common/terms.css") }}
+{{- end }}
+{{- if eq .Layout "404" }}
+{{- $context = $context | append (resources.Get "css/common/404.css") }}
 {{- end }}
 
-{{- $includes_all := $includes | resources.Concat "assets/css/includes.css" }}
-
-{{- $theme_vars := (resources.Get "css/core/theme-vars.css") }}
-{{- $reset := (resources.Get "css/core/reset.css") }}
-{{- $media := (resources.Get "css/core/zmedia.css") }}
-{{- $license_css := (resources.Get "css/core/license.css") }}
-{{- $common := (resources.Match "css/common/*.css") | resources.Concat "assets/css/common.css" }}
-
-{{- /* markup.highlight.noClasses should be set to `false` */}}
-{{- $chroma_styles := (resources.Get "css/includes/chroma-styles.css") }}
-{{- $chroma_mod := (resources.Get "css/includes/chroma-mod.css") }}
-
-{{- /* order is important */}}
-{{- $core := (slice $theme_vars $reset $common $chroma_styles $chroma_mod $includes_all $media) | resources.Concat "assets/css/core.css" | resources.Minify }}
 {{- $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" | resources.Minify }}
-
-{{- /* bundle all required css */}}
-{{- /* Add extended css after theme style */ -}}
-{{- $stylesheet := (slice $license_css $core $extended) | resources.Concat "assets/css/stylesheet.css"  }}
+{{- $license_css := (resources.Get "css/core/license.css") }}
+{{- $isSingle := and (eq .Kind "page") (ne .Layout "search") (ne .Layout "archives") }}
+{{- $isList := or .IsHome (eq .Kind "section") (eq .Kind "taxonomy") (eq .Kind "term") }}
+{{- $isSearch := eq .Layout "search" }}
+{{- $isArchive := eq .Layout "archives" }}
+{{- $isTerms := or (eq .Kind "taxonomy") (eq .Kind "term") }}
+{{- $is404 := eq .Layout "404" }}
+{{- $variant := printf "s%t-l%t-se%t-a%t-t%t-4%t" $isSingle $isList $isSearch $isArchive $isTerms $is404 }}
+{{- $base_bundle := $base | resources.Concat "assets/css/base.css" | resources.Minify }}
+{{- $context_bundle := (" " | resources.FromString (printf "assets/css/context-empty-%s.css" $variant)) }}
+{{- if gt (len $context) 0 }}
+{{- $context_bundle = $context | resources.Concat (printf "assets/css/context-%s.css" $variant) | resources.Minify }}
+{{- end }}
+{{- $core := (slice $base_bundle $context_bundle) | resources.Concat (printf "assets/css/core-%s.css" $variant) | resources.Minify }}
+{{- $stylesheet := (slice $license_css $core $extended) | resources.Concat (printf "assets/css/stylesheet-%s.css" $variant) }}
 
 {{- if not site.Params.assets.disableFingerprinting }}
 {{- $stylesheet := $stylesheet | fingerprint }}
