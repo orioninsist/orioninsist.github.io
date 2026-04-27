@@ -30,6 +30,8 @@
     position: relative;
     padding: 5px;
     margin: 10px 0;
+    content-visibility: auto;
+    contain-intrinsic-size: 56px;
 }
 
 .archive-entry-title {

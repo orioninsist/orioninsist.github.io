@@ -41,6 +41,8 @@
     border-radius: var(--radius);
     transition: transform 0.1s;
     border: 1px solid var(--border);
+    content-visibility: auto;
+    contain-intrinsic-size: 360px;
 }
 
 .post-entry:active {
