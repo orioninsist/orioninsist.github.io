@@ -1,3 +1,16 @@
 {{- define "main" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "404",
+  "url": {{ .Permalink | safeHTML }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ site.Title }},
+    "url": {{ site.Home.Permalink }}
+  }
+}
+</script>
 <div class="not-found">404</div>
 {{- end }}{{/* end main */ -}}

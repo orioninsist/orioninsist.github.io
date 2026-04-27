@@ -158,4 +158,18 @@
 {{- partial "templates/opengraph.html" . }}
 {{- partial "templates/twitter_cards.html" . }}
 {{- partial "templates/schema_json.html" . }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": {{ with .Title }}{{ . | plainify }}{{ else }}{{ site.Title }}{{ end }},
+  "url": {{ .Permalink | safeHTML }},
+  "inLanguage": {{ .Language.Lang | default "en-us" }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ site.Title }},
+    "url": {{ site.Home.Permalink }}
+  }
+}
+</script>
 {{- end -}}
