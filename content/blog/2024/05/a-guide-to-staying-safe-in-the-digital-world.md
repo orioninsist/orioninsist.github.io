@@ -9,7 +9,7 @@ description: "Navigate the ever-changing landscape of cybersecurity and informat
 slug: "a-guide-to-staying-safe-in-the-dijital-world"
 keywords: "[cybersecurity]"
 cover: 
-     image: "/blog/2024-05/a-guide-to-staying-safe-in-the-dijital-world.avif"
+     image: "images/blog/2024-05/a-guide-to-staying-safe-in-the-dijital-world.avif"
      alt:   "A Guide to Staying Safe in the Digital World"
 
 

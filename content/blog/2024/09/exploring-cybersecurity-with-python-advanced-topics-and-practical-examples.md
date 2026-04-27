@@ -10,7 +10,7 @@ slug: "exploring-cybersecurity-with-python-advanced-topics-and-practical-example
 language: "English"
 type: "blog"
 cover:
-     image: "/blog/exploring-cybersecurity-with-python-advanced-topics-and-practical-examples.md.avif"
+     image: "images/blog/exploring-cybersecurity-with-python-advanced-topics-and-practical-examples.md.avif"
      alt: "exploring-cybersecurity-with-python-advanced-topics-and-practical-examples-image"
 ---
 

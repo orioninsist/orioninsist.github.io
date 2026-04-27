@@ -10,7 +10,7 @@ type: "blog"
 language: "English"
 slug: "the-ultimate-follower-count-challenge-a-python-game"
 cover:
-    image: "/blog/the-ultimate-follower-count-challenge-a-python-game.avif"
+    image: "images/blog/the-ultimate-follower-count-challenge-a-python-game.avif"
     alt: "the-ultimate-follower-count-challenge-a-python-game-image"
 ---
 

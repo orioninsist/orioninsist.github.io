@@ -10,7 +10,7 @@ tags: ["october","october-2023","news","insights","orioninsist"]
 description: "Explore OrionInsist's Cutting-Edge Insights for October 2023"
 language: "English"
 cover:
-     image: "/news/orioninsist-latest-insights-october-2023.avif"
+     image: "images/news/orioninsist-latest-insights-october-2023.avif"
      alt: "orioninsist-latest-insights-october-2023"
 ---
 

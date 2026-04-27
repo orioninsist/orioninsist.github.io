@@ -10,7 +10,7 @@ author: "orioninsist"
 language: "English"
 type: "blog"
 cover:
-    image: "/blog/self-discovery-and-goal-setting.avif"
+    image: "images/blog/self-discovery-and-goal-setting.avif"
     alt : "self-discovery-and-goal-setting-image"
 ---
 

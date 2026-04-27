@@ -10,7 +10,7 @@ type: "blog"
 language: "English"
 slug: "mastering-data-analysis-with-pandas-series-ultimate-guide"
 cover: 
-    image: "/blog/mastering-data-analysis-with-pandas-series-ultimate-guide.avif"
+    image: "images/blog/mastering-data-analysis-with-pandas-series-ultimate-guide.avif"
     alt: "mastering-data-analysis-with-pandas-series-ultimate-guide-image"
 ---
 

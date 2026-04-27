@@ -17,7 +17,7 @@ keywords = ["arch linux", "sway", "tiling window manager", "minimalist", "linux 
 
 # --- Cover Image ---
 [cover]
-    image = "/blog/2025-10/arch-sway-minimalist-philosophy.avif"
+    image = "images/blog/2025-10/arch-sway-minimalist-philosophy.avif"
     alt = "Abstract digital art representing the focused and controlled environment of a minimalist Arch Linux and Sway system."
     relative = true
 +++

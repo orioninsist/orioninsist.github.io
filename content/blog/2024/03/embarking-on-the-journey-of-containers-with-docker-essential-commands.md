@@ -10,7 +10,7 @@ keywords: ["docker","command"]
 language: "english"
 description: "Unleash the power of Docker! This guide equips you with the fundamental commands to manage and navigate the world of containerized applications. Learn how to install, run, manage, and explore containers, all within a user-friendly format."
 cover:
-     image: "/blog/2024-03/embarking-on-the-journey-of-containers-with-docker-essential-commands.avif"
+     image: "images/blog/2024-03/embarking-on-the-journey-of-containers-with-docker-essential-commands.avif"
      alt: "embarking-on-the-journey-of-containers-with-docker-essential-commands" 
 ---
 

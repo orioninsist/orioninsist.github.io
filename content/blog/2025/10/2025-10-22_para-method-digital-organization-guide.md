@@ -19,7 +19,7 @@ keywords = ["para method", "digital organization", "tiago forte", "second brain"
 
 # --- Cover Image ---
 [cover]
-    image = "blog/2025-10/2025-10-22_para-method-digital-organization-guide-watermarked.avif"
+    image = "images/blog/2025-10/2025-10-22_para-method-digital-organization-guide-watermarked.avif"
     alt = "Abstract digital art representing the transformation from digital chaos to the organized, clear structure of the P.A.R.A. method."
     relative = true
 +++

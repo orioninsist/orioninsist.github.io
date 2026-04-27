@@ -12,7 +12,7 @@ ShowReadingTime = true
 ShowToc = true
 TocOpen = true
 [cover]
-    image = "/blog/cybersecurity-best-practices.avif"
+    image = "images/blog/cybersecurity-best-practices.avif"
     alt = "An image depicting a digital network under attack, with various cybersecurity threats like a phishhook, virus symbol, and denial of service icon."
     caption = "Understanding cyber attack types and how to defend against them."
     relative = true

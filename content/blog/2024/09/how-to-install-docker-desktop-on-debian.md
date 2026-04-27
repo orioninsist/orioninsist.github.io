@@ -10,7 +10,7 @@ tags: ["devops","container","docker","linux","debian"]
 desciption: "Learn how to install Docker on your Debian-based system quickly for efficient containerization" 
 language: "English"
 cover:
-     image: "/blog/how-to-install-docker-desktop-on-debian.avif"
+     image: "images/blog/how-to-install-docker-desktop-on-debian.avif"
      alt: "how-to-install-docker-desktop-on-debian"
 ---
 

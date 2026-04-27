@@ -10,7 +10,7 @@ author: "orioninsist"
 language: "English"
 type: "blog"
 cover:
-     image: "/blog/mastering-essential-linux-commands.avif"
+     image: "images/blog/mastering-essential-linux-commands.avif"
      alt: "mastering-essential-linux-commands.avif"
 ---
 

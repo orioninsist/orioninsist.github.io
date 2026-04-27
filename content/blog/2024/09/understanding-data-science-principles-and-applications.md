@@ -8,7 +8,7 @@ slug: "understanding-data-science-principles-and-applications"
 description: "Explore the fundamentals of data science, including processes, objectives, and its value in driving business innovation."
 keywords: ["data science", "data analysis", "machine learning", "business insights", "data visualization", "predictive models"]
 cover:
-     image: "/blog/2024-09/understanding-data-science-principles-and-applications.avif"
+     image: "images/blog/2024-09/understanding-data-science-principles-and-applications.avif"
      alt: "Understanding Data Science Principles and Applications"
 
 ---
