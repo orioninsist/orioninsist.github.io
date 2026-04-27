@@ -40,6 +40,9 @@ jobs:
       - name: Build with Hugo
         run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+      - name: Post-process alias SEO metadata
+        run: python3 scripts/postprocess_alias_seo.py public "https://orioninsist.org/about/muratkurkoglu-2.webp"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
