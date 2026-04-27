@@ -9,12 +9,12 @@
   "theme_color": "#222222",
   "icons": [
     {
-      "src": "/orioninsist-icon-192x192.avif",
+      "src": "/orioninsist-icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/orioninsist-icon-512x512.avif",
+      "src": "/orioninsist-icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
