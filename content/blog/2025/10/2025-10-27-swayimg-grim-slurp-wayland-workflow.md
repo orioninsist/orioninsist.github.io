@@ -78,7 +78,7 @@ My `~/.config/sway/config` file now has this killer line bound to `$mod+Shift+s`
 bindsym $mod+Shift+s exec grim -g "$(slurp)" - | wl-copy
 
 # Take a screenshot of a selected region and save it with a timestamp
-bindsym $mod+Shift+p exec grim -g "$(slurp)" ~/Screenshots/$(date +%Y%m%d_%H%M%S)_grim.png
+bindsym $mod+Shift+p exec grim -g "$(slurp)" ~/Screenshots/$(date +%Y%m%d_%H%M%S)_grim.avif
 ~~~
 
 The key insight here is the use of **`-g "$(slurp)"`**. The command substitution `$()` runs `slurp` first. I click and drag my selection rectangle with the mouse, `slurp` outputs the coordinates (e.g., `100,200 800x600`), and that output is fed directly into `grim` as the geometry (`-g`) argument. The `- | wl-copy` part pipes the resulting image data from `grim`'s standard output (`-`) directly to `wl-copy`, completely bypassing any need for a temporary file to hit the disk just for a quick copy-paste operation. This is efficient, elegant, and perfectly minimalist.

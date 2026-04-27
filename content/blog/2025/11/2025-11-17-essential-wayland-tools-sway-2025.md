@@ -62,7 +62,7 @@ sudo pacman -S grim
 Take a screenshot of your entire monitor:
 
 ~~~bash
-grim ~/Pictures/screenshot.png
+grim ~/Pictures/screenshot.avif
 ~~~
 
 Grim uses the Wayland protocol directly, making it **faster and more accurate** than legacy X11 tools like Flameshot.
@@ -82,7 +82,7 @@ sudo pacman -S slurp
 Example:
 
 ~~~bash
-grim -g "$(slurp)" ~/Pictures/selection.png
+grim -g "$(slurp)" ~/Pictures/selection.avif
 ~~~
 
 ### Why grim + slurp is the best combo:

@@ -11,7 +11,7 @@ readingTime = true
 featured = false
 [cover]
     image = "/blog/2024-09/why-networking-fundamentals-are-the-foundation-of-a-soc-analyst-career.avif"
-    alt = "why-networking-fundamentals-are-the-foundation-of-a-soc-analyst-career.webp"
+    alt = "why-networking-fundamentals-are-the-foundation-of-a-soc-analyst-career.avif"
 +++
 ### Introduction
 If you want to become a SOC Analyst (Security Operations Center Analyst), the very first step is to build a strong foundation in networking. Without understanding how networks work, it is almost impossible to detect attacks, analyze logs, or respond to incidents effectively.

@@ -7,7 +7,7 @@ slug: "the-complete-data-science-project-lifecycle-from-problem-definition-to-mo
 description: "Data science projects follow structured steps from problem definition to model monitoring for business impact."
 cover:
   image: "/blog/2024-09/the-complete-data-science-project-lifecycle-from-problem-definition-to-model-maintenance.avif"
-  alt: "the-complete-data-science-project-lifecycle-from-problem-definition-to-model-maintenance.webp"
+  alt: "the-complete-data-science-project-lifecycle-from-problem-definition-to-model-maintenance.avif"
 author: "murat"
 keywords: ["data science"]
 type: "blog"

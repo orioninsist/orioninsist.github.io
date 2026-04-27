@@ -227,7 +227,7 @@ bindsym $mod+Ctrl+k resize grow height 20px
 # ------------------------------------------------------------
 # 6. Autostart
 # ------------------------------------------------------------
-exec_always swaybg -i ~/Pictures/wallpaper.png -m fill
+exec_always swaybg -i ~/Pictures/wallpaper.avif -m fill
 exec_always waybar
 exec_always mako
 exec_always kanshi

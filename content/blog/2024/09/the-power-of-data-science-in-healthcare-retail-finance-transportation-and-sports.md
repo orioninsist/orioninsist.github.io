@@ -7,7 +7,7 @@ slug: "the-power-of-data-science-in-healthcare-retail-finance-transportation-and
 description: "Data science is revolutionizing healthcare, retail, finance, transportation, and sports with predictive analytics and AI-driven insights."
 cover:
   image: "/blog/2024-09/the-power-of-data-science-in-healthcare-retail-finance-transportation-and-sports.avif"
-  alt: "the-power-of-data-science-in-healthcare-retail-finance-transportation-and-sports.webp"
+  alt: "the-power-of-data-science-in-healthcare-retail-finance-transportation-and-sports.avif"
 author: "murat"
 keywords: ["data science"]
 type: "blog"

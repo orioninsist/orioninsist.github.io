@@ -69,7 +69,7 @@ FPS=15
 SCALE="800:-1" # Width 800px, auto-height. Change to desired size.
 TEMP_DIR="/tmp/gif_record_$$"
 TEMP_MP4="$TEMP_DIR/temp.mp4"
-TEMP_PALETTE="$TEMP_DIR/palette.png"
+TEMP_PALETTE="$TEMP_DIR/palette.avif"
 
 # --- Main Logic ---
 

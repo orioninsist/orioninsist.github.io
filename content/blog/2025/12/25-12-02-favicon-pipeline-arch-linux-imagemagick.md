@@ -68,16 +68,16 @@ sudo pacman -S imagemagick optipng
 This is the most important size. Modern browsers look for it first, and it acts as the foundation for everything else.
 
 ```bash
-magick logo.png \
+magick logo.avif \
   -resize 512x512 \
   -gravity center \
   -background none \
   -extent 512x512 \
   -define png:compression-level=9 \
   -define png:compression-filter=5 \
-  favicon-512.png
+  favicon-512.avif
 
-optipng -o7 favicon-512.png
+optipng -o7 favicon-512.avif
 ```
 
 I always start from a vector or a high-resolution PNG to avoid edge artifacts.
@@ -88,16 +88,16 @@ I always start from a vector or a high-resolution PNG to avoid edge artifacts.
 Android Chrome and web app manifests both refer to this size. Without it, your site looks incomplete on mobile.
 
 ```bash
-magick logo.png \
+magick logo.avif \
   -resize 192x192 \
   -gravity center \
   -background none \
   -extent 192x192 \
   -define png:compression-level=9 \
   -define png:compression-filter=5 \
-  favicon-192.png
+  favicon-192.avif
 
-optipng -o7 favicon-192.png
+optipng -o7 favicon-192.avif
 ```
 
 ---
@@ -106,7 +106,7 @@ optipng -o7 favicon-192.png
 Safari and iOS use this for the home-screen shortcut. If you skip it, Apple devices will try to upscale your smaller favicon—and it never looks clean.
 
 ```bash
-magick logo.png \
+magick logo.avif \
   -resize 180x180 \
   -gravity center \
   -background none \
@@ -122,16 +122,16 @@ optipng -o7 apple-touch-icon.avif
 This one still matters. It’s the classic browser tab icon and gets rendered everywhere.
 
 ```bash
-magick logo.png \
+magick logo.avif \
   -resize 16x16 \
   -gravity center \
   -background none \
   -extent 16x16 \
   -define png:compression-level=9 \
   -define png:compression-filter=5 \
-  favicon-16.png
+  favicon-16.avif
 
-optipng -o7 favicon-16.png
+optipng -o7 favicon-16.avif
 ```
 
 ---
@@ -143,7 +143,7 @@ These are the included dimensions:
 **16, 24, 32, 48, 64, 128, 256**
 
 ```bash
-magick logo.png \
+magick logo.avif \
   \( -clone 0 -resize 16x16  -extent 16x16 \) \
   \( -clone 0 -resize 24x24  -extent 24x24 \) \
   \( -clone 0 -resize 32x32  -extent 32x32 \) \
@@ -176,8 +176,8 @@ For example:
 
 ```bash
 cp favicon.ico /path/to/hugo-site/static/favicon.ico
-cp favicon-512.png /path/to/hugo-site/static/favicon.png
-cp favicon-192.png /path/to/hugo-site/static/favicon-192.png
+cp favicon-512.avif /path/to/hugo-site/static/favicon.avif
+cp favicon-192.avif /path/to/hugo-site/static/favicon-192.avif
 cp apple-touch-icon.avif /path/to/hugo-site/static/apple-touch-icon.avif
 ```
 
@@ -186,10 +186,10 @@ If you prefer explicit config:
 
 ```toml
 [params.assets]
-  favicon = "favicon.png"
-  favicon16 = "favicon-16.png"
+  favicon = "favicon.avif"
+  favicon16 = "favicon-16.avif"
   favicon32 = "favicon.ico"
-  favicon192 = "favicon-192.png"
+  favicon192 = "favicon-192.avif"
   apple_touch_icon = "apple-touch-icon.avif"
 ```
 
@@ -199,8 +199,8 @@ If you prefer explicit config:
 After trying many combinations, I settled on a clean, long-term set that works everywhere:
 
 - `favicon.ico`  
-- `favicon.png` (512×512)  
-- `favicon-192.png`  
+- `favicon.avif` (512×512)  
+- `favicon-192.avif`  
 - `apple-touch-icon.avif`  
 
 This covers modern browsers, legacy environments, mobile devices, and iOS home-screen icons.
