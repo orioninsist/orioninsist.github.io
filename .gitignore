@@ -1,2 +1,8 @@
 .hugo_build.lock
 .codex
+
+# Hugo build output
+public/
+
+# Hugo generated resource cache
+resources/_gen/

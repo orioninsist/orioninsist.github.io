@@ -1,3 +1,3 @@
-module github.com/adityatelange/hugo-PaperMod
+module github.com/orioninsist/orioninsist.github.io
 
 go 1.26.2
