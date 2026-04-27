@@ -125,4 +125,20 @@
 </script>
 {{- end }}{{/* .IsPage end */}}
 
+{{- else if (or (eq .Kind "taxonomy") (eq .Kind "term")) }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ .Title | plainify }},
+  "description": {{ with .Description | plainify }}{{ . }}{{ else }}{{ printf "%s - %s" .Title site.Title }}{{ end }},
+  "url": {{ .Permalink | safeHTML }},
+  "inLanguage": {{ .Language.Lang | default "en-us" }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ site.Title }},
+    "url": {{ site.Home.Permalink }}
+  }
+}
+</script>
 {{- end -}}
