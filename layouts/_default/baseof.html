@@ -9,39 +9,12 @@
     {{- partial "head.html" . -}}
     <link rel="manifest" href="/manifest.webmanifest">
 
-    {{- /* AdSense ve İzin Yönetimi script'leri, head.html içindeki Analytics ile aynı mantıkta,
-        sadece site canlıya alındığında (production) çalışması için bu koşulun içine alındı.
-        Ayrıca gereksiz olan Google Analytics çağrısı buradan kaldırıldı.
-    */ -}}
+    {{- /* AdSense script'i sadece production ortamında yüklenir. */ -}}
     {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2352285531358848"
         crossorigin="anonymous"></script>
 
-    <script>
-        function initializeConsent() {
-            const consent = localStorage.getItem('consent') || 'false';
-
-            if (consent === 'true') {
-                // İzin verildi, Google Analytics ve AdSense'i etkinleştir
-                gtag('consent', 'update', {
-                    'ad_storage': 'granted',
-                    'analytics_storage': 'granted'
-                });
-
-                // Google Analytics script'ini yükle
-                loadGoogleAnalytics();
-            } else {
-                // İzin reddedildi, analytics ve reklamları devre dışı bırak
-                gtag('consent', 'update', {
-                    'ad_storage': 'denied',
-                    'analytics_storage': 'denied'
-                });
-            }
-        }
-    </script>
     {{- end }}
-
-<meta name="p:domain_verify" content="5539d4abd8f306d33b885b3155a7e4bb"/>    
 </head>
 
 <body class="
