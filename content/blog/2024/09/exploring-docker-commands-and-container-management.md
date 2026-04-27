@@ -10,7 +10,7 @@ tags: ["docker","container","management","sysadmin"]
 description: "Explore Docker commands and container management with this comprehensive guide. Learn how to update container images, create and manage files within containers, and monitor and interact with running containers."
 language: "English"
 cover:
-     image: "/project/devops/2023/2023-11/exploring-docker-commands-and-container-management.png"
+     image: "/project/devops/2023/2023-11/exploring-docker-commands-and-container-management.avif"
      alt: "exploring-docker-commands-and-container-management"
 ---
 

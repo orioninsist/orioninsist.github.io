@@ -10,7 +10,7 @@ type: "blog"
 language: "English"
 slug: "mastering-lists-in-python-unleashing-the-power-of-data-organization"
 cover:
-     image: "/blog/mastering-lists-in-python-unleashing-the-power-of-data-organization.png"
+     image: "/blog/mastering-lists-in-python-unleashing-the-power-of-data-organization.avif"
      alt: "mastering-lists-in-python-unleashing-the-power-of-data-organization-image"
 ---
 

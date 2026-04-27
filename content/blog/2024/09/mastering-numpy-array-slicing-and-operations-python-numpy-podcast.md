@@ -10,7 +10,7 @@ type: "blog"
 language: "English"
 slug: "mastering-numpy-array-slicing-and-operations-python-numpy-podcast"
 cover:
-     image: "/blog/mastering-numpy-array-slicing-and-operations-python-numpy-podcast.png"
+     image: "/blog/mastering-numpy-array-slicing-and-operations-python-numpy-podcast.avif"
      alt: "mastering-numpy-array-slicing-and-operations-python-numpy-podcast-image"
 ---
 

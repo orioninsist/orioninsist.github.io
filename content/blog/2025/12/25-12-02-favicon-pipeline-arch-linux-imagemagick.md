@@ -111,9 +111,9 @@ magick logo.png \
   -gravity center \
   -background none \
   -extent 180x180 \
-  apple-touch-icon.png
+  apple-touch-icon.avif
 
-optipng -o7 apple-touch-icon.png
+optipng -o7 apple-touch-icon.avif
 ```
 
 ---
@@ -178,7 +178,7 @@ For example:
 cp favicon.ico /path/to/hugo-site/static/favicon.ico
 cp favicon-512.png /path/to/hugo-site/static/favicon.png
 cp favicon-192.png /path/to/hugo-site/static/favicon-192.png
-cp apple-touch-icon.png /path/to/hugo-site/static/apple-touch-icon.png
+cp apple-touch-icon.avif /path/to/hugo-site/static/apple-touch-icon.avif
 ```
 
 PaperMod automatically detects these.  
@@ -190,7 +190,7 @@ If you prefer explicit config:
   favicon16 = "favicon-16.png"
   favicon32 = "favicon.ico"
   favicon192 = "favicon-192.png"
-  apple_touch_icon = "apple-touch-icon.png"
+  apple_touch_icon = "apple-touch-icon.avif"
 ```
 
 ---
@@ -201,7 +201,7 @@ After trying many combinations, I settled on a clean, long-term set that works e
 - `favicon.ico`  
 - `favicon.png` (512×512)  
 - `favicon-192.png`  
-- `apple-touch-icon.png`  
+- `apple-touch-icon.avif`  
 
 This covers modern browsers, legacy environments, mobile devices, and iOS home-screen icons.
 

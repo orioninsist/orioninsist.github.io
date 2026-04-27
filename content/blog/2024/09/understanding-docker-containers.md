@@ -10,8 +10,8 @@ slug: "understanding-docker-containers"
 language: "English"
 type: "blog"
 cover: 
-     image: "/blog/understanding-docker-containers.png"
-     alt: "understanding-docker-containers.png"
+     image: "/blog/understanding-docker-containers.avif"
+     alt: "understanding-docker-containers.avif"
 ---
 
 ## Introduction

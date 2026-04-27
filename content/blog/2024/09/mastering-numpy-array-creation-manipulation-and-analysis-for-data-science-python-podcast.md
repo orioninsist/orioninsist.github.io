@@ -10,7 +10,7 @@ type: "blog"
 language: "English"
 slug: "mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast"
 cover:
-     image: "/blog/mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast.png"
+     image: "/blog/mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast.avif"
      alt: "mastering-numpy-array-creation-manipulation-and-analysis-for-data-science-python-podcast-image"
 ---
 ## YouTube

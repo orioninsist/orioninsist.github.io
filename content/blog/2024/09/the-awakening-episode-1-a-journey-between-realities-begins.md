@@ -8,7 +8,7 @@ type: "blog"
 description: "The Awakening Episode 1: A Journey Between Realities Begins"
 slug: "the-awakening-episode-1-a-journey-between-realities-begins"
 cover:
-    image: "/blog/2024-09/the-awakening-episode-1-a-journey-between-realities-begins-1-1.png"
+    image: "/blog/2024-09/the-awakening-episode-1-a-journey-between-realities-begins-1-1.avif"
     alt: "The Awakening Episode 1: A Journey Between Realities Begins"
 ---
 

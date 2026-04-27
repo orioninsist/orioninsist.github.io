@@ -10,7 +10,7 @@ language: "English"
 type: "blog"
 slug: "django-a-powerful-web-framework-for-rapid-development"
 cover: 
-     image: "/blog/django-a-powerful-web-framework-for-rapid-development.md.png"
+     image: "/blog/django-a-powerful-web-framework-for-rapid-development.md.avif"
      alt: "django-a-powerful-web-framework-for-rapid-development-image"
 ---
 

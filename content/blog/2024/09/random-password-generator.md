@@ -10,7 +10,7 @@ type: "blog"
 language: "English"
 slug: "random-password-generator"
 cover:
-    image: "/blog/random-password-generator.md.png"
+    image: "/blog/random-password-generator.md.avif"
     alt: "random-password-generator-image"
 ---
 
