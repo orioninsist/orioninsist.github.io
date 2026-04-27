@@ -198,7 +198,7 @@ buildExpired    = false
   [privacy.googleAnalytics]
     anonymizeIP = true
     disable = false
-    respectDoNotTrack = true
+    respectDoNotTrack = false
     useSessionStorage = false
   [privacy.instagram]
     disable = true
