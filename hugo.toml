@@ -92,12 +92,28 @@ buildExpired    = false
     enable = true
 
   [params.homeInfoParams]
+    enabled     = false
+
+  [params.profileMode]
     enabled     = true
     title       = "Murat Kurkoglu"
-    subtitle    = "<h2>Hi, I am Murat Kurkoglu, the founder of orioninsist. I'm a computer engineer and hold a degree in economics.</h2>"
+    subtitle    = "Hi, I am Murat Kurkoglu, the founder of orioninsist. I am a computer engineer and hold a degree in economics."
     imageUrl    = "images/home/murat-kurkoglu-330x330.avif"
+    imageTitle  = "Murat Kurkoglu"
     imageWidth  = 220
     imageHeight = 220
+
+  [[params.profileMode.buttons]]
+    name = "Archive"
+    url  = "/archives/"
+
+  [[params.profileMode.buttons]]
+    name = "Blog"
+    url  = "/blog/"
+
+  [[params.profileMode.buttons]]
+    name = "Github"
+    url  = "https://github.com/orioninsist"
 
   [params.assets]
     favicon = "/orioninsist.ico"
