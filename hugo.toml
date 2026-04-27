@@ -1,12 +1,14 @@
 baseURL         = "https://orioninsist.org/"
 title           = "Murat Kurkoglu | orioninsist"
 defaultContentLanguage = "en"
+languageCode    = "en-US"
 enableRobotsTXT = true
 enableInlineShortcodes = true
 enableEmoji     = true
 buildDrafts     = false
 buildFuture     = false
 buildExpired    = false
+enableGitInfo   = true
 
 [permalinks]
   blog = "/blog/:slug/"
@@ -83,7 +85,7 @@ buildExpired    = false
   TocOpen          = true
   ShowBreadCrumbs  = true
   ShowCodeCopyButtons = true
-  comments         = true
+  comments         = false
   hideMeta         = false
   hideDescriptionInList = false
   privacyPolicy    = "/privacy-policy.md"
@@ -214,7 +216,7 @@ buildExpired    = false
   [privacy.googleAnalytics]
     anonymizeIP = true
     disable = false
-    respectDoNotTrack = false
+    respectDoNotTrack = true
     useSessionStorage = false
   [privacy.instagram]
     disable = true
@@ -265,3 +267,5 @@ buildExpired    = false
 [services]
   [services.googleAnalytics]
     id = "G-6CE6YFM36C"
+  [services.rss]
+    limit = 50
