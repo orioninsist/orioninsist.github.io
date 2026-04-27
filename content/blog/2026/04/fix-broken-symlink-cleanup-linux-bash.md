@@ -10,7 +10,6 @@ ShowWordCount = true # PaperMod setting to show word count [36]
 draft = false 
 
 date = '2026-04-03'
-publishDate = 2023-10-19T00:40:04-07:00
 author = "Murat Kurkoglu"
 title = "Fix Broken Symlink Cleanup in Large Linux Deployments"
 description = "Learn safe broken symlink cleanup in Linux using a minimal Bash script to detect and remove stale links across mounted directories in Docker."

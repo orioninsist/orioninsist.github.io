@@ -73,7 +73,7 @@ buildExpired    = false
 # --- Parametreler ---
 [params]
   description      = "The personal blog of Murat Kurkoglu, a computer engineer, on cyber security, Linux, and technology. Notes and guides on software development and system administration."
-  ogImage          = "/about/murat-kurkoglu2.webp"
+  ogImage          = "/about/muratkurkoglu-2.webp"
   defaultTheme     = "dark"
   DateFormat       = "January 2, 2006"
   ShowShareButtons = true
