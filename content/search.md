@@ -4,6 +4,6 @@ layout: "search" # is necessary
 url: "/search"
 # description: "Description for Search"
 placeholder: "placeholder text in search input box"
-robots: "noindex, nofollow"
+robots: "noindex, follow"
+robotsNoIndex: true
 ---
-
