@@ -156,22 +156,6 @@
 {{- if $isHomeAllowed }}
 {{- $mode := lower (default "button" $bmc.mode) }}
 
-{{- $button := default $bmc $bmc.button }}
-{{- if or (eq $mode "button") (eq $mode "both") }}
-<script type="text/javascript"
-    src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
-    data-name="bmc-button"
-    data-slug="{{ $button.slug }}"
-    data-color="{{ $button.color }}"
-    data-emoji="{{ $button.emoji }}"
-    data-font="{{ $button.font }}"
-    data-text="{{ $button.text }}"
-    data-outline-color="{{ $button.outlineColor }}"
-    data-font-color="{{ $button.fontColor }}"
-    data-coffee-color="{{ $button.coffeeColor }}">
-</script>
-{{- end }}
-
 {{- $widget := default dict $bmc.widget }}
 {{- if and (or (eq $mode "widget") (eq $mode "both")) $widget.id }}
 <style>

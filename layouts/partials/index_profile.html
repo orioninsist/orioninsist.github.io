@@ -51,6 +51,27 @@
                 </span>
             </a>
             {{- end }}
+        {{- $bmc := site.Params.buyMeACoffee }}
+        {{- if and $bmc ($bmc.enabled) }}
+        {{- $showOnHomeOnly := default false $bmc.showOnHomeOnly }}
+        {{- $isHomeAllowed := or (not $showOnHomeOnly) $.IsHome }}
+        {{- $mode := lower (default "button" $bmc.mode) }}
+        {{- $button := default $bmc $bmc.button }}
+        {{- if and $isHomeAllowed (or (eq $mode "button") (eq $mode "both")) }}
+            <script type="text/javascript"
+                src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+                data-name="bmc-button"
+                data-slug="{{ $button.slug }}"
+                data-color="{{ $button.color }}"
+                data-emoji="{{ $button.emoji }}"
+                data-font="{{ $button.font }}"
+                data-text="{{ $button.text }}"
+                data-outline-color="{{ $button.outlineColor }}"
+                data-font-color="{{ $button.fontColor }}"
+                data-coffee-color="{{ $button.coffeeColor }}">
+            </script>
+        {{- end }}
+        {{- end }}
         </div>
         {{- end }}
     </div>

@@ -96,7 +96,7 @@ enableGitInfo   = true
   [params.buyMeACoffee]
     enabled = true
     showOnHomeOnly = true
-    mode = "both" # button | widget | both
+    mode = "button" # button | widget | both
 
     [params.buyMeACoffee.button]
       slug = "orioninsist"
@@ -134,10 +134,6 @@ enableGitInfo   = true
   [[params.profileMode.buttons]]
     name = "Read the Blog"
     url  = "/blog/"
-
-  [[params.profileMode.buttons]]
-    name = "Buy Me a Coffee"
-    url  = "https://buymeacoffee.com/orioninsist"
 
   [params.assets]
     favicon = "/orioninsist.ico"
