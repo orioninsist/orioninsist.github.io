@@ -96,7 +96,7 @@ enableGitInfo   = true
   [params.buyMeACoffee]
     enabled = true
     showOnHomeOnly = true
-    mode = "button" # button | widget | both
+    mode = "both" # button | widget | both
 
     [params.buyMeACoffee.button]
       slug = "orioninsist"
