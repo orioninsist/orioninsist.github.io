@@ -210,21 +210,15 @@ a:hover {
 }
 
 .button-stack {
-	display:grid;
-	grid-template-columns:repeat(3, minmax(0, 1fr));
+	display:grid !important;
+	grid-template-columns:repeat(3, minmax(0, 1fr)) !important;
 	gap:1rem;
+	align-items:stretch;
 }
 
-@media (max-width:48rem) {
-	.button-stack {
-		grid-template-columns:repeat(2, minmax(0, 1fr));
-	}
-}
-
-@media (max-width:34.375rem) {
-	.button-stack {
-		grid-template-columns:1fr;
-	}
+.button-stack .button {
+	width:100% !important;
+	margin-bottom:0 !important;
 }
 
 /* Icons
