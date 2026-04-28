@@ -2,7 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {{ range .Data.Pages }}
     {{- $isNoIndex := false -}}
-    {{- if or (eq .Section "tags") (eq .Section "archive") (eq .Section "search") (eq .Section "categories") -}}
+    {{- if or
+      (eq .Section "tags")
+      (eq .Section "archives")
+      (eq .Section "search")
+      (eq .Section "categories")
+      (hasPrefix .RelPermalink "/archives/")
+      (eq .RelPermalink "/archives/")
+      (eq .RelPermalink "/archives")
+      (hasPrefix .RelPermalink "/tags/")
+      (hasPrefix .RelPermalink "/search/")
+      (hasPrefix .RelPermalink "/categories/")
+    -}}
       {{- $isNoIndex = true -}}
     {{- else if .Params.robots -}}
       {{- if strings.Contains (lower .Params.robots) "noindex" -}}
