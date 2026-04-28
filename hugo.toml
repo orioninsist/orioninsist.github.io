@@ -93,16 +93,29 @@ enableGitInfo   = true
   [params.search]
     enable = true
 
-  [params.buyMeACoffeeWidget]
+  [params.buyMeACoffee]
     enabled = true
-    slug = "orioninsist"
-    color = "#FFDD00"
-    emoji = "☕"
-    font = "Cookie"
-    text = "Buy me a coffee"
-    outlineColor = "#000000"
-    fontColor = "#000000"
-    coffeeColor = "#ffffff"
+    showOnHomeOnly = true
+    mode = "button" # button | widget | both
+
+    [params.buyMeACoffee.button]
+      slug = "orioninsist"
+      color = "#FFDD00"
+      emoji = "☕"
+      font = "Cookie"
+      text = "Buy me a coffee"
+      outlineColor = "#000000"
+      fontColor = "#000000"
+      coffeeColor = "#ffffff"
+
+    [params.buyMeACoffee.widget]
+      id = "orioninsist"
+      description = "Support me on Buy Me a Coffee!"
+      message = ""
+      color = "#FF813F"
+      position = "Right"
+      xMargin = "18"
+      yMargin = "18"
 
   [params.homeInfoParams]
     enabled     = false

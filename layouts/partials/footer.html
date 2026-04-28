@@ -145,20 +145,46 @@
 </script>
 {{- end }}
 
-{{- with site.Params.buyMeACoffeeWidget }}
-{{- if .enabled }}
-<script
-    data-name="bmc-button"
+{{- $bmc := site.Params.buyMeACoffee }}
+{{- if not $bmc }}
+{{- $bmc = site.Params.buyMeACoffeeWidget }}
+{{- end }}
+
+{{- if and $bmc ($bmc.enabled) }}
+{{- $showOnHomeOnly := default false $bmc.showOnHomeOnly }}
+{{- $isHomeAllowed := or (not $showOnHomeOnly) .IsHome }}
+{{- if $isHomeAllowed }}
+{{- $mode := lower (default "button" $bmc.mode) }}
+
+{{- $button := default $bmc $bmc.button }}
+{{- if or (eq $mode "button") (eq $mode "both") }}
+<script type="text/javascript"
     src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
-    data-slug="{{ .slug }}"
-    data-color="{{ .color }}"
-    data-emoji="{{ .emoji }}"
-    data-font="{{ .font }}"
-    data-text="{{ .text }}"
-    data-outline-color="{{ .outlineColor }}"
-    data-font-color="{{ .fontColor }}"
-    data-coffee-color="{{ .coffeeColor }}"
-    defer>
+    data-name="bmc-button"
+    data-slug="{{ $button.slug }}"
+    data-color="{{ $button.color }}"
+    data-emoji="{{ $button.emoji }}"
+    data-font="{{ $button.font }}"
+    data-text="{{ $button.text }}"
+    data-outline-color="{{ $button.outlineColor }}"
+    data-font-color="{{ $button.fontColor }}"
+    data-coffee-color="{{ $button.coffeeColor }}">
 </script>
+{{- end }}
+
+{{- $widget := default dict $bmc.widget }}
+{{- if and (or (eq $mode "widget") (eq $mode "both")) $widget.id }}
+<script data-name="BMC-Widget"
+    data-cfasync="false"
+    src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+    data-id="{{ $widget.id }}"
+    data-description="{{ $widget.description }}"
+    data-message="{{ $widget.message }}"
+    data-color="{{ $widget.color }}"
+    data-position="{{ $widget.position }}"
+    data-x_margin="{{ $widget.xMargin }}"
+    data-y_margin="{{ $widget.yMargin }}">
+</script>
+{{- end }}
 {{- end }}
 {{- end }}
