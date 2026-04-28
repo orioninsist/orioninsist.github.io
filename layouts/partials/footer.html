@@ -144,3 +144,21 @@
     }
 </script>
 {{- end }}
+
+{{- with site.Params.buyMeACoffeeWidget }}
+{{- if .enabled }}
+<script
+    data-name="bmc-button"
+    src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+    data-slug="{{ .slug }}"
+    data-color="{{ .color }}"
+    data-emoji="{{ .emoji }}"
+    data-font="{{ .font }}"
+    data-text="{{ .text }}"
+    data-outline-color="{{ .outlineColor }}"
+    data-font-color="{{ .fontColor }}"
+    data-coffee-color="{{ .coffeeColor }}"
+    defer>
+</script>
+{{- end }}
+{{- end }}

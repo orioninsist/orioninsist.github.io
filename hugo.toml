@@ -93,6 +93,17 @@ enableGitInfo   = true
   [params.search]
     enable = true
 
+  [params.buyMeACoffeeWidget]
+    enabled = true
+    slug = "orioninsist"
+    color = "#FFDD00"
+    emoji = "☕"
+    font = "Cookie"
+    text = "Buy me a coffee"
+    outlineColor = "#000000"
+    fontColor = "#000000"
+    coffeeColor = "#ffffff"
+
   [params.homeInfoParams]
     enabled     = false
 
