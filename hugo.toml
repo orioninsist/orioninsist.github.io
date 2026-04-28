@@ -10,6 +10,12 @@ buildFuture     = false
 buildExpired    = false
 enableGitInfo   = true
 
+[frontmatter]
+  date = ["date", "publishDate", "pubdate", ":default"]
+  publishDate = ["publishDate", "pubdate", "date", ":default"]
+  lastmod = ["lastmod", ":git", "date", "publishDate", ":default"]
+  expiryDate = ["expiryDate", "unpublishdate", ":default"]
+
 [permalinks]
   blog = "/blog/:slug/"
 
