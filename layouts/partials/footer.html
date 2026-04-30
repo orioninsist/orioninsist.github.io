@@ -49,27 +49,8 @@
         }
         banner.style.display = 'block';
 
-        function loadGtag() {
-            try {
-                var id = {{ site.Config.Services.GoogleAnalytics.ID | jsonify }};
-            } catch (e) {
-                var id = null;
-            }
-            if (!id) return;
-            try {
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);} window.gtag = window.gtag || gtag;
-                var s = document.createElement('script'); s.async = true;
-                s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id);
-                document.head.appendChild(s);
-                gtag('js', new Date());
-                gtag('config', id, {anonymize_ip: true});
-            } catch (e) {}
-        }
-
         document.getElementById('cookie-accept').addEventListener('click', function () {
             try { localStorage.setItem('consent', 'true'); } catch (e) {}
-            loadGtag();
             banner.style.display = 'none';
         });
 
