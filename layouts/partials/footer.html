@@ -16,6 +16,70 @@
 </footer>
 {{- end }}
 
+<!-- Cookie consent banner (GDPR) -->
+<div id="cookie-consent" style="display:none;" aria-live="polite">
+    <style>
+        #cookie-consent{position:fixed;left:0;right:0;bottom:0;background:rgba(0,0,0,0.85);color:#fff;padding:14px;z-index:9999;display:flex;align-items:center;justify-content:center}
+        #cookie-consent .cookie-inner{max-width:1100px;width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px}
+        #cookie-consent p{margin:0;padding:0;font-size:14px}
+        #cookie-consent .cookie-actions{display:flex;gap:8px}
+        #cookie-consent .cookie-actions button{background:#fff;color:#000;border:none;padding:8px 12px;border-radius:6px;cursor:pointer}
+        #cookie-consent .cookie-actions .decline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,0.3)}
+        @media(max-width:640px){#cookie-consent .cookie-inner{flex-direction:column;align-items:flex-start}}
+    </style>
+    <div class="cookie-inner">
+        <p>We use cookies (including Google Analytics) to improve the site. See our <a href="/privacy-policy/" style="color:#fff;text-decoration:underline">Privacy Policy</a>.</p>
+        <div class="cookie-actions">
+            <button id="cookie-accept">Accept</button>
+            <button id="cookie-decline" class="decline">Decline</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    (function () {
+        var banner = document.getElementById('cookie-consent');
+        if (!banner) return;
+        try {
+            var stored = localStorage.getItem('consent');
+        } catch (e) { var stored = null; }
+        if (stored === 'true' || stored === 'false') {
+            banner.style.display = 'none';
+            return;
+        }
+        banner.style.display = 'block';
+
+        function loadGtag() {
+            try {
+                var id = {{ site.Config.Services.GoogleAnalytics.ID | jsonify }};
+            } catch (e) {
+                var id = null;
+            }
+            if (!id) return;
+            try {
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);} window.gtag = window.gtag || gtag;
+                var s = document.createElement('script'); s.async = true;
+                s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(id);
+                document.head.appendChild(s);
+                gtag('js', new Date());
+                gtag('config', id, {anonymize_ip: true});
+            } catch (e) {}
+        }
+
+        document.getElementById('cookie-accept').addEventListener('click', function () {
+            try { localStorage.setItem('consent', 'true'); } catch (e) {}
+            loadGtag();
+            banner.style.display = 'none';
+        });
+
+        document.getElementById('cookie-decline').addEventListener('click', function () {
+            try { localStorage.setItem('consent', 'false'); } catch (e) {}
+            banner.style.display = 'none';
+        });
+    })();
+</script>
+
 {{- if (not site.Params.disableScrollToTop) }}
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
