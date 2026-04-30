@@ -13,16 +13,18 @@ enableGitInfo   = true
 [frontmatter]
   date = ["date", "publishDate", "pubdate", ":default"]
   publishDate = ["publishDate", "pubdate", "date", ":default"]
-  lastmod = ["lastmod", ":git", "date", "publishDate", ":default"]
+  lastmod = [":git", "lastmod", "date", "publishDate", ":default"]
   expiryDate = ["expiryDate", "unpublishdate", ":default"]
 
 [permalinks]
   blog = "/blog/:slug/"
+  categories = "/categories/:slug/"
+  tags = "/tags/:slug/"
 
-#[taxonomies]
-#  category = "categories"
-#  tag      = "tags"
-#  series   = "series"
+[taxonomies]
+  category = "categories"
+  tag      = "tags"
+  series   = "series"
 
 [server]
   trailingSlash = "always"
@@ -57,19 +59,19 @@ enableGitInfo   = true
 [[menu.main]]
   identifier = "about"
   name       = "About"
-  url        = "/about"
+  url        = "/about/"
   weight     = 40
 
 [[menu.main]]
   identifier = "contact"
   name       = "Contact"
-  url        = "/contact"
+  url        = "/contact/"
   weight     = 50
 
 [[menu.main]]
   identifier = "search"
   name       = "Search"
-  url        = "/search"
+  url        = "/search/"
   weight     = 60
 
 #[[menu.main]]
@@ -81,8 +83,12 @@ enableGitInfo   = true
 # --- Parametreler ---
 [params]
   description      = "The personal blog of Murat Kurkoglu, a computer engineer, on cyber security, Linux, and technology. Notes and guides on software development and system administration."
+  images           = ["images/about/muratkurkoglu-2.avif"] # For Social Media Cards
   ogImage          = "images/about/muratkurkoglu-2.avif"
   defaultTheme     = "dark"
+
+  [params.analytics.google]
+    SiteVerificationTag = "YOUR_VERIFICATION_CODE_HERE"
   DateFormat       = "January 2, 2006"
   ShowShareButtons = true
   ShowReadingTime  = true
@@ -217,6 +223,24 @@ enableGitInfo   = true
   [[params.socialIcons]]
     name = "rss"
     url  = "https://orioninsist.org/index.xml"
+
+# --- Related Content (Internal Linking) ---
+[related]
+  includeNewer = true
+  threshold    = 80
+  toLower      = true
+  [[related.indices]]
+    name   = "keywords"
+    weight = 100
+  [[related.indices]]
+    name   = "tags"
+    weight = 80
+  [[related.indices]]
+    name   = "categories"
+    weight = 50
+  [[related.indices]]
+    name   = "date"
+    weight = 10
 
 # --- Çıktı Formatları ---
 [outputs]

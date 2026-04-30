@@ -3,16 +3,8 @@
   {{ range .Data.Pages }}
     {{- $isNoIndex := false -}}
     {{- if or
-      (eq .Section "tags")
-      (eq .Section "archives")
       (eq .Section "search")
-      (eq .Section "categories")
-      (hasPrefix .RelPermalink "/archives/")
-      (eq .RelPermalink "/archives/")
-      (eq .RelPermalink "/archives")
-      (hasPrefix .RelPermalink "/tags/")
       (hasPrefix .RelPermalink "/search/")
-      (hasPrefix .RelPermalink "/categories/")
     -}}
       {{- $isNoIndex = true -}}
     {{- else if .Params.robots -}}
