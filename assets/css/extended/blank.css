@@ -102,6 +102,7 @@ body.qr-page {
 
 .qr-section,
 .qr-order,
+.qr-art-showcase,
 .qr-delivery,
 .qr-limits,
 .qr-final {
@@ -208,6 +209,7 @@ body.qr-page {
 
 .qr-section h2,
 .qr-order h2,
+.qr-art-showcase h2,
 .qr-delivery h2,
 .qr-limits h2 {
     margin: 0;
@@ -217,6 +219,7 @@ body.qr-page {
 }
 
 .qr-section p,
+.qr-art-showcase p,
 .qr-delivery p,
 .qr-limits p {
     max-width: 840px;
@@ -224,6 +227,81 @@ body.qr-page {
     color: #cbd5e1;
     font-size: 1.04rem;
     line-height: 1.78;
+}
+
+.qr-art-showcase {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) 280px;
+    gap: 34px;
+    align-items: center;
+    background:
+        linear-gradient(135deg, rgba(20, 184, 166, 0.18), rgba(15, 23, 42, 0.72)),
+        rgba(2, 6, 23, 0.58);
+}
+
+.qr-art-preview {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(21, 1fr);
+    gap: 3px;
+    width: 100%;
+    aspect-ratio: 1;
+    padding: 20px;
+    border: 1px solid rgba(94, 234, 212, 0.35);
+    border-radius: 8px;
+    background:
+        radial-gradient(circle at 50% 50%, rgba(251, 191, 36, 0.28), transparent 28%),
+        linear-gradient(135deg, #f8fafc, #dbeafe);
+    box-shadow: 0 18px 60px rgba(0, 0, 0, 0.26);
+}
+
+.qr-art-preview::before {
+    content: "";
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    background:
+        repeating-linear-gradient(90deg, rgba(15, 23, 42, 0.92) 0 7px, transparent 7px 14px),
+        repeating-linear-gradient(0deg, rgba(15, 23, 42, 0.88) 0 7px, transparent 7px 14px);
+    mix-blend-mode: multiply;
+    opacity: 0.5;
+}
+
+.qr-art-preview span {
+    position: absolute;
+    width: 58px;
+    aspect-ratio: 1;
+    border: 10px solid #0f172a;
+    border-radius: 50%;
+    background: #5eead4;
+    box-shadow: inset 0 0 0 8px #ffffff;
+}
+
+.qr-art-cell-a {
+    left: 22px;
+    top: 22px;
+}
+
+.qr-art-cell-b {
+    right: 22px;
+    top: 22px;
+}
+
+.qr-art-cell-c {
+    left: 22px;
+    bottom: 22px;
+}
+
+.qr-art-preview strong {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: #042f2e;
+    font-size: 1.22rem;
+    font-weight: 900;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.72);
 }
 
 .qr-flow,
@@ -353,6 +431,7 @@ body.qr-page {
 
     .qr-section h2,
     .qr-order h2,
+    .qr-art-showcase h2,
     .qr-delivery h2,
     .qr-limits h2 {
         max-width: 16ch;
@@ -378,6 +457,7 @@ body.qr-page {
 
     .qr-section,
     .qr-order,
+    .qr-art-showcase,
     .qr-delivery,
     .qr-limits,
     .qr-final {
@@ -386,8 +466,14 @@ body.qr-page {
 
     .qr-flow,
     .qr-packages,
+    .qr-art-showcase,
     .qr-order {
         grid-template-columns: 1fr;
+    }
+
+    .qr-art-preview {
+        width: min(240px, 100%);
+        margin: 0 auto;
     }
 
     .qr-step,
@@ -514,7 +600,7 @@ body.qr-page {
 
 .qrp-strip {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
     gap: 12px;
     margin-top: 22px;
 }
@@ -531,6 +617,7 @@ body.qr-page {
 }
 
 .qrp-intro,
+.qrp-art-note,
 .qrp-process,
 .qrp-final {
     margin-top: 22px;
@@ -538,6 +625,7 @@ body.qr-page {
 }
 
 .qrp-intro h2,
+.qrp-art-note h2,
 .qrp-process h2,
 .qrp-final h2 {
     margin: 0;
@@ -550,6 +638,25 @@ body.qr-page {
 .qrp-intro p {
     max-width: 880px;
     margin: 16px 0 0;
+}
+
+.qrp-art-note {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;
+    border: 1px solid rgba(45, 212, 191, 0.24);
+    border-radius: 8px;
+    background:
+        linear-gradient(135deg, rgba(45, 212, 191, 0.16), rgba(17, 24, 39, 0.94)),
+        #101923;
+}
+
+.qrp-art-note p {
+    max-width: 820px;
+    margin: 14px 0 0;
+    color: #cbd5e1;
+    line-height: 1.72;
 }
 
 .qrp-grid {
@@ -668,6 +775,7 @@ body.qr-page {
 
     .qrp-hero-copy,
     .qrp-intro,
+    .qrp-art-note,
     .qrp-process,
     .qrp-final,
     .qrp-card-body {
@@ -682,6 +790,7 @@ body.qr-page {
 
     .qrp-hero p,
     .qrp-intro p,
+    .qrp-art-note p,
     .qrp-card p,
     .qrp-card dd,
     .qrp-strip span {
@@ -690,6 +799,11 @@ body.qr-page {
 
     .qrp-strip {
         grid-template-columns: 1fr;
+    }
+
+    .qrp-art-note {
+        align-items: flex-start;
+        flex-direction: column;
     }
 
     .qrp-card dl div {
