@@ -32,6 +32,7 @@
         {{- end }}
         <h1>{{ .title | default site.Title | markdownify }}</h1>
         <span>{{ .subtitle | markdownify }}</span>
+        <p class="profile_focus">I build practical web systems, automation workflows, and brand tools for people who want their digital work to feel fast, clear, and dependable.</p>
         {{- partial "social_icons.html" -}}
 
         {{- with .buttons }}
@@ -74,6 +75,11 @@
         {{- end }}
         </div>
         {{- end }}
+        <div class="profile_quicklinks" aria-label="Featured links">
+            <a href="/qrcode/">QR Service</a>
+            <a href="/qrcode-portfolio/">QR Portfolio</a>
+            <a href="/contact/">Contact</a>
+        </div>
     </div>
     {{- end}}
 </div>

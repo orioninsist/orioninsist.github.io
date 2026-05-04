@@ -20,7 +20,9 @@
       </div>
     </div>
 
-    <div class="qr-strip" aria-label="Service highlights">
+    <div class="qr-scroll-cue" aria-hidden="true"><span></span></div>
+
+    <div class="qr-strip qr-reveal" aria-label="Service highlights">
       <span>For links, menus, WhatsApp, Wi-Fi, email, phone, text, vCard</span>
       <span>Uses your ready logo</span>
       <span>Optional full-logo QR art</span>
@@ -28,13 +30,13 @@
       <span>PNG, JPG, PDF, ZIP</span>
     </div>
 
-    <div class="qr-section">
+    <div class="qr-section qr-reveal">
       <p class="qr-section-kicker">Simple idea</p>
       <h2>You give the destination. I make the QR code.</h2>
       <p>A QR code can open a menu, website, WhatsApp chat, Wi-Fi login, email, phone number, social media profile, plain text, or contact card. You send the exact destination and your ready logo. I turn it into a polished QR design and delivery files.</p>
     </div>
 
-    <div class="qr-flow" aria-label="Order process">
+    <div class="qr-flow qr-reveal" aria-label="Order process">
       <div class="qr-step">
         <span>01</span>
         <h3>Send your information</h3>
@@ -57,7 +59,7 @@
       </div>
     </div>
 
-    <div id="qr-packages" class="qr-packages" aria-label="Packages">
+    <div id="qr-packages" class="qr-packages qr-reveal" aria-label="Packages">
       <article class="qr-package">
         <p>Basic</p>
         <h3>Clean QR</h3>
@@ -91,7 +93,7 @@
       </article>
     </div>
 
-    <div id="qr-art-style" class="qr-art-showcase">
+    <div id="qr-art-style" class="qr-art-showcase qr-reveal">
       <div>
         <p class="qr-section-kicker">Premium visual option</p>
         <h2>Large logo QR art for brands that need the logo to dominate the design.</h2>
@@ -105,7 +107,7 @@
       </div>
     </div>
 
-    <div class="qr-section">
+    <div class="qr-section qr-reveal">
       <p class="qr-section-kicker">Style options</p>
       <h2>Pick the look that fits your brand.</h2>
       <div class="qr-tags" aria-label="Template names">
@@ -129,7 +131,7 @@
       </div>
     </div>
 
-    <div id="qr-order" class="qr-order">
+    <div id="qr-order" class="qr-order qr-reveal">
       <div>
         <p class="qr-section-kicker">What I need</p>
         <h2>Send these details before I start.</h2>
@@ -147,7 +149,7 @@
       </div>
     </div>
 
-    <div class="qr-delivery">
+    <div class="qr-delivery qr-reveal">
       <div>
         <p class="qr-section-kicker">Delivery</p>
         <h2>What you receive</h2>
@@ -155,15 +157,24 @@
       <p>You receive PNG, JPG, PDF, preview files, a scan check note, and a ZIP package. The files are prepared so you can use the QR code online or send it to print.</p>
     </div>
 
-    <div class="qr-limits">
+    <div class="qr-limits qr-reveal">
       <h2>Not included</h2>
       <p>This service does not include new logo design, logo editing, dynamic QR hosting, later link changes, Adobe/Canva/Figma source files, full flyer design, full business card design, or unlimited revision rounds. Large Logo QR Art is available as a premium visual option and still requires scan checking before delivery.</p>
     </div>
 
-    <div class="qr-final">
+    <div class="qr-final qr-reveal">
       <span>Ready to order?</span>
       <a class="qr-button qr-button-primary" href="/contact/">Contact orioninsist</a>
     </div>
   </div>
 </section>
+<script>
+  document.documentElement.classList.add("has-reveal-js");
+  const qrRevealObserver = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (entry.isIntersecting) entry.target.classList.add("is-visible");
+    }
+  }, { threshold: 0.18, rootMargin: "0px 0px -8% 0px" });
+  document.querySelectorAll(".qr-reveal").forEach((item) => qrRevealObserver.observe(item));
+</script>
 {{- end }}

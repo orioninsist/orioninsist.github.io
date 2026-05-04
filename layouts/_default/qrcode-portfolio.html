@@ -16,8 +16,8 @@
     <div class="qrp-hero">
       <div class="qrp-hero-copy">
         <p class="qrp-kicker">orioninsist QR code portfolio</p>
-        <h1 id="qrp-title">10 large-logo QR art examples for premium brand delivery.</h1>
-        <p>These examples show how the orioninsist wordmark, constellation motifs, shield shapes, terminal cues, and dark tech accents can be integrated into QR-style artwork for high-impact portfolio and client preview use.</p>
+        <h1 id="qrp-title">Large-logo QR art.</h1>
+        <p>Ten dark, logo-first QR visuals built around the orioninsist wordmark.</p>
         <div class="qrp-actions">
           <a class="qrp-button qrp-button-primary" href="#qrp-work">View examples</a>
           <a class="qrp-button" href="/qrcode/">Service details</a>
@@ -28,7 +28,9 @@
       </div>
     </div>
 
-    <div class="qrp-strip" aria-label="Portfolio highlights">
+    <div class="qr-scroll-cue" aria-hidden="true"><span></span></div>
+
+    <div class="qrp-strip qr-reveal" aria-label="Portfolio highlights">
       <span>10 logo-integrated examples</span>
       <span>Dark tech visual system</span>
       <span>Large wordmark focus</span>
@@ -36,13 +38,13 @@
       <span>PNG source output</span>
     </div>
 
-    <div class="qrp-intro">
+    <div class="qrp-intro qr-reveal">
       <p class="qrp-kicker">Visual direction</p>
       <h2>Large logo first, QR structure still visible.</h2>
       <p>Each sample below was generated from the logo-integrated QR prompt set for the orioninsist brand. The focus is a big readable white wordmark on black, supported by QR modules, finder corners, teal/cyan structure, and small amber highlights. For live client delivery, the final destination QR is rebuilt and scan-tested after the visual direction is approved.</p>
     </div>
 
-    <div class="qrp-art-note">
+    <div class="qrp-art-note qr-reveal">
       <div>
         <p class="qrp-kicker">Premium style direction</p>
         <h2>Large Logo QR Art</h2>
@@ -51,7 +53,7 @@
       <a class="qrp-button qrp-button-primary" href="/qrcode/#qr-art-style">See service option</a>
     </div>
 
-    <div id="qrp-work" class="qrp-grid" aria-label="QR code portfolio examples">
+    <div id="qrp-work" class="qrp-grid qr-reveal" aria-label="QR code portfolio examples">
       {{- range $index, $item := $items }}
       <article class="qrp-card">
         <a class="qrp-image" href="/images/qrcode-portfolio/{{ $item.slug }}.avif" aria-label="Open {{ $item.title }} preview">
@@ -84,7 +86,7 @@
       {{- end }}
     </div>
 
-    <div class="qrp-process">
+    <div class="qrp-process qr-reveal">
       <div>
         <p class="qrp-kicker">Delivery workflow</p>
         <h2>Built for fast, repeatable client work.</h2>
@@ -97,7 +99,7 @@
       </ol>
     </div>
 
-    <div class="qrp-final">
+    <div class="qrp-final qr-reveal">
       <div>
         <p class="qrp-kicker">Need a QR like these?</p>
         <h2>Send your logo and the destination. I will prepare the QR package.</h2>
@@ -106,4 +108,13 @@
     </div>
   </div>
 </section>
+<script>
+  document.documentElement.classList.add("has-reveal-js");
+  const qrpRevealObserver = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (entry.isIntersecting) entry.target.classList.add("is-visible");
+    }
+  }, { threshold: 0.16, rootMargin: "0px 0px -8% 0px" });
+  document.querySelectorAll(".qr-reveal").forEach((item) => qrpRevealObserver.observe(item));
+</script>
 {{- end }}
