@@ -1,0 +1,99 @@
+{{- define "main" }}
+{{- $items := slice
+  (dict "slug" "orioninsist-cafe-menu" "title" "Cafe Menu QR Code" "tag" "Menu QR" "use" "Restaurant menu, cafe table card, poster" "template" "Menu Plate" "cta" "VIEW MENU" "copy" "A clean restaurant menu QR with brand color, table-ready framing, and a clear call to action for printed menus and counter displays.")
+  (dict "slug" "orioninsist-whatsapp-lead-card" "title" "WhatsApp Lead Card QR" "tag" "WhatsApp QR" "use" "Lead capture, sales chat, support card" "template" "Bold CTA Banner" "cta" "CHAT NOW" "copy" "A direct WhatsApp QR layout made for service businesses that want customers to scan and start a conversation quickly.")
+  (dict "slug" "orioninsist-event-pass-checkin" "title" "Event Pass Check-in QR" "tag" "Event QR" "use" "Event pass, ticket desk, check-in poster" "template" "Event Pass" "cta" "CHECK IN" "copy" "A sharp event-style QR example for check-in desks, attendee badges, invitation cards, and event signage.")
+  (dict "slug" "orioninsist-product-packaging-label" "title" "Product Packaging Label QR" "tag" "Packaging QR" "use" "Product label, box insert, sticker" "template" "Packaging Label" "cta" "SCAN STORY" "copy" "A packaging-friendly QR sample for product stories, care instructions, warranty pages, and after-purchase customer journeys.")
+  (dict "slug" "orioninsist-social-profile-qr" "title" "Social Profile QR Code" "tag" "Social QR" "use" "Instagram bio, profile link, creator card" "template" "Social Pop" "cta" "FOLLOW US" "copy" "A lively social profile QR design for creators, shops, and personal brands that want a fast scan-to-follow experience.")
+  (dict "slug" "orioninsist-luxury-invitation-qr" "title" "Luxury Invitation QR" "tag" "Invitation QR" "use" "Wedding invite, RSVP card, premium event" "template" "Luxury Line" "cta" "RSVP NOW" "copy" "A restrained premium QR style for invitation cards, RSVP pages, private events, and elegant print pieces.")
+  (dict "slug" "orioninsist-sticker-promo-code" "title" "Promo Sticker QR Code" "tag" "Offer QR" "use" "Promo sticker, campaign label, retail counter" "template" "Ticket Scan" "cta" "GET OFFER" "copy" "A high-contrast promotional QR for discounts, limited offers, retail stickers, and short campaign landing pages.")
+  (dict "slug" "orioninsist-minimal-business-card" "title" "Minimal Business Card QR" "tag" "Contact QR" "use" "Business card, consultant profile, personal site" "template" "Minimal Brand" "cta" "CONTACT ME" "copy" "A simple contact QR sample built for business cards, personal websites, consultant profiles, and compact printed material.")
+  (dict "slug" "orioninsist-portfolio-preview-qr" "title" "Portfolio Preview QR" "tag" "Portfolio QR" "use" "Portfolio page, proposal deck, service preview" "template" "Corner Mark" "cta" "SEE WORK" "copy" "A polished portfolio QR example for proposals, service brochures, creator portfolios, and client preview pages.")
+  (dict "slug" "orioninsist-wifi-guest-access" "title" "Guest Wi-Fi Access QR" "tag" "Wi-Fi QR" "use" "Hotel lobby, office guest area, cafe Wi-Fi" "template" "Split Label" "cta" "JOIN WIFI" "copy" "A practical guest Wi-Fi QR design for offices, hotels, cafes, reception areas, and shared customer spaces.")
+-}}
+<section class="qrp-landing" aria-labelledby="qrp-title">
+  <div class="qrp-shell">
+    <div class="qrp-hero">
+      <div class="qrp-hero-copy">
+        <p class="qrp-kicker">orioninsist QR code portfolio</p>
+        <h1 id="qrp-title">10 branded QR code design examples for real client delivery.</h1>
+        <p>These examples show how a static QR code can become a polished delivery package for menus, WhatsApp leads, events, packaging, stickers, business cards, portfolios, social links, and guest Wi-Fi.</p>
+        <div class="qrp-actions">
+          <a class="qrp-button qrp-button-primary" href="#qrp-work">View examples</a>
+          <a class="qrp-button" href="/qrcode/">Service details</a>
+        </div>
+      </div>
+      <div class="qrp-hero-preview" aria-label="Featured QR code preview">
+        <img src="/images/qrcode-portfolio/orioninsist-cafe-menu-presentation.png" width="1600" height="1200" alt="orioninsist cafe menu QR code presentation preview" loading="eager" />
+      </div>
+    </div>
+
+    <div class="qrp-strip" aria-label="Portfolio highlights">
+      <span>10 static QR examples</span>
+      <span>Logo-based layouts</span>
+      <span>Scan checked output</span>
+      <span>PNG, PDF, ZIP delivery style</span>
+    </div>
+
+    <div class="qrp-intro">
+      <p class="qrp-kicker">What clients understand quickly</p>
+      <h2>One QR service, many business uses.</h2>
+      <p>Each sample below was generated as a finished delivery concept under the orioninsist brand. The point is simple: a client sends a ready logo, exact QR destination, brand color, short CTA text, and use case; the production system creates a clean QR package with visual preview and verification files.</p>
+    </div>
+
+    <div id="qrp-work" class="qrp-grid" aria-label="QR code portfolio examples">
+      {{- range $index, $item := $items }}
+      <article class="qrp-card">
+        <a class="qrp-image" href="/images/qrcode-portfolio/{{ $item.slug }}-presentation.png" aria-label="Open {{ $item.title }} preview">
+          <img src="/images/qrcode-portfolio/{{ $item.slug }}-presentation.png" width="1600" height="1200" alt="orioninsist {{ $item.title }} presentation preview" loading="{{ if lt $index 2 }}eager{{ else }}lazy{{ end }}" />
+        </a>
+        <div class="qrp-card-body">
+          <span>{{ $item.tag }}</span>
+          <h2>{{ $item.title }}</h2>
+          <p>{{ $item.copy }}</p>
+          <dl>
+            <div>
+              <dt>Use case</dt>
+              <dd>{{ $item.use }}</dd>
+            </div>
+            <div>
+              <dt>Template</dt>
+              <dd>{{ $item.template }}</dd>
+            </div>
+            <div>
+              <dt>CTA</dt>
+              <dd>{{ $item.cta }}</dd>
+            </div>
+          </dl>
+          <div class="qrp-card-actions">
+            <a href="/images/qrcode-portfolio/{{ $item.slug }}.png">QR PNG</a>
+            <a href="/images/qrcode-portfolio/{{ $item.slug }}-delivery-package.zip">Sample ZIP</a>
+          </div>
+        </div>
+      </article>
+      {{- end }}
+    </div>
+
+    <div class="qrp-process">
+      <div>
+        <p class="qrp-kicker">Delivery workflow</p>
+        <h2>Built for fast, repeatable client work.</h2>
+      </div>
+      <ol>
+        <li>Client sends the ready logo and fixed QR destination.</li>
+        <li>The brand color, CTA text, package, and template are selected.</li>
+        <li>The QR artwork, preview, PDF files, verification note, and ZIP package are generated.</li>
+        <li>The final package is delivered as a static QR code design.</li>
+      </ol>
+    </div>
+
+    <div class="qrp-final">
+      <div>
+        <p class="qrp-kicker">Need a QR like these?</p>
+        <h2>Send your logo and the destination. I will prepare the QR package.</h2>
+      </div>
+      <a class="qrp-button qrp-button-primary" href="/contact/">Contact orioninsist</a>
+    </div>
+  </div>
+</section>
+{{- end }}

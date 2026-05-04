@@ -344,3 +344,284 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
         min-height: auto;
     }
 }
+
+.qrp-landing {
+    min-height: calc(100vh - var(--header-height));
+    padding: 52px 20px 84px;
+    color: #f8fafc;
+    background: #0b1117;
+}
+
+.qrp-shell {
+    width: min(1180px, 100%);
+    margin: 0 auto;
+}
+
+.qrp-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 0.95fr) minmax(360px, 1.05fr);
+    gap: 34px;
+    align-items: center;
+}
+
+.qrp-hero-copy,
+.qrp-intro,
+.qrp-process,
+.qrp-final {
+    border: 1px solid rgba(226, 232, 240, 0.12);
+    border-radius: 8px;
+    background: #101923;
+}
+
+.qrp-hero-copy {
+    padding: 42px;
+}
+
+.qrp-hero-preview {
+    overflow: hidden;
+    border: 1px solid rgba(226, 232, 240, 0.14);
+    border-radius: 8px;
+    background: #f8fafc;
+}
+
+.qrp-hero-preview img,
+.qrp-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.qrp-kicker {
+    margin: 0 0 12px;
+    color: #2dd4bf;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.qrp-hero h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: clamp(2.1rem, 4vw, 4rem);
+    line-height: 1.06;
+    letter-spacing: 0;
+}
+
+.qrp-hero p,
+.qrp-intro p,
+.qrp-card p,
+.qrp-process li {
+    color: #cbd5e1;
+    line-height: 1.72;
+}
+
+.qrp-hero p {
+    margin: 22px 0 0;
+    font-size: 1.08rem;
+}
+
+.qrp-actions,
+.qrp-card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 28px;
+}
+
+.qrp-button,
+.qrp-card-actions a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 0 18px;
+    border: 1px solid rgba(226, 232, 240, 0.18);
+    border-radius: 8px;
+    color: #f8fafc;
+    font-weight: 800;
+    text-decoration: none;
+    background: #172231;
+}
+
+.qrp-button:hover,
+.qrp-card-actions a:hover {
+    border-color: #2dd4bf;
+}
+
+.qrp-button-primary {
+    color: #03221f;
+    border-color: #2dd4bf;
+    background: #2dd4bf;
+}
+
+.qrp-strip {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: 22px;
+}
+
+.qrp-strip span {
+    min-height: 54px;
+    padding: 15px 16px;
+    border: 1px solid rgba(226, 232, 240, 0.12);
+    border-radius: 8px;
+    color: #e2e8f0;
+    font-weight: 800;
+    background: #111c27;
+}
+
+.qrp-intro,
+.qrp-process,
+.qrp-final {
+    margin-top: 22px;
+    padding: 38px;
+}
+
+.qrp-intro h2,
+.qrp-process h2,
+.qrp-final h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: clamp(1.55rem, 2.6vw, 2.35rem);
+    line-height: 1.16;
+    letter-spacing: 0;
+}
+
+.qrp-intro p {
+    max-width: 880px;
+    margin: 16px 0 0;
+}
+
+.qrp-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    margin-top: 22px;
+}
+
+.qrp-card {
+    overflow: hidden;
+    border: 1px solid rgba(226, 232, 240, 0.12);
+    border-radius: 8px;
+    background: #101923;
+}
+
+.qrp-image {
+    display: block;
+    background: #f8fafc;
+}
+
+.qrp-card-body {
+    padding: 26px;
+}
+
+.qrp-card-body > span {
+    color: #fbbf24;
+    font-size: 0.78rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.qrp-card h2 {
+    margin: 10px 0 0;
+    color: #ffffff;
+    font-size: 1.35rem;
+    line-height: 1.24;
+    letter-spacing: 0;
+}
+
+.qrp-card p {
+    margin: 12px 0 0;
+}
+
+.qrp-card dl {
+    display: grid;
+    gap: 10px;
+    margin: 20px 0 0;
+}
+
+.qrp-card dl div {
+    display: grid;
+    grid-template-columns: 96px minmax(0, 1fr);
+    gap: 12px;
+    padding: 11px 12px;
+    border-radius: 8px;
+    background: #172231;
+}
+
+.qrp-card dt {
+    color: #94a3b8;
+    font-size: 0.82rem;
+    font-weight: 800;
+}
+
+.qrp-card dd {
+    margin: 0;
+    color: #f8fafc;
+}
+
+.qrp-process {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 34px;
+}
+
+.qrp-process ol {
+    display: grid;
+    gap: 12px;
+    margin: 0;
+    padding-left: 22px;
+}
+
+.qrp-process li {
+    padding-left: 6px;
+}
+
+.qrp-final {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+.qrp-final h2 {
+    max-width: 760px;
+}
+
+@media (max-width: 900px) {
+    .qrp-hero,
+    .qrp-grid,
+    .qrp-process {
+        grid-template-columns: 1fr;
+    }
+
+    .qrp-strip {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 620px) {
+    .qrp-landing {
+        padding: 28px 14px 64px;
+    }
+
+    .qrp-hero-copy,
+    .qrp-intro,
+    .qrp-process,
+    .qrp-final,
+    .qrp-card-body {
+        padding: 24px 20px;
+    }
+
+    .qrp-strip {
+        grid-template-columns: 1fr;
+    }
+
+    .qrp-card dl div {
+        grid-template-columns: 1fr;
+        gap: 4px;
+    }
+}
