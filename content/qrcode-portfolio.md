@@ -1,6 +1,6 @@
 ---
 title: "QR Code Design Portfolio"
-description: "A portfolio of 10 branded static QR code design examples by orioninsist, including menu QR, WhatsApp QR, event pass QR, packaging QR, social QR, Wi-Fi QR, and print-ready QR delivery samples."
+description: "A portfolio of 10 large-logo QR art examples by orioninsist, featuring dark tech wordmark QR designs, constellation QR artwork, cybersecurity shield QR concepts, terminal cursor QR art, sticker QR visuals, event pass QR designs, and AVIF web assets."
 layout: "qrcode-portfolio"
 url: "/qrcode-portfolio/"
 robots: "index, follow"
@@ -9,4 +9,3 @@ disableShare: true
 hideMeta: true
 ShowToc: false
 ---
-

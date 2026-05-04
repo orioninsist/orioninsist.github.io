@@ -1,4 +1,4 @@
-# Orioninsist QR Code Portfolio Copy
+# Orioninsist Large Logo QR Portfolio Copy
 
 Generated on 2026-05-04 for the orioninsist QR code design portfolio.
 
@@ -6,73 +6,72 @@ Landing page slug: `/qrcode-portfolio/`
 
 ## Portfolio Samples
 
-1. `orioninsist-cafe-menu`
-   - Title: Cafe Menu QR Code
-   - Use case: Restaurant menu, cafe table card, poster
-   - Template: Menu Plate
-   - CTA: VIEW MENU
-   - Copy: A clean restaurant menu QR with brand color, table-ready framing, and a clear call to action for printed menus and counter displays.
+1. `orioninsist-large-wordmark-qr-cover`
+   - Title: Large Wordmark QR Cover
+   - Use case: Marketplace cover, brand landing QR, premium service preview
+   - Template: Large Wordmark
+   - Accent: Teal, cyan, amber
+   - Copy: A high-contrast black QR composition with the white orioninsist wordmark stretched boldly across the center for instant brand recognition.
 
-2. `orioninsist-whatsapp-lead-card`
-   - Title: WhatsApp Lead Card QR
-   - Use case: Lead capture, sales chat, support card
-   - Template: Bold CTA Banner
-   - CTA: CHAT NOW
-   - Copy: A direct WhatsApp QR layout made for service businesses that want customers to scan and start a conversation quickly.
+2. `orioninsist-full-logo-dark-tech-qr`
+   - Title: Full Logo Dark Tech QR
+   - Use case: SaaS page, cybersecurity card, branded scan asset
+   - Template: Full Logo Tech
+   - Accent: Teal finder rings
+   - Copy: A polished dark tech QR style where the main wordmark owns the center while white modules and teal finder corners keep the scan structure visually clear.
 
-3. `orioninsist-event-pass-checkin`
-   - Title: Event Pass Check-in QR
-   - Use case: Event pass, ticket desk, check-in poster
-   - Template: Event Pass
-   - CTA: CHECK IN
-   - Copy: A sharp event-style QR example for check-in desks, attendee badges, invitation cards, and event signage.
+3. `orioninsist-orion-constellation-logo-qr`
+   - Title: Orion Constellation Logo QR
+   - Use case: Portfolio hero, brand story, technical identity piece
+   - Template: Orion Network
+   - Accent: Cyan star lines
+   - Copy: A constellation-inspired QR concept that blends Orion star points, network lines, and a readable orioninsist wordmark into one premium brand pattern.
 
-4. `orioninsist-product-packaging-label`
-   - Title: Product Packaging Label QR
-   - Use case: Product label, box insert, sticker
-   - Template: Packaging Label
-   - CTA: SCAN STORY
-   - Copy: A packaging-friendly QR sample for product stories, care instructions, warranty pages, and after-purchase customer journeys.
+4. `orioninsist-terminal-cursor-wordmark-qr`
+   - Title: Terminal Cursor Wordmark QR
+   - Use case: Open-source project, developer profile, command-line brand page
+   - Template: Terminal Cursor
+   - Accent: Teal cursor block
+   - Copy: A developer-focused QR visual with a terminal-like black field, code-shaped module rhythm, and a large white orioninsist wordmark anchored by a cursor accent.
 
-5. `orioninsist-social-profile-qr`
-   - Title: Social Profile QR Code
-   - Use case: Instagram bio, profile link, creator card
-   - Template: Social Pop
-   - CTA: FOLLOW US
-   - Copy: A lively social profile QR design for creators, shops, and personal brands that want a fast scan-to-follow experience.
+5. `orioninsist-cybersecurity-shield-logo-qr`
+   - Title: Cybersecurity Shield Logo QR
+   - Use case: Security service card, trust page, protected access asset
+   - Template: Shield Matrix
+   - Accent: Cyan shield edge
+   - Copy: A shield-shaped QR matrix concept for security work, using precise white modules, teal edges, and small amber alert accents around the central brand mark.
 
-6. `orioninsist-luxury-invitation-qr`
-   - Title: Luxury Invitation QR
-   - Use case: Wedding invite, RSVP card, premium event
-   - Template: Luxury Line
-   - CTA: RSVP NOW
-   - Copy: A restrained premium QR style for invitation cards, RSVP pages, private events, and elegant print pieces.
+6. `orioninsist-bold-social-gig-cover-qr`
+   - Title: Bold Social Gig Cover QR
+   - Use case: Fiverr gig cover, social profile preview, sales thumbnail
+   - Template: Bold Social
+   - Accent: Cyan dot energy
+   - Copy: A marketplace-ready QR cover with strong contrast, clean logo visibility, custom finder corners, and enough visual punch to read well in small thumbnails.
 
-7. `orioninsist-sticker-promo-code`
-   - Title: Promo Sticker QR Code
-   - Use case: Promo sticker, campaign label, retail counter
-   - Template: Ticket Scan
-   - CTA: GET OFFER
-   - Copy: A high-contrast promotional QR for discounts, limited offers, retail stickers, and short campaign landing pages.
+7. `orioninsist-product-sticker-full-logo-qr`
+   - Title: Product Sticker Full Logo QR
+   - Use case: Product sticker, packaging label, box insert
+   - Template: Sticker Logo
+   - Accent: Teal border detail
+   - Copy: A sticker-ready full-logo QR design with strong scan zones, rounded finder corners, and a compact black tech-packaging feel.
 
-8. `orioninsist-minimal-business-card`
-   - Title: Minimal Business Card QR
-   - Use case: Business card, consultant profile, personal site
-   - Template: Minimal Brand
-   - CTA: CONTACT ME
-   - Copy: A simple contact QR sample built for business cards, personal websites, consultant profiles, and compact printed material.
+8. `orioninsist-event-pass-large-logo-qr`
+   - Title: Event Pass Large Logo QR
+   - Use case: Event pass, check-in card, invitation scan point
+   - Template: Event Pass Art
+   - Accent: Ticket-line cyan
+   - Copy: An energetic event-pass QR concept with circular finder corners, ticket-line accents, and a large brand wordmark suited for check-in and event materials.
 
-9. `orioninsist-portfolio-preview-qr`
-   - Title: Portfolio Preview QR
-   - Use case: Portfolio page, proposal deck, service preview
-   - Template: Corner Mark
-   - CTA: SEE WORK
-   - Copy: A polished portfolio QR example for proposals, service brochures, creator portfolios, and client preview pages.
+9. `orioninsist-luxury-dark-full-logo-qr`
+   - Title: Luxury Dark Full Logo QR
+   - Use case: Invitation card, premium print, private event QR
+   - Template: Luxury Dark
+   - Accent: Restrained teal lines
+   - Copy: A refined matte-black QR style with crisp white modules, tiny amber star details, and polished spacing for premium print and invitation contexts.
 
-10. `orioninsist-wifi-guest-access`
-    - Title: Guest Wi-Fi Access QR
-    - Use case: Hotel lobby, office guest area, cafe Wi-Fi
-    - Template: Split Label
-    - CTA: JOIN WIFI
-    - Copy: A practical guest Wi-Fi QR design for offices, hotels, cafes, reception areas, and shared customer spaces.
-
+10. `orioninsist-high-impact-brand-pattern-qr`
+    - Title: High-Impact Brand Pattern QR
+    - Use case: Poster, campaign visual, cybersecurity advertising
+    - Template: Orion Pattern
+    - Accent: Teal/cyan network dots
+    - Copy: A poster-ready dominant-logo QR concept that turns the matrix into an Orion-inspired brand pattern while keeping the wordmark clear and central.
