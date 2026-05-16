@@ -15,7 +15,6 @@ draft = false
 author = "Murat Kurkoglu"
 description = "A simple Bash script with demo, dry-run, and apply modes to safely move a folder along with its contents."
 slug = "safe-folder-move-bash-script"
-canonicalURL = ""
 
 summary = "This post shows a safe Bash workflow for moving a folder into another folder completely and in a controlled way: demo first, then dry-run, and finally a confirmed apply."
 canonicalURL = ""
