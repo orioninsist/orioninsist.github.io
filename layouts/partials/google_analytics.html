@@ -11,7 +11,7 @@
       gaLoaded: false,
       adsLoaded: false,
       fundingChoicesLoaded: false,
-      gaId: {{ $id | jsonify }},
+      gaId: "{{ $id }}",
       adsClientId: "ca-pub-2352285531358848",
       fundingChoicesSrc: "https://fundingchoicesmessages.google.com/i/pub-2352285531358848?ers=1"
     };
@@ -24,15 +24,21 @@
       }
     }
 
-    function appendScript(src, attributes, onload) {
-      if (document.querySelector('script[data-orioninsist-src="' + src + '"]')) {
+    function appendScript(src, attributes, onload, scriptId) {
+      if (scriptId && document.getElementById(scriptId)) {
+        return;
+      }
+
+      if (!scriptId && document.querySelector('script[src="' + src + '"]')) {
         return;
       }
 
       var script = document.createElement('script');
       script.async = true;
       script.src = src;
-      script.dataset.orioninsistSrc = src;
+      if (scriptId) {
+        script.id = scriptId;
+      }
 
       if (attributes) {
         Object.keys(attributes).forEach(function (key) {
@@ -63,7 +69,8 @@
           };
           window.gtag('js', new Date());
           window.gtag('config', state.gaId, { anonymize_ip: true });
-        }
+        },
+        'orioninsist-gtag'
       );
     }
 
@@ -75,7 +82,9 @@
       state.adsLoaded = true;
       appendScript(
         'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + encodeURIComponent(state.adsClientId),
-        { crossorigin: 'anonymous' }
+        { crossorigin: 'anonymous' },
+        null,
+        'orioninsist-adsense'
       );
     }
 
@@ -85,7 +94,7 @@
       }
 
       state.fundingChoicesLoaded = true;
-      appendScript(state.fundingChoicesSrc, { crossorigin: 'anonymous' });
+      appendScript(state.fundingChoicesSrc, { crossorigin: 'anonymous' }, null, 'orioninsist-funding-choices');
 
       if (!window.frames['googlefcPresent']) {
         if (document.body) {
