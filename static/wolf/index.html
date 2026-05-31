@@ -68,6 +68,23 @@
         </figure>
       </section>
 
+      <section class="preview-grid" aria-label="Featured previews">
+        <a class="preview-card preview-card--youtube" href="https://www.youtube.com/@orioninsistWolf/shorts" target="_blank" rel="noopener" data-track="Preview YouTube">
+          <span class="preview-card__icon"><img src="/contact/images/icons/youtube.svg" alt="" aria-hidden="true"></span>
+          <span>
+            <small>Latest shorts</small>
+            <strong>The main archive of the She Wolf signal.</strong>
+          </span>
+        </a>
+        <a class="preview-card preview-card--etsy" href="https://www.etsy.com/shop/orioninsist" target="_blank" rel="noopener" data-track="Preview Etsy">
+          <span class="preview-card__icon"><img src="/contact/images/icons/etsy.svg" alt="" aria-hidden="true"></span>
+          <span>
+            <small>Official shop</small>
+            <strong>Premium apparel shaped by Nordic wolf wisdom.</strong>
+          </span>
+        </a>
+      </section>
+
       <section class="follow" aria-labelledby="follow-title">
         <div class="section-head">
           <p class="eyebrow">One story, many echoes</p>
@@ -82,9 +99,10 @@
       </section>
     </main>
 
-    <footer>
-      <span>@orioninsist.wolf</span>
-      <button class="copy-link" type="button" data-copy="https://orioninsist.org/wolf/" data-track="Copy Link">Copy page link</button>
+    <footer class="site-footer">
+      <span>© 2026 Orioninsist | She Wolf Style</span>
+      <a href="/wolf/rss.xml" data-track="RSS">RSS Feed</a>
+      <a href="https://orioninsist.org/contact/" data-track="Orioninsist Contact">Orioninsist</a>
     </footer>
 
     <script>
@@ -99,19 +117,6 @@
         });
       });
 
-      document.querySelectorAll('[data-copy]').forEach((button) => {
-        button.addEventListener('click', async () => {
-          try {
-            await navigator.clipboard.writeText(button.dataset.copy);
-            button.textContent = 'Copied';
-            window.setTimeout(() => {
-              button.textContent = 'Copy page link';
-            }, 1400);
-          } catch (error) {
-            window.location.href = button.dataset.copy;
-          }
-        });
-      });
     </script>
   </body>
 </html>
