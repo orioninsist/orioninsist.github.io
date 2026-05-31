@@ -83,7 +83,13 @@
       appendScript(
         'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + encodeURIComponent(state.adsClientId),
         { crossorigin: 'anonymous' },
-        null,
+        function () {
+          try {
+            (window.adsbygoogle = window.adsbygoogle || []).push({});
+          } catch (e) {
+            // ignore if no ad slots present yet or push fails
+          }
+        },
         'orioninsist-adsense'
       );
     }

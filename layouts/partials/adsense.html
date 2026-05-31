@@ -1,0 +1,20 @@
+{{/*
+  AdSense partial.
+  Usage:
+    - Set page param `adSlot` (numeric) for pages where a manual ad should appear.
+    - Or set site param `params.ads.defaultSlot` in config to apply a default slot.
+  This partial will render an <ins class="adsbygoogle"> element only when a slot is available.
+*/}}
+{{ $slot := .Params.adSlot | default site.Params.ads.defaultSlot }}
+{{ if $slot }}
+  <div class="adsense-container">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-2352285531358848"
+         data-ad-slot="{{ $slot }}"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+  </div>
+{{ else }}
+  <!-- adsense partial: no ad slot configured (set page param `adSlot` or site param `params.ads.defaultSlot`) -->
+{{ end }}

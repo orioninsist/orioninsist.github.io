@@ -48,14 +48,38 @@
     <link rel="stylesheet" href="css/brands.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
-    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BFZKNK2L9E"></script>
+    <!-- Consent-gated analytics: do not load GA here unconditionally.
+         If the site-wide consent banner already loaded `window.orioninsistLoadThirdPartyScripts`,
+         it will load analytics and ads after consent. This page will request that loader
+         when consent exists, and will listen for consent changes. -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-BFZKNK2L9E');
+      (function () {
+        function tryLoad() {
+          try {
+            if (localStorage.getItem('consent') === 'true') {
+              if (typeof window.orioninsistLoadThirdPartyScripts === 'function') {
+                window.orioninsistLoadThirdPartyScripts();
+              } else {
+                // If a global loader isn't present (this static page served standalone),
+                // notify any listener that third-party load is requested.
+                document.dispatchEvent(new CustomEvent('orioninsist-request-third-party-load'));
+              }
+            }
+          } catch (e) {
+            // ignore
+          }
+        }
+
+        // React when consent is set in localStorage by the cookie banner (possibly in another tab)
+        window.addEventListener('storage', function (e) {
+          if (e.key === 'consent' && e.newValue === 'true') {
+            tryLoad();
+          }
+        });
+
+        // Try now in case consent already given
+        tryLoad();
+      })();
     </script>
   </head>
 
