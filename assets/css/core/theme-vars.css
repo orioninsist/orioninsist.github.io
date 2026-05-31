@@ -6,27 +6,33 @@
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
-    --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
-    --primary: rgb(30, 30, 30);
-    --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
-    --content: rgb(31, 31, 31);
-    --code-block-bg: rgb(28, 29, 33);
-    --code-bg: rgb(245, 245, 245);
-    --border: rgb(238, 238, 238);
+    --font-body: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+    --theme: rgb(247, 243, 238);
+    --entry: rgb(255, 252, 248);
+    --primary: rgb(24, 21, 18);
+    --secondary: rgb(101, 89, 77);
+    --tertiary: rgb(227, 219, 209);
+    --content: rgb(39, 34, 29);
+    --code-block-bg: rgb(23, 21, 19);
+    --code-bg: rgb(244, 238, 231);
+    --border: rgb(229, 219, 209);
+    --accent: rgb(181, 121, 67);
+    --accent-soft: rgba(181, 121, 67, 0.16);
 }
 
 .dark {
-    --theme: rgb(29, 30, 32);
-    --entry: rgb(46, 46, 51);
-    --primary: rgb(218, 218, 219);
-    --secondary: rgb(155, 156, 157);
-    --tertiary: rgb(65, 66, 68);
-    --content: rgb(196, 196, 197);
-    --code-block-bg: rgb(46, 46, 51);
-    --code-bg: rgb(55, 56, 62);
-    --border: rgb(51, 51, 51);
+    --theme: rgb(10, 10, 12);
+    --entry: rgb(20, 19, 21);
+    --primary: rgb(245, 240, 233);
+    --secondary: rgb(194, 179, 163);
+    --tertiary: rgb(45, 37, 30);
+    --content: rgb(232, 226, 217);
+    --code-block-bg: rgb(15, 14, 16);
+    --code-bg: rgb(28, 24, 21);
+    --border: rgb(54, 46, 39);
+    --accent: rgb(205, 142, 89);
+    --accent-soft: rgba(205, 142, 89, 0.16);
 }
 
 .list {

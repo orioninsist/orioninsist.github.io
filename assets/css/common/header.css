@@ -23,8 +23,10 @@
 }
 
 .logo a {
+    font-family: var(--font-display);
     font-size: 24px;
     font-weight: 700;
+    letter-spacing: 0.02em;
 }
 
 .logo a img, .logo a svg {
@@ -67,7 +69,8 @@ body:not(.dark) #sun {
 
 #menu .active {
     font-weight: 500;
-    border-bottom: 2px solid currentColor;
+    border-bottom: 2px solid var(--accent);
+    color: var(--primary);
 }
 
 .lang-switch li,
@@ -86,6 +89,12 @@ body:not(.dark) #sun {
     margin: auto 3px;
     font-size: 16px;
     font-weight: 500;
+}
+
+.nav a:hover,
+.lang-switch a:hover,
+.logo a:hover {
+    color: var(--primary);
 }
 
 .logo-switches {

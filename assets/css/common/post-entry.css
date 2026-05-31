@@ -37,12 +37,21 @@
     position: relative;
     margin-bottom: var(--gap);
     padding: var(--gap);
-    background: var(--entry);
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.015)),
+        var(--entry);
     border-radius: var(--radius);
     transition: transform 0.1s;
-    border: 1px solid var(--border);
+    border: 1px solid rgba(205, 142, 89, 0.24);
+    box-shadow: 0 18px 46px rgba(0, 0, 0, 0.08);
     content-visibility: auto;
     contain-intrinsic-size: 360px;
+}
+
+.post-entry:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 24px 58px rgba(0, 0, 0, 0.12);
+    border-color: rgba(205, 142, 89, 0.34);
 }
 
 .post-entry:active {
@@ -104,6 +113,6 @@
 }
 
 .entry-cover a {
-    color: var(--secondary);
-    box-shadow: 0 1px 0 var(--primary);
+    color: var(--accent);
+    box-shadow: 0 1px 0 var(--accent);
 }

@@ -10,8 +10,8 @@
     text-align: center;
     padding: clamp(28px, 6vw, 72px) 16px;
     background:
-        linear-gradient(180deg, rgba(45, 212, 191, 0.08), transparent 36%),
-        radial-gradient(circle at 50% 0, rgba(251, 191, 36, 0.1), transparent 28%);
+    radial-gradient(circle at 50% 12%, rgba(181, 121, 67, 0.15), transparent 26%),
+    radial-gradient(circle at 50% 0, rgba(255, 255, 255, 0.05), transparent 24%);
 }
 
 .profile .profile_inner {
@@ -28,15 +28,17 @@
     width: clamp(132px, 28vw, 220px);
     height: clamp(132px, 28vw, 220px);
     object-fit: cover;
-    border: 1px solid var(--tertiary);
-    box-shadow: 0 18px 54px rgba(0, 0, 0, 0.16);
+    border: 1px solid rgba(205, 142, 89, 0.55);
+    box-shadow: 0 22px 64px rgba(0, 0, 0, 0.38);
 }
 
 .profile h1 {
     margin: 8px 0 0;
+    font-family: var(--font-display);
     font-size: clamp(2rem, 7vw, 4.7rem);
     line-height: 1.02;
     letter-spacing: 0;
+    text-shadow: 0 18px 40px rgba(0, 0, 0, 0.14);
 }
 
 .profile .profile_inner > span {
@@ -62,12 +64,14 @@
 }
 
 .button {
-    background: var(--tertiary);
+    background: linear-gradient(180deg, rgba(205, 142, 89, 0.18), rgba(255, 255, 255, 0.04));
+    border: 1px solid rgba(205, 142, 89, 0.52);
     border-radius: var(--radius);
     margin: 0;
     min-height: 44px;
     padding: 0 14px;
-    transition: transform 0.1s, background 0.2s;
+    transition: transform 0.1s, background 0.2s, border-color 0.2s, color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
 }
 
 .button-inner {
@@ -80,6 +84,12 @@
 
 .button:active {
     transform: scale(0.96);
+}
+
+.button:hover {
+    border-color: var(--accent);
+    box-shadow: 0 18px 34px rgba(205, 142, 89, 0.22);
+    color: var(--primary);
 }
 
 .profile_quicklinks {
@@ -96,16 +106,21 @@
     justify-content: center;
     min-height: 46px;
     padding: 0 12px;
-    border: 1px solid var(--tertiary);
+    border: 1px solid rgba(205, 142, 89, 0.28);
     border-radius: var(--radius);
     color: var(--primary);
     font-weight: 700;
     text-decoration: none;
-    background: var(--entry);
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02)),
+        var(--entry);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
 }
 
 .profile_quicklinks a:hover {
-    border-color: var(--secondary);
+    border-color: var(--accent);
+    box-shadow: 0 16px 32px rgba(205, 142, 89, 0.18);
+    color: var(--primary);
 }
 
 @keyframes profile-rise {
