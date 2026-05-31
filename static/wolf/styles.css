@@ -161,7 +161,6 @@ h2 {
 }
 
 .button:hover,
-.preview-card:hover,
 .social-row a:hover,
 .text-link:hover {
   transform: translateY(-1px);
@@ -202,93 +201,15 @@ h2 {
   background: var(--gold);
 }
 
-.preview-grid,
 .follow {
   margin-top: 1rem;
 }
 
-.preview-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.85rem;
-}
-
-.preview-card {
-  display: flex;
-  align-items: center;
-  min-height: 7rem;
-  padding: 1rem;
-  background: var(--surface);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  transition: transform 160ms ease, filter 160ms ease, border-color 160ms ease;
-}
-
-.preview-card:hover {
-  border-color: rgba(242, 196, 91, 0.35);
-}
-
-.preview-card--youtube {
-  background: linear-gradient(135deg, rgba(230, 33, 23, 0.22), rgba(15, 18, 23, 0.92));
-}
-
-.preview-card--etsy {
-  color: #15110a;
-  background: linear-gradient(135deg, var(--paper), var(--gold));
-}
-
-.preview-card__icon {
-  display: grid;
-  flex: 0 0 auto;
-  place-items: center;
-  width: 3.1rem;
-  height: 3.1rem;
-  margin-right: 0.9rem;
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: var(--radius);
-}
-
-.preview-card--etsy .preview-card__icon {
-  background: rgba(21, 17, 10, 0.08);
-  border-color: rgba(21, 17, 10, 0.12);
-}
-
-.preview-card__icon img {
-  width: 1.45rem;
-  height: 1.45rem;
-}
-
-.preview-card small,
-.preview-card strong {
-  display: block;
-}
-
-.preview-card small {
-  margin-bottom: 0.22rem;
-  color: currentColor;
-  font-size: 0.78rem;
-  font-weight: 900;
-  opacity: 0.68;
-  text-transform: uppercase;
-}
-
-.preview-card strong {
-  max-width: 24rem;
-  font-size: 1.05rem;
-  line-height: 1.28;
-}
-
 .follow {
   padding: 1rem;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-}
-
-.section-head {
-  max-width: 42rem;
-  margin-bottom: 0.9rem;
 }
 
 .social-row {
@@ -362,9 +283,6 @@ h2 {
     margin: 0 auto;
   }
 
-  .preview-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (max-width: 42rem) {
