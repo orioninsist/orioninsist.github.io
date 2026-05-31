@@ -3,6 +3,7 @@ title = 'Safe Folder Move Bash Script'
 date = '2026-05-16T21:24:52+03:00'
 lastmod = '2026-05-16T21:24:52+03:00'
 draft = false
+adSlot = "1234567890"
 
 # SEO REQUIRED
 # - title: clear promise, no clickbait

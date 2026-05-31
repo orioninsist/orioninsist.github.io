@@ -159,6 +159,10 @@ enableGitInfo   = true
     hiddenInList   = false
     hiddenInSingle = false
 
+  [params.ads]
+    # Set a default ad slot for testing local rendering. Replace with real numeric slot ID.
+    defaultSlot = "1234567890"
+
   [params.fuseOpts]
     isCaseSensitive = false
     shouldSort      = true
