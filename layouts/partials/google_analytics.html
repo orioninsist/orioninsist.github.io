@@ -1,11 +1,114 @@
+{{- $isProduction := hugo.IsProduction | or (eq site.Params.env "production") -}}
 {{- $id := site.Config.Services.GoogleAnalytics.ID -}}
-{{- if $id -}}
-<!-- Google Analytics v4 (GA4) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ $id }}"></script>
+{{- if and $isProduction $id -}}
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '{{ $id }}', { anonymize_ip: true });
+  (function () {
+    if (window.orioninsistLoadThirdPartyScripts) {
+      return;
+    }
+
+    var state = {
+      gaLoaded: false,
+      adsLoaded: false,
+      fundingChoicesLoaded: false,
+      gaId: {{ $id | jsonify }},
+      adsClientId: "ca-pub-2352285531358848",
+      fundingChoicesSrc: "https://fundingchoicesmessages.google.com/i/pub-2352285531358848?ers=1"
+    };
+
+    function hasConsent() {
+      try {
+        return localStorage.getItem("consent") === "true";
+      } catch (error) {
+        return false;
+      }
+    }
+
+    function appendScript(src, attributes, onload) {
+      if (document.querySelector('script[data-orioninsist-src="' + src + '"]')) {
+        return;
+      }
+
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      script.dataset.orioninsistSrc = src;
+
+      if (attributes) {
+        Object.keys(attributes).forEach(function (key) {
+          script.setAttribute(key, attributes[key]);
+        });
+      }
+
+      if (onload) {
+        script.onload = onload;
+      }
+
+      document.head.appendChild(script);
+    }
+
+    function loadGoogleAnalytics() {
+      if (state.gaLoaded || !state.gaId) {
+        return;
+      }
+
+      state.gaLoaded = true;
+      appendScript(
+        'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(state.gaId),
+        { crossorigin: 'anonymous' },
+        function () {
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function () {
+            window.dataLayer.push(arguments);
+          };
+          window.gtag('js', new Date());
+          window.gtag('config', state.gaId, { anonymize_ip: true });
+        }
+      );
+    }
+
+    function loadAdsense() {
+      if (state.adsLoaded) {
+        return;
+      }
+
+      state.adsLoaded = true;
+      appendScript(
+        'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + encodeURIComponent(state.adsClientId),
+        { crossorigin: 'anonymous' }
+      );
+    }
+
+    function loadFundingChoices() {
+      if (state.fundingChoicesLoaded) {
+        return;
+      }
+
+      state.fundingChoicesLoaded = true;
+      appendScript(state.fundingChoicesSrc, { crossorigin: 'anonymous' });
+
+      if (!window.frames['googlefcPresent']) {
+        if (document.body) {
+          var iframe = document.createElement('iframe');
+          iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;';
+          iframe.style.display = 'none';
+          iframe.name = 'googlefcPresent';
+          document.body.appendChild(iframe);
+        } else {
+          setTimeout(loadFundingChoices, 0);
+        }
+      }
+    }
+
+    window.orioninsistLoadThirdPartyScripts = function () {
+      if (!hasConsent()) {
+        return;
+      }
+
+      loadGoogleAnalytics();
+      loadAdsense();
+      loadFundingChoices();
+    };
+  })();
 </script>
 {{- end -}}

@@ -8,13 +8,6 @@
 <head>
     {{- partial "head.html" . -}}
     <link rel="manifest" href="/manifest.webmanifest">
-
-    {{- /* AdSense script'i sadece production ortamında yüklenir. */ -}}
-    {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2352285531358848"
-        crossorigin="anonymous"></script>
-
-    {{- end }}
 </head>
 
 <body class="
