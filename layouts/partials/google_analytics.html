@@ -16,9 +16,17 @@
       fundingChoicesSrc: "https://fundingchoicesmessages.google.com/i/pub-2352285531358848?ers=1"
     };
 
-    function hasConsent() {
+    function hasAnalyticsConsent() {
       try {
-        return localStorage.getItem("consent") === "true";
+        return localStorage.getItem("consent_analytics") === "true";
+      } catch (error) {
+        return false;
+      }
+    }
+
+    function hasAdsConsent() {
+      try {
+        return localStorage.getItem("consent_ads") === "true";
       } catch (error) {
         return false;
       }
@@ -115,14 +123,18 @@
       }
     }
 
-    window.orioninsistLoadThirdPartyScripts = function () {
-      if (!hasConsent()) {
-        return;
-      }
+    // Load FundingChoices (CMP) immediately so users see consent options.
+    // It is safe to load the CMP prior to category consent so users can make choices.
+    loadFundingChoices();
 
-      loadGoogleAnalytics();
-      loadAdsense();
-      loadFundingChoices();
+    window.orioninsistLoadThirdPartyScripts = function () {
+      // Load category-based third-party scripts depending on stored consent keys.
+      if (hasAnalyticsConsent()) {
+        loadGoogleAnalytics();
+      }
+      if (hasAdsConsent()) {
+        loadAdsense();
+      }
     };
   })();
 </script>
