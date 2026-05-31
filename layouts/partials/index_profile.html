@@ -59,18 +59,9 @@
         {{- $mode := lower (default "button" $bmc.mode) }}
         {{- $button := default $bmc $bmc.button }}
         {{- if and $isHomeAllowed (or (eq $mode "button") (eq $mode "both")) }}
-            <script type="text/javascript"
-                src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
-                data-name="bmc-button"
-                data-slug="{{ $button.slug }}"
-                data-color="{{ $button.color }}"
-                data-emoji="{{ $button.emoji }}"
-                data-font="{{ $button.font }}"
-                data-text="{{ $button.text }}"
-                data-outline-color="{{ $button.outlineColor }}"
-                data-font-color="{{ $button.fontColor }}"
-                data-coffee-color="{{ $button.coffeeColor }}">
-            </script>
+            <a class="button bmc-static-button" href="https://www.buymeacoffee.com/{{ $button.slug }}" target="_blank" rel="noopener" title="{{ $button.text | default "Buy me a coffee" }}">
+                <span class="button-inner">{{ $button.emoji | default "" }} {{ $button.text | default "Buy me a coffee" }}</span>
+            </a>
         {{- end }}
         {{- end }}
         </div>
