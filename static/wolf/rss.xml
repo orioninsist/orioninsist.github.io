@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Orioninsist | She Wolf Style</title>
+    <link>https://orioninsist.org/wolf/</link>
+    <atom:link href="https://orioninsist.org/wolf/rss.xml" rel="self" type="application/rss+xml" />
+    <description>Cinematic wolf wisdom, calm feminine power, and premium Nordic apparel from Orioninsist She Wolf Style.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 May 2026 12:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://orioninsist.org/wolf/images/she-wolf-hero.png</url>
+      <title>Orioninsist | She Wolf Style</title>
+      <link>https://orioninsist.org/wolf/</link>
+    </image>
+    <item>
+      <title>Follow the light of the sun</title>
+      <link>https://www.youtube.com/@orioninsistWolf/shorts</link>
+      <guid isPermaLink="false">orioninsist-wolf-main-shorts-2026-05-31</guid>
+      <pubDate>Sun, 31 May 2026 12:00:00 +0000</pubDate>
+      <description>The main She Wolf Style video archive lives on YouTube Shorts. Etsy remains the official apparel shop.</description>
+    </item>
+  </channel>
+</rss>

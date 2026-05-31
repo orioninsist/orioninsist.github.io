@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Orioninsist | She Wolf Style</title>
+    <meta name="description" content="Orioninsist She Wolf Style: a quiet Nordic signal for cinematic shorts, wolf wisdom, and premium apparel.">
+    <meta name="keywords" content="Orioninsist, She Wolf Style, YouTube Shorts, Etsy, Nordic apparel, wolf wisdom, Instagram Reels, TikTok, Pinterest">
+    <link rel="canonical" href="https://orioninsist.org/wolf/">
+    <link rel="icon" type="image/png" href="/wolf/images/she-wolf-hero.png">
+    <link rel="alternate" type="application/rss+xml" title="Orioninsist She Wolf Style RSS" href="https://orioninsist.org/wolf/rss.xml">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://orioninsist.org/wolf/">
+    <meta property="og:title" content="Orioninsist | She Wolf Style">
+    <meta property="og:description" content="A quiet Nordic signal for cinematic shorts, wolf wisdom, and premium apparel.">
+    <meta property="og:image" content="https://orioninsist.org/wolf/images/she-wolf-hero.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Orioninsist | She Wolf Style">
+    <meta name="twitter:description" content="A quiet Nordic signal for cinematic shorts, wolf wisdom, and premium apparel.">
+    <meta name="twitter:image" content="https://orioninsist.org/wolf/images/she-wolf-hero.png">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Brand",
+        "name": "Orioninsist | She Wolf Style",
+        "alternateName": "@orioninsist.wolf",
+        "url": "https://orioninsist.org/wolf/",
+        "slogan": "Follow the light of the sun",
+        "description": "A quiet Nordic signal for cinematic shorts, wolf wisdom, and premium apparel.",
+        "sameAs": [
+          "https://www.youtube.com/@orioninsistWolf",
+          "https://www.etsy.com/shop/orioninsist",
+          "https://www.instagram.com/orioninsist.wolf/",
+          "https://www.tiktok.com/@orioninsistwolf",
+          "https://www.pinterest.com/orioninsistwolf",
+          "https://www.facebook.com/orioninsistWolf"
+        ]
+      }
+    </script>
+    <link rel="stylesheet" href="/wolf/styles.css">
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero__copy">
+          <p class="eyebrow">Orioninsist | She Wolf Style</p>
+          <h1 id="page-title">Follow the light of the sun</h1>
+          <p class="lede">A quiet Nordic signal. Cinematic wolf wisdom, calm feminine power, and apparel made for the pack.</p>
+          <div class="primary-actions" aria-label="Primary links">
+            <a class="button button--youtube button--large" href="https://www.youtube.com/@orioninsistWolf/shorts" target="_blank" rel="noopener" data-track="Main YouTube Shorts">
+              <img src="/contact/images/icons/youtube.svg" alt="" aria-hidden="true">
+              <span>
+                <strong>Watch on YouTube Shorts</strong>
+                <small>Main video home</small>
+              </span>
+            </a>
+            <a class="button button--etsy button--large" href="https://www.etsy.com/shop/orioninsist" target="_blank" rel="noopener" data-track="Main Etsy">
+              <img src="/contact/images/icons/etsy.svg" alt="" aria-hidden="true">
+              <span>
+                <strong>Shop on Etsy</strong>
+                <small>Official apparel store</small>
+              </span>
+            </a>
+          </div>
+        </div>
+        <figure class="hero__media">
+          <img fetchpriority="high" decoding="async" src="/wolf/images/she-wolf-hero.png" alt="Cinematic She Wolf Style portrait with Nordic aurora atmosphere">
+        </figure>
+      </section>
+
+      <section class="follow" aria-labelledby="follow-title">
+        <div class="section-head">
+          <p class="eyebrow">One story, many echoes</p>
+          <h2 id="follow-title">YouTube is the archive. Etsy is the shop. Everywhere else is the signal.</h2>
+        </div>
+        <div class="social-row" aria-label="Social platforms">
+          <a href="https://www.instagram.com/orioninsist.wolf/" target="_blank" rel="noopener" data-track="Instagram" aria-label="Instagram Reels"><img src="/contact/images/icons/instagram.svg" alt="">Instagram</a>
+          <a href="https://www.tiktok.com/@orioninsistwolf" target="_blank" rel="noopener" data-track="TikTok" aria-label="TikTok"><img src="/contact/images/icons/tiktok.svg" alt="">TikTok</a>
+          <a href="https://www.pinterest.com/orioninsistwolf" target="_blank" rel="noopener" data-track="Pinterest" aria-label="Pinterest"><img src="/contact/images/icons/pinterest.svg" alt="">Pinterest</a>
+          <a href="https://www.facebook.com/orioninsistWolf" target="_blank" rel="noopener" data-track="Facebook" aria-label="Facebook"><img src="/contact/images/icons/facebook.svg" alt="">Facebook</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>@orioninsist.wolf</span>
+      <button class="copy-link" type="button" data-copy="https://orioninsist.org/wolf/" data-track="Copy Link">Copy page link</button>
+    </footer>
+
+    <script>
+      document.querySelectorAll('[data-track]').forEach((item) => {
+        item.addEventListener('click', () => {
+          if (typeof gtag === 'function') {
+            gtag('event', 'wolf_link_click', {
+              link_name: item.dataset.track,
+              link_url: item.href || item.dataset.copy || ''
+            });
+          }
+        });
+      });
+
+      document.querySelectorAll('[data-copy]').forEach((button) => {
+        button.addEventListener('click', async () => {
+          try {
+            await navigator.clipboard.writeText(button.dataset.copy);
+            button.textContent = 'Copied';
+            window.setTimeout(() => {
+              button.textContent = 'Copy page link';
+            }, 1400);
+          } catch (error) {
+            window.location.href = button.dataset.copy;
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
