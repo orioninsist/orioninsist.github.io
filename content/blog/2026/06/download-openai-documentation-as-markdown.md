@@ -1,5 +1,5 @@
 +++
-title: 'Download Openai Documentation as Markdown'
+title= 'Download Openai Documentation as Markdown'
 # title = 'Download Openai Documentation as Markdown'
 date = '2026-06-16T19:25:35+03:00'
 lastmod = '2026-06-16T19:25:35+03:00'
