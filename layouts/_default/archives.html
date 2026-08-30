@@ -11,57 +11,65 @@
 Archive policy:
 - Exclude utility pages (Search) and the Archive page itself.
 - Include every Hugo RegularPage automatically.
-- Pages with a publish/date value use that date.
-- Pages without a content date fall back to Git-backed Lastmod, so newly added
-  standalone content pages do not disappear from the archive.
+- Sort by the page's publication date, not by modification time.
+- If PublishDate is missing, fall back to Date, then Lastmod so undated
+  standalone content does not disappear.
 */ -}}
 {{- $excluded := slice "/archives/" "/search/" -}}
 {{- $pages := where site.RegularPages "RelPermalink" "not in" $excluded -}}
-{{- $pages = sort $pages "Lastmod" "desc" -}}
+{{- $entries := slice -}}
 
-{{- $currentYear := "" -}}
-{{- $currentMonth := "" -}}
-{{- range $pages }}
+{{- range $pages -}}
   {{- $effectiveDate := .PublishDate -}}
   {{- if $effectiveDate.IsZero }}{{- $effectiveDate = .Date -}}{{- end -}}
   {{- if $effectiveDate.IsZero }}{{- $effectiveDate = .Lastmod -}}{{- end -}}
   {{- if not $effectiveDate.IsZero -}}
-    {{- $year := $effectiveDate.Format "2006" -}}
-    {{- $month := $effectiveDate.Format "January" -}}
-
-    {{- if ne $year $currentYear -}}
-      {{- if ne $currentYear "" }}</div></div></section>{{- end -}}
-      <section class="archive-year">
-        <h2 class="archive-year-header" id="{{ $year }}">
-          <a class="archive-header-link" href="#{{ $year }}">{{ $year }}</a>
-        </h2>
-      {{- $currentYear = $year -}}
-      {{- $currentMonth = "" -}}
-    {{- end -}}
-
-    {{- if ne $month $currentMonth -}}
-      {{- if ne $currentMonth "" }}</div></div>{{- end -}}
-      <div class="archive-month">
-        <h3 class="archive-month-header" id="{{ $year }}-{{ $month }}">
-          <a class="archive-header-link" href="#{{ $year }}-{{ $month }}">{{ $month }}</a>
-        </h3>
-        <div class="archive-posts">
-      {{- $currentMonth = $month -}}
-    {{- end -}}
-
-    <article class="archive-entry">
-      <h3 class="archive-entry-title entry-hint-parent">
-        <a class="archive-entry-link" href="{{ .RelPermalink }}" aria-label="Open {{ .Title | plainify }}">
-          {{- .Title | markdownify }}
-        </a>
-        {{- if .Draft }}<span class="entry-hint" title="Draft">Draft</span>{{- end }}
-      </h3>
-      <div class="archive-meta">
-        <span>{{ $effectiveDate.Format (site.Params.DateFormat | default "January 2, 2006") }}</span>
-        {{- with .Params.author }}&nbsp;·&nbsp;<span>{{ . }}</span>{{- end }}
-      </div>
-    </article>
+    {{- $entries = $entries | append (dict "page" . "date" $effectiveDate "unix" $effectiveDate.Unix) -}}
   {{- end -}}
+{{- end -}}
+
+{{- $entries = sort $entries "unix" "desc" -}}
+
+{{- $currentYear := "" -}}
+{{- $currentMonth := "" -}}
+{{- range $entries }}
+  {{- $page := .page -}}
+  {{- $effectiveDate := .date -}}
+  {{- $year := $effectiveDate.Format "2006" -}}
+  {{- $month := $effectiveDate.Format "January" -}}
+
+  {{- if ne $year $currentYear -}}
+    {{- if ne $currentYear "" }}</div></div></section>{{- end -}}
+    <section class="archive-year">
+      <h2 class="archive-year-header" id="{{ $year }}">
+        <a class="archive-header-link" href="#{{ $year }}">{{ $year }}</a>
+      </h2>
+    {{- $currentYear = $year -}}
+    {{- $currentMonth = "" -}}
+  {{- end -}}
+
+  {{- if ne $month $currentMonth -}}
+    {{- if ne $currentMonth "" }}</div></div>{{- end -}}
+    <div class="archive-month">
+      <h3 class="archive-month-header" id="{{ $year }}-{{ $month }}">
+        <a class="archive-header-link" href="#{{ $year }}-{{ $month }}">{{ $month }}</a>
+      </h3>
+      <div class="archive-posts">
+    {{- $currentMonth = $month -}}
+  {{- end -}}
+
+  <article class="archive-entry">
+    <h3 class="archive-entry-title entry-hint-parent">
+      <a class="archive-entry-link" href="{{ $page.RelPermalink }}" aria-label="Open {{ $page.Title | plainify }}">
+        {{- $page.Title | markdownify }}
+      </a>
+      {{- if $page.Draft }}<span class="entry-hint" title="Draft">Draft</span>{{- end }}
+    </h3>
+    <div class="archive-meta">
+      <span>{{ $effectiveDate.Format (site.Params.DateFormat | default "January 2, 2006") }}</span>
+      {{- with $page.Params.author }}&nbsp;·&nbsp;<span>{{ . }}</span>{{- end }}
+    </div>
+  </article>
 {{- end -}}
 {{- if ne $currentYear "" }}</div></div></section>{{- end -}}
 
