@@ -1,42 +1,46 @@
 ---
-title: "About"
+title: "About Murat Kurkoglu and Orioninsist"
 date: 2023-08-12T10:37:48+03:00
+lastmod: 2026-08-30T13:40:00+03:00
 draft: false
-description: "About Murat Kurkoglu and Orioninsist"
-author: "orioninsist"
+description: "Learn about Murat Kurkoglu, founder of Orioninsist, and his work in cybersecurity, Linux, software development, system administration, and practical technology."
+author: "Murat Kurkoglu"
 slug: "about"
 cover:
     image: "images/about/muratkurkoglu.avif"
-    alt : "murat kurkoglu about image"
-
+    alt: "Murat Kurkoglu, founder of Orioninsist"
 ---
 
-## About
+## About Murat Kurkoglu
 
-Hi, I am **Murat Kurkoglu**, founder of **Orioninsist**.
+I am **Murat Kurkoglu**, founder of **Orioninsist**. I am a computer engineer with an academic background in economics.
 
-I am a computer engineer with an academic background in economics, and I write about cybersecurity, Linux, system administration, and practical tech workflows.
+My work centers on cybersecurity, Linux, software development, system administration, automation, and practical technology. I focus on understanding technical subjects deeply, applying them in real workflows, and explaining what I learn in a clear and useful way.
 
-My work focuses on one simple goal: turning complex technical topics into clear, useful, real-world guides.
+## What I Work On
 
-### What I Share
+Through Orioninsist, I publish practical material built around hands-on learning and independent experimentation, including:
 
-- Cybersecurity learning notes, SOC-style thinking, and defensive security fundamentals
-- Linux and terminal-based workflows (especially practical Bash usage)
-- Homelab, automation, and productivity systems that improve daily technical work
-- Step-by-step tutorials based on hands-on experience
+- Cybersecurity learning notes, defensive security concepts, and SOC-oriented thinking
+- Linux, Bash, terminal workflows, and system administration
+- Software development, automation, and technical productivity
+- Homelab projects and practical infrastructure workflows
+- Step-by-step guides based on real implementation and testing
+- Independent digital products and technical projects
 
-### Why Orioninsist Exists
+## Why Orioninsist Exists
 
-I started Orioninsist to document my own learning journey and to help others build skills without getting lost in noise.
+Orioninsist is my independent home for documenting what I build, study, test, and learn.
 
-You will find content that is practical, tested, and written to be directly actionable.
+The goal is simple: turn complex technical subjects into material that is clear, practical, and useful in the real world. Rather than adding more noise, I aim to publish work that helps readers understand a subject, reproduce a workflow, or solve a concrete problem.
 
-### My Approach
+## My Approach
 
-- Learn deeply
-- Build in public
-- Explain clearly
-- Improve continuously
+I try to keep the work grounded in four principles:
 
-If you are building your path in cybersecurity or Linux, you are in the right place.
+- **Learn deeply** — understand the underlying system, not only the shortcut.
+- **Build and test** — prefer hands-on experience over theory alone.
+- **Explain clearly** — make technical knowledge easier to follow and apply.
+- **Improve continuously** — treat every project and article as part of a longer learning process.
+
+For current projects, releases, social profiles, and ways to connect, visit the [Contact page](/contact/). For technical articles and guides, explore the [Blog](/blog/).
