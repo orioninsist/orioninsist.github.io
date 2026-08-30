@@ -1,8 +1,10 @@
 {{- $u := urls.Parse .Destination -}}
 {{- $src := $u.String -}}
+{{- $resource := false -}}
 {{- if not $u.IsAbs -}}
-  {{- $path := strings.TrimPrefix "./" $u.Path }}
+  {{- $path := strings.TrimPrefix "./" $u.Path -}}
   {{- with or (.PageInner.Resources.Get $path) (resources.Get $path) -}}
+    {{- $resource = . -}}
     {{- $src = .RelPermalink -}}
     {{- with $u.RawQuery -}}
       {{- $src = printf "%s?%s" $src . -}}
@@ -12,7 +14,38 @@
     {{- end -}}
   {{- end -}}
 {{- end -}}
-{{- $attributes := merge .Attributes (dict "alt" .Text "src" $src "title" (.Title | transform.HTMLEscape) "loading" "lazy") -}}
+
+{{- $attributes := merge .Attributes (dict
+  "alt" .Text
+  "src" $src
+  "title" (.Title | transform.HTMLEscape)
+  "loading" "lazy"
+  "decoding" "async"
+) -}}
+
+{{- if and $resource (reflect.IsImageResourceWithMeta $resource) -}}
+  {{- $attributes = merge $attributes (dict
+    "width" (printf "%d" $resource.Width)
+    "height" (printf "%d" $resource.Height)
+  ) -}}
+{{- end -}}
+
+{{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) -}}
+{{- if and $resource (reflect.IsImageResourceProcessable $resource) $prod -}}
+  {{- $srcset := slice -}}
+  {{- range $size := (slice 360 480 720 1080 1500) -}}
+    {{- if ge $resource.Width $size -}}
+      {{- $resized := $resource.Resize (printf "%dx" $size) -}}
+      {{- $srcset = $srcset | append (printf "%s %dw" $resized.RelPermalink $size) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $srcset = $srcset | append (printf "%s %dw" $resource.RelPermalink $resource.Width) -}}
+  {{- $attributes = merge $attributes (dict
+    "srcset" (delimit $srcset ", ")
+    "sizes" "(min-width: 768px) 720px, 100vw"
+  ) -}}
+{{- end -}}
+
 <img
   {{- range $k, $v := $attributes -}}
     {{- if $v -}}
