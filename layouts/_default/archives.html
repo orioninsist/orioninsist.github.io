@@ -11,9 +11,7 @@
 Archive policy:
 - Exclude utility pages (Search) and the Archive page itself.
 - Include every Hugo RegularPage automatically.
-- Sort by the page's publication date, not by modification time.
-- If PublishDate is missing, fall back to Date, then Lastmod so undated
-  standalone content does not disappear.
+- Sort by publication date; use Date, then Lastmod only when publication metadata is unavailable.
 */ -}}
 {{- $excluded := slice "/archives/" "/search/" -}}
 {{- $pages := where site.RegularPages "RelPermalink" "not in" $excluded -}}
@@ -72,38 +70,5 @@ Archive policy:
   </article>
 {{- end -}}
 {{- if ne $currentYear "" }}</div></div></section>{{- end -}}
-
-{{- /*
-Menu-only routes are not Hugo RegularPages (for example the standalone Contact
-hub in static/contact/index.html). Include those automatically at the end,
-without hard-coding route names. Search and Archive stay excluded by policy.
-*/ -}}
-{{- $regularURLs := slice -}}
-{{- range $pages }}{{- $regularURLs = $regularURLs | append .RelPermalink -}}{{- end -}}
-{{- $menuOnly := slice -}}
-{{- range site.Menus.main -}}
-  {{- $url := .URL | relURL -}}
-  {{- if and (not (in $excluded $url)) (not (in $regularURLs $url)) -}}
-    {{- $menuOnly = $menuOnly | append . -}}
-  {{- end -}}
-{{- end -}}
-
-{{- with $menuOnly }}
-<section class="archive-year archive-system-pages">
-  <h2 class="archive-year-header">Site</h2>
-  <div class="archive-month">
-    <h3 class="archive-month-header">Pages</h3>
-    <div class="archive-posts">
-      {{- range . }}
-      <article class="archive-entry">
-        <h3 class="archive-entry-title">
-          <a class="archive-entry-link" href="{{ .URL | relURL }}">{{ .Name }}</a>
-        </h3>
-      </article>
-      {{- end }}
-    </div>
-  </div>
-</section>
-{{- end }}
 
 {{- end }}
