@@ -1,6 +1,8 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
     <span>&copy; 2026 Murat Kurkoglu | orioninsist</span>
+    <span> · <a href="/privacy-policy/">Privacy Policy</a></span>
+    <span> · <button type="button" id="privacy-cookie-settings" style="background:none;border:0;padding:0;color:inherit;text-decoration:underline;cursor:pointer;font:inherit;">Privacy and cookie settings</button></span>
     {{- with site.Params.footer.text }}
         {{- print " · "}}
         {{ . | markdownify }}
@@ -8,131 +10,13 @@
 </footer>
 {{- end }}
 
-<!-- Cookie consent banner (GDPR) -->
-<div id="cookie-consent" style="display:none;" aria-live="polite">
-    <style>
-        #cookie-consent{position:fixed;left:0;right:0;bottom:0;background:rgba(0,0,0,0.85);color:#fff;padding:14px;z-index:9999;display:flex;align-items:center;justify-content:center}
-        #cookie-consent .cookie-inner{max-width:1100px;width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px}
-        #cookie-consent p{margin:0;padding:0;font-size:14px}
-        #cookie-consent .cookie-actions{display:flex;gap:8px}
-        #cookie-consent .cookie-actions button{background:#fff;color:#000;border:none;padding:8px 12px;border-radius:6px;cursor:pointer}
-        #cookie-consent .cookie-actions .decline{background:transparent;color:#fff;border:1px solid rgba(255,255,255,0.3)}
-        @media(max-width:640px){#cookie-consent .cookie-inner{flex-direction:column;align-items:flex-start}}
-    </style>
-        <div class="cookie-inner">
-                <p>We use cookies for analytics and advertising. Choose Accept All to allow Google Analytics and AdSense, or Decline All to continue without them. See our <a href="/privacy-policy/" style="color:#fff;text-decoration:underline">Privacy Policy</a>.</p>
-                <div class="cookie-actions">
-                        <button id="cookie-accept-all">Accept All</button>
-                        <button id="cookie-decline-all" class="decline">Decline All</button>
-                        <button id="cookie-settings" class="decline">Settings</button>
-                </div>
-        </div>
-
-        <!-- Simple settings modal -->
-        <div id="cookie-settings-modal" style="display:none;">
-            <style>
-                #cookie-settings-modal{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);background:#fff;color:#000;padding:18px;border-radius:8px;z-index:10000;max-width:420px;width:90%}
-                #cookie-settings-modal h3{margin-top:0}
-                #cookie-settings-modal .actions{display:flex;gap:8px;justify-content:flex-end;margin-top:12px}
-                #cookie-settings-modal .actions button{padding:8px 10px;border-radius:6px}
-            </style>
-            <div>
-                <h3>Cookie Preferences</h3>
-                <label><input type="checkbox" id="consent-analytics"> Allow analytics (Google Analytics)</label>
-                <br/>
-                <label><input type="checkbox" id="consent-ads"> Allow advertising (Google AdSense)</label>
-                <div class="actions">
-                    <button id="cookie-save">Save Preferences</button>
-                    <button id="cookie-cancel" class="decline">Cancel</button>
-                </div>
-            </div>
-        </div>
-</div>
-
 <script>
     (function () {
-        function loadThirdPartyScripts() {
-            if (window.orioninsistLoadThirdPartyScripts) {
-                window.orioninsistLoadThirdPartyScripts();
-            }
-        }
-
-        var banner = document.getElementById('cookie-consent');
-        if (!banner) return;
-        try {
-            var stored = localStorage.getItem('consent');
-        } catch (e) { var stored = null; }
-        try { var analyticsStored = localStorage.getItem('consent_analytics'); } catch (e) { var analyticsStored = null; }
-        try { var adsStored = localStorage.getItem('consent_ads'); } catch (e) { var adsStored = null; }
-
-        try { if (typeof gtag === 'function') {
-            var adState = (adsStored === 'true') ? 'granted' : 'denied';
-            var anState = (analyticsStored === 'true') ? 'granted' : 'denied';
-            gtag('consent', 'update', { 'ad_storage': adState, 'analytics_storage': anState });
-        } } catch (e) {}
-
-        if (analyticsStored === 'true' || adsStored === 'true') {
-            banner.style.display = 'none';
-            loadThirdPartyScripts();
-            return;
-        }
-
-        if (analyticsStored === 'false' && adsStored === 'false') {
-            banner.style.display = 'none';
-            return;
-        }
-
-        banner.style.display = 'block';
-
-        document.getElementById('cookie-accept-all').addEventListener('click', function () {
-            try { localStorage.setItem('consent_analytics', 'true'); localStorage.setItem('consent_ads', 'true'); } catch (e) {}
-            try { if (typeof gtag === 'function') {
-                gtag('consent', 'update', { 'ad_storage': 'granted', 'analytics_storage': 'granted' });
-            } } catch (e) {}
-            banner.style.display = 'none';
-            loadThirdPartyScripts();
-        });
-
-        document.getElementById('cookie-decline-all').addEventListener('click', function () {
-            try { localStorage.setItem('consent_analytics', 'false'); localStorage.setItem('consent_ads', 'false'); } catch (e) {}
-            try { if (typeof gtag === 'function') {
-                gtag('consent', 'update', { 'ad_storage': 'denied', 'analytics_storage': 'denied' });
-            } } catch (e) {}
-            banner.style.display = 'none';
-        });
-
-        document.getElementById('cookie-settings').addEventListener('click', function () {
-            var modal = document.getElementById('cookie-settings-modal');
-            var ca = document.getElementById('consent-analytics');
-            var cb = document.getElementById('consent-ads');
-            ca.checked = (analyticsStored === 'true');
-            cb.checked = (adsStored === 'true');
-            modal.style.display = 'block';
-        });
-
-        document.getElementById('cookie-cancel').addEventListener('click', function () {
-            document.getElementById('cookie-settings-modal').style.display = 'none';
-        });
-
-        document.getElementById('cookie-save').addEventListener('click', function () {
-            var ca = document.getElementById('consent-analytics').checked;
-            var cb = document.getElementById('consent-ads').checked;
-            try { localStorage.setItem('consent_analytics', ca ? 'true' : 'false'); localStorage.setItem('consent_ads', cb ? 'true' : 'false'); } catch (e) {}
-            try { if (typeof gtag === 'function') {
-                gtag('consent', 'update', { 'ad_storage': cb ? 'granted' : 'denied', 'analytics_storage': ca ? 'granted' : 'denied' });
-            } } catch (e) {}
-            document.getElementById('cookie-settings-modal').style.display = 'none';
-            document.getElementById('cookie-consent').style.display = 'none';
-            loadThirdPartyScripts();
-        });
-
-        window.addEventListener('storage', function (e) {
-            if (e.key === 'consent_analytics' || e.key === 'consent_ads') {
-                try { var a = localStorage.getItem('consent_analytics'); var b = localStorage.getItem('consent_ads'); } catch (x) { var a = null; var b = null; }
-                if (a === 'true' || b === 'true') {
-                    loadThirdPartyScripts();
-                }
-                var banner = document.getElementById('cookie-consent'); if (banner) banner.style.display = 'none';
+        var privacyButton = document.getElementById('privacy-cookie-settings');
+        if (!privacyButton) return;
+        privacyButton.addEventListener('click', function () {
+            if (window.googlefc && window.googlefc.callbackQueue && window.googlefc.showRevocationMessage) {
+                window.googlefc.callbackQueue.push(window.googlefc.showRevocationMessage);
             }
         });
     })();
@@ -159,12 +43,12 @@
         anchor.addEventListener("click", function (e) {
             e.preventDefault();
             var id = this.getAttribute("href").substr(1);
+            var target = document.querySelector(`[id='${decodeURIComponent(id)}']`);
+            if (!target) return;
             if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
+                target.scrollIntoView({ behavior: "smooth" });
             } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+                target.scrollIntoView();
             }
             if (id === "top") {
                 history.replaceState(null, null, " ");
@@ -279,8 +163,6 @@
         bottom: 140px;
     }
 </style>
-{{- end }}
-{{- if and (or (eq $mode "widget") (eq $mode "both")) $widget.id }}
 <script data-name="BMC-Widget"
     data-cfasync="false"
     src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
