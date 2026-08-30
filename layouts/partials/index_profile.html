@@ -30,20 +30,20 @@
             height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
         {{- end }}
         {{- end }}
+
         <h1>{{ .title | default site.Title | markdownify }}</h1>
         <span>{{ .subtitle | markdownify }}</span>
         <p class="profile_focus">I build practical web systems, automation workflows, and brand tools for people who want their digital work to feel fast, clear, and dependable.</p>
-        {{- partial "social_icons.html" -}}
 
         {{- with .buttons }}
-        <div class="buttons">
+        <nav class="buttons" aria-label="Primary homepage links">
             {{- range . }}
             <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
                 <span class="button-inner">
                     {{ .name }}
                     {{- if (findRE "://" .url) }}&nbsp;
                     <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14">
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14" aria-hidden="true">
                         <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
                         <path d="M15 3h6v6"></path>
                         <path d="M10 14L21 3"></path>
@@ -52,25 +52,8 @@
                 </span>
             </a>
             {{- end }}
-        {{- $bmc := site.Params.buyMeACoffee }}
-        {{- if and $bmc ($bmc.enabled) }}
-        {{- $showOnHomeOnly := default false $bmc.showOnHomeOnly }}
-        {{- $isHomeAllowed := or (not $showOnHomeOnly) $.IsHome }}
-        {{- $mode := lower (default "button" $bmc.mode) }}
-        {{- $button := default $bmc $bmc.button }}
-        {{- if and $isHomeAllowed (or (eq $mode "button") (eq $mode "both")) }}
-            <a class="button bmc-static-button" href="https://www.buymeacoffee.com/{{ $button.slug }}" target="_blank" rel="noopener" title="{{ $button.text | default "Buy me a coffee" }}">
-                <span class="button-inner">{{ $button.emoji | default "" }} {{ $button.text | default "Buy me a coffee" }}</span>
-            </a>
+        </nav>
         {{- end }}
-        {{- end }}
-        </div>
-        {{- end }}
-        <div class="profile_quicklinks" aria-label="Featured links">
-            <a href="/qrcode/">QR Service</a>
-            <a href="/qrcode-portfolio/">QR Portfolio</a>
-            <a href="/contact/">Contact</a>
-        </div>
     </div>
     {{- end}}
 </div>
