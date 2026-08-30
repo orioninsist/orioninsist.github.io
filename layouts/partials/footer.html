@@ -1,18 +1,10 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
-    <span><a href="https://github.com/orioninsist/orioninsist.github.io" target="_blank" rel="noopener">&copy; 2026 Murat Kurkoglu | orioninsist</a></span>
-    {{- print " · "}}
-
+    <span>&copy; 2026 Murat Kurkoglu | orioninsist</span>
     {{- with site.Params.footer.text }}
-        {{ . | markdownify }}
         {{- print " · "}}
+        {{ . | markdownify }}
     {{- end }}
-
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://medium.com/@orioninsist" rel="noopener" target="_blank">Medium</a>
-    </span>
 </footer>
 {{- end }}
 
@@ -70,11 +62,9 @@
         try {
             var stored = localStorage.getItem('consent');
         } catch (e) { var stored = null; }
-        // read per-category consent keys
         try { var analyticsStored = localStorage.getItem('consent_analytics'); } catch (e) { var analyticsStored = null; }
         try { var adsStored = localStorage.getItem('consent_ads'); } catch (e) { var adsStored = null; }
 
-        // If any per-category consent exists, update Google Consent Mode accordingly
         try { if (typeof gtag === 'function') {
             var adState = (adsStored === 'true') ? 'granted' : 'denied';
             var anState = (analyticsStored === 'true') ? 'granted' : 'denied';
@@ -96,7 +86,6 @@
 
         document.getElementById('cookie-accept-all').addEventListener('click', function () {
             try { localStorage.setItem('consent_analytics', 'true'); localStorage.setItem('consent_ads', 'true'); } catch (e) {}
-            // Inform Google Consent Mode if available
             try { if (typeof gtag === 'function') {
                 gtag('consent', 'update', { 'ad_storage': 'granted', 'analytics_storage': 'granted' });
             } } catch (e) {}
@@ -137,10 +126,8 @@
             loadThirdPartyScripts();
         });
 
-        // sync across tabs
         window.addEventListener('storage', function (e) {
             if (e.key === 'consent_analytics' || e.key === 'consent_ads') {
-                // user changed consent in another tab
                 try { var a = localStorage.getItem('consent_analytics'); var b = localStorage.getItem('consent_ads'); } catch (x) { var a = null; var b = null; }
                 if (a === 'true' || b === 'true') {
                     loadThirdPartyScripts();
@@ -186,7 +173,6 @@
             }
         });
     });
-
 </script>
 
 {{- if (not site.Params.disableScrollToTop) }}
@@ -201,7 +187,6 @@
             mybutton.style.opacity = "0";
         }
     };
-
 </script>
 {{- end }}
 
@@ -216,7 +201,6 @@
             localStorage.setItem("pref-theme", 'dark');
         }
     })
-
 </script>
 {{- end }}
 
@@ -261,12 +245,9 @@
             if (container.classList.contains("highlight")) {
                 container.appendChild(copybutton);
             } else if (container.parentNode.firstChild == container) {
-                // td containing LineNos
             } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
-                // table containing LineNos and code
                 codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
             } else {
-                // code blocks not having highlight as parent class
                 codeblock.parentNode.appendChild(copybutton);
             }
         });
