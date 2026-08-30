@@ -1,144 +1,26 @@
 {{- $isProduction := hugo.IsProduction | or (eq site.Params.env "production") -}}
 {{- $id := site.Config.Services.GoogleAnalytics.ID -}}
-{{- if and $isProduction $id -}}
+{{- if $isProduction -}}
 <script>
-  (function () {
-    if (window.orioninsistLoadThirdPartyScripts) {
-      return;
-    }
-
-    var state = {
-      gaLoaded: false,
-      adsLoaded: false,
-      fundingChoicesLoaded: false,
-      gaId: "{{ $id }}",
-      adsClientId: "ca-pub-2352285531358848",
-      fundingChoicesSrc: "https://fundingchoicesmessages.google.com/i/pub-2352285531358848?ers=1"
-    };
-
-    function hasAnalyticsConsent() {
-      try {
-        return localStorage.getItem("consent_analytics") === "true";
-      } catch (error) {
-        return false;
-      }
-    }
-
-    function hasAdsConsent() {
-      try {
-        return localStorage.getItem("consent_ads") === "true";
-      } catch (error) {
-        return false;
-      }
-    }
-
-    function appendScript(src, attributes, onload, scriptId) {
-      if (scriptId && document.getElementById(scriptId)) {
-        return;
-      }
-
-      if (!scriptId && document.querySelector('script[src="' + src + '"]')) {
-        return;
-      }
-
-      var script = document.createElement('script');
-      script.async = true;
-      script.src = src;
-      if (scriptId) {
-        script.id = scriptId;
-      }
-
-      if (attributes) {
-        Object.keys(attributes).forEach(function (key) {
-          script.setAttribute(key, attributes[key]);
-        });
-      }
-
-      if (onload) {
-        script.onload = onload;
-      }
-
-      document.head.appendChild(script);
-    }
-
-    function loadGoogleAnalytics() {
-      if (state.gaLoaded || !state.gaId) {
-        return;
-      }
-
-      state.gaLoaded = true;
-      appendScript(
-        'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(state.gaId),
-        { crossorigin: 'anonymous' },
-        function () {
-          window.dataLayer = window.dataLayer || [];
-          window.gtag = function () {
-            window.dataLayer.push(arguments);
-          };
-          window.gtag('js', new Date());
-          window.gtag('config', state.gaId, { anonymize_ip: true });
-        },
-        'orioninsist-gtag'
-      );
-    }
-
-    function loadAdsense() {
-      if (state.adsLoaded) {
-        return;
-      }
-
-      state.adsLoaded = true;
-      appendScript(
-        'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + encodeURIComponent(state.adsClientId),
-        { crossorigin: 'anonymous' },
-        function () {
-          try {
-            (window.adsbygoogle = window.adsbygoogle || []).push({});
-          } catch (e) {
-            // ignore if no ad slots present yet or push fails
-          }
-        },
-        'orioninsist-adsense'
-      );
-    }
-
-    function loadFundingChoices() {
-      if (state.fundingChoicesLoaded) {
-        return;
-      }
-
-      state.fundingChoicesLoaded = true;
-      // Funding Choices' endpoint does not return CORS headers for anonymous
-      // script fetches. Load it as a normal cross-origin script, matching
-      // Google's documented tag shape, so browsers do not enforce CORS here.
-      appendScript(state.fundingChoicesSrc, null, null, 'orioninsist-funding-choices');
-
-      if (!window.frames['googlefcPresent']) {
-        if (document.body) {
-          var iframe = document.createElement('iframe');
-          iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;';
-          iframe.style.display = 'none';
-          iframe.name = 'googlefcPresent';
-          document.body.appendChild(iframe);
-        } else {
-          setTimeout(loadFundingChoices, 0);
-        }
-      }
-    }
-
-    // Load FundingChoices (CMP) immediately so users see consent options.
-    // It is safe to load the CMP prior to category consent so users can make choices.
-    loadFundingChoices();
-
-    window.orioninsistLoadThirdPartyScripts = function () {
-      // Load category-based third-party scripts depending on stored consent keys.
-      if (hasAnalyticsConsent()) {
-        loadGoogleAnalytics();
-      }
-      if (hasAdsConsent()) {
-        loadAdsense();
-      }
-    };
-  })();
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied',
+    'analytics_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'wait_for_update': 500
+  });
+  gtag('js', new Date());
+  {{- with $id }}
+  gtag('config', '{{ . }}', { anonymize_ip: true });
+  {{- end }}
 </script>
+
+{{- with $id }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+{{- end }}
+
+<script async src="https://fundingchoicesmessages.google.com/i/pub-2352285531358848?ers=1"></script>
+<script async crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2352285531358848"></script>
 {{- end -}}
