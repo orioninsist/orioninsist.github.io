@@ -54,9 +54,11 @@
     <div class="archive-posts">
       {{- range .Pages }}
       {{- if eq .Kind "page" }}
-      <div class="archive-entry">
+      <article class="archive-entry">
         <h3 class="archive-entry-title entry-hint-parent">
-          {{- .Title | markdownify }}
+          <a class="archive-entry-link" href="{{ .RelPermalink }}" aria-label="Read {{ .Title | plainify }}">
+            {{- .Title | markdownify }}
+          </a>
           {{- if .Draft }}
           <span class="entry-hint" title="Draft">
             <svg xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 -960 960 960" fill="currentColor">
@@ -69,8 +71,7 @@
         <div class="archive-meta">
           {{- partial "post_meta.html" . -}}
         </div>
-        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-      </div>
+      </article>
       {{- end }}
       {{- end }}
     </div>
