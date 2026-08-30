@@ -1,9 +1,10 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{{- $isProduction := or hugo.IsProduction (eq site.Params.env "production") -}}
 {{- if .Params.robots }}
 <meta name="robots" content="{{ .Params.robots }}">
-{{- else if hugo.IsProduction | or (eq site.Params.env "production") | and (ne .Params.robotsNoIndex true) }}
+{{- else if and $isProduction (ne .Params.robotsNoIndex true) }}
 <meta name="robots" content="index, follow">
 {{- else }}
 <meta name="robots" content="noindex, nofollow">
@@ -13,15 +14,8 @@
 <title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ site.Title }}</title>
 
 {{- /* Meta */}}
-{{- if .IsHome }}
-{{ with site.Params.keywords -}}<meta name="keywords" content="{{- range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}">{{ end }}
-{{- else }}
-<meta name="keywords" content="{{ if .Params.keywords -}}
-    {{- range $i, $e := .Params.keywords }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- else }}
-    {{- range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- end -}}">
-{{- end }}
 <meta name="description" content="{{- with .Description }}{{ . }}{{- else }}{{- if or .IsPage .IsSection}}
-    {{- .Summary | default (printf "%s - %s" .Title  site.Title) }}{{- else }}
+    {{- .Summary | default (printf "%s - %s" .Title site.Title) }}{{- else }}
     {{- with site.Params.description }}{{ . }}{{- end }}{{- end }}{{- end -}}">
 <meta name="author" content="{{ (partial "author.html" . ) }}">
 <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
@@ -31,7 +25,7 @@
 {{- if and .IsSection (eq .Section "blog") (gt .Paginator.PageNumber 1) -}}
   {{- $canonical = (.Paginator.URL | absURL) -}}
 {{- end -}}
-<link rel="canonical" href="{{ if .Params.canonicalURL -}} {{ trim .Params.canonicalURL " " }} {{- else -}} {{ $canonical }} {{- end }}">
+<link rel="canonical" href="{{ if .Params.canonicalURL -}}{{ trim .Params.canonicalURL " " }}{{- else -}}{{ $canonical }}{{- end }}">
 {{- if site.Params.analytics.google.SiteVerificationTag }}
 <meta name="google-site-verification" content="{{ site.Params.analytics.google.SiteVerificationTag }}">
 {{- end }}
@@ -44,8 +38,6 @@
 {{- if site.Params.analytics.naver.SiteVerificationTag }}
 <meta name="naver-site-verification" content="{{ site.Params.analytics.naver.SiteVerificationTag }}">
 {{- end }}
-
-{{- /* Styles */}}
 
 {{- /* Base styles (loaded on every page) */}}
 {{- $base := slice }}
@@ -145,7 +137,6 @@
         .top-link {
             display: none;
         }
-
     </style>
     {{- if (and (ne site.Params.defaultTheme "light") (ne site.Params.defaultTheme "dark")) }}
     <style>
@@ -161,44 +152,19 @@
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
             }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
+            .list { background: var(--theme); }
+            .list:not(.dark)::-webkit-scrollbar-track { background: 0 0; }
+            .list:not(.dark)::-webkit-scrollbar-thumb { border-color: var(--theme); }
         }
-
     </style>
     {{- end }}
 </noscript>
 
 {{- partial "extend_head.html" . -}}
 
-{{- /* Misc */}}
-{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+{{- if $isProduction }}
 {{- partial "google_analytics.html" . }}
 {{- partial "templates/opengraph.html" . }}
 {{- partial "templates/twitter_cards.html" . }}
 {{- partial "templates/schema_json.html" . }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": {{ with .Title }}{{ . | plainify }}{{ else }}{{ site.Title }}{{ end }},
-  "url": {{ .Permalink | safeHTML }},
-  "inLanguage": {{ .Language.Lang | default "en-us" }},
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": {{ site.Title }},
-    "url": {{ site.Home.Permalink }}
-  }
-}
-</script>
 {{- end -}}
