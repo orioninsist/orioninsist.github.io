@@ -1,8 +1,6 @@
+{{- $siteName := "orioninsist" -}}
 <meta property="og:url" content="{{ .Permalink }}">
-
-{{- with or site.Title site.Params.title | plainify }}
-  <meta property="og:site_name" content="{{ . }}">
-{{- end }}
+<meta property="og:site_name" content="{{ $siteName }}">
 
 {{- with or .Title site.Title site.Params.title | plainify }}
   <meta property="og:title" content="{{ . }}">
