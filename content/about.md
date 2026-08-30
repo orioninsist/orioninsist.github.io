@@ -1,13 +1,13 @@
 ---
 title: "About Murat Kurkoglu and Orioninsist"
 date: 2023-08-12T10:37:48+03:00
-lastmod: 2026-08-30T15:48:00+03:00
+lastmod: 2026-08-30T15:56:00+03:00
 draft: false
 description: "Learn about Murat Kurkoglu, founder of Orioninsist, and his work in cybersecurity, Linux, software development, system administration, and practical technology."
 author: "Murat Kurkoglu"
 slug: "about"
 cover:
-    image: "images/home/murat-kurkoglu-330x330.avif"
+    image: "images/about/murat-kurkoglu-profile-400x400.png"
     alt: "Murat Kurkoglu, founder of Orioninsist"
 ---
 
