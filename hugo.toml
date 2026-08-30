@@ -1,7 +1,7 @@
 baseURL = "https://orioninsist.org/"
 title = "Murat Kurkoglu | orioninsist"
 defaultContentLanguage = "en"
-languageCode = "en-US"
+locale = "en-US"
 enableRobotsTXT = true
 enableInlineShortcodes = true
 enableEmoji = true
@@ -34,7 +34,9 @@ enableGitInfo = true
 
 [languages]
   [languages.en]
-    languageName = "English"
+    label = "English"
+    locale = "en-US"
+    direction = "ltr"
     weight = 1
 
 [[menu.main]]
