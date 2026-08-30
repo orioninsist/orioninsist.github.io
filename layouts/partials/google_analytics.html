@@ -5,9 +5,7 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
 
-  // Advanced Consent Mode: keep measurement available by default outside
-  // regions where consent is required. Google CMP can update these states
-  // after the visitor makes a choice in EEA/UK/Switzerland.
+  // Default consent outside regulated regions: allow measurement and ads.
   gtag('consent', 'default', {
     'ad_storage': 'granted',
     'analytics_storage': 'granted',
@@ -15,13 +13,14 @@
     'ad_personalization': 'granted'
   });
 
+  // EEA/UK/Switzerland: require consent before storage is granted.
+  // IMPORTANT: `region` must be part of the consent settings object.
   gtag('consent', 'default', {
     'ad_storage': 'denied',
     'analytics_storage': 'denied',
     'ad_user_data': 'denied',
     'ad_personalization': 'denied',
-    'wait_for_update': 500
-  }, {
+    'wait_for_update': 500,
     'region': [
       'AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IS','IE','IT',
       'LV','LI','LT','LU','MT','NL','NO','PL','PT','RO','SK','SI','ES','SE','CH','GB'
