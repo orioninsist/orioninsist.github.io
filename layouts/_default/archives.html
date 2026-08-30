@@ -7,22 +7,7 @@
   {{- end }}
 </header>
 
-{{- $menuURLs := slice -}}
-<section class="archive-year" aria-labelledby="site-pages-heading">
-  <h2 class="archive-year-header" id="site-pages-heading">Site Pages</h2>
-  <div class="archive-posts">
-    {{- range site.Menus.main }}
-      {{- $menuURLs = $menuURLs | append .URL }}
-      <article class="archive-entry">
-        <h3 class="archive-entry-title">
-          <a class="archive-entry-link" href="{{ .URL | relURL }}">{{ .Name }}</a>
-        </h3>
-      </article>
-    {{- end }}
-  </div>
-</section>
-
-{{- $pages := where site.RegularPages "RelPermalink" "not in" $menuURLs -}}
+{{- $pages := where site.RegularPages "RelPermalink" "ne" .RelPermalink -}}
 
 {{- range $pages.GroupByPublishDate "2006" }}
 {{- if ne .Key "0001" }}
@@ -39,7 +24,7 @@
       <sup class="archive-count">&nbsp;{{ len .Pages }}</sup>
     </h3>
     <div class="archive-posts">
-      {{- range .Pages }}
+      {{- range .Pages.ByPublishDate.Reverse }}
       {{- if eq .Kind "page" }}
       <article class="archive-entry">
         <h3 class="archive-entry-title entry-hint-parent">
