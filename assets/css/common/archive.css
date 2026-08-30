@@ -28,10 +28,18 @@
 
 .archive-entry {
     position: relative;
-    padding: 5px;
-    margin: 10px 0;
+    padding: 8px 6px;
+    margin: 8px 0;
+    border-radius: 8px;
     content-visibility: auto;
     contain-intrinsic-size: 56px;
+    transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.archive-entry:hover,
+.archive-entry:focus-within {
+    background: var(--entry);
+    transform: translateX(2px);
 }
 
 .archive-entry-title {
@@ -39,8 +47,40 @@
     font-weight: 400;
 }
 
+.archive-entry-link {
+    color: var(--primary);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.archive-entry-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.archive-entry-link:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 3px;
+    border-radius: 3px;
+}
+
 .archive-count,
 .archive-meta {
     color: var(--secondary);
     font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .archive-month {
+        display: block;
+    }
+
+    .archive-month-header {
+        width: auto;
+        margin: 18px 0 8px;
+    }
+
+    .archive-entry {
+        padding: 10px 6px;
+    }
 }
