@@ -85,13 +85,10 @@ enableGitInfo = true
   comments = false
   hideMeta = false
   hideDescriptionInList = false
-  privacyPolicy = "/privacy-policy.md"
+  privacyPolicy = "/privacy-policy/"
 
   [params.label]
     text = "orioninsist"
-
-  [params.analytics.google]
-    SiteVerificationTag = "YOUR_VERIFICATION_CODE_HERE"
 
   [params.search]
     enable = true
@@ -144,7 +141,6 @@ enableGitInfo = true
     hiddenInSingle = false
 
   [params.ads]
-    defaultSlot = "1234567890"
 
   [params.fuseOpts]
     isCaseSensitive = false
@@ -233,9 +229,7 @@ enableGitInfo = true
     privacyEnhanced = true
 
 [sitemap]
-  changefreq = "daily"
   filename = "sitemap.xml"
-  priority = 1.0
 
 [minify]
   disableXML = false
