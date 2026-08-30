@@ -4,10 +4,11 @@ date = '{{ .Date }}'
 lastmod = '{{ .Date }}'
 draft = true
 author = "Murat Kurkoglu"
+
 description = ""
 summary = ""
 slug = ""
-keywords = []
+
 tags = []
 categories = []
 
