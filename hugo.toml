@@ -131,14 +131,6 @@ enableGitInfo = true
     name = "Explore the Blog"
     url = "/blog/"
 
-  [[params.profileMode.buttons]]
-    name = "About"
-    url = "/about/"
-
-  [[params.profileMode.buttons]]
-    name = "Links & Contact"
-    url = "/contact/"
-
   [params.assets]
     favicon = "/orioninsist.ico"
     schema = true
