@@ -7,41 +7,95 @@
   {{- end }}
 </header>
 
-{{- $pages := where site.RegularPages "RelPermalink" "ne" .RelPermalink -}}
+{{- /*
+Archive policy:
+- Exclude utility pages (Search) and the Archive page itself.
+- Include every Hugo RegularPage automatically.
+- Pages with a publish/date value use that date.
+- Pages without a content date fall back to Git-backed Lastmod, so newly added
+  standalone content pages do not disappear from the archive.
+*/ -}}
+{{- $excluded := slice "/archives/" "/search/" -}}
+{{- $pages := where site.RegularPages "RelPermalink" "not in" $excluded -}}
+{{- $pages = sort $pages "Lastmod" "desc" -}}
 
-{{- range $pages.GroupByPublishDate "2006" }}
-{{- if ne .Key "0001" }}
-<section class="archive-year">
-  {{- $year := replace .Key "0001" "" }}
-  <h2 class="archive-year-header" id="{{ $year }}">
-    <a class="archive-header-link" href="#{{ $year }}">{{- $year -}}</a>
-    <sup class="archive-count">&nbsp;{{ len .Pages }}</sup>
-  </h2>
-  {{- range .Pages.GroupByDate "January" }}
-  <div class="archive-month">
-    <h3 class="archive-month-header" id="{{ $year }}-{{ .Key }}">
-      <a class="archive-header-link" href="#{{ $year }}-{{ .Key }}">{{- .Key -}}</a>
-      <sup class="archive-count">&nbsp;{{ len .Pages }}</sup>
-    </h3>
-    <div class="archive-posts">
-      {{- range .Pages.ByPublishDate.Reverse }}
-      {{- if eq .Kind "page" }}
-      <article class="archive-entry">
-        <h3 class="archive-entry-title entry-hint-parent">
-          <a class="archive-entry-link" href="{{ .RelPermalink }}" aria-label="Open {{ .Title | plainify }}">
-            {{- .Title | markdownify }}
-          </a>
-          {{- if .Draft }}<span class="entry-hint" title="Draft">Draft</span>{{- end }}
+{{- $currentYear := "" -}}
+{{- $currentMonth := "" -}}
+{{- range $pages }}
+  {{- $effectiveDate := .PublishDate -}}
+  {{- if $effectiveDate.IsZero }}{{- $effectiveDate = .Date -}}{{- end -}}
+  {{- if $effectiveDate.IsZero }}{{- $effectiveDate = .Lastmod -}}{{- end -}}
+  {{- if not $effectiveDate.IsZero -}}
+    {{- $year := $effectiveDate.Format "2006" -}}
+    {{- $month := $effectiveDate.Format "January" -}}
+
+    {{- if ne $year $currentYear -}}
+      {{- if ne $currentYear "" }}</div></div></section>{{- end -}}
+      <section class="archive-year">
+        <h2 class="archive-year-header" id="{{ $year }}">
+          <a class="archive-header-link" href="#{{ $year }}">{{ $year }}</a>
+        </h2>
+      {{- $currentYear = $year -}}
+      {{- $currentMonth = "" -}}
+    {{- end -}}
+
+    {{- if ne $month $currentMonth -}}
+      {{- if ne $currentMonth "" }}</div></div>{{- end -}}
+      <div class="archive-month">
+        <h3 class="archive-month-header" id="{{ $year }}-{{ $month }}">
+          <a class="archive-header-link" href="#{{ $year }}-{{ $month }}">{{ $month }}</a>
         </h3>
-        <div class="archive-meta">{{- partial "post_meta.html" . -}}</div>
+        <div class="archive-posts">
+      {{- $currentMonth = $month -}}
+    {{- end -}}
+
+    <article class="archive-entry">
+      <h3 class="archive-entry-title entry-hint-parent">
+        <a class="archive-entry-link" href="{{ .RelPermalink }}" aria-label="Open {{ .Title | plainify }}">
+          {{- .Title | markdownify }}
+        </a>
+        {{- if .Draft }}<span class="entry-hint" title="Draft">Draft</span>{{- end }}
+      </h3>
+      <div class="archive-meta">
+        <span>{{ $effectiveDate.Format (site.Params.DateFormat | default "January 2, 2006") }}</span>
+        {{- with .Params.author }}&nbsp;·&nbsp;<span>{{ . }}</span>{{- end }}
+      </div>
+    </article>
+  {{- end -}}
+{{- end -}}
+{{- if ne $currentYear "" }}</div></div></section>{{- end -}}
+
+{{- /*
+Menu-only routes are not Hugo RegularPages (for example the standalone Contact
+hub in static/contact/index.html). Include those automatically at the end,
+without hard-coding route names. Search and Archive stay excluded by policy.
+*/ -}}
+{{- $regularURLs := slice -}}
+{{- range $pages }}{{- $regularURLs = $regularURLs | append .RelPermalink -}}{{- end -}}
+{{- $menuOnly := slice -}}
+{{- range site.Menus.main -}}
+  {{- $url := .URL | relURL -}}
+  {{- if and (not (in $excluded $url)) (not (in $regularURLs $url)) -}}
+    {{- $menuOnly = $menuOnly | append . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with $menuOnly }}
+<section class="archive-year archive-system-pages">
+  <h2 class="archive-year-header">Site</h2>
+  <div class="archive-month">
+    <h3 class="archive-month-header">Pages</h3>
+    <div class="archive-posts">
+      {{- range . }}
+      <article class="archive-entry">
+        <h3 class="archive-entry-title">
+          <a class="archive-entry-link" href="{{ .URL | relURL }}">{{ .Name }}</a>
+        </h3>
       </article>
-      {{- end }}
       {{- end }}
     </div>
   </div>
-  {{- end }}
 </section>
-{{- end }}
 {{- end }}
 
 {{- end }}
