@@ -108,7 +108,10 @@
       }
 
       state.fundingChoicesLoaded = true;
-      appendScript(state.fundingChoicesSrc, { crossorigin: 'anonymous' }, null, 'orioninsist-funding-choices');
+      // Funding Choices' endpoint does not return CORS headers for anonymous
+      // script fetches. Load it as a normal cross-origin script, matching
+      // Google's documented tag shape, so browsers do not enforce CORS here.
+      appendScript(state.fundingChoicesSrc, null, null, 'orioninsist-funding-choices');
 
       if (!window.frames['googlefcPresent']) {
         if (document.body) {
