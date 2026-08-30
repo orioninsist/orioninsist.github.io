@@ -21,7 +21,6 @@ tags = ["ffmpeg", "bash", "automation"]
 categories = ["Linux"]
 series = ["Automation Scripts"]
 [cover]
-    image = "images/blog/2025/11/2025-11-07-my-4k-video-automation-script-with-ffmpeg-and-zsh-watermarked.avif"
     alt = "A Bash script for FFmpeg 4K video upscaling, merging, and watermarking is displayed in a terminal window."
 +++
 

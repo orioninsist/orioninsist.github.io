@@ -10,7 +10,6 @@ language: "English"
 type: "blog"
 slug: "creating-secure-and-random-passwords-with-python"
 cover:
-     image: "images/blog/creating-secure-and-random-passwords-with-python.md.avif"
      alt: "creating-secure-and-random-passwords-with-python-image"
 ---
 

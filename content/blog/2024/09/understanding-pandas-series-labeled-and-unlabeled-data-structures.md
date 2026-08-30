@@ -10,7 +10,6 @@ type: "blog"
 language: "English"
 slug: "understanding-pandas-series-labeled-and-unlabeled-data-structures"
 cover:
-    image: "images/blog/understanding-pandas-series-labeled-and-unlabeled-data-structure.avif"
     alt: "understanding-pandas-series-labeled-and-unlabeled-data-structures-image"
 ---
 

@@ -23,7 +23,6 @@ keywords = ["Bash commands", "Linux tips", "DevOps tools", "grep example", "rsyn
 categories = ["Linux", "DevOps"]
 tags = ["Bash", "Shell", "Productivity", "CommandLine"]
 [cover]
-    image = "images/blog/2025/12/25-12-17-7-life-saving-bash-commands-linux.avif"
     alt = "A dark mode terminal screen showing high-speed command execution code"
     relative = true
 +++

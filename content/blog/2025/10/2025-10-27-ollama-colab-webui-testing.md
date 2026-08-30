@@ -22,7 +22,6 @@ tags = ["Ollama WebUI", "Colab A100", "LLM Testing"]
 categories = ["Artificial Intelligence", "Cloud Computing"]
 series = ["LLM Optimization"]
 [cover]
-    image = "images/blog/2025/10/2025-10-27-ollama-colab-webui-testing-watermarked.avif"
     alt = "A step-by-step guide on setting up Ollama on Google Colab Pro with an A100 GPU and accessing models through a simple web user interface."
 +++
 

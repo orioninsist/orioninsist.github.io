@@ -17,7 +17,6 @@ tags = ["Hugo", "Web Development", "Blogging"]
 categories = ["Web Development"]
 series = ["Hugo Tips"]
 [cover]
-    image = "images/blog/2025/10/2025-10-28-clean-hugo-urls-for-dated-content-folders-watermarked.avif"
     alt = "A diagram illustrating how organized, date-based content folders in Hugo can produce clean, user-friendly website URLs with a simple configuration fix."
 +++
 

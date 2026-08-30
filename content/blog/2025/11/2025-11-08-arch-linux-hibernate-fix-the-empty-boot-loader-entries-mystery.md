@@ -22,7 +22,6 @@ tags = ["Arch Linux", "systemd-boot", "UKI"]
 categories = ["Linux"]
 series = ["Arch Linux Deep Dives"]
 [cover]
-    image = "images/blog/2025/11/2025-11-08-arch-linux-hibernate-fix-the-empty-boot-loader-entries-mystery-watermarked.avif"
     alt = "A terminal screen on Arch Linux showing the steps to configure hibernation using Unified Kernel Images (UKI) and mkinitcpio by editing /etc/kernel/cmdline."
 +++
 

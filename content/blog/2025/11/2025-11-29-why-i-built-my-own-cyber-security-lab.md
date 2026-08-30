@@ -28,7 +28,6 @@ series = ["Lab Diaries"]
 categories = ["Cyber Security", "Virtualization"]
 tags = ["ThinkPad", "QEMU", "SOC Analyst", "Self-Hosting"]
 [cover]
-    image = "images/blog/2025/11/2025-11-29-why-i-built-my-own-cyber-security-lab.avif" 
     alt = "Abstract geometric illustration representing a cyber security home lab, featuring a computer processor chip transforming into a protective shield in dark purple and grey gradients." 
     relative = true
 +++

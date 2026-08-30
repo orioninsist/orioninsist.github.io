@@ -22,7 +22,6 @@ tags = ["Chrome Flags", "Dark Mode", "SEO"]
 categories = ["Productivity", "Tech Hacks"]
 series = ["Gemini Workflow Optimization"]
 [cover]
-    image = "images/blog/2025/10/2025-10-26-force-dark-mode-on-all-websites-in-chrome-watermarked.avif"
     alt = "A side-by-side comparison of a blinding white website versus the same site rendered in a comfortable dark mode."
 +++
 

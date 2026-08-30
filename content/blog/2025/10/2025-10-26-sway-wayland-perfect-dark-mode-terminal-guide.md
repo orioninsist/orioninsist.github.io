@@ -21,9 +21,7 @@ keywords = ["Arch Linux", "Sway", "Wayland", "Dark Mode", "GTK"]
 tags = ["Arch Linux", "Sway", "Wayland"]
 categories = ["Linux", "Wayland", "Configuration"]
 series = ["Minimalist Optimization"]
-images= "images/blog/2025/10/2025-10-26-sway-wayland-perfect-dark-mode-terminal-guide-watermarked.avif"
 [cover]
-    image = "images/blog/2025/10/2025-10-26-sway-wayland-perfect-dark-mode-terminal-guide-watermarked.avif"
     alt = "Two developers succeed in fixing a persistent Linux dark mode theme conflict using the terminal."
 +++
 

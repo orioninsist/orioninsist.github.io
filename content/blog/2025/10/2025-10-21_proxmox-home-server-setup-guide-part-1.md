@@ -17,7 +17,6 @@ keywords = ["proxmox ve", "home server setup", "hypervisor"]
 
 # --- Cover Image ---
 [cover]
-    image = "images/blog/2025-10/2025-10-21_proxmox-home-server-setup-guide-part-1-watermarked.avif" 
     alt = "Abstract digital art representing a Proxmox home server, with glowing data nodes connected in a secure network on a dark background." 
     relative = true
 +++

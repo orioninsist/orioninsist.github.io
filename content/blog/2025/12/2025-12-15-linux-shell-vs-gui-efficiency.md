@@ -25,7 +25,6 @@ draft = false
  categories = ["Linux", "Productivity"] 
  tags = ["Terminal", "Bash", "Workflow"] 
  [cover] 
-        image = "images/blog/2025/12/2025-12-15-linux-shell-vs-gui-efficiency.avif" 
         alt = "Dark cyberpunk Linux terminal setup with mechanical keyboard" 
         relative = true 
 +++

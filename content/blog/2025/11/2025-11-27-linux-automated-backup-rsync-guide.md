@@ -28,7 +28,6 @@ series = ["Linux Tool Mastery"]
 categories = ["DevOps", "Linux"]
 tags = ["rsync", "Backup", "Bash", "Automation"]
 [cover]
-    image = "images/blog/2025/11/2025-11-27-linux-automated-backup-rsync-guide.avif" 
     alt = "" 
     relative = true
 +++

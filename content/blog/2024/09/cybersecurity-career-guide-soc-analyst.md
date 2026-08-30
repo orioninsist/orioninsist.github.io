@@ -15,7 +15,6 @@ ShowToc = true
 TocOpen = true
 
 [cover]
-    image = "images/blog/cybersecurity-career-path.avif"
     alt = "A symbolic image showing a cybersecurity career map with interconnected paths and icons."
     caption = "Start your cybersecurity career journey with a map."
     relative = true

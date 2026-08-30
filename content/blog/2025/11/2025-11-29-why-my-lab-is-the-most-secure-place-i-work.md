@@ -27,7 +27,6 @@ series = ["Cyber Security Lab Notes"]
 categories = ["Cyber Security", "Linux"]
 tags = ["virtualization", "isolation", "qemu", "kvm"]
 [cover]
-    image = "images/blog/2025/11/2025-11-29-why-my-lab-is-the-most-secure-place-i-work.avif" 
     alt="Minimalist illustration of a blue and purple gradient shield floating above a simple blue cube on a dark blue background, symbolizing secure virtual machines."
     relative = true
 

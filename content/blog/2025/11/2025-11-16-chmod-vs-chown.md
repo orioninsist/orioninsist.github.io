@@ -25,7 +25,6 @@ tags = ["linux", "devops", "permissions", "security"]
 categories = ["Technology"]
 keywords = ["chmod", "chown", "linux permissions", "file rights", "devops", "sysadmin"]
 [cover]
-    image = "images/blog/2025/11/2025-11-16-chmod-vs-chown-watermarked.avif"
     alt = "Minimalistic Linux permissions illustration"
     caption = "Understanding chmod vs chown in Linux"
     relative = true

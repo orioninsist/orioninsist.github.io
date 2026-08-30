@@ -22,7 +22,6 @@ tags = ["Linux", "Arch Linux", "Sway", "Dotfiles"]
 categories = ["Linux"]
 series = ["Dotfiles"]
 [cover]
-    image = "images/blog/2025/10/2025-10-30-stop-linux-auto-creating-downloads-folder-watermarked.avif"
     alt = "A developer's terminal showing the configuration file ~/.config/user-dirs.dirs being edited to change the default download path, preventing automatic folder creation on a minimalist Linux system."
 +++
 

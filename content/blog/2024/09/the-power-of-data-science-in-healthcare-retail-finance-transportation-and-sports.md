@@ -6,7 +6,6 @@ summary: "Data science is transforming industries, optimizing decision-making in
 slug: "the-power-of-data-science-in-healthcare-retail-finance-transportation-and-sports"  
 description: "Data science is revolutionizing healthcare, retail, finance, transportation, and sports with predictive analytics and AI-driven insights."
 cover:
-  image: "images/blog/2024-09/the-power-of-data-science-in-healthcare-retail-finance-transportation-and-sports.avif"
   alt: "the-power-of-data-science-in-healthcare-retail-finance-transportation-and-sports.avif"
 author: "murat"
 keywords: ["data science"]

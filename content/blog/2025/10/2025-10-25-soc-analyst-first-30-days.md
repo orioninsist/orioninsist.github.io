@@ -20,7 +20,6 @@ slug = "soc-analyst-first-30-days"
 keywords = ["SOC Analyst", "Cybersecurity Career", "Blue Team", "Security Operations Center", "Entry-Level Cybersecurity"]
 tags = ["SOC Analyst", "Cybersecurity Career", "Blue Team"]
 [cover]
-    image = "images/blog/2025/10/2025-10-25-soc-analyst-first-30-days-watermarked.avif"
     alt = "Male and female SOC analysts working under pressure in a cybersecurity operations center."
 +++
 

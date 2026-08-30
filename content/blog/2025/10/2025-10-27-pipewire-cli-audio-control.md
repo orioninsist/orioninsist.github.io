@@ -22,7 +22,6 @@ tags = ["PipeWire", "Arch Linux", "Sway"]
 categories = ["Linux", "Wayland", "Audio"]
 series = ["Minimalist Workflow", "PipeWire Mastery"]
 [cover]
-    image = "images/blog/2025/10/2025-10-27-pipewire-cli-audio-control-watermarked.avif"
     alt = "A terminal window open on a minimal Linux desktop showing successful PipeWire configuration commands."
 +++
 

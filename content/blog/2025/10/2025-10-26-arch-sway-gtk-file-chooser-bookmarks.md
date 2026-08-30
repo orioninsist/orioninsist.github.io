@@ -22,7 +22,6 @@ tags = ["Linux", "Sway", "GTK"]
 categories = ["Technical", "Linux Workflow"]
 series = ["Minimalist Desktop Optimization"]
 [cover]
-    image = "images/blog/2025/10/2025-10-26-arch-sway-gtk-file-chooser-bookmarks-watermarked.avif"
     alt = "A minimalist desktop environment showing an optimized GTK File Chooser Dialog with custom bookmarks for fast navigation."
 +++
 

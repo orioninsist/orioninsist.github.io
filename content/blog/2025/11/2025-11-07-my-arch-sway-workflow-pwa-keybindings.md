@@ -21,7 +21,6 @@ tags = ["Arch Linux", "Sway", "Productivity"]
 categories = ["Linux"]
 series = ["Arch Linux Setup"]
 [cover]
-    image = "images/blog/2025/11/2025-11-07-my-arch-sway-workflow-pwa-keybindings-watermarked.avif"
     alt = "A focused developer's desk with two monitors showing a minimalist Arch Linux and Sway interface with code and web apps."
 +++
 

@@ -21,7 +21,6 @@ tags = ["Arch Linux", "Pacman", "Linux"]
 categories = ["Linux"]
 series = ["Arch Linux Tweaks"]
 [cover]
-    image = "images/blog/2025/10/2025-10-28-my-simple-pacman-conf-for-a-better-arch-experience-watermarked.avif"
     alt = "Developers looking at a colorful and organized Arch Linux pacman command line output on a terminal screen."
 +++
 

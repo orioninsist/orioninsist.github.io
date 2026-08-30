@@ -15,12 +15,10 @@ title = "My Hybrid AI Workflow: The Workshop and The Library"
 author = "Murat Kurkoglu"
 description = "Struggling to balance messy notebooks and clean code? I share my hybrid \"Workshop and Library\" model, blending Google Colab for research and a local IDE for production."
 summary = "Struggling to balance messy notebooks and clean code? I share my hybrid \"Workshop and Library\" model, blending Google Colab for research and a local IDE for production."
-images = ["images/blog/2025/10/2025-10-23-hybrid-workflow-workshop-and-library.avif"]
 slug = "my-hybrid-ai-workflow-the-workshop-and-the-library"
 keywords = ["Workflow", "Data Science", "Python", "Google Colab", "Development"]
 tags = ["Workflow", "Data Science", "Python"]
 [cover]
-    image = "images/blog/2025/10/2025-10-23-hybrid-workflow-workshop-and-library.avif"
     alt = "A diagram illustrating a hybrid workflow, with arrows showing data and code moving from a cloud environment (library) to a local IDE (workshop)."
 +++
 

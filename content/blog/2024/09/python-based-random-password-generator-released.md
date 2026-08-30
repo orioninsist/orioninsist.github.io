@@ -10,7 +10,6 @@ type: "blog"
 language: "English"
 slug: "python-based-random-password-generator-released"
 cover:
-     image: "images/blog/python-based-random-password-generator-released.md.avif"
      alt: "python-based-random-password-generator-released-image"
 ---
 

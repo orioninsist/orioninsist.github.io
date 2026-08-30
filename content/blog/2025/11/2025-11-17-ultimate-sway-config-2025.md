@@ -27,7 +27,6 @@ categories = ["Linux", "Wayland", "Sway", "Configuration"]
 tags = ["sway", "wayland", "sway config", "linux", "performance", "intel gpu", "arch linux", "window manager"]
 
 [cover]
-    image = "images/blog/2025/11/2025-11-17-ultimate-sway-config-2025-watermarked.avif"
     alt = "Minimalistic flat illustration representing Sway configuration on Wayland"
     relative = true
 +++

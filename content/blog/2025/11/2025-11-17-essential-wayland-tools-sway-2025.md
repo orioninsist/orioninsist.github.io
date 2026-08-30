@@ -27,7 +27,6 @@ categories = ["Linux", "Wayland", "Sway", "Tools"]
 tags = ["wayland", "sway", "linux tools", "grim", "slurp", "pipewire", "waybar", "foot", "developer workflow"]
 
 [cover]
-    image = "images/blog/2025/11/2025-11-17-essential-wayland-tools-sway-2025-watermarked.avif"
     alt = "Minimalistic Wayland tools illustration"
     relative = true
 

@@ -10,7 +10,6 @@ language: "English"
 type: "blog"
 slug: "developing-cybersecurity-applications-using-python-libraries-an-introduction"
 cover:
-     image: "images/blog/developing-cybersecurity-applications-using-python-libraries-an-introduction.md.avif"
      alt: "developing-cybersecurity-applications-using-python-libraries-an-introduction-image"
 ---
 

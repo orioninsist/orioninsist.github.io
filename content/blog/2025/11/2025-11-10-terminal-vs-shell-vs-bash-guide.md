@@ -22,7 +22,6 @@ tags = ["Bash", "Shell", "Linux"]
 categories = ["Linux"]
 series = ["Linux Fundamentals"]
 [cover]
-    image = "images/blog/2025/11/2025-11-10-terminal-vs-shell-vs-bash-guide-watermarked.avif"
     alt = "A photorealistic image of a blonde female pilot and her computer engineer husband in a black suit, smiling together at an airport."
 +++
 

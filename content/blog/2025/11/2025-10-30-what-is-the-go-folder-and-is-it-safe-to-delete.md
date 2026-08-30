@@ -22,7 +22,6 @@ tags = ["Go", "Linux", "CLI"]
 categories = ["Linux"]
 series = ["Linux"]
 [cover]
-    image = "images/blog/2025/11/2025-10-30-what-is-the-go-folder-and-is-it-safe-to-delete-watermarked.avif"
     alt = "A Linux terminal showing the successful execution of the 'go clean -modcache' command, reclaiming disk space."
 +++
 

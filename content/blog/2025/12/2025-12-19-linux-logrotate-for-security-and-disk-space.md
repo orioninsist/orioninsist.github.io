@@ -23,7 +23,6 @@ keywords = ["linux logrotate", "log rotation"]
 categories = ["Linux", "System Administration"]
 tags = ["Linux", "Logging", "DevOps"]
 [cover]
-    image = "images/blog/2025/12/2025-12-19-linux-logrotate-for-security-and-disk-space.avif"
     alt = "A visual representation of Linux logrotate rotating logs to prevent disk full."
     relative = true
 +++

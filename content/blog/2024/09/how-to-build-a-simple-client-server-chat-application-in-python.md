@@ -10,7 +10,6 @@ type: "blog"
 language: "English"
 slug: "how-to-build-a-simple-client-server-chat-application-in-python"
 cover:
-     image: "images/blog/how-to-build-a-simple-client-server-chat-application-in-python.md.avif"
      alt: "how-to-build-a-simple-client-server-chat-application-in-python-image"
 ---
 

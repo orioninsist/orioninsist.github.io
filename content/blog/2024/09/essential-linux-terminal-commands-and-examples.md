@@ -10,7 +10,6 @@ language: "English"
 type: "blog"
 slug: "essential-linux-terminal-commands-and-examples"
 cover:
-   image: "images/blog/essential-linux-terminal-commands-and-examples.avif"
    alt: "essential-linux-terminal-commands-and-examples-image"
 
 ---

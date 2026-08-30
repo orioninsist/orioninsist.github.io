@@ -21,7 +21,6 @@ tags = ["Sway", "Arch Linux", "PipeWire"]
 categories = ["Arch Linux"]
 series = ["Sway Configuration"]
 [cover]
-    image = "images/blog/2025/10/2025-10-29-fix-sway-volume-keys-binding-warnings-watermarked.avif"
     alt = "A code snippet of a Sway configuration file on Arch Linux, showing the correct keybindings for controlling audio volume with pamixer."
 +++
 

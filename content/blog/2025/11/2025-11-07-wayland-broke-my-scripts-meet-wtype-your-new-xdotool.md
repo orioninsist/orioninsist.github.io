@@ -22,7 +22,6 @@ tags = ["Wayland", "wtype", "Linux"]
 categories = ["Linux"]
 series = ["Wayland Migration"]
 [cover]
-    image = "images/blog/2025/11/2025-11-07-wayland-broke-my-scripts-meet-wtype-your-new-xdotool-watermarked.avif"
     alt = "A developer's guide to replacing xdotool with wtype for keyboard and mouse automation on Wayland compositors like Sway and Hyprland."
 +++
 

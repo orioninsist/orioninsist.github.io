@@ -22,7 +22,6 @@ tags = ["GNU Screen", "Arch Linux", "Terminal"]
 categories = ["Linux"]
 series = ["Dotfile Deep Dives"]
 [cover]
-    image = "images/blog/2025/10/2025-10-30-a-modern-gnu-screen-setup-on-arch-linux-watermarked.avif"
     alt = "A developer's highly customized GNU Screen terminal setup on an Arch Linux system, showcasing a modern status bar and split panes for a productive workflow."
 +++
 

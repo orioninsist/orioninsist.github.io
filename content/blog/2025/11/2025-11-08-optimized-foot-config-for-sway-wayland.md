@@ -22,7 +22,6 @@ tags = ["Wayland", "Sway", "Foot"]
 categories = ["Linux"]
 series = ["Dotfiles"]
 [cover]
-    image = "images/blog/2025/11/2025-11-08-optimized-foot-config-for-sway-wayland-watermarked.avif"
     alt = "A clear screenshot of the foot.ini configuration file, showing the [main], [csd], and [colors] sections with the Dracula theme and JetBrains Mono Nerd Font."
 +++
 

@@ -23,7 +23,6 @@ keywords = ["linux commands", "bash tips", "devops productivity", "rsync vs cp",
 categories = ["Linux", "DevOps"]
 tags = ["Bash", "Terminal", "Productivity", "SystemAdmin"]
 [cover]
-    image = "images/blog/2025/12/25-12-16-5-bash-commands-devops-survival.avif"
     alt = "Dark terminal screen displaying bash commands with a cyberpunk server room background."
     relative = true
 +++

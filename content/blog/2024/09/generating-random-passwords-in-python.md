@@ -10,7 +10,6 @@ type: "blog"
 language: "English"
 slug: "generating-random-passwords-in-python"
 cover:
-     image: "images/blog/generating-random-passwords-in-python.md.avif"
      alt: "generating-random-passwords-in-python-image"
 ---
 Introduction

@@ -22,7 +22,6 @@ tags = ["Sway", "Wayland", "Arch Linux", "PWA", "ChatGPT"]
 categories = ["Sway"]
 series = ["Productivity"]
 [cover]
-    image = "images/blog/2025/10/2025-10-27-sway-ai-pwa-hotkeys-watermarked.avif"
     alt = "A successful demonstration of custom keyboard shortcuts launching dedicated AI web apps in the Sway Tiling Window Manager."
 +++
 

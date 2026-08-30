@@ -22,7 +22,6 @@ tags = ["Wayland", "Sway", "Arch Linux"]
 categories = ["Linux", "Productivity"]
 series = ["Wayland Deep Dive"]
 [cover]
-    image = "images/blog/2025/10/2025-10-26-wayland-screen-recording-wf-recorder-slurp-guide-watermarked.avif"
     alt = "Two developers successfully using wf-recorder and slurp to capture a specific area of a Sway/Wayland desktop from the terminal."
 +++
 

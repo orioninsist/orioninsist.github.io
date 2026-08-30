@@ -29,7 +29,6 @@ categories = ["Linux", "Wayland", "Sway", "Performance"]
 tags = ["sway", "wayland", "intel gpu", "mesa", "linux performance", "dual monitor", "i915", "arch linux"]
 
 [cover]
-    image = "images/blog/2025/11/2025-11-17-sway-wayland-performance-intel-igpu-dual-fhd-watermarked.avif"
     alt = "Minimalistic Sway Wayland performance illustration"
     relative = true
 +++    

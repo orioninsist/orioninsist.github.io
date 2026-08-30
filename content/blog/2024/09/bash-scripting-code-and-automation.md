@@ -10,7 +10,6 @@ slug: "bash-scripting-code-and-automation"
 language: "English"
 type: "blog"
 cover:
-    image: "images/blog/bash-scripting-code-and-automation.avif"
     alt: "bash-scripting-code-and-automation.avif"
 ---
 

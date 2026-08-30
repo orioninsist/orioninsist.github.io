@@ -10,7 +10,6 @@ language: "English"
 type: "blog"
 slug: "10-awesome-django-projects-to-inspire-your-web-development-journey"
 cover:
-  image: "images/blog/10-awesome-django-projects-to-inspire-your-web-development-journey.md.avif"
   alt: "10-awesome-django-projects-to-inspire-your-web-development-journey-image"
 ---
 

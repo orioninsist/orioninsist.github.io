@@ -25,7 +25,6 @@ series = []
 categories = ["Linux", "Workflow"]
 tags = ["cd", "pwd", "Bash", "Productivity"]
 [cover]
-    image = "images/blog/2025/12/2025-12-16-linux-navigation-relative-vs-absolute-paths.avif"
     alt = "Abstract digital tunnel representing a shortcut in Linux filesystem"
     relative = true
 +++

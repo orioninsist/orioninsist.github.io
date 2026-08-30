@@ -26,7 +26,6 @@ categories = ["Lifestyle"]
 series = ["Minimalism"]
 
 [cover]
-    image = "images/blog/2025/11/2025-11-13-my-digital-attic-why-deleted-50000-photos-watermarked.avif"
     alt = "A person sitting on the floor, overwhelmed by thousands of digital photos projected around them."
 +++
 

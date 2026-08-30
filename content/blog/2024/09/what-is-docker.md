@@ -10,7 +10,6 @@ tags: ["docker","devops","container"]
 description: "Docker simplifying devOps with portable containers"
 language: "English"
 cover:
-     image: "images/blog/what-is-docker.avif"
      alt: "what-is-docker"
 ---
 ## Introduction

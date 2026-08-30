@@ -22,7 +22,6 @@ tags = ["Arch Linux", "Sway", "Wayland"]
 categories = ["Linux", "Wayland", "Programming"]  
 series = ["Minimalist Workflow", "Arch Linux Tips"]
 [cover]
-    image = "images/blog/2025/10/2025-10-26-wayland-terminal-gif-mastery-watermarked.avif"
     alt = "Two developers proudly displaying a high-quality GIF screencast created via `wf-recorder` and `ffmpeg` on Arch Linux."
 +++
 

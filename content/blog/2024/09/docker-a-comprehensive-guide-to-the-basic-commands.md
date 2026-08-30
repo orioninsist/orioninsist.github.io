@@ -10,7 +10,6 @@ tags: ["devops","docker"]
 description: "Learn the basics of Docker with this comprehensive guide to the most important commands."
 language: "English"
 cover:
-     image: "images/project/devops/2023/2023-11/docker-a-comprehensive-guide-to-the-basic-commands.avif"
      alt: "docker-a-comprehensive-guide-to-the-basic-commands"
 ---
 

@@ -16,12 +16,10 @@ title = "How I Built My Content-Producing Prompt Engine"
 author = "Murat Kurkoglu"
 description = "A detailed, first-person account of how I designed and built a powerful, single-prompt content engine to automate high-quality blog post creation."
 summary = "A detailed, first-person account of how I designed and built a powerful, single-prompt content engine to automate high-quality blog post creation."
-images = ["images/blog/2025/10/2025-10-23-how-i-built-my-content-prompt-engine-watermarked.avif"]
 slug = "how-i-built-my-content-prompt-engine"
 keywords = ["Prompt Engineering", "AI", "Content Creation", "Automation", "Gemini"]
 tags = ["Prompt Engineering", "AI", "Automation"]
 [cover]
-    image = "images/blog/2025/10/2025-10-23-how-i-built-my-content-prompt-engine-watermarked.avif"
     alt = "A diagram showing the architecture of a prompt-driven content generation engine."
     relative = false
 

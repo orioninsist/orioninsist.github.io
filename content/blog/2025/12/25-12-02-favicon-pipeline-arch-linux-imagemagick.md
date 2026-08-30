@@ -25,7 +25,6 @@ series = ["linux-dev-tools"]
 categories = ["Linux"]
 tags = ["linux","hugo","papermod","developer-tools"]
 [cover]
-    image = "images/blog/2025/12/25-12-02-favicon-pipeline-arch-linux-imagemagick.avif"
     alt = "A minimalist illustration of a Linux terminal generating multiple favicon sizes"
     relative = true
 +++

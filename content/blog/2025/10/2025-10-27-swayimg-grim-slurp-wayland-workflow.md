@@ -22,7 +22,6 @@ tags = ["Arch Linux", "Sway", "Wayland"]
 categories = ["Linux", "Productivity"]
 series = ["Wayland Deep Dive"]
 [cover]
-    image = "images/blog/2025/10/2025-10-27-swayimg-grim-slurp-wayland-workflow-watermarked.avif"
     alt = "Developers celebrating a functional Wayland terminal workflow with Sway, Grim, and Slurp."
 +++
 

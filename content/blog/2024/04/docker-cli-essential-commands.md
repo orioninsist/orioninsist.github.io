@@ -10,7 +10,6 @@ slug: docker-cli-essential-commands
 tags: ["devops","docker"]
 keywords: ["devops","docker"]
 cover:
-     image: images/blog/2024-04/docker-cli-essential-commands.avif
      alt: "docker-cli-essential-commands.avif"
 
 ---

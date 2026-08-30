@@ -22,7 +22,6 @@ tags = ["Linux", "Wayland", "rofi"]
 categories = ["Linux"]
 series = ["Linux Workflow"]
 [cover]
-    image = "images/blog/2025/11/2025-11-07-rofi-vs-wofi-vs-wmenu-wayland-x11-guide-watermarked.avif"
     alt = "A male and female developer comparing three different dynamic application launcher UIs (rofi, wofi, and wmenu) on a futuristic Wayland-based Linux desktop."
 +++
 

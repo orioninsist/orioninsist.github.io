@@ -8,7 +8,6 @@ type: "blog"
 description: "Explore the growing importance of data science, AI, and generative tools in today's technology-driven world."
 slug: "the-importance-of-data-science"
 cover:
-    image: "images/blog/2024-09/the-importance-of-data-science.avif"
     alt: "The Importance of Data Science"
 ---
 

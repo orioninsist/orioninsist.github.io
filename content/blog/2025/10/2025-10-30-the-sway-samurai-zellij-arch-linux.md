@@ -22,7 +22,6 @@ tags = ["Terminal Multiplexer", "Arch Linux", "Sway Wayland"]
 categories = ["Terminal Multiplexer"]
 series = ["Terminal Multiplexer"]
 [cover]
-    image = "images/blog/2025/10/2025-10-30-the-sway-samurai-zellij-arch-linux-watermarked.avif"
     alt = "Male and female professionals collaborating over a terminal running the Zellij multiplexer on a tiled window manager."
 +++
 

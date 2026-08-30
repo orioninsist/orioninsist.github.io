@@ -20,9 +20,7 @@ summary = "Discover why Neovim is more than a code editor. A personal journey in
 slug = "neovim-more-than-a-code-editor"
 keywords = ["neovim", "vim", "developer tools", "productivity", "code editor"]
 tags = ["neovim", "vim", "developer tools"]
-images = "images/blog/2025/10/2025-10-26-neovim-why-it-is-more-than-a-code-editor-watermarked.avif"
 [cover]
-    image = "images/blog/2025/10/2025-10-26-neovim-why-it-is-more-than-a-code-editor-watermarked.avif"
     alt = "A developer's hands moving with speed and precision across a keyboard, with the Neovim editor in the background."
 +++
 **It’s a tool that adapts to you, not the other way around. This is the story of how I learned that lesson.**

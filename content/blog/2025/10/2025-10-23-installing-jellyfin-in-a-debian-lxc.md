@@ -9,7 +9,6 @@ lastmod = 2025-10-23T12:22:50+03:00
 description = "Learn how to install Jellyfin Media Server in a Debian LXC container on Proxmox. This step-by-step guide covers setup, storage, and troubleshooting."
 
 summary = "Learn how to install Jellyfin Media Server in a Debian LXC container on Proxmox. This step-by-step guide covers setup, storage, and troubleshooting."
-images = ["images/blog/2025/10/2025-10-23-installing-jellyfin-in-a-debian-lxc.avif"]
 slug = "installing-jellyfin-in-a-debian-lxc-container"
 keywords = ["Jellyfin", "Proxmox", "LXC", "Debian", "Self-Hosting"]
 tags = ["Jellyfin", "Proxmox", "Self-Hosting"]
@@ -19,7 +18,6 @@ ShowReadingTime = true
 ShowToc = true
 TocOpen = true
 [cover]
-    image = "images/blog/2025/10/2025-10-23-installing-jellyfin-in-a-debian-lxc.avif" 
     alt = "A man and woman working together in a server room, setting up a Jellyfin media server in a Proxmox environment." 
     relative = true
 +++

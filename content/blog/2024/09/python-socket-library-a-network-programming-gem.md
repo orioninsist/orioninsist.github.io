@@ -10,7 +10,6 @@ type: "blog"
 language: "English"
 slug: "python-socket-library-a-network-programming-gem"
 cover:
-     image: "images/blog/python-socket-library-a-network-programming-gem.md.avif"
      alt: "python-socket-library-a-network-programming-gem-image"
 ---
 

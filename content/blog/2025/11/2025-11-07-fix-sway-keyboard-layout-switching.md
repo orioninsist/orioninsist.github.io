@@ -21,7 +21,6 @@ tags = ["Sway", "Wayland", "Linux"]
 categories = ["Linux"]
 series = ["Sway Configuration"]
 [cover]
-    image = "images/blog/2025/11/2025-11-07-fix-sway-keyboard-layout-switching-watermarked.avif"
     alt = "A developer's hand on an ergonomic keyboard, with a screen in the background showing a Sway config file with a line highlighted, demonstrating a fix for keyboard layouts."
 +++
 

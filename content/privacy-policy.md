@@ -10,7 +10,6 @@ ShowToc = false
 TocOpen = false
 
 [cover]
-    image = "images/privacy-image.avif"
     alt = "An illustration representing data privacy and security."
     caption = "Protecting your information is our priority."
     relative = false

@@ -22,7 +22,6 @@ tags = ["Bash", "cd", "Linux"]
 categories = ["Linux"]
 series = ["1-Month Bash Mastery Plan"]
 [cover]
-    image = "images/blog/2025/11/2025-11-11-mastering-bash-cd-navigation-guide-watermarked.avif"
     alt = "A photorealistic image of a blonde female pilot and her computer engineer husband in a black suit, smiling together at an airport."
 +++
 

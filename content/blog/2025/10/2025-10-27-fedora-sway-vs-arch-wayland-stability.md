@@ -22,7 +22,6 @@ tags = ["Sway", "Wayland", "Linux", "Development", "Arch"]
 categories = ["Linux", "Development"]
 series = ["Wayland Deep Dive"]
 [cover]
-    image = "images/blog/2025/10/2025-10-27-fedora-sway-vs-arch-wayland-stability-watermarked.avif"
     alt = "Comparing the stability of Fedora Sway Spin against a custom Arch Linux Wayland installation."
 +++
 

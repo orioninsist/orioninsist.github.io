@@ -10,7 +10,6 @@ language: "English"
 type: "blog"
 slug: "building-a-simple-client-server-communication-in-python"
 cover:
-     image: "images/blog/building-a-simple-client-server-communication-in-python.md.avif"
      alt: "building-a-simple-client-server-communication-in-python-image"
 ---
 

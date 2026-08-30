@@ -24,7 +24,6 @@ categories = ["Minimalist Philosophy", "Wealth Building"]
 series = ["Intentional Living"]
 author = "orioninsist"
 [cover]
-    image = "images/blog/2025/11/2025-11-14_minimalism-financial-freedom-focus-watermarked.avif" 
     alt = "A clean, sunlit home office with a single high-quality monitor, an ergonomic chair, and a simple potted plant, symbolizing financial and mental clarity."
     relative = true
 +++

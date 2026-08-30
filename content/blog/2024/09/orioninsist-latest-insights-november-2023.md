@@ -10,7 +10,6 @@ tags: ["november","november-2023","news","insights","orioninsist"]
 description: "Explore OrionInsist's Cutting-Edge Insights for November 2023"
 language: "English"
 cover:
-     image: "images/news/2023/orioninsist-latest-insights-november-2023.avif"
      src: "orioninsist-latest-insights-november-2023"
 ---
 

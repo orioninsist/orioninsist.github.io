@@ -10,7 +10,6 @@ slug: "linux-mastery-essential-commands-shortcuts"
 language: "English"
 type: "blog"
 cover:
-     image: "images/blog/linux-mastery-essential-commands-shortcuts.avif"
      alt: "linux-mastery-essential-commands-shortcuts.avif"
 ---
 
