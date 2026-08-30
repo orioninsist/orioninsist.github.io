@@ -1,16 +1,23 @@
 {
-  "lang": "en",
+  "lang": "en-US",
   "name": "orioninsist",
   "short_name": "orioninsist",
-  "description": "Official orioninsist website.",
+  "description": "Orioninsist is the independent technology site of Murat Kurkoglu.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#0b0c0f",
   "theme_color": "#0b0c0f",
   "icons": [
     {
-      "src": "/orioninsist-logo.png",
-      "sizes": "any",
+      "src": "/orioninsist-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/orioninsist-icon-512x512.png",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
