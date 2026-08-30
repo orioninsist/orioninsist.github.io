@@ -1,14 +1,14 @@
-baseURL         = "https://orioninsist.org/"
-title           = "Murat Kurkoglu | orioninsist"
+baseURL = "https://orioninsist.org/"
+title = "Murat Kurkoglu | orioninsist"
 defaultContentLanguage = "en"
-languageCode    = "en-US"
+languageCode = "en-US"
 enableRobotsTXT = true
 enableInlineShortcodes = true
-enableEmoji     = true
-buildDrafts     = false
-buildFuture     = false
-buildExpired    = false
-enableGitInfo   = true
+enableEmoji = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableGitInfo = true
 
 [frontmatter]
   date = ["date", "publishDate", "pubdate", ":default"]
@@ -23,8 +23,8 @@ enableGitInfo   = true
 
 [taxonomies]
   category = "categories"
-  tag      = "tags"
-  series   = "series"
+  tag = "tags"
+  series = "series"
 
 [server]
   trailingSlash = "always"
@@ -35,72 +35,58 @@ enableGitInfo   = true
 [languages]
   [languages.en]
     languageName = "English"
-    weight       = 1
+    weight = 1
 
-# --- Menü Ayarları ---
 [[menu.main]]
   identifier = "home"
-  name       = "Home"
-  url        = "/"
-  weight     = 10
-
-#[[menu.main]]
-#  identifier = "blog"
-#  name       = "Blog"
-#  url        = "/blog"
-#  weight     = 20
+  name = "Home"
+  url = "/"
+  weight = 10
 
 [[menu.main]]
   identifier = "archives"
-  name       = "Archive"
-  url        = "/archives/"
-  weight     = 30
+  name = "Archive"
+  url = "/archives/"
+  weight = 30
 
 [[menu.main]]
   identifier = "about"
-  name       = "About"
-  url        = "/about/"
-  weight     = 40
+  name = "About"
+  url = "/about/"
+  weight = 40
 
 [[menu.main]]
   identifier = "contact"
-  name       = "Contact"
-  url        = "/contact/"
-  weight     = 50
+  name = "Contact"
+  url = "/contact/"
+  weight = 50
 
 [[menu.main]]
   identifier = "search"
-  name       = "Search"
-  url        = "/search/"
-  weight     = 60
+  name = "Search"
+  url = "/search/"
+  weight = 60
 
-#[[menu.main]]
-#  identifier = "tags"
-#  name       = "Tags"
-#  url        = "/tags"
-#  weight     = 70
-
-# --- Parametreler ---
 [params]
-  description      = "The personal blog of Murat Kurkoglu, a computer engineer, on cyber security, Linux, and technology. Notes and guides on software development and system administration."
-  images           = ["images/about/muratkurkoglu-2.avif"] # For Social Media Cards
-  ogImage          = "images/about/muratkurkoglu-2.avif"
-  defaultTheme     = "dark"
+  description = "Orioninsist is the independent technology site of Murat Kurkoglu, covering cybersecurity, Linux, software development, system administration, automation, and practical technical workflows."
+  images = ["/orioninsist-logo.png"]
+  ogImage = "/orioninsist-logo.png"
+  defaultTheme = "dark"
+  DateFormat = "January 2, 2006"
+  ShowShareButtons = true
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  showToc = true
+  TocOpen = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  comments = false
+  hideMeta = false
+  hideDescriptionInList = false
+  privacyPolicy = "/privacy-policy.md"
 
   [params.analytics.google]
     SiteVerificationTag = "YOUR_VERIFICATION_CODE_HERE"
-  DateFormat       = "January 2, 2006"
-  ShowShareButtons = true
-  ShowReadingTime  = true
-  ShowPostNavLinks = true
-  showToc          = true
-  TocOpen          = true
-  ShowBreadCrumbs  = true
-  ShowCodeCopyButtons = true
-  comments         = false
-  hideMeta         = false
-  hideDescriptionInList = false
-  privacyPolicy    = "/privacy-policy.md"
 
   [params.search]
     enable = true
@@ -108,7 +94,7 @@ enableGitInfo   = true
   [params.buyMeACoffee]
     enabled = true
     showOnHomeOnly = true
-    mode = "button" # button | widget | both
+    mode = "button"
 
     [params.buyMeACoffee.button]
       slug = "orioninsist"
@@ -122,7 +108,7 @@ enableGitInfo   = true
 
     [params.buyMeACoffee.widget]
       id = "orioninsist"
-      description = "Support me on Buy Me a Coffee!"
+      description = "Support Orioninsist on Buy Me a Coffee."
       message = ""
       color = "#FF813F"
       position = "Right"
@@ -130,130 +116,103 @@ enableGitInfo   = true
       yMargin = "18"
 
   [params.homeInfoParams]
-    enabled     = false
+    enabled = false
 
   [params.profileMode]
-    enabled     = true
-    title       = "Murat Kurkoglu"
-    subtitle    = "Hi, I am Murat Kurkoglu, the founder of orioninsist. I am a computer engineer and hold a degree in economics."
-    imageUrl    = "images/home/murat-kurkoglu-330x330.avif"
-    imageTitle  = "Murat Kurkoglu"
-    imageWidth  = 220
+    enabled = true
+    title = "Murat Kurkoglu"
+    subtitle = "Founder of Orioninsist. Computer engineer writing about cybersecurity, Linux, software development, system administration, and practical technology."
+    imageUrl = "images/home/murat-kurkoglu-330x330.avif"
+    imageTitle = "Murat Kurkoglu, founder of Orioninsist"
+    imageWidth = 220
     imageHeight = 220
 
-
+  [[params.profileMode.buttons]]
+    name = "Explore the Blog"
+    url = "/blog/"
 
   [[params.profileMode.buttons]]
-    name = "Read the Blog"
-    url  = "/blog/"
+    name = "About"
+    url = "/about/"
+
+  [[params.profileMode.buttons]]
+    name = "Links & Contact"
+    url = "/contact/"
 
   [params.assets]
     favicon = "/orioninsist.ico"
-    schema  = true
+    schema = true
 
   [params.author]
-    name  = "Murat Kurkoglu"
-    email = "muratkurkoglu@gmail.com"
+    name = "Murat Kurkoglu"
 
   [params.cover]
-    hiddenInList   = false
+    hiddenInList = false
     hiddenInSingle = false
 
   [params.ads]
-    # Set a default ad slot for testing local rendering. Replace with real numeric slot ID.
     defaultSlot = "1234567890"
 
   [params.fuseOpts]
     isCaseSensitive = false
-    shouldSort      = true
-    location        = 0
-    distance        = 1000
-    threshold       = 0.4
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
     minMatchCharLength = 0
-    keys            = ["title", "permalink", "summary", "content"]
+    keys = ["title", "permalink", "summary", "content"]
 
-  # --- Sosyal İkonlar ---
-  [[params.socialIcons]]
-    name = "email"
-    url  = "mailto:muratkurkoglu@gmail.com"
-  [[params.socialIcons]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/murat-kurkoglu/"
   [[params.socialIcons]]
     name = "github"
-    url  = "https://github.com/orioninsist"
+    url = "https://github.com/orioninsist"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/company/orioninsist/"
   [[params.socialIcons]]
     name = "youtube"
-    url  = "https://www.youtube.com/@orioninsist-official/"
-  [[params.socialIcons]]
-    name = "cv"
-    url  = "https://www.linkedin.com/in/murat-kurkoglu/"
-  [[params.socialIcons]]
-    name = "buymeacoffee"
-    url  = "https://www.buymeacoffee.com/orioninsist/"
-  [[params.socialIcons]]
-    name = "facebook"
-    url  = "https://www.facebook.com/insistorion"
-  [[params.socialIcons]]
-    name = "gitlab"
-    url  = "https://gitlab.com/orioninsist"
+    url = "https://www.youtube.com/@lukas_und_mia"
   [[params.socialIcons]]
     name = "instagram"
-    url  = "https://www.instagram.com/insistorion/"
-  [[params.socialIcons]]
-    name = "kaggle"
-    url  = "https://www.kaggle.com/orioninsist"
-  [[params.socialIcons]]
-    name = "kofi"
-    url  = "https://ko-fi.com/orioninsist"
-  [[params.socialIcons]]
-    name = "librapay"
-    url  = "https://en.liberapay.com/orioninsist/"
-  [[params.socialIcons]]
-    name = "medium"
-    url  = "https://orioninsist.dev/"
-  [[params.socialIcons]]
-    name = "reddit"
-    url  = "https://www.reddit.com/user/insistorion"
-  [[params.socialIcons]]
-    name = "stackoverflow"
-    url  = "https://stackoverflow.com/users/14691175/orioninsist"
-  [[params.socialIcons]]
-    name = "twitch"
-    url  = "https://www.twitch.tv/orioninsist"
+    url = "https://www.instagram.com/orioninsist/"
   [[params.socialIcons]]
     name = "twitter"
-    url  = "https://twitter.com/InsistOrion"
+    url = "https://x.com/orioninsist"
+  [[params.socialIcons]]
+    name = "facebook"
+    url = "https://www.facebook.com/oorioninsist/"
+  [[params.socialIcons]]
+    name = "medium"
+    url = "https://medium.com/@orioninsist"
+  [[params.socialIcons]]
+    name = "buymeacoffee"
+    url = "https://buymeacoffee.com/orioninsist"
   [[params.socialIcons]]
     name = "rss"
-    url  = "https://orioninsist.org/index.xml"
+    url = "https://orioninsist.org/index.xml"
 
-# --- Related Content (Internal Linking) ---
 [related]
   includeNewer = true
-  threshold    = 80
-  toLower      = true
+  threshold = 80
+  toLower = true
   [[related.indices]]
-    name   = "keywords"
+    name = "keywords"
     weight = 100
   [[related.indices]]
-    name   = "tags"
+    name = "tags"
     weight = 80
   [[related.indices]]
-    name   = "categories"
+    name = "categories"
     weight = 50
   [[related.indices]]
-    name   = "date"
+    name = "date"
     weight = 10
 
-# --- Çıktı Formatları ---
 [outputs]
-  home     = ["HTML", "RSS", "JSON"]
-  section  = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-  term     = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
 
-# --- Markup ve Renderer ---
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -261,7 +220,6 @@ enableGitInfo   = true
   [markup.highlight]
     noClasses = false
 
-# --- Gizlilik ---
 [privacy]
   [privacy.disqus]
     disable = true
@@ -272,22 +230,20 @@ enableGitInfo   = true
     useSessionStorage = false
   [privacy.instagram]
     disable = true
-  [privacy.x] 
-    disable = false  
+  [privacy.x]
+    disable = false
     enableDNT = true
   [privacy.vimeo]
     disable = true
   [privacy.youTube]
     disable = false
-    privacyEnhanced = true       
+    privacyEnhanced = true
 
-# --- Sitemap ---
 [sitemap]
   changefreq = "daily"
-  filename   = "sitemap.xml"
-  priority   = 1.0
+  filename = "sitemap.xml"
+  priority = 1.0
 
-# --- Minify (Sıkıştırma) ---
 [minify]
   disableXML = false
   minifyOutput = true
@@ -301,7 +257,7 @@ enableGitInfo   = true
     [minify.tdewolff.json]
       keepWhitespace = false
     [minify.tdewolff.svg]
-      precision = 1  
+      precision = 1
 
 [[build.cachebusters]]
   source = "assets/js/.*"
@@ -315,7 +271,6 @@ enableGitInfo   = true
   quality = 75
   resampleFilter = "Lanczos"
 
-# --- Servisler ---
 [services]
   [services.googleAnalytics]
     id = "G-6CE6YFM36C"
