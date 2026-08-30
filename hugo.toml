@@ -85,6 +85,9 @@ enableGitInfo = true
   hideDescriptionInList = false
   privacyPolicy = "/privacy-policy.md"
 
+  [params.label]
+    text = "orioninsist"
+
   [params.analytics.google]
     SiteVerificationTag = "YOUR_VERIFICATION_CODE_HERE"
 
@@ -126,10 +129,6 @@ enableGitInfo = true
     imageTitle = "Murat Kurkoglu, founder of Orioninsist"
     imageWidth = 220
     imageHeight = 220
-
-  [[params.profileMode.buttons]]
-    name = "Explore the Blog"
-    url = "/blog/"
 
   [params.assets]
     favicon = "/orioninsist.ico"
