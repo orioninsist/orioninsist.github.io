@@ -1,103 +1,70 @@
 +++
 title = "Privacy Policy"
 date = 2025-09-07T16:01:42+03:00
-lastmod = 2025-09-07T16:01:42+03:00
+lastmod = 2026-08-30T17:25:00+03:00
 draft = false
-description = "The Orioninsist.org Privacy Policy provides detailed information about what data we collect, how we use it, and your privacy rights while using our site."
-author = "orioninsist"
+description = "Privacy information for Orioninsist, including analytics, advertising, cookies, consent choices, and third-party services used on the site."
+author = "Murat Kurkoglu"
 ShowReadingTime = false
-ShowToc = false
+ShowToc = true
 TocOpen = false
-
-[cover]
-    alt = "An illustration representing data privacy and security."
-    caption = "Protecting your information is our priority."
-    relative = false
 +++
-## Privacy Policy for https://orioninsist.org/
+This Privacy Policy explains how Orioninsist (`orioninsist.org`) handles information when you visit the site. It describes the services currently used by the website and the choices available to visitors. It is intended to describe the site's practices and is not a guarantee that any particular privacy law applies to every visitor.
 
-At orioninsist, accessible from https://orioninsist.org/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by orioninsist and how we use it.
+## Information you provide
 
-If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
+Orioninsist does not provide visitor account registration on this website and does not ask visitors to create profiles or submit personal information through an on-site registration form.
 
-This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in orioninsist. This policy is not applicable to any information collected offline or via channels other than this website.
+If you choose to contact Orioninsist through an external platform linked from the Contact page, the information you send is handled through that platform and is subject to its own privacy terms.
 
-## Consent
+## Analytics
 
-By using our website, you hereby consent to our Privacy Policy and agree to its terms.
+Orioninsist uses Google Analytics to understand aggregate site usage, such as page visits, general device and browser information, traffic sources, and interaction patterns. Google Analytics may process identifiers and technical information according to Google's terms and privacy documentation.
 
-## Information we collect
+Analytics consent is managed through Google's consent tools where applicable. Consent signals are initialized conservatively before Google services are loaded.
 
-The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.
-If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.
-When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.
+## Advertising
 
-## How we use your information
+Orioninsist uses Google AdSense. Google and its advertising partners may use cookies or similar technologies to deliver, measure, limit, and personalize advertising where permitted by your choices and applicable requirements.
 
-We use the information we collect in various ways, including to:
+AdSense may process information such as IP address, browser or device information, ad interactions, and other technical signals needed to deliver and measure ads, prevent fraud and abuse, and provide advertising services.
 
-* Provide, operate, and maintain our website
-* Improve, personalize, and expand our website
-* Understand and analyze how you use our website
-* Develop new products, services, features, and functionality
-* Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes
-* Send you emails
-* Find and prevent fraud
+For more information about how Google uses information from sites and apps that use its services, review Google's privacy and advertising documentation.
 
-## Log Files
+## Consent and privacy choices
 
-orioninsist follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.
+For regions where Google requires a certified Consent Management Platform for publisher advertising, Orioninsist uses Google's Privacy & messaging / consent tooling. The consent interface may ask you to accept, reject, or manage choices related to advertising and related data processing.
 
+A **Privacy and cookie settings** control is available in the site footer so that supported consent choices can be revisited through Google's consent interface.
 
-## Google DoubleClick DART Cookie
+You can also manage cookies and site data through your browser. Blocking or deleting cookies can affect analytics, advertising, saved preferences, or other site functionality.
 
-Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to www.website.com and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – https://policies.google.com/technologies/ads
+## Local browser storage and caching
 
+The site may store limited preferences in your browser, such as theme or navigation state. A service worker may cache site pages and static assets on your device to improve reliability and repeat-load performance. This local data is used for site functionality and can be removed through your browser's site-data controls.
 
-## Advertising Partners Privacy Policies
+## Hosting and technical logs
 
-You may consult this list to find the Privacy Policy for each of the advertising partners of orioninsist.
+The site is published using GitHub Pages. Hosting and network providers may process technical request information needed to operate, secure, and deliver the website. Their processing is governed by their own terms and privacy documentation.
 
-Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on orioninsist, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.
+## Third-party links and services
 
-Note that orioninsist has no access to or control over these cookies that are used by third-party advertisers.
+Orioninsist links to third-party websites and services, including social, publishing, portfolio, and support platforms. Following those links takes you to services that operate under their own privacy policies. Orioninsist does not control the privacy practices of those external services.
 
-## Third Party Privacy Policies
+## Children's privacy
 
-orioninsist's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. 
+Orioninsist is a general-audience technology website and is not designed to knowingly collect personal information from children through account registration or on-site submission forms. If you believe personal information relating to a child has been provided to Orioninsist directly, use the Contact page to request review or removal.
 
-You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.
+## Privacy rights
 
-## CCPA Privacy Rights (Do Not Sell My Personal Information)
+Depending on where you live and the services involved, privacy laws may provide rights concerning access, correction, deletion, restriction, objection, portability, or choices about certain advertising uses of personal information. The availability and scope of these rights depend on applicable law and the entity processing the information.
 
-Under the CCPA, among other rights, California consumers have the right to:
-Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.
-Request that a business delete any personal data about the consumer that a business has collected.
-Request that a business that sells a consumer's personal data, not sell the consumer's personal data.
-If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.
+For data processed directly by Google or another third-party service, you may also need to use that provider's privacy controls or request process.
 
-## GDPR Data Protection Rights
+## Changes to this policy
 
-We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:
-The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.
-The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.
-The right to erasure – You have the right to request that we erase your personal data, under certain conditions.
-The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.
-The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.
-The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.
-If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.
+This policy may be updated when the site's technology, analytics, advertising, consent tools, or other practices change. The `lastmod` date on this page indicates the latest published revision.
 
-## Children's Information
+## Contact
 
-Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
-
-orioninsist does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
-
-
-## Changes to This Privacy Policy
-
-We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately, after they are posted on this page.
-
-## Contact Us
-
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.
+For questions about this Privacy Policy or Orioninsist's site practices, use the [Contact](/contact/) page.
