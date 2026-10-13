@@ -27,11 +27,7 @@ body {
     font-size: 18px;
     line-height: 1.6;
     word-break: break-word;
-    background:
-        radial-gradient(circle at top, rgba(181, 121, 67, 0.14), transparent 24%),
-        radial-gradient(circle at 50% 110%, rgba(205, 142, 89, 0.08), transparent 34%),
-        linear-gradient(180deg, rgba(255, 255, 255, 0.045), transparent 18%),
-        var(--theme);
+    background: var(--theme);
     color: var(--content);
 }
 
