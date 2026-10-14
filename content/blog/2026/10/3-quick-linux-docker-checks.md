@@ -7,7 +7,6 @@ tags = ["Linux", "Docker", "Fedora", "SOC", "Productivity"]
 slug = "quick-linux-docker-checks"
 +++
 
-# 3 Quick Linux and Docker Checks Before Starting Work
 
 Before troubleshooting permissions or working with containers, a few read-only checks can reveal useful context. These three commands take little time and help you avoid assumptions.
 
