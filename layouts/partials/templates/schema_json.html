@@ -37,7 +37,7 @@
     )
   )
 -}}
-<script type="application/ld+json">{{ $schema | jsonify | safeHTML }}</script>
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
 
 {{- else if and .IsPage (eq .Section "blog") }}
 {{- $schema := dict
@@ -57,7 +57,7 @@
 {{- with .Params.keywords }}{{- $schema = merge $schema (dict "keywords" .) -}}{{- end }}
 {{- $images := partial "templates/_funcs/get-page-images" . -}}
 {{- with index $images 0 }}{{- $schema = merge $schema (dict "image" .Permalink) -}}{{- end }}
-<script type="application/ld+json">{{ $schema | jsonify | safeHTML }}</script>
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
 
 {{- else if .IsPage }}
 {{- $schema := dict
@@ -71,7 +71,7 @@
   "inLanguage" .Language.Locale
   "isPartOf" (dict "@type" "WebSite" "@id" (printf "%s#website" site.Home.Permalink) "url" site.Home.Permalink "name" $siteName)
 -}}
-<script type="application/ld+json">{{ $schema | jsonify | safeHTML }}</script>
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
 
 {{- else if or (eq .Kind "section") (eq .Kind "taxonomy") (eq .Kind "term") }}
 {{- $schema := dict
@@ -83,5 +83,5 @@
   "inLanguage" .Language.Locale
   "isPartOf" (dict "@type" "WebSite" "@id" (printf "%s#website" site.Home.Permalink) "url" site.Home.Permalink "name" $siteName)
 -}}
-<script type="application/ld+json">{{ $schema | jsonify | safeHTML }}</script>
+<script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
 {{- end }}
