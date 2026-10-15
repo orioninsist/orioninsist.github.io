@@ -1,70 +1,156 @@
 {{- define "main" }}
 <style>
-.contact-page{color-scheme:dark;--bg:#0b0c0f;--surface:#15171c;--surface-hover:#1c1f25;--border:#2a2e36;--text:#f5f7fa;--muted:#9da4af;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.contact-page{color-scheme:dark;--cp-bg:#070b13;--cp-card:#101827;--cp-line:#25334b;--cp-text:#f5f8ff;--cp-muted:#a3b0c4;--cp-accent:#80caff;--cp-glow:#6577ff;min-height:100vh;background:radial-gradient(ellipse 65% 25% at 50% 0%,#273b66 0%,transparent 90%),var(--cp-bg);color:var(--cp-text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
 .contact-page .main{max-width:none!important;width:100%;padding:0!important;margin:0!important}
-.contact-page .page{width:min(calc(100% - 28px),620px);margin:0 auto;padding:34px 0 30px}
-.contact-page .main .profile{display:block!important;width:100%!important;max-width:none!important;min-height:0!important;height:auto!important;text-align:center!important;margin:0 0 28px!important;padding:0!important;background:transparent!important;align-items:initial!important;justify-content:initial!important}
-.contact-page .avatar{display:block!important;width:92px!important;height:92px!important;max-width:92px!important;min-width:92px!important;margin:0 auto!important;padding:0!important;border-radius:50%!important;object-fit:cover!important;border:1px solid var(--border)!important;box-shadow:none!important}
-.contact-page .profile h1{display:block!important;width:auto!important;margin:15px 0 0!important;padding:0!important;font-size:1.55rem!important;line-height:1.2!important;letter-spacing:-.025em!important;text-align:center!important}
-.contact-page .handle{display:block;margin:5px 0 0;color:var(--muted);font-size:.9rem;text-align:center}
-.contact-page .bio{display:block;max-width:500px;margin:11px auto 0;color:var(--muted);font-size:.92rem;line-height:1.55;text-align:center}
-.contact-page .contact-note{display:block;margin-top:4px;color:var(--text);font-size:.82rem}
-.contact-page .section-title{margin:0 0 11px;color:var(--muted);font-size:.76rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
-.contact-page .latest{display:grid;gap:10px}
-.contact-page .release{display:grid;grid-template-columns:54px minmax(0,1fr) 28px;align-items:center;min-height:70px;padding:8px 12px 8px 8px;border:1px solid var(--border);border-radius:14px;background:var(--surface);color:var(--text);text-decoration:none;transition:background 150ms ease,border-color 150ms ease,transform 150ms ease}
-.contact-page .release:hover,.contact-page .release:focus-visible{background:var(--surface-hover);border-color:#404650;transform:translateY(-1px);outline:none}
-.contact-page .release-thumb{display:grid;place-items:center;width:46px;height:46px;overflow:hidden;border:1px solid #343943;border-radius:10px;background:#101216;color:#f5f7fa;font-size:1.35rem;line-height:1}
-.contact-page .release-copy{min-width:0;padding:0 10px}
-.contact-page .release-title{display:block;overflow:hidden;color:var(--text);font-size:.91rem;font-weight:700;line-height:1.3;text-overflow:ellipsis;white-space:nowrap}
-.contact-page .release-source{display:block;margin-top:4px;color:var(--muted);font-size:.76rem;line-height:1.2}
-.contact-page .release-arrow{justify-self:center;color:var(--muted);font-size:1rem}
-.contact-page .socials{display:flex;flex-wrap:wrap;justify-content:center;gap:9px;margin-top:22px}
-.contact-page .socials a{display:grid;place-items:center;width:46px;height:46px;border:1px solid var(--border);border-radius:13px;background:var(--surface);color:var(--text);text-decoration:none;transition:background 150ms ease,transform 150ms ease}
-.contact-page .socials a:hover,.contact-page .socials a:focus-visible{background:var(--surface-hover);transform:translateY(-1px);outline:none}
-.contact-page .social-mark{display:grid;place-items:center;width:24px;height:24px;border-radius:6px;background:#f5f7fa;color:#0b0c0f;font-size:.58rem;font-weight:900;letter-spacing:-.03em}
-.contact-page .copy-link{display:block;margin:18px auto 0;border:0;background:transparent;color:var(--muted);font:inherit;font-size:.82rem;cursor:pointer}
-.contact-page .contact-footer{margin-top:24px;padding-top:18px;border-top:1px solid var(--border);text-align:center;color:var(--muted);font-size:.76rem;line-height:1.7}
-.contact-page .footer-links{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
-.contact-page .contact-footer a{color:inherit;text-decoration:none}
-.contact-page .contact-footer a:hover,.contact-page .contact-footer a:focus-visible{color:var(--text);text-decoration:underline;outline:none}
-.contact-page .copyright{margin-top:5px}
-@media(max-width:420px){.contact-page .page{width:min(calc(100% - 22px),620px);padding-top:26px}.contact-page .avatar{width:82px!important;height:82px!important;max-width:82px!important;min-width:82px!important}.contact-page .release{grid-template-columns:50px minmax(0,1fr) 26px;min-height:66px}.contact-page .release-thumb{width:42px;height:42px}.contact-page .footer-links{gap:8px 12px}}
+.contact-page .cp-wrap{width:min(100% - 36px,690px);margin-inline:auto;padding:42px 0 42px}
+.contact-page .cp-back{display:inline-flex;gap:8px;align-items:center;color:var(--cp-muted);font-size:.83rem;text-decoration:none;margin-bottom:38px}
+.contact-page .cp-back:hover{color:var(--cp-text)}
+.contact-page .cp-hero{text-align:center;margin-bottom:27px}
+.contact-page .cp-avatar{display:block;width:92px;height:92px;object-fit:cover;margin:0 auto 16px;border-radius:24px;border:1px solid #415379;box-shadow:0 12px 55px #3c69a63b;background:#151e2e}
+.contact-page .cp-eyebrow{display:inline-flex;gap:7px;align-items:center;color:#b7dcfa;letter-spacing:.12em;text-transform:uppercase;font-size:.67rem;font-weight:750;margin:0 0 9px}
+.contact-page .cp-dot{height:7px;width:7px;border-radius:50%;background:#76e5c2;box-shadow:0 0 13px #76e5c299}
+.contact-page h1{font-size:clamp(2.15rem,7vw,3rem);letter-spacing:-.055em;line-height:1.1;margin:0;color:var(--cp-text);font-weight:800}
+.contact-page .cp-handle{color:var(--cp-accent);font-size:.88rem;margin:7px 0 0}
+.contact-page .cp-bio{max-width:520px;margin:15px auto 0;color:var(--cp-muted);line-height:1.7;font-size:.94rem}
+.contact-page .cp-actions{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:10px;margin-top:22px}
+.contact-page .cp-pill{border:1px solid var(--cp-line);border-radius:999px;min-height:43px;padding:10px 16px;display:inline-flex;gap:9px;align-items:center;justify-content:center;color:var(--cp-text);font-size:.84rem;font-weight:650;background:#172337;text-decoration:none;cursor:pointer;font-family:inherit}
+.contact-page .cp-pill-primary{background:#dceeff;color:#0b1729;border-color:#dceeff}
+.contact-page .cp-pill:hover{transform:translateY(-2px);border-color:#82bde6;transition:transform .18s,border-color .18s}
+.contact-page .cp-symbol{width:18px;height:18px;display:inline-flex;align-items:center;justify-content:center;flex:none}
+.contact-page .cp-symbol svg{width:100%;height:100%;stroke:currentColor;stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.contact-page .cp-section{margin-top:30px}
+.contact-page .cp-heading{display:flex;align-items:end;justify-content:space-between;gap:15px;margin:0 0 13px}
+.contact-page .cp-heading h2{font-size:1.03rem;font-weight:750;letter-spacing:-.025em;margin:0;color:var(--cp-text)}
+.contact-page .cp-heading p,.contact-page .cp-heading a{color:var(--cp-muted);font-size:.77rem;margin:0;text-decoration:none}
+.contact-page .cp-heading a:hover{color:var(--cp-accent)}
+.contact-page .cp-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+.contact-page .cp-card{display:flex;align-items:center;gap:12px;min-width:0;min-height:82px;border:1px solid var(--cp-line);border-radius:17px;padding:15px;background:linear-gradient(135deg,#18243a,#111a2b);color:var(--cp-text);text-decoration:none;transition:transform .18s,border-color .18s,background .18s}
+.contact-page .cp-card:hover{transform:translateY(-2px);border-color:#6681ac;background:linear-gradient(135deg,#20324f,#142038)}
+.contact-page .cp-card:focus-visible,.contact-page a:focus-visible,.contact-page button:focus-visible{outline:2px solid var(--cp-accent);outline-offset:3px}
+.contact-page .cp-icon{width:43px;height:43px;border-radius:12px;background:#283857;display:grid;place-items:center;flex:none;font-size:.9rem;font-weight:850;letter-spacing:-.06em;color:#e3f1ff}
+.contact-page .cp-copy{display:block;min-width:0;flex:1}
+.contact-page .cp-name{display:block;font-weight:720;font-size:.91rem}
+.contact-page .cp-detail{display:block;color:var(--cp-muted);font-size:.73rem;margin-top:4px;line-height:1.4}
+.contact-page .cp-arrow{color:#94a7c5;flex:none;margin-left:auto;font-size:.98rem}
+.contact-page .cp-feature{grid-column:1/-1;min-height:105px;background:linear-gradient(110deg,#223960,#18243b 62%,#111a2b)}
+.contact-page .cp-feature .cp-icon{background:#315380}
+.contact-page .cp-releases{display:grid;gap:10px}
+.contact-page .cp-release{display:flex;align-items:center;gap:13px;padding:12px 15px;min-height:74px;border:1px solid var(--cp-line);border-radius:14px;background:#101827;color:var(--cp-text);text-decoration:none;transition:border-color .18s,transform .18s}
+.contact-page .cp-release:hover{border-color:#6681ac;transform:translateY(-2px)}
+.contact-page .cp-release .cp-icon{width:42px;height:42px}
+.contact-page .cp-footer{margin-top:38px;padding-top:21px;border-top:1px solid var(--cp-line);display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;color:var(--cp-muted);font-size:.77rem}
+.contact-page .cp-footer a{color:inherit;text-decoration:none}
+.contact-page .cp-footer a:hover{color:var(--cp-text)}
+.contact-page .cp-footer-links{display:flex;flex-wrap:wrap;gap:15px}
+@media(max-width:520px){.contact-page .cp-wrap{width:min(100% - 30px,690px);padding:23px 0 32px}.contact-page .cp-back{margin-bottom:24px}.contact-page .cp-avatar{height:78px;width:78px;border-radius:21px}.contact-page .cp-grid{grid-template-columns:1fr}.contact-page .cp-feature{grid-column:auto}.contact-page .cp-card{min-height:72px;padding:12px}.contact-page .cp-bio{font-size:.88rem}.contact-page .cp-footer{justify-content:center;text-align:center;flex-direction:column}}
+@media(prefers-reduced-motion:reduce){.contact-page *{scroll-behavior:auto!important;transition:none!important}}
 </style>
-<div class="page">
-  <header class="profile">
-    <img class="avatar" src="/orioninsist-logo.png" alt="orioninsist logo" fetchpriority="high" decoding="async">
-    <h1>orioninsist</h1><p class="handle">@orioninsist</p>
-    <p class="bio">Cybersecurity, Linux, software development, digital products, writing, and independent projects.<span class="contact-note">DM on Instagram for contact.</span></p>
+{{- $external := "noopener noreferrer" -}}
+<div class="cp-wrap">
+  <a class="cp-back" href="/" aria-label="Back to orioninsist website">← &nbsp; Back to website</a>
+  <header class="cp-hero">
+    <img class="cp-avatar" src="/orioninsist-logo.png" alt="orioninsist logo" width="92" height="92" fetchpriority="high" decoding="async">
+    <p class="cp-eyebrow"><span class="cp-dot" aria-hidden="true"></span>Official links &amp; contact</p>
+    <h1>orioninsist<span style="color:var(--cp-accent)">.</span></h1>
+    <p class="cp-handle">@orioninsist</p>
+    <p class="cp-bio">Building, exploring and sharing work across cybersecurity, Linux, software development, digital creativity and the open web.</p>
+    <div class="cp-actions">
+      <a class="cp-pill cp-pill-primary" href="https://www.instagram.com/orioninsist/" target="_blank" rel="{{ $external }}" data-track="Instagram DM"><span class="cp-symbol" aria-hidden="true">✉</span>Get in touch ↗</a>
+      <a class="cp-pill" href="{{ "/" | absURL }}" data-track="Website"><span class="cp-symbol" aria-hidden="true">⌂</span>Website</a>
+      <button class="cp-pill" type="button" id="cp-copy" data-copy="{{ .Permalink }}" aria-label="Copy contact page URL"><span class="cp-symbol" aria-hidden="true">⧉</span><span id="cp-copy-label">Copy link</span></button>
+    </div>
   </header>
-  <section aria-labelledby="latest-title"><h2 class="section-title" id="latest-title">Latest releases</h2><div class="latest">
-    <a class="release" href="https://promptbase.com/prompt/cute-dinosaur-coloring-book-pages-2?via=muzzle3" target="_blank" rel="noopener noreferrer" data-track="Cute Dinosaur Coloring Book Pages"><span class="release-thumb" aria-hidden="true">🦕</span><span class="release-copy"><span class="release-title">Cute Dinosaur Coloring Book Pages</span><span class="release-source">PromptBase</span></span><span class="release-arrow" aria-hidden="true">↗</span></a>
-    <a class="release" href="https://promptbase.com/prompt/vintage-coffee-junk-journal-ephemera-2?via=muzzle3" target="_blank" rel="noopener noreferrer" data-track="Vintage Coffee Junk Journal Ephemera"><span class="release-thumb" aria-hidden="true">☕</span><span class="release-copy"><span class="release-title">Vintage Coffee Junk Journal Ephemera</span><span class="release-source">PromptBase</span></span><span class="release-arrow" aria-hidden="true">↗</span></a>
-    <a class="release" href="https://promptbase.com/prompt/modern-minimalist-geometric-logos-2?via=muzzle3" target="_blank" rel="noopener noreferrer" data-track="Modern Minimalist Geometric Logos"><span class="release-thumb" aria-hidden="true">◆</span><span class="release-copy"><span class="release-title">Modern Minimalist Geometric Logos</span><span class="release-source">PromptBase</span></span><span class="release-arrow" aria-hidden="true">↗</span></a>
-    <a class="release" href="https://promptbase.com/prompt/cute-pastel-flat-vector-icons-2?via=muzzle3" target="_blank" rel="noopener noreferrer" data-track="Cute Pastel Flat Vector Icons"><span class="release-thumb" aria-hidden="true">✦</span><span class="release-copy"><span class="release-title">Cute Pastel Flat Vector Icons</span><span class="release-source">PromptBase</span></span><span class="release-arrow" aria-hidden="true">↗</span></a>
-    <a class="release" href="https://promptbase.com/prompt/noir-luxury-perfume-mockups-2?via=muzzle3" target="_blank" rel="noopener noreferrer" data-track="Noir Luxury Perfume Mockups"><span class="release-thumb" aria-hidden="true">◈</span><span class="release-copy"><span class="release-title">Noir Luxury Perfume Mockups</span><span class="release-source">PromptBase</span></span><span class="release-arrow" aria-hidden="true">↗</span></a>
-  </div></section>
-  <nav class="socials" aria-label="Official links and social profiles">
-    <a href="https://orioninsist.org/" target="_blank" rel="noopener noreferrer" data-track="Website" aria-label="Website"><span class="social-mark" aria-hidden="true">WEB</span></a>
-    <a href="https://github.com/orioninsist" target="_blank" rel="noopener noreferrer" data-track="GitHub" aria-label="GitHub"><span class="social-mark" aria-hidden="true">GH</span></a>
-    <a href="https://promptbase.com/profile/orioninsist" target="_blank" rel="noopener noreferrer" data-track="PromptBase" aria-label="PromptBase"><span class="social-mark" aria-hidden="true">PB</span></a>
-    <a href="https://stock.adobe.com/contributor/213025942/orioninsist?locale=en_US" target="_blank" rel="noopener noreferrer" data-track="Adobe Stock" aria-label="Adobe Stock"><span class="social-mark" aria-hidden="true">AS</span></a>
-    <a href="https://medium.com/@orioninsist" target="_blank" rel="noopener noreferrer" data-track="Medium" aria-label="Medium"><span class="social-mark" aria-hidden="true">M</span></a>
-    <a href="https://www.etsy.com/shop/orioninsist" target="_blank" rel="noopener noreferrer" data-track="Etsy" aria-label="Etsy"><span class="social-mark" aria-hidden="true">E</span></a>
-    <a href="https://www.youtube.com/@lukas_und_mia" target="_blank" rel="noopener noreferrer" data-track="YouTube" aria-label="YouTube"><span class="social-mark" aria-hidden="true">YT</span></a>
-    <a href="https://buymeacoffee.com/orioninsist" target="_blank" rel="noopener noreferrer" data-track="Support" aria-label="Support"><span class="social-mark" aria-hidden="true">BMC</span></a>
-    <a href="https://www.patreon.com/cw/orioninsist" target="_blank" rel="noopener noreferrer" data-track="Patreon" aria-label="Patreon"><span class="social-mark" aria-hidden="true">P</span></a>
-    <a href="https://x.com/orioninsist" target="_blank" rel="noopener noreferrer" data-track="X" aria-label="X"><span class="social-mark" aria-hidden="true">X</span></a>
-    <a href="https://www.instagram.com/orioninsist/" target="_blank" rel="noopener noreferrer" data-track="Instagram" aria-label="Instagram — contact via DM"><span class="social-mark" aria-hidden="true">IG</span></a>
-    <a href="https://www.linkedin.com/company/orioninsist/" target="_blank" rel="noopener noreferrer" data-track="LinkedIn" aria-label="LinkedIn"><span class="social-mark" aria-hidden="true">IN</span></a>
-    <a href="https://www.pinterest.com/orioninsist/" target="_blank" rel="noopener noreferrer" data-track="Pinterest" aria-label="Pinterest"><span class="social-mark" aria-hidden="true">PIN</span></a>
-    <a href="https://www.tiktok.com/@orioninsist" target="_blank" rel="noopener noreferrer" data-track="TikTok" aria-label="TikTok"><span class="social-mark" aria-hidden="true">TT</span></a>
-    <a href="https://www.facebook.com/oorioninsist/" target="_blank" rel="noopener noreferrer" data-track="Facebook" aria-label="Facebook"><span class="social-mark" aria-hidden="true">FB</span></a>
-    <a href="https://substack.com/@orioninsist" target="_blank" rel="noopener noreferrer" data-track="Substack" aria-label="Substack"><span class="social-mark" aria-hidden="true">SUB</span></a>
-    <a href="https://dev.to/orioninsist" target="_blank" rel="noopener noreferrer" data-track="Dev.to" aria-label="Dev.to"><span class="social-mark" aria-hidden="true">DEV</span></a>
-    <a href="https://open.spotify.com/show/2U1u9mOfxjRYf7js8Wlhwj?si=bte96u79RVyRRUcQHNFr0A" target="_blank" rel="noopener noreferrer" data-track="Spotify" aria-label="Spotify"><span class="social-mark" aria-hidden="true">SP</span></a>
-  </nav>
-  <button class="copy-link" type="button" data-copy="{{ .Permalink }}">Copy page link</button>
-  <footer class="contact-footer"><nav class="footer-links" aria-label="Site information"><a href="/">Home</a><a href="/about/">About</a><a href="/privacy-policy/">Privacy Policy</a></nav><div class="copyright">© {{ now.Year }} Murat Kurkoglu · orioninsist.org</div></footer>
+
+  <section class="cp-section" aria-labelledby="cp-start-title">
+    <div class="cp-heading"><h2 id="cp-start-title">Start here</h2><p>Explore my work</p></div>
+    <div class="cp-grid">
+      <a class="cp-card cp-feature" href="https://github.com/orioninsist" target="_blank" rel="{{ $external }}" data-track="GitHub"><span class="cp-icon" aria-hidden="true">GH</span><span class="cp-copy"><span class="cp-name">Open-source projects</span><span class="cp-detail">Code, experiments, tools and ongoing work on GitHub</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
+      <a class="cp-card" href="/blog/" data-track="Blog"><span class="cp-icon" aria-hidden="true">✎</span><span class="cp-copy"><span class="cp-name">Read the blog</span><span class="cp-detail">Notes and technical guides</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
+      <a class="cp-card" href="https://www.youtube.com/@lukas_und_mia" target="_blank" rel="{{ $external }}" data-track="YouTube"><span class="cp-icon" aria-hidden="true">▶</span><span class="cp-copy"><span class="cp-name">YouTube</span><span class="cp-detail">Videos and creative updates</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
+  {{- $posts := where site.RegularPages "Section" "blog" -}}
+  {{- $posts = where $posts "Draft" false -}}
+  {{- $posts = first 3 ($posts.ByDate.Reverse) -}}
+  {{- with $posts }}
+  <section class="cp-section" aria-labelledby="cp-posts-title">
+    <div class="cp-heading"><h2 id="cp-posts-title">From the blog</h2><a href="/blog/">All articles ↗</a></div>
+    <div class="cp-releases">
+      {{- range . }}
+      <a class="cp-release" href="{{ .RelPermalink }}" data-track="Blog post"><span class="cp-icon" aria-hidden="true">✦</span><span class="cp-copy"><span class="cp-name">{{ .Title }}</span><span class="cp-detail">{{ .Date.Format "Jan 2, 2006" }} · Read article</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+
+  <section class="cp-section" aria-labelledby="cp-social-title">
+    <div class="cp-heading"><h2 id="cp-social-title">Social &amp; writing</h2><p>Find me elsewhere</p></div>
+    <div class="cp-grid">
+      {{- $social := slice
+        (dict "name" "Instagram" "desc" "Messages & visual updates" "symbol" "IG" "url" "https://www.instagram.com/orioninsist/")
+        (dict "name" "LinkedIn" "desc" "Professional network" "symbol" "in" "url" "https://www.linkedin.com/company/orioninsist/")
+        (dict "name" "X / Twitter" "desc" "Short updates & ideas" "symbol" "𝕏" "url" "https://x.com/orioninsist")
+        (dict "name" "Medium" "desc" "Articles & essays" "symbol" "M" "url" "https://medium.com/@orioninsist")
+        (dict "name" "Dev.to" "desc" "Developer writing" "symbol" "DEV" "url" "https://dev.to/orioninsist")
+        (dict "name" "Substack" "desc" "Writing & newsletters" "symbol" "S" "url" "https://substack.com/@orioninsist")
+        (dict "name" "Pinterest" "desc" "Visual inspiration" "symbol" "P" "url" "https://www.pinterest.com/orioninsist/")
+        (dict "name" "TikTok" "desc" "Short-form video" "symbol" "♪" "url" "https://www.tiktok.com/@orioninsist")
+        (dict "name" "Facebook" "desc" "Community updates" "symbol" "f" "url" "https://www.facebook.com/oorioninsist/")
+      -}}
+      {{- range $social }}
+      <a class="cp-card" href="{{ .url }}" target="_blank" rel="{{ $external }}" data-track="{{ .name }}"><span class="cp-icon" aria-hidden="true">{{ .symbol }}</span><span class="cp-copy"><span class="cp-name">{{ .name }}</span><span class="cp-detail">{{ .desc }}</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
+      {{- end }}
+    </div>
+  </section>
+
+  <section class="cp-section" aria-labelledby="cp-create-title">
+    <div class="cp-heading"><h2 id="cp-create-title">Creative work &amp; support</h2><p>Projects and products</p></div>
+    <div class="cp-grid">
+      {{- $creative := slice
+        (dict "name" "PromptBase" "desc" "Creative AI prompts" "symbol" "✦" "url" "https://promptbase.com/profile/orioninsist")
+        (dict "name" "Adobe Stock" "desc" "Stock graphics & creative assets" "symbol" "AS" "url" "https://stock.adobe.com/contributor/213025942/orioninsist?locale=en_US")
+        (dict "name" "Etsy Shop" "desc" "Digital creative products" "symbol" "E" "url" "https://www.etsy.com/shop/orioninsist")
+        (dict "name" "Buy Me a Coffee" "desc" "Support independent work" "symbol" "☕" "url" "https://buymeacoffee.com/orioninsist")
+        (dict "name" "Patreon" "desc" "Support ongoing projects" "symbol" "P" "url" "https://www.patreon.com/cw/orioninsist")
+        (dict "name" "Spotify" "desc" "Audio & podcasts" "symbol" "♫" "url" "https://open.spotify.com/show/2U1u9mOfxjRYf7js8Wlhwj?si=bte96u79RVyRRUcQHNFr0A")
+      -}}
+      {{- range $creative }}
+      <a class="cp-card" href="{{ .url }}" target="_blank" rel="{{ $external }}" data-track="{{ .name }}"><span class="cp-icon" aria-hidden="true">{{ .symbol }}</span><span class="cp-copy"><span class="cp-name">{{ .name }}</span><span class="cp-detail">{{ .desc }}</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
+      {{- end }}
+    </div>
+  </section>
+
+  <section class="cp-section" aria-labelledby="cp-stay-title">
+    <div class="cp-heading"><h2 id="cp-stay-title">Stay connected</h2><p>Subscribe and share</p></div>
+    <div class="cp-grid">
+      <a class="cp-card" href="/index.xml" data-track="RSS"><span class="cp-icon" aria-hidden="true">RSS</span><span class="cp-copy"><span class="cp-name">RSS feed</span><span class="cp-detail">Follow new articles in your reader</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
+      <a class="cp-card" href="/qrcode-portfolio/" data-track="QR portfolio"><span class="cp-icon" aria-hidden="true">▦</span><span class="cp-copy"><span class="cp-name">QR portfolio</span><span class="cp-detail">Save or share my links</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+  <footer class="cp-footer">
+    <span>© {{ now.Year }} orioninsist · Built for the open web</span>
+    <nav class="cp-footer-links" aria-label="Footer"><a href="/">Home</a><a href="/about/">About</a><a href="/privacy-policy/">Privacy</a></nav>
+  </footer>
 </div>
-<script>document.querySelectorAll('[data-track]').forEach((item)=>{item.addEventListener('click',()=>{if(typeof gtag==='function'){gtag('event','link_click',{link_name:item.dataset.track,link_url:item.href||''})}})});const copyButton=document.querySelector('[data-copy]');copyButton?.addEventListener('click',async()=>{const original=copyButton.textContent;try{await navigator.clipboard.writeText(copyButton.dataset.copy);copyButton.textContent='Copied';setTimeout(()=>copyButton.textContent=original,1400)}catch{window.prompt('Copy this link:',copyButton.dataset.copy)}})</script>
+<script>
+(function(){
+  document.querySelectorAll('.contact-page [data-track]').forEach(function(link){
+    link.addEventListener('click',function(){
+      if(typeof window.gtag==='function') window.gtag('event','link_click',{link_name:link.dataset.track,link_url:link.href||''});
+    });
+  });
+  var btn=document.getElementById('cp-copy'),label=document.getElementById('cp-copy-label');
+  if(!btn||!label)return;
+  btn.addEventListener('click',async function(){
+    var url=btn.dataset.copy;
+    try{
+      if(!navigator.clipboard||!navigator.clipboard.writeText)throw new Error('Clipboard unavailable');
+      await navigator.clipboard.writeText(url);
+      label.textContent='Copied!';
+      window.setTimeout(function(){label.textContent='Copy link'},1700);
+    }catch(e){window.prompt('Copy this link:',url)}
+  });
+})();
+</script>
 {{- end }}
