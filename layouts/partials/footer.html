@@ -109,8 +109,11 @@
 
             copybutton.addEventListener('click', () => {
                 if ('clipboard' in navigator) {
-                    navigator.clipboard.writeText(codeblock.textContent);
-                    copyingDone();
+                    navigator.clipboard.writeText(codeblock.textContent)
+                        .then(copyingDone)
+                        .catch((error) => {
+                            console.error('Code copy failed:', error);
+                        });
                     return;
                 }
 

@@ -219,7 +219,7 @@
     background: var(--code-block-bg) !important;
     border-radius: var(--radius);
     overflow-x: auto;
-    word-break: break-all;
+    word-break: normal;
 }
 
 .post-content blockquote {
