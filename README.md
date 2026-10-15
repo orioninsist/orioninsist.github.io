@@ -1,32 +1,17 @@
 # orioninsist.github.io
 
-This repository contains the source code and content for my personal blog, [orioninsist.org](https://orioninsist.org). The site is built with the [Hugo](https://gohugo.io/) static site generator and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
+Source code and content for [orioninsist.org](https://orioninsist.org), a personal technology blog built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
 
----
+## Licensing
 
-## License
+Different parts of this repository have different licenses:
 
-This project uses a dual-licensing model to distinguish between the site's code and its original content.
+- **Original site code:** Original configuration, templates, and scripts authored for this site are available under the [MIT License](LICENSE-CODE). Third-party components retain their own licenses.
+- **PaperMod theme:** The site uses and adapts [Hugo PaperMod](https://github.com/adityatelange/hugo-PaperMod), licensed under MIT. Its original copyright notice and license text are preserved in [LICENSE](LICENSE).
+- **Original content:** Unless otherwise indicated, original blog posts, articles, and original images in `content/` and `static/` are licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/). This does not override third-party licenses for assets or software in those directories.
 
-### 1. Source Code
+## Third-party components
 
-The code used to build and run the site—including the Hugo configuration files, templates, and scripts—is licensed under the **[MIT License](https://github.com/orioninsist/orioninsist.github.io/blob/main/LICENSE-CODE)**. This allows for free use and modification for any purpose.
+The [social links page](https://orioninsist.org/bio) uses [Littlelink](https://github.com/sethcottle/littlelink), which is MIT-licensed. Its upstream license is retained with the Littlelink files under `static/bio/`.
 
-### 2. Content
-
-All original content located in the `/content/` and `/static/` directories (e.g., blog posts, articles, and images) is licensed under the **[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/)** license.
-
-Under this license, you are free to share the content for non-commercial purposes, provided you give appropriate credit. You may **not** use the material for commercial purposes or distribute it if you have modified it.
-
-
----
-
-## Social Links Page
-
-The social links page, accessible at [orioninsist.org/bio](https://orioninsist.org/bio), is built using the **Littlelink** project.
-
-This project, originally developed by [Seth Cottle](https://github.com/sethcottle), is a lightweight, open-source solution for creating a personal bio link page. The code for the Littlelink integration is located in the `/static/bio/` directory.
-
-### License of Littlelink
-
-While this repository's original content is under the CC BY-NC-ND 4.0 license, the files in the `/static/bio/` directory are an exception. The Littlelink project and its source code are licensed under the **[MIT License](https://github.com/sethcottle/littlelink/blob/main/LICENSE.md)**, which permits commercial use and modification. A copy of the original license file is included in the `/static/bio/` directory for compliance.
+Other third-party assets and dependencies remain subject to their respective licenses.
