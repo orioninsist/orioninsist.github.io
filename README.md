@@ -14,9 +14,9 @@ The [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme is also MIT
 
 ### Content
 
-My original blog posts, articles, and images in `content/` and `static/` are licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/), unless otherwise noted.
+Unless otherwise stated, my original blog posts, articles, and images are licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/) license.
 
-You may share this content for non-commercial purposes with attribution, but you may not distribute modified versions. Third-party code and assets retain their own licenses.
+Third-party content, code, and assets remain subject to their respective licenses.
 
 ## Social Links Page
 
