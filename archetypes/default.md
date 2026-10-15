@@ -9,8 +9,6 @@ description = ""
 summary = ""
 slug = ""
 
-tags = []
-categories = []
 
 ShowReadingTime = true
 ShowWordCount = true
