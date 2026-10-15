@@ -5,7 +5,6 @@ title = "orioninsist"
 defaultContentLanguage = "en"
 locale = "en-US"
 enableRobotsTXT = true
-enableInlineShortcodes = true
 enableEmoji = true
 buildDrafts = false
 buildFuture = false
@@ -15,14 +14,11 @@ enableGitInfo = true
 [frontmatter]
   date = ["date", "publishDate", "pubdate", ":default"]
   publishDate = ["publishDate", "pubdate", "date", ":default"]
-  lastmod = [":git", "lastmod", "date", "publishDate", ":default"]
+  lastmod = ["lastmod", ":git", "date", "publishDate", ":default"]
   expiryDate = ["expiryDate", "unpublishdate", ":default"]
 
 [permalinks]
   blog = "/blog/:slug/"
-[server]
-  trailingSlash = "always"
-
 [pagination]
   pagerSize = 6
 
@@ -199,10 +195,8 @@ enableGitInfo = true
   [privacy.disqus]
     disable = true
   [privacy.googleAnalytics]
-    anonymizeIP = true
     disable = false
     respectDoNotTrack = true
-    useSessionStorage = false
   [privacy.instagram]
     disable = true
   [privacy.x]
@@ -251,3 +245,6 @@ enableGitInfo = true
     limit = 50
 
 [taxonomies]
+
+[security]
+  enableInlineShortcodes = true
