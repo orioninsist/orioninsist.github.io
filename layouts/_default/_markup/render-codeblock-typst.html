@@ -1,0 +1,25 @@
+{{- $hash := sha256 .Inner -}}
+{{- $manifestPath := printf "generated/typst/%s.pages" $hash -}}
+{{- with resources.Get $manifestPath -}}
+  {{- $count := int (strings.TrimSpace .Content) -}}
+  {{- if lt $count 1 -}}
+    {{- errorf "Invalid Typst page count: %s" $manifestPath -}}
+  {{- end -}}
+  <figure class="typst-diagram">
+    {{- range seq $count -}}
+      {{- $path := printf "generated/typst/%s-%d.svg" $hash . -}}
+      {{- $pageNumber := . -}}
+      {{- with resources.Get $path -}}
+        <img
+          src="{{ .RelPermalink }}"
+          alt="Typst diagram page {{ $pageNumber }}"
+          loading="lazy"
+          decoding="async">
+      {{- else -}}
+        {{- errorf "Typst SVG missing: %s" $path -}}
+      {{- end -}}
+    {{- end -}}
+  </figure>
+{{- else -}}
+  {{- errorf "Typst manifest missing: %s" $manifestPath -}}
+{{- end -}}

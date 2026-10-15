@@ -59,6 +59,25 @@ jobs:
       - name: Generate D2 SVG diagrams
         run: python3 scripts/build_d2.py
 
+      - name: Install Typst CLI
+        run: |
+          set -euo pipefail
+          TYPST_VERSION="v0.15.0"
+          ARCHIVE="typst-x86_64-unknown-linux-musl.tar.xz"
+          curl --fail --location --retry 3 \
+            --output "${RUNNER_TEMP}/${ARCHIVE}" \
+            "https://github.com/typst/typst/releases/download/${TYPST_VERSION}/${ARCHIVE}"
+          mkdir -p "${RUNNER_TEMP}/typst-install"
+          tar -xJf "${RUNNER_TEMP}/${ARCHIVE}" \
+            -C "${RUNNER_TEMP}/typst-install"
+          sudo install -m 755 \
+            "${RUNNER_TEMP}/typst-install/typst-x86_64-unknown-linux-musl/typst" \
+            /usr/local/bin/typst
+          typst --version
+
+      - name: Generate Typst SVG diagrams
+        run: python3 scripts/build_typst.py
+
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
