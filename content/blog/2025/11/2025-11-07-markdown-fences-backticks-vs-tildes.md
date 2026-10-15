@@ -46,7 +46,7 @@ I was wrong. Or at least, I was missing the one crucial, practical difference th
 ---
 
 ### My Goal This Week 🎯
-My goal was simple: write a new blog post, a tutorial on how I manage my [dotfiles](https://orioninsist.org/tags/dotfiles/) (my Arch Linux configuration files). This is a common topic, and I wanted to do it right. A good dotfiles tutorial *must* show examples of code.
+My goal was simple: write a new blog post, a tutorial on how I manage my dotfiles (my Arch Linux configuration files). This is a common topic, and I wanted to do it right. A good dotfiles tutorial *must* show examples of code.
 
 I needed to show my readers:
 1.  A sample `.zshrc` alias.

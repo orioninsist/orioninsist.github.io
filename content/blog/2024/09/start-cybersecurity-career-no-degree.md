@@ -111,7 +111,7 @@ You’ve got the roadmap—now put in the reps.
 
 ### Want more beginner-friendly cybersecurity guides?
 
-👉 [Browse all our cybersecurity articles](/categories/cybersecurity)  
+👉 Browse all our cybersecurity articles  
 👉 [Subscribe to our newsletter](https://orioninsist.medium.com/subscribe) for weekly tips
 
 

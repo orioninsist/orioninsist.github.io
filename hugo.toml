@@ -1,3 +1,5 @@
+disableKinds = ["taxonomy", "term"]
+
 baseURL = "https://orioninsist.org/"
 title = "orioninsist"
 defaultContentLanguage = "en"
