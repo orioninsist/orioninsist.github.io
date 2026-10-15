@@ -1,7 +1,5 @@
 disableKinds = ["taxonomy", "term"]
 
-[taxonomies]
-
 baseURL = "https://orioninsist.org/"
 title = "orioninsist"
 defaultContentLanguage = "en"
@@ -251,3 +249,5 @@ enableGitInfo = true
     id = "G-6CE6YFM36C"
   [services.rss]
     limit = 50
+
+[taxonomies]

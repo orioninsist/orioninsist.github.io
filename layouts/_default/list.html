@@ -9,7 +9,7 @@
   {{- partial "breadcrumbs.html" . }}
   <h1>
     {{ .Title }}
-    {{- if and (or (eq .Kind `term`) (eq .Kind `section`)) (.Param "ShowRssButtonInSectionTermList") }}
+    {{- if and (eq .Kind `section`) (.Param "ShowRssButtonInSectionTermList") }}
     {{- with .OutputFormats.Get "rss" }}
     <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -51,7 +51,6 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 
-{{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
 {{- $class := "post-entry" }}
@@ -59,8 +58,6 @@
 {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
 {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
 {{- $class = "first-entry" }}
-{{- else if $term }}
-{{- $class = "post-entry tag-entry" }}
 {{- end }}
 
 <article class="{{ $class }}">
