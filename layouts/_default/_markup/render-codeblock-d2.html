@@ -1,0 +1,9 @@
+{{- $hash := sha256 .Inner -}}
+{{- $path := printf "generated/d2/%s.svg" $hash -}}
+{{- with resources.Get $path -}}
+<figure class="d2-diagram">
+  <img src="{{ .RelPermalink }}" alt="D2 diagram" loading="lazy" decoding="async">
+</figure>
+{{- else -}}
+{{- errorf "D2 SVG missing: %s" $path -}}
+{{- end -}}
