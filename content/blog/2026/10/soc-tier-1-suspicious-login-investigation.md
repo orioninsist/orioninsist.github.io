@@ -23,8 +23,7 @@ ShowCodeCopyButtons = true
 +++
 
 
-> **Training scenario:** All event details below are simulated. The source IP `203.0.113.45` belongs to a documentation-only address range and is not a real threat intelligence indicator.
-
+> **Training scenario:** This article presents a fictional SOC Tier 1 investigation for educational purposes. All event details, hosts, accounts, timestamps, and observed activities are simulated and do not represent a real security incident. The source IP address `203.0.113.45` belongs to the TEST-NET-3 documentation range (`203.0.113.0/24`), reserved under [RFC 5737](https://www.rfc-editor.org/rfc/rfc5737.html). It does not identify a real-world attacker and should not be treated as a real threat intelligence indicator. 
 ## Objective
 
 Practice a Tier 1 SOC workflow: review an authentication alert, correlate Windows Security events, distinguish suspicious activity from confirmed compromise, and document an escalation recommendation.
