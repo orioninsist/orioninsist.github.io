@@ -3,7 +3,6 @@ title: "The Ultimate Follower Count Challenge a Python Game"
 date: 2023-07-25T10:10:06+03:00
 draft: false
 description: "Guess followers & play with Python! Random accounts, test your intuition. Fun & interactive! 🚀🎮 #Python #GameDev"
-tags: ["python" ,"gamedev" ,"coding" ,"programming","fun" ,"challenge"]
 keywords: ["python" ,"gamedev" ,"coding" ,"programming","fun" ,"challenge"]
 author: "orioninsist"
 type: "blog"

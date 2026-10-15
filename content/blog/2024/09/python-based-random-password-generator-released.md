@@ -3,7 +3,6 @@ title: "Python-based Random Password Generator Released"
 date: 2023-06-25T16:11:32+03:00
 draft: false
 description: "Exciting news! Python-based Random Password Generator released. Enhance your security."
-tags: ["python","passwordgenerator","cybersecurity","release","digitalsecurity"]
 keywords: ["python","passwordgenerator","cybersecurity","release","digitalsecurity"]
 author: "orioninsist"
 type: "blog"

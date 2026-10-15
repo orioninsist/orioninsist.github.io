@@ -3,7 +3,6 @@ title: "Django: A Powerful Web Framework for Rapid Development"
 date: 2023-06-22T13:56:27+03:00
 draft: false
 description: "Explore the advantages, disadvantages, and alternatives of Django, a powerful web framework for rapid development."
-tags: ["django","flask","rapiddevelopment","python","rubyonrails","ruby","aspnet"]
 keywords: ["django","flask","rapiddevelopment","python","rubyonrails","ruby","aspnet"]
 author: "orioninsist"
 language: "English"

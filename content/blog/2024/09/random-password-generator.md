@@ -3,7 +3,6 @@ title: "Random Password Generator"
 date: 2023-06-25T13:14:04+03:00
 draft: false
 description: "Introducing the Random Password Generator project! Generate secure and unique passwords with Python. Safeguard your accounts and data effortlessly."
-tags: ["python","passwordgenerator", "project", "coding", "security"]
 keywords: ["python","passwordgenerator", "project", "coding", "security"]
 author: "orioninsist"
 type: "blog"

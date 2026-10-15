@@ -3,7 +3,6 @@ title: "Mastering Lists in Python Unleashing the Power of Data Organization"
 date: 2023-07-21T19:16:08+03:00
 draft: false
 description: "Discover the versatility of Python lists! From indexing to nesting, explore the magic of data organization in Python programming."
-tags: ["python","pythonlist","dataorganization","pythonprogramming"]
 keywords: ["python","pythonlist","dataorganization","pythonprogramming"]
 author: "orioninsist"
 type: "blog"

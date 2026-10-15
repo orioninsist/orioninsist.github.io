@@ -3,7 +3,6 @@ title: "Mastering Numpy Array Slicing and Operations Python Numpy Podcast"
 date: 2023-07-27T18:02:34+03:00
 draft: false
 description: "🔥 Welcome to the ultimate Python NumPy podcast! 🔥 In this video, we'll dive deep into mastering NumPy array slicing, indexing, and various array operations for efficient data manipulation. 🚀"
-tags: ["python","numpy","programming","datascience","podcast","codinglife","short","shorts","youtube"]
 keywords: ["python","numpy","programming","datascience","podcast","codinglife","short","shorts","youtube"]
 author: "orioninsist"
 type: "blog"

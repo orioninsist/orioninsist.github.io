@@ -4,7 +4,6 @@ date: 2023-09-16T13:08:57+03:00
 draft: false
 description: "Master Linux commands, shortcuts, and permissions for effective Linux usage"
 author: "orioninsist"
-tags: ["linux","commands","terminal"]
 keywords: ["linux","commands","terminal"]
 slug: "linux-mastery-essential-commands-shortcuts"
 language: "English"

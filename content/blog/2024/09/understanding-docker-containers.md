@@ -3,7 +3,6 @@ title: "Understanding Docker Containers"
 date: 2023-10-08T10:58:06+03:00
 draft: false
 description: "Docker containers: Learn core concepts, benefits, and use cases in this detailed exploration. Streamline your software development and deployment with Docker."
-tags: ["docker","containerization","software-development"]
 keywords: ["docker","containerization","software-development"]
 author: "orioninsist"
 slug: "understanding-docker-containers"

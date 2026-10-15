@@ -4,7 +4,6 @@ date: 2023-09-16T12:12:47+03:00
 draft: false
 description: "Explore vital Linux commands like 'cd,' 'ls,' 'file,' and more, plus valuable tips and shortcuts. Perfect for beginners mastering Linux commands."
 keywords: ["linux","terminal","commands"]
-tags: ["linux","terminal","commands"]
 slug: "linux-essentials-mastering-key-commands"
 author: "orioninsist"
 language: "English"

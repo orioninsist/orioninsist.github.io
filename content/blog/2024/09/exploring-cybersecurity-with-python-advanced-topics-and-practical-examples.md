@@ -3,7 +3,6 @@ title: "Exploring Cybersecurity with Python: Advanced Topics and Practical Examp
 date: 2023-06-28T22:57:24+03:00
 draft: false
 description: "Dive into advanced cybersecurity topics with Python, learn practical examples, and enhance your skills. #cybersecurity #python"
-tags: ["cybersecurity","python","programming","security","ethicalhacking","networksecurity"]
 keywords: ["cybersecurity","python","programming","security","ethicalhacking","networksecurity"]
 author: "orioninsist"
 slug: "exploring-cybersecurity-with-python-advanced-topics-and-practical-examples"

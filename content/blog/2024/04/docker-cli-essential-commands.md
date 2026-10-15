@@ -7,11 +7,9 @@ language: english
 type: blog
 description: Explore Docker CLI with essential commands for listing, running, inspecting, and managing containers.
 slug: docker-cli-essential-commands
-tags: ["devops","docker"]
 keywords: ["devops","docker"]
 cover:
      alt: "docker-cli-essential-commands.avif"
-
 ---
 
 Docker has become a cornerstone of modern application development. By containerizing applications, Docker streamlines deployment, simplifies collaboration, and promotes portability. This blog post delves into some fundamental Docker commands you'll encounter frequently.

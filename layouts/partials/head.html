@@ -79,9 +79,8 @@
 {{- $isList := or .IsHome (eq .Kind "section") }}
 {{- $isSearch := eq .Layout "search" }}
 {{- $isArchive := eq .Layout "archives" }}
-{{- $isTerms := false }}
 {{- $is404 := eq .Layout "404" }}
-{{- $variant := printf "s%t-l%t-se%t-a%t-t%t-4%t" $isSingle $isList $isSearch $isArchive $isTerms $is404 }}
+{{- $variant := printf "s%t-l%t-se%t-a%t-4%t" $isSingle $isList $isSearch $isArchive $is404 }}
 {{- $base_bundle := $base | resources.Concat "assets/css/base.css" | resources.Minify }}
 {{- $context_bundle := (" " | resources.FromString (printf "assets/css/context-empty-%s.css" $variant)) }}
 {{- if gt (len $context) 0 }}

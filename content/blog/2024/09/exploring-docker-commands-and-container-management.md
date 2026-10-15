@@ -6,7 +6,6 @@ author: "orioninsist"
 type: "blog"
 slug: "exploring-docker-commands-and-container-management"
 keywords: ["docker","container","management","sysadmin"]
-tags: ["docker","container","management","sysadmin"]
 description: "Explore Docker commands and container management with this comprehensive guide. Learn how to update container images, create and manage files within containers, and monitor and interact with running containers."
 language: "English"
 cover:

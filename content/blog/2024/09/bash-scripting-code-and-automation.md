@@ -3,7 +3,6 @@ title: "Bash Scripting Code and Automation"
 date: 2023-09-16T15:12:01+03:00
 draft: false
 description: "Enhance your coding skills and automate tasks with Bash scripting. Learn Bash commands and boost productivity."
-tags: ["linux","commands","terminal"]
 keywords: ["linux","commands","terminal"]
 author: "orioninsist"
 slug: "bash-scripting-code-and-automation"

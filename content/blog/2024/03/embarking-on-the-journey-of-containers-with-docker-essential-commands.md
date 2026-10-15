@@ -5,7 +5,6 @@ draft: false
 author: "orioninsist"
 type: "blog"
 slug: "embarking-on-the-journey-of-containers-with-docker-essential-commands"
-tags: ["docker","command"]
 keywords: ["docker","command"]
 language: "english"
 description: "Unleash the power of Docker! This guide equips you with the fundamental commands to manage and navigate the world of containerized applications. Learn how to install, run, manage, and explore containers, all within a user-friendly format."

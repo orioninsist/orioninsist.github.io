@@ -1,5 +1,7 @@
 disableKinds = ["taxonomy", "term"]
 
+[taxonomies]
+
 baseURL = "https://orioninsist.org/"
 title = "orioninsist"
 defaultContentLanguage = "en"
@@ -180,12 +182,6 @@ enableGitInfo = true
   [[related.indices]]
     name = "keywords"
     weight = 100
-  [[related.indices]]
-    name = "tags"
-    weight = 80
-  [[related.indices]]
-    name = "categories"
-    weight = 50
   [[related.indices]]
     name = "date"
     weight = 10

@@ -6,7 +6,6 @@ author: "orioninsist"
 type: "blog"
 slug: "what-is-docker"
 keywords: ["docker","devops","container"]
-tags: ["docker","devops","container"]
 description: "Docker simplifying devOps with portable containers"
 language: "English"
 cover:

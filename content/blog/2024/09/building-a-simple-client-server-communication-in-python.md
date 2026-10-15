@@ -3,7 +3,6 @@ title: "Building a Simple Client-Server Communication in Python"
 date: 2023-07-06T07:44:54+03:00
 draft: false
 description: "Learn how to establish basic client-server communication with Python. Explore the code and see how it works. 🐍💻 #Python #Networking"
-tags: ["python","networking","socketprogramming","programming","technology","pythonlibraries","networkcommunication"]
 keywords: ["python","networking","socketprogramming","programming","technology","pythonlibraries","networkcommunication"]
 author: "orioninsist"
 language: "English"

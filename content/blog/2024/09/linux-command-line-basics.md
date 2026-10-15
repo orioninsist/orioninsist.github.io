@@ -4,7 +4,6 @@ date: 2023-09-15T23:03:32+03:00
 draft: false 
 description: "Learn essential Linux commands: ls, grep, cd, man, and more in this comprehensive guide"
 keywords: ["linux","terminal","commands"]
-tags: ["linux","terminal","commands"]
 slug: "linux-command-line-basics"
 author: "orioninsist"
 language: "English"

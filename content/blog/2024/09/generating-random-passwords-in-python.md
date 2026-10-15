@@ -3,7 +3,6 @@ title: "Generating Random Passwords in Python"
 date: 2023-06-25T10:18:14+03:00
 draft: false
 description: "Learn to generate secure passwords in Python. Enhance application security with this code snippet."
-tags: ["python","cybersecurity","passwordgeneration"]
 keywords: ["python","cybersecurity","passwordgeneration"]
 author: "orioninsist"
 type: "blog"

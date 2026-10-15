@@ -3,7 +3,6 @@ title: "Understanding Pandas Series Labeled and Unlabeled Data Structures"
 date: 2023-07-31T10:57:27+03:00
 draft: false
 description: "Learn how to create and manipulate pandas Series, versatile data structures for efficient data handling in Python. Explore labeled and unlabeled formats, perform operations, and level up your data analysis skills! 🐼📊 #Python #Pandas #DataScience"
-tags: ["python", "datascience", "pandas", "numpy", "dataanalysis", "programming", "coding", "data", "datastructure", "analysis"]
 keywords: ["python", "datascience", "pandas", "numpy", "dataanalysis", "programming", "coding", "data", "datastructure", "analysis"]
 author: "orioninsist"
 type: "blog"

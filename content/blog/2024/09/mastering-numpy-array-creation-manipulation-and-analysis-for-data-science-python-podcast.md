@@ -3,7 +3,6 @@ title: "Mastering Numpy Array Creation Manipulation and Analysis for Data Scienc
 date: 2023-07-27T17:04:20+03:00
 draft: false
 description: "Dive into the world of NumPy and learn how to create, manipulate, and analyze arrays for data science using Python!"
-tags: ["python","programming","dataanalysis","numpy","datascience","tensorflow"]
 keywords: ["python","programming","dataanalysis","numpy","datascience","tensorflow"]
 author: "orioninsist"
 type: "blog"

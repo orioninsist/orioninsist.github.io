@@ -6,7 +6,6 @@ author: "orioninsist"
 type: "blog"
 slug: "docker-a-comprehensive-guide-to-the-basic-commands"
 keywords: ["docker","devops"]
-tags: ["devops","docker"]
 description: "Learn the basics of Docker with this comprehensive guide to the most important commands."
 language: "English"
 cover:
