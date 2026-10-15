@@ -148,6 +148,11 @@
 </script>
 {{- end }}
 
+{{- if and .IsPage (.Store.Get "hasMermaid") }}
+<script defer src="/js/vendor/mermaid.bundle.js"></script>
+<script defer src="/js/mermaid-init.js"></script>
+{{- end }}
+
 {{- $bmc := site.Params.buyMeACoffee }}
 {{- if not $bmc }}
 {{- $bmc = site.Params.buyMeACoffeeWidget }}

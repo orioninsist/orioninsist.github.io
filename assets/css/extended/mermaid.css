@@ -1,0 +1,14 @@
+.post-content pre.mermaid {
+    padding: 1.25rem;
+    margin: 1.5rem 0;
+    overflow-x: auto;
+    text-align: center;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--entry);
+}
+
+.post-content pre.mermaid svg {
+    max-width: 100%;
+    height: auto;
+}
