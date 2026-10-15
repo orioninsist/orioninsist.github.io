@@ -1,0 +1,13 @@
+{{- if eq .Type "alert" -}}
+  {{- $kind := .AlertType | lower -}}
+  {{- if in (slice "note" "tip" "important" "warning" "caution") $kind -}}
+<aside class="markdown-alert markdown-alert-{{ $kind }}" role="note">
+  <p class="markdown-alert-title">{{ $kind | title }}</p>
+  <div class="markdown-alert-content">{{ .Text }}</div>
+</aside>
+  {{- else -}}
+<blockquote>{{ .Text }}</blockquote>
+  {{- end -}}
+{{- else -}}
+<blockquote>{{ .Text }}</blockquote>
+{{- end -}}
