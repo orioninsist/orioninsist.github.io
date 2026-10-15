@@ -1,10 +1,6 @@
 User-agent: *
 {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
 Allow: /
-# Allow indexing of taxonomies and archives for better SEO discovery
-Allow: /tags/
-Allow: /categories/
-Allow: /archives/
 {{- else }}
 Disallow: /
 {{- end }}

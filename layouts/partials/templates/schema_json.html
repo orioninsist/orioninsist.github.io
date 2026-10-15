@@ -73,7 +73,7 @@
 -}}
 <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
 
-{{- else if or (eq .Kind "section") (eq .Kind "taxonomy") (eq .Kind "term") }}
+{{- else if eq .Kind "section" }}
 {{- $schema := dict
   "@context" "https://schema.org"
   "@type" "CollectionPage"

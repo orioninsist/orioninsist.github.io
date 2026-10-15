@@ -60,7 +60,7 @@
 {{- $context = $context | append (resources.Get "css/includes/chroma-styles.css") }}
 {{- $context = $context | append (resources.Get "css/includes/chroma-mod.css") }}
 {{- end }}
-{{- if or .IsHome (eq .Kind "section") (eq .Kind "taxonomy") (eq .Kind "term") }}
+{{- if or .IsHome (eq .Kind "section") }}
 {{- $context = $context | append (resources.Get "css/common/post-entry.css") }}
 {{- end }}
 {{- if eq .Layout "search" }}
@@ -69,9 +69,6 @@
 {{- if eq .Layout "archives" }}
 {{- $context = $context | append (resources.Get "css/common/archive.css") }}
 {{- end }}
-{{- if or (eq .Kind "taxonomy") (eq .Kind "term") }}
-{{- $context = $context | append (resources.Get "css/common/terms.css") }}
-{{- end }}
 {{- if eq .Layout "404" }}
 {{- $context = $context | append (resources.Get "css/common/404.css") }}
 {{- end }}
@@ -79,10 +76,10 @@
 {{- $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" | resources.Minify }}
 {{- $license_css := (resources.Get "css/core/license.css") }}
 {{- $isSingle := and (eq .Kind "page") (ne .Layout "search") (ne .Layout "archives") }}
-{{- $isList := or .IsHome (eq .Kind "section") (eq .Kind "taxonomy") (eq .Kind "term") }}
+{{- $isList := or .IsHome (eq .Kind "section") }}
 {{- $isSearch := eq .Layout "search" }}
 {{- $isArchive := eq .Layout "archives" }}
-{{- $isTerms := or (eq .Kind "taxonomy") (eq .Kind "term") }}
+{{- $isTerms := false }}
 {{- $is404 := eq .Layout "404" }}
 {{- $variant := printf "s%t-l%t-se%t-a%t-t%t-4%t" $isSingle $isList $isSearch $isArchive $isTerms $is404 }}
 {{- $base_bundle := $base | resources.Concat "assets/css/base.css" | resources.Minify }}

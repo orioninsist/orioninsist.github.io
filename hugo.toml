@@ -20,14 +20,6 @@ enableGitInfo = true
 
 [permalinks]
   blog = "/blog/:slug/"
-  categories = "/categories/:slug/"
-  tags = "/tags/:slug/"
-
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
-
 [server]
   trailingSlash = "always"
 
@@ -201,8 +193,6 @@ enableGitInfo = true
 [outputs]
   home = ["HTML", "RSS", "JSON"]
   section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
-  term = ["HTML", "RSS"]
 
 [markup]
   [markup.goldmark]
