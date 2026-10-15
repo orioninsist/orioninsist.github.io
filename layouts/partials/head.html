@@ -40,6 +40,14 @@
 <meta name="naver-site-verification" content="{{ site.Params.analytics.naver.SiteVerificationTag }}">
 {{- end }}
 
+{{- if and .IsHome site.Params.profileMode.enabled }}
+{{- with site.Params.profileMode.imageUrl }}
+{{- $profileImage := resources.Get . }}
+{{- if $profileImage }}
+<link rel="preload" as="image" href="{{ $profileImage.RelPermalink }}" fetchpriority="high">
+{{- end }}
+{{- end }}
+{{- end }}
 {{- /* Base styles (loaded on every page) */}}
 {{- $base := slice }}
 {{- $base = $base | append (resources.Get "css/core/theme-vars.css") }}

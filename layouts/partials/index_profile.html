@@ -20,10 +20,10 @@
                 {{- end }}
             {{- end }}
             <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
-                height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" decoding="async" />
+                height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" decoding="async" loading="eager" fetchpriority="high" />
         {{- else }}
         <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
-            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" decoding="async" />
+            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" decoding="async" loading="eager" fetchpriority="high" />
         {{- end }}
         {{- end }}
 
