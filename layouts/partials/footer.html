@@ -14,9 +14,22 @@
     (function () {
         var privacyButton = document.getElementById('privacy-cookie-settings');
         if (!privacyButton) return;
+
+        // Only offer the control when Google's consent API is ready.
+        privacyButton.hidden = true;
+
+        window.googlefc = window.googlefc || {};
+        window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+        window.googlefc.callbackQueue.push({
+            CONSENT_API_READY: function () {
+                if (typeof window.googlefc.showRevocationMessage !== 'function') return;
+                privacyButton.hidden = false;
+            }
+        });
+
         privacyButton.addEventListener('click', function () {
-            if (window.googlefc && window.googlefc.callbackQueue && window.googlefc.showRevocationMessage) {
-                window.googlefc.callbackQueue.push(window.googlefc.showRevocationMessage);
+            if (typeof window.googlefc.showRevocationMessage === 'function') {
+                window.googlefc.showRevocationMessage();
             }
         });
     })();
