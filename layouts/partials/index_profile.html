@@ -31,6 +31,10 @@
         <span>{{ .subtitle | markdownify }}</span>
         <p class="profile_focus">I build practical web systems, automation workflows, and brand tools for people who want their digital work to feel fast, clear, and dependable.</p>
 
+        {{- if site.Params.socialIcons }}
+        {{- partial "social_icons.html" (dict "align" "center") }}
+        {{- end }}
+
         {{- with .buttons }}
         <nav class="buttons" aria-label="Primary homepage links">
             {{- range . }}
