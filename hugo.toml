@@ -141,6 +141,7 @@ enableGitInfo = true
     minMatchCharLength = 0
     keys = ["title", "permalink", "summary", "content"]
 
+  # Shared by Profile Mode and other social-link components.
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/orioninsist"
@@ -149,7 +150,7 @@ enableGitInfo = true
     url = "https://www.linkedin.com/company/orioninsist/"
   [[params.socialIcons]]
     name = "youtube"
-    url = "https://www.youtube.com/@lukas_und_mia"
+    url = "https://www.youtube.com/@orioninsist-official/"
   [[params.socialIcons]]
     name = "instagram"
     url = "https://www.instagram.com/orioninsist/"
