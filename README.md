@@ -18,8 +18,3 @@ Unless otherwise stated, my original blog posts, articles, and images are licens
 
 Third-party content, code, and assets remain subject to their respective licenses.
 
-## Social Links Page
-
-The [social links page](https://orioninsist.org/bio) uses parts of [Littlelink](https://github.com/sethcottle/littlelink), created by Seth Cottle.
-
-Littlelink is licensed under the [MIT License](https://github.com/sethcottle/littlelink/blob/main/LICENSE.md). Its license applies to the Littlelink code used on the page, rather than to my original blog content.
