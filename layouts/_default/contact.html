@@ -54,7 +54,7 @@
 .contact-page .cp-card,.contact-page .cp-card:hover,.contact-page .cp-feature,.contact-page .cp-release{background:#151515}
 .contact-page .cp-icon,.contact-page .cp-feature .cp-icon{background:#242424;color:#fff}
 .contact-page .cp-arrow{color:#fff}
-.contact-page .cp-brand-icon{display:block;width:23px;height:23px;object-fit:contain;filter:invert(1)}
+.contact-page .cp-brand-icon{display:block;width:23px;height:23px;object-fit:contain;filter:grayscale(1) brightness(1.4)}
 </style>
 {{- $external := "noopener noreferrer" -}}
 <div class="cp-wrap">
@@ -72,45 +72,45 @@
     </div>
   </header>
 
-  <section class="cp-section" aria-labelledby="cp-start-title">
-    <div class="cp-heading"><h2 id="cp-start-title">Start here</h2><p>Explore my work</p></div>
-    <div class="cp-grid">
-      <a class="cp-card cp-feature" href="https://github.com/orioninsist" target="_blank" rel="{{ $external }}" data-track="GitHub"><span class="cp-icon" aria-hidden="true"><img class="cp-brand-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/github.svg" alt="" loading="lazy"></span><span class="cp-copy"><span class="cp-name">Open-source projects</span><span class="cp-detail">Code, experiments, tools and ongoing work on GitHub</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
-      <a class="cp-card" href="/blog/" data-track="Blog"><span class="cp-icon" aria-hidden="true">✎</span><span class="cp-copy"><span class="cp-name">Read the blog</span><span class="cp-detail">Notes and technical guides</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
-      <a class="cp-card" href="https://www.youtube.com/@lukas_und_mia" target="_blank" rel="{{ $external }}" data-track="YouTube"><span class="cp-icon" aria-hidden="true"><img class="cp-brand-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/youtube.svg" alt="" loading="lazy"></span><span class="cp-copy"><span class="cp-name">YouTube</span><span class="cp-detail">Videos and creative updates</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
-    </div>
-  </section>
-
   {{- $posts := where site.RegularPages "Section" "blog" -}}
   {{- $posts = where $posts "Draft" false -}}
-  {{- $posts = first 3 ($posts.ByDate.Reverse) -}}
+  {{- $posts = first 3 ($posts.ByLastmod.Reverse) -}}
   {{- with $posts }}
   <section class="cp-section" aria-labelledby="cp-posts-title">
-    <div class="cp-heading"><h2 id="cp-posts-title">From the blog</h2><a href="/blog/">All articles ↗</a></div>
+    <div class="cp-heading"><h2 id="cp-posts-title">Latest updates</h2><a href="/blog/">View all ↗</a></div>
     <div class="cp-releases">
       {{- range . }}
-      <a class="cp-release" href="{{ .RelPermalink }}" data-track="Blog post"><span class="cp-icon" aria-hidden="true">✦</span><span class="cp-copy"><span class="cp-name">{{ .Title }}</span><span class="cp-detail">{{ .Date.Format "Jan 2, 2006" }} · Read article</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
+      <a class="cp-release" href="{{ .RelPermalink }}" data-track="Blog post"><span class="cp-icon" aria-hidden="true">✎</span><span class="cp-copy"><span class="cp-name">{{ .Title }}</span><span class="cp-detail">Updated {{ .Lastmod.Format "Jan 2, 2006" }} · Read article</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
       {{- end }}
     </div>
   </section>
   {{- end }}
 
+  <section class="cp-section" aria-labelledby="cp-start-title">
+    <div class="cp-heading"><h2 id="cp-start-title">Start here</h2><p>Explore my work</p></div>
+    <div class="cp-grid">
+      <a class="cp-card cp-feature" href="https://github.com/orioninsist" target="_blank" rel="{{ $external }}" data-track="GitHub"><span class="cp-icon" aria-hidden="true"><img class="cp-brand-icon" src="https://www.google.com/s2/favicons?domain=github.com&amp;sz=64" alt="" loading="lazy"></span><span class="cp-copy"><span class="cp-name">Open-source projects</span><span class="cp-detail">Code, experiments, tools and ongoing work on GitHub</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
+      <a class="cp-card" href="/blog/" data-track="Blog"><span class="cp-icon" aria-hidden="true">✎</span><span class="cp-copy"><span class="cp-name">Read the blog</span><span class="cp-detail">Notes and technical guides</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
+      <a class="cp-card" href="https://www.youtube.com/@lukas_und_mia" target="_blank" rel="{{ $external }}" data-track="YouTube"><span class="cp-icon" aria-hidden="true"><img class="cp-brand-icon" src="https://www.google.com/s2/favicons?domain=youtube.com&amp;sz=64" alt="" loading="lazy"></span><span class="cp-copy"><span class="cp-name">YouTube</span><span class="cp-detail">Videos and creative updates</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
   <section class="cp-section" aria-labelledby="cp-social-title">
     <div class="cp-heading"><h2 id="cp-social-title">Social &amp; writing</h2><p>Find me elsewhere</p></div>
     <div class="cp-grid">
       {{- $social := slice
-        (dict "name" "Instagram" "desc" "Messages & visual updates" "symbol" "instagram" "url" "https://www.instagram.com/orioninsist/")
-        (dict "name" "LinkedIn" "desc" "Professional network" "symbol" "linkedin" "url" "https://www.linkedin.com/company/orioninsist/")
-        (dict "name" "X / Twitter" "desc" "Short updates & ideas" "symbol" "x" "url" "https://x.com/orioninsist")
-        (dict "name" "Medium" "desc" "Articles & essays" "symbol" "medium" "url" "https://medium.com/@orioninsist")
-        (dict "name" "Dev.to" "desc" "Developer writing" "symbol" "devdotto" "url" "https://dev.to/orioninsist")
-        (dict "name" "Substack" "desc" "Writing & newsletters" "symbol" "substack" "url" "https://substack.com/@orioninsist")
-        (dict "name" "Pinterest" "desc" "Visual inspiration" "symbol" "pinterest" "url" "https://www.pinterest.com/orioninsist/")
-        (dict "name" "TikTok" "desc" "Short-form video" "symbol" "tiktok" "url" "https://www.tiktok.com/@orioninsist")
-        (dict "name" "Facebook" "desc" "Community updates" "symbol" "facebook" "url" "https://www.facebook.com/oorioninsist/")
+        (dict "name" "Instagram" "desc" "Messages & visual updates" "symbol" "instagram" "domain" "instagram.com" "url" "https://www.instagram.com/orioninsist/")
+        (dict "name" "LinkedIn" "desc" "Professional network" "symbol" "linkedin" "domain" "linkedin.com" "url" "https://www.linkedin.com/company/orioninsist/")
+        (dict "name" "X / Twitter" "desc" "Short updates & ideas" "symbol" "x" "domain" "x.com" "url" "https://x.com/orioninsist")
+        (dict "name" "Medium" "desc" "Articles & essays" "symbol" "medium" "domain" "medium.com" "url" "https://medium.com/@orioninsist")
+        (dict "name" "Dev.to" "desc" "Developer writing" "symbol" "devdotto" "domain" "dev.to" "url" "https://dev.to/orioninsist")
+        (dict "name" "Substack" "desc" "Writing & newsletters" "symbol" "substack" "domain" "substack.com" "url" "https://substack.com/@orioninsist")
+        (dict "name" "Pinterest" "desc" "Visual inspiration" "symbol" "pinterest" "domain" "pinterest.com" "url" "https://www.pinterest.com/orioninsist/")
+        (dict "name" "TikTok" "desc" "Short-form video" "symbol" "tiktok" "domain" "tiktok.com" "url" "https://www.tiktok.com/@orioninsist")
+        (dict "name" "Facebook" "desc" "Community updates" "symbol" "facebook" "domain" "facebook.com" "url" "https://www.facebook.com/oorioninsist/")
       -}}
       {{- range $social }}
-      <a class="cp-card" href="{{ .url }}" target="_blank" rel="{{ $external }}" data-track="{{ .name }}"><span class="cp-icon" aria-hidden="true">{{ if .symbol }}<img class="cp-brand-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/{{ .symbol }}.svg" alt="" loading="lazy">{{ else }}✦{{ end }}</span><span class="cp-copy"><span class="cp-name">{{ .name }}</span><span class="cp-detail">{{ .desc }}</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
+      <a class="cp-card" href="{{ .url }}" target="_blank" rel="{{ $external }}" data-track="{{ .name }}"><span class="cp-icon" aria-hidden="true">{{ if .symbol }}<img class="cp-brand-icon" src="https://www.google.com/s2/favicons?domain={{ .domain }}&amp;sz=64" alt="" loading="lazy">{{ else }}✦{{ end }}</span><span class="cp-copy"><span class="cp-name">{{ .name }}</span><span class="cp-detail">{{ .desc }}</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
       {{- end }}
     </div>
   </section>
@@ -120,14 +120,14 @@
     <div class="cp-grid">
       {{- $creative := slice
         (dict "name" "PromptBase" "desc" "Creative AI prompts" "symbol" "" "url" "https://promptbase.com/profile/orioninsist")
-        (dict "name" "Adobe Stock" "desc" "Stock graphics & creative assets" "symbol" "adobestock" "url" "https://stock.adobe.com/contributor/213025942/orioninsist?locale=en_US")
-        (dict "name" "Etsy Shop" "desc" "Digital creative products" "symbol" "etsy" "url" "https://www.etsy.com/shop/orioninsist")
-        (dict "name" "Buy Me a Coffee" "desc" "Support independent work" "symbol" "buymeacoffee" "url" "https://buymeacoffee.com/orioninsist")
-        (dict "name" "Patreon" "desc" "Support ongoing projects" "symbol" "patreon" "url" "https://www.patreon.com/cw/orioninsist")
-        (dict "name" "Spotify" "desc" "Audio & podcasts" "symbol" "spotify" "url" "https://open.spotify.com/show/2U1u9mOfxjRYf7js8Wlhwj?si=bte96u79RVyRRUcQHNFr0A")
+        (dict "name" "Adobe Stock" "desc" "Stock graphics & creative assets" "symbol" "adobestock" "domain" "stock.adobe.com" "url" "https://stock.adobe.com/contributor/213025942/orioninsist?locale=en_US")
+        (dict "name" "Etsy Shop" "desc" "Digital creative products" "symbol" "etsy" "domain" "etsy.com" "url" "https://www.etsy.com/shop/orioninsist")
+        (dict "name" "Buy Me a Coffee" "desc" "Support independent work" "symbol" "buymeacoffee" "domain" "buymeacoffee.com" "url" "https://buymeacoffee.com/orioninsist")
+        (dict "name" "Patreon" "desc" "Support ongoing projects" "symbol" "patreon" "domain" "patreon.com" "url" "https://www.patreon.com/cw/orioninsist")
+        (dict "name" "Spotify" "desc" "Audio & podcasts" "symbol" "spotify" "domain" "spotify.com" "url" "https://open.spotify.com/show/2U1u9mOfxjRYf7js8Wlhwj?si=bte96u79RVyRRUcQHNFr0A")
       -}}
       {{- range $creative }}
-      <a class="cp-card" href="{{ .url }}" target="_blank" rel="{{ $external }}" data-track="{{ .name }}"><span class="cp-icon" aria-hidden="true">{{ if .symbol }}<img class="cp-brand-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/{{ .symbol }}.svg" alt="" loading="lazy">{{ else }}✦{{ end }}</span><span class="cp-copy"><span class="cp-name">{{ .name }}</span><span class="cp-detail">{{ .desc }}</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
+      <a class="cp-card" href="{{ .url }}" target="_blank" rel="{{ $external }}" data-track="{{ .name }}"><span class="cp-icon" aria-hidden="true">{{ if .symbol }}<img class="cp-brand-icon" src="https://www.google.com/s2/favicons?domain={{ .domain }}&sz=64" alt="" loading="lazy">{{ else }}✦{{ end }}</span><span class="cp-copy"><span class="cp-name">{{ .name }}</span><span class="cp-detail">{{ .desc }}</span></span><span class="cp-arrow" aria-hidden="true">↗</span></a>
       {{- end }}
     </div>
   </section>
