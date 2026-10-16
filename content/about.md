@@ -6,41 +6,52 @@ draft: false
 description: "Learn about Murat Kurkoglu, founder of Orioninsist, and his work in cybersecurity, Linux, software development, system administration, and practical technology."
 author: "Murat Kurkoglu"
 slug: "about"
+showToc: false
+hideMeta: true
+ShowPostNavLinks: false
 cover:
+    hiddenInSingle: true
     image: "images/about/murat-kurkoglu-profile-400x400.png"
     alt: "Murat Kurkoglu, founder of Orioninsist"
 ---
 
-## About Murat Kurkoglu
+<div class="about-hero">
+  <div class="about-portrait">
+    <img src="/images/about/murat-kurkoglu-profile-400x400.png" alt="Portrait of Murat Kurkoglu" width="240" height="240" loading="eager" decoding="async">
+  </div>
+  <div class="about-intro">
+    <span class="about-eyebrow">ABOUT THE FOUNDER</span>
+    <h2>Murat Kurkoglu</h2>
+    <p class="about-role">Computer Engineer · Founder of Orioninsist</p>
+    <p>I explore cybersecurity, Linux, software development and automation — turning hands-on experiments into practical guides and tools.</p>
+    <div class="about-actions">
+      <a href="/blog/">Explore the blog ↗</a>
+      <a href="/contact/">Get in touch ↗</a>
+    </div>
+  </div>
+</div>
 
-I am **Murat Kurkoglu**, founder of **Orioninsist**. I am a computer engineer with an academic background in economics.
+## Building, learning, sharing
 
-My work centers on cybersecurity, Linux, software development, system administration, automation, and practical technology. I focus on understanding technical subjects deeply, applying them in real workflows, and explaining what I learn in a clear and useful way.
+I'm **Murat Kurkoglu**, a computer engineer with an academic background in economics and the founder of **Orioninsist**. My work connects technical curiosity with practical implementation: understanding how systems work, building with them, and sharing what I learn.
 
-## What I Work On
+## Areas of focus
 
-Through Orioninsist, I publish practical material built around hands-on learning and independent experimentation, including:
+<div class="about-focus-grid">
+  <div><strong>01 / Cybersecurity</strong><p>Defensive security, SOC-oriented thinking and clear explanations of security concepts.</p></div>
+  <div><strong>02 / Linux & Infrastructure</strong><p>Linux, Bash, system administration, homelabs and reliable technical workflows.</p></div>
+  <div><strong>03 / Software & Automation</strong><p>Software development, useful tools and automation that simplifies repetitive work.</p></div>
+  <div><strong>04 / Practical Guides</strong><p>Step-by-step writing based on hands-on learning, experimentation and testing.</p></div>
+</div>
 
-- Cybersecurity learning notes, defensive security concepts, and SOC-oriented thinking
-- Linux, Bash, terminal workflows, and system administration
-- Software development, automation, and technical productivity
-- Homelab projects and practical infrastructure workflows
-- Step-by-step guides based on real implementation and testing
-- Independent digital products and technical projects
+## Why Orioninsist?
 
-## Why Orioninsist Exists
+Orioninsist is my independent space to document what I **build, study, test and learn**. The goal is to make complex technical topics understandable and actionable — without unnecessary noise.
 
-Orioninsist is my independent home for documenting what I build, study, test, and learn.
+My approach is straightforward: **learn deeply, build and test, explain clearly, and improve continuously.**
 
-The goal is simple: turn complex technical subjects into material that is clear, practical, and useful in the real world. Rather than adding more noise, I aim to publish work that helps readers understand a subject, reproduce a workflow, or solve a concrete problem.
-
-## My Approach
-
-I try to keep the work grounded in four principles:
-
-- **Learn deeply** — understand the underlying system, not only the shortcut.
-- **Build and test** — prefer hands-on experience over theory alone.
-- **Explain clearly** — make technical knowledge easier to follow and apply.
-- **Improve continuously** — treat every project and article as part of a longer learning process.
-
-For current projects, releases, social profiles, and ways to connect, visit the [Contact page](/contact/). For technical articles and guides, explore the [Blog](/blog/).
+<div class="about-bottom-cta">
+  <h3>Let's connect.</h3>
+  <p>Interested in my projects, writing or technical work? Find my profiles and ways to reach me.</p>
+  <a href="/contact/">Visit the contact page →</a>
+</div>
