@@ -17,7 +17,7 @@ cover:
 
 <div class="about-hero">
   <div class="about-portrait">
-    <img src="/images/about/murat-kurkoglu-profile-400x400.png" alt="Portrait of Murat Kurkoglu" width="240" height="240" loading="eager" decoding="async">
+    {{< about-portrait >}}
   </div>
   <div class="about-intro">
     <span class="about-eyebrow">ABOUT THE FOUNDER</span>
