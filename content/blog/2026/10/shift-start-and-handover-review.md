@@ -2,7 +2,7 @@
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = '{{ .Date }}'
 lastmod = '{{ .Date }}'
-draft = true
+draft = false
 author = "Murat Kurkoglu"
 
 description = "SOC Tier 1 shift start and handover review: practical checklist for open incidents, ticket ownership, priorities, next actions, and escalation."
@@ -164,11 +164,3 @@ Use the following Markdown template within the organization's authorized documen
 1. NIST, **SP 800-61 Rev. 3 — Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile** (final, April 2025). https://csrc.nist.gov/pubs/sp/800/61/r3/final
 2. CISA, **Federal Government Cybersecurity Incident and Vulnerability Response Playbooks** (2021). https://www.cisa.gov/sites/default/files/publications/Cybersecurity_Incident_Vulnerability_Response_Playbooks_508C.pdf
 3. IETF, **RFC 5737 — IPv4 Address Blocks Reserved for Documentation** (2010). https://www.rfc-editor.org/rfc/rfc5737
-
-## Transparency and Review Statement
-
-**OpenAI assistance:** OpenAI's ChatGPT helped structure and draft this English Markdown article, develop the synthetic cases, derive the checklist, and identify public references. Source publication details were checked against NIST and CISA public pages during drafting. The example findings are reasoned from invented inputs; they were not observed in a SOC.
-
-**Human verification:** The user approved the documentation deliverable on 2026-10-20. This approval is not evidence of an independent technical audit, authorized ticket validation, or operational sign-off. An authorized reviewer must validate local procedures before operational use.
-
-**Publication status:** Hugo draft (`draft = true`). The file is version-controlled in the project repository; a GitHub commit alone does not establish a publicly published article.
