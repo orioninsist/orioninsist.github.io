@@ -1,7 +1,7 @@
 +++
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-date = '{{ .Date }}'
-lastmod = '{{ .Date }}'
+date = 2026-10-20T00:00:00Z
+lastmod = 2026-10-20T00:00:00Z
 draft = false
 author = "Murat Kurkoglu"
 
