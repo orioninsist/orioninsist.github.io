@@ -1,5 +1,5 @@
 +++
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+title = "SOC Tier 1 Shift Start and Handover Review"
 date = 2026-10-20T00:00:00+03:00
 lastmod = 2026-10-20T00:00:00+03:00
 draft = false
