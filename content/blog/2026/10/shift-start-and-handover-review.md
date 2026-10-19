@@ -19,9 +19,6 @@ ShowShareButtons = true
 ShowCodeCopyButtons = true
 +++
 
-
-# SOC Tier 1 Shift Start and Handover Review: A Practical Checklist
-
 > **Task:** F01 · 01 — Shift Operations  
 > **Content type:** MD ONLY — document review  
 > **Status:** Draft; not published  
