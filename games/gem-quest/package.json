@@ -1,0 +1,1 @@
+{"name":"orionis-gem-quest","version":"1.0.0","private":true,"scripts":{"dev":"vite --host 0.0.0.0","build":"vite build --base=/games/gem-quest/","preview":"vite preview"},"dependencies":{"phaser":"3.90.0"},"devDependencies":{"typescript":"~5.9.3","vite":"^7.1.12"}}
