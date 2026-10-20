@@ -1,0 +1,17 @@
+{
+  "name": "orionis-space-defender",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ORIONIS Space Defender, Phaser 3 arcade shooter. Static HTML deployment.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build --base=/games/space-defender/",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "phaser": "3.90.0"
+  },
+  "devDependencies": {
+    "vite": "7.1.12"
+  }
+}
